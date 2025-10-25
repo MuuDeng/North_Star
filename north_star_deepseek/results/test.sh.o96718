@@ -1,0 +1,24 @@
+?? 2-NODE TP16 - USING LOCAL MODEL (No Download Required)
+========== 2-NODE TP16 SU SUMMARY ==========
+Prepaid SU: 341.334 | 420s SU: 238.934 | Balance: 49976.818
+N/A
+Job ID: 96718.pbs111 | GPUs: 16 | Nodes: 2 DGX
+Model: DeepSeek-R1 (LOCAL) | Workers: 2 MPI processes
+============================================
+[08:52:13] Starting 2-node TP16 - Using LOCAL model (no download)
+[08:52:13] Master: a2ap-dgx008.asp2p.nscc.sg:5000
+[08:52:13] Model: /home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1
+[08:52:13] Data: /home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json
+[08:52:13] Validating setup...
+[08:52:13] Validation passed - using local model (no download needed)
+[08:52:13] Model directory contents:
+total 672465312
+drwxrwxr-x 4 apacsc34 apacsc34      20480 Aug 23 12:51 .
+drwxrwxr-x 3 apacsc34 apacsc34       4096 Aug 23 12:51 ..
+drwxrwxr-x 3 apacsc34 apacsc34       4096 Aug 23 12:32 .cache
+-rw-rw-r-- 1 apacsc34 apacsc34       1519 Aug 23 12:32 .gitattributes
+-rw-rw-r-- 1 apacsc34 apacsc34       1064 Aug 23 12:32 LICENSE
+-rw-rw-r-- 1 apacsc34 apacsc34      15994 Aug 23 12:32 README.md
+-rw-rw-r-- 1 apacsc34 apacsc34       1660 Aug 23 12:32 config.json
+-rw-rw-r-- 1 apacsc34 apacsc34       9897 Aug 23 12:32 configuration_deepseek.py
+drwxrwxr-x 2 apacsc34 apacsc34       4096 Aug 23 12:32 figures

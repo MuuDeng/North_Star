@@ -1,0 +1,274 @@
+========== OPTIMIZED TP16 (7-MIN TARGET) ==========
+Prepaid SU: 341.334 | 420s SU: 238.934 | Balance: 46113.494
+N/A
+Job ID: 97034.pbs111 | GPUs: 16 | Master: a2ap-dgx008.asp2p.nscc.sg:5000
+Config: TP16 + FlashInfer + Torch Compile + Mixed Chunk
+Features: NCCL NVLS + P2P Check + Chunked Prefill
+====================================================
+[18:21:33] Launching with SGLang documented arguments...
+ Data for JOB [8039,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx008	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [8039,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx014	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [8039,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [8039,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx008	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [8039,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx014	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [8039,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+[1,0]<stderr>:[2025-10-11 18:21:55] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>:[2025-10-11 18:22:19 TP0] MLA optimization is turned on. Use flashinfer backend.
+[1,0]<stderr>:[2025-10-11 18:22:19 TP0] Chunked prefix cache is turned on.
+[1,0]<stderr>:[2025-10-11 18:22:19 TP0] Init torch distributed begin.
+[1,0]<stderr>:[2025-10-11 18:22:21 TP1] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:    scheduler = Scheduler(
+[1,0]<stderr>:                ^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                     ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,0]<stderr>:    self.worker = TpModelWorker(
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:    self.model_runner = ModelRunner(
+[1,0]<stderr>:                        ^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,0]<stderr>:    init_distributed_environment(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1259, in init_distributed_environment
+[1,0]<stderr>:    torch.distributed.init_process_group(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,0]<stderr>:    return func(*args, **kwargs)
+[1,0]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,0]<stderr>:    func_return = func(*args, **kwargs)
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1764, in init_process_group
+[1,0]<stderr>:    default_pg, _ = _new_process_group_helper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2098, in _new_process_group_helper
+[1,0]<stderr>:    backend_class = _create_process_group_wrapper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 4916, in _create_process_group_wrapper
+[1,0]<stderr>:    helper_pg = ProcessGroupGloo(store, rank, world_size, timeout=timeout)
+[1,0]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ^docker0
+[1,0]<stderr>:
+[1,0]<stderr>:[2025-10-11 18:22:21] Received sigquit from a child process. It usually means the child failed.
+[1,0]<stderr>:[2025-10-11 18:22:21 TP5] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:    scheduler = Scheduler(
+[1,0]<stderr>:                ^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                     ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,0]<stderr>:    self.worker = TpModelWorker(
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:    self.model_runner = ModelRunner(
+[1,0]<stderr>:                        ^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,0]<stderr>:    init_distributed_environment(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1259, in init_distributed_environment
+[1,0]<stderr>:    torch.distributed.init_process_group(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,0]<stderr>:    return func(*args, **kwargs)
+[1,0]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,0]<stderr>:    func_return = func(*args, **kwargs)
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1764, in init_process_group
+[1,0]<stderr>:    default_pg, _ = _new_process_group_helper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2098, in _new_process_group_helper
+[1,0]<stderr>:    backend_class = _create_process_group_wrapper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 4916, in _create_process_group_wrapper
+[1,0]<stderr>:    helper_pg = ProcessGroupGloo(store, rank, world_size, timeout=timeout)
+[1,0]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ^docker0
+[1,0]<stderr>:
+[1,0]<stderr>:[2025-10-11 18:22:21] Received sigquit from a child process. It usually means the child failed.
+[1,0]<stderr>:[2025-10-11 18:22:21 TP3] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:    scheduler = Scheduler(
+[1,0]<stderr>:                ^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                     ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,0]<stderr>:    self.worker = TpModelWorker(
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:    self.model_runner = ModelRunner(
+[1,0]<stderr>:                        ^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,0]<stderr>:    init_distributed_environment(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1259, in init_distributed_environment
+[1,0]<stderr>:    torch.distributed.init_process_group(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,0]<stderr>:    return func(*args, **kwargs)
+[1,0]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,0]<stderr>:    func_return = func(*args, **kwargs)
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1764, in init_process_group
+[1,0]<stderr>:    default_pg, _ = _new_process_group_helper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2098, in _new_process_group_helper
+[1,0]<stderr>:    backend_class = _create_process_group_wrapper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 4916, in _create_process_group_wrapper
+[1,0]<stderr>:    helper_pg = ProcessGroupGloo(store, rank, world_size, timeout=timeout)
+[1,0]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ^docker0
+[1,0]<stderr>:
+[1,0]<stderr>:[2025-10-11 18:22:21] Received sigquit from a child process. It usually means the child failed.
+[1,0]<stderr>:[2025-10-11 18:22:21 TP2] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:    scheduler = Scheduler(
+[1,0]<stderr>:                ^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                     ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,0]<stderr>:    self.worker = TpModelWorker(
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:    self.model_runner = ModelRunner(
+[1,0]<stderr>:                        ^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,0]<stderr>:    init_distributed_environment(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1259, in init_distributed_environment
+[1,0]<stderr>:    torch.distributed.init_process_group(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,0]<stderr>:    return func(*args, **kwargs)
+[1,0]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,0]<stderr>:    func_return = func(*args, **kwargs)
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1764, in init_process_group
+[1,0]<stderr>:    default_pg, _ = _new_process_group_helper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2098, in _new_process_group_helper
+[1,0]<stderr>:    backend_class = _create_process_group_wrapper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 4916, in _create_process_group_wrapper
+[1,0]<stderr>:    helper_pg = ProcessGroupGloo(store, rank, world_size, timeout=timeout)
+[1,0]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ^docker0
+[1,0]<stderr>:
+[1,0]<stderr>:[2025-10-11 18:22:21] Received sigquit from a child process. It usually means the child failed.
+[1,0]<stderr>:[2025-10-11 18:22:22 TP4] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:    scheduler = Scheduler(
+[1,0]<stderr>:                ^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                     ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,0]<stderr>:    self.worker = TpModelWorker(
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:    self.model_runner = ModelRunner(
+[1,0]<stderr>:                        ^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,0]<stderr>:    init_distributed_environment(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1259, in init_distributed_environment
+[1,0]<stderr>:    torch.distributed.init_process_group(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,0]<stderr>:    return func(*args, **kwargs)
+[1,0]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,0]<stderr>:    func_return = func(*args, **kwargs)
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1764, in init_process_group
+[1,0]<stderr>:    default_pg, _ = _new_process_group_helper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2098, in _new_process_group_helper
+[1,0]<stderr>:    backend_class = _create_process_group_wrapper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 4916, in _create_process_group_wrapper
+[1,0]<stderr>:    helper_pg = ProcessGroupGloo(store, rank, world_size, timeout=timeout)
+[1,0]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ^docker0
+[1,0]<stderr>:
+[1,0]<stderr>:[2025-10-11 18:22:22] Received sigquit from a child process. It usually means the child failed.
+[1,0]<stderr>:bash: line 11: 2415138 Killed                  '/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3' -m sglang.bench_offline_throughput --model-path '/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1' --dataset-path '/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json' --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr ${DIST_INIT_ADDR}:5000 --node-rank ${OMPI_COMM_WORLD_RANK} --schedule-policy fcfs --schedule-conservativeness 1.0 --attention-backend flashinfer --enable-torch-compile --disable-cuda-graph --kv-cache-dtype auto --mem-fraction-static 0.88 --context-length 32768 --enable-p2p-check --chunked-prefill-size 8192 --max-prefill-tokens 16384 --max-running-requests 2048 --enable-mixed-chunk --enable-nccl-nvls --watchdog-timeout 600
+[1,0]<stderr>:
+[1,0]<stderr>:real	0m44.873s
+[1,0]<stderr>:user	0m21.801s
+[1,0]<stderr>:sys	0m6.938s
+[1,0]<stdout>:[RANK 0] Process failed with exit code 137
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[8039,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+real	0m55.394s
+user	0m21.829s
+sys	0m7.034s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-11 18:22:43.666603:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 97034.pbs111
+	Project: 50000128
+	Exit Status: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:06:34
+	Memory: Requested(3760gb), Used(10566104kb)
+	Vmem Used: 6309291872kb
+	Walltime: Requested(00:15:00), Used(00:01:08)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx008:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx014:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.32mins
+	GPU Power Consumed: 141.26W
+	GPU Max GPU Memory Used: 24.0MB
+	Memory Throughput Rate (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

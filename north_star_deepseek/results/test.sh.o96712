@@ -1,0 +1,337 @@
+========== SU SUMMARY ==========
+Prepaid SU: 341.334 | 420s SU: 238.934 | Balance: 50334.081
+N/A
+Job ID: 96712.pbs111 | Timestamp: 20251010_080752
+================================
+[08:07:52] Starting 16-GPU inference
+[08:07:52] Master: a2ap-dgx008.asp2p.nscc.sg:26592
+[08:07:52] Job ID: 96712.pbs111
+[08:07:52] Logs: /home/users/industry/ai-hpc/apacsc34/run/sglang_20251010_080752_96712.pbs111.log
+
+========================   JOB MAP   ========================
+Data for JOB prterun-a2ap-dgx008-3259423@1 offset 0 Total slots allocated 16
+    Mapping policy: BYNODE:NOOVERSUBSCRIBE  Ranking policy: NODE Binding policy: CORE
+    Cpu set: N/A  PPR: 8:node  Cpus-per-rank: 14  Cpu Type: CORE
+
+
+Data for node: a2ap-dgx008	Num slots: 8	Max slots: 0	Num procs: 8
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 0 Bound: package[0][core:0-13]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 2 Bound: package[0][core:14-27]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 4 Bound: package[0][core:28-41]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 6 Bound: package[0][core:42-55]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 8 Bound: package[1][core:56-69]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 10 Bound: package[1][core:70-83]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 12 Bound: package[1][core:84-97]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 14 Bound: package[1][core:98-111]
+
+Data for node: a2ap-dgx024	Num slots: 8	Max slots: 0	Num procs: 8
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 1 Bound: package[0][core:0-13]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 3 Bound: package[0][core:14-27]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 5 Bound: package[0][core:28-41]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 7 Bound: package[0][core:42-55]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 9 Bound: package[1][core:56-69]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 11 Bound: package[1][core:70-83]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 13 Bound: package[1][core:84-97]
+        Process jobid: prterun-a2ap-dgx008-3259423@1 App: 0 Process rank: 15 Bound: package[1][core:98-111]
+
+=============================================================
+[1,0]<stderr>: [a2ap-dgx008:3259423] Rank 0 bound to package[0][core:0-13]
+[1,2]<stderr>: [a2ap-dgx008:3259423] Rank 2 bound to package[0][core:14-27]
+[1,4]<stderr>: [a2ap-dgx008:3259423] Rank 4 bound to package[0][core:28-41]
+[1,6]<stderr>: [a2ap-dgx008:3259423] Rank 6 bound to package[0][core:42-55]
+[1,8]<stderr>: [a2ap-dgx008:3259423] Rank 8 bound to package[1][core:56-69]
+[1,10]<stderr>: [a2ap-dgx008:3259423] Rank 10 bound to package[1][core:70-83]
+[1,12]<stderr>: [a2ap-dgx008:3259423] Rank 12 bound to package[1][core:84-97]
+[1,14]<stderr>: [a2ap-dgx008:3259423] Rank 14 bound to package[1][core:98-111]
+[1,1]<stderr>: [a2ap-dgx024:2350105] Rank 1 bound to package[0][core:0-13]
+[1,3]<stderr>: [a2ap-dgx024:2350105] Rank 3 bound to package[0][core:14-27]
+[1,5]<stderr>: [a2ap-dgx024:2350105] Rank 5 bound to package[0][core:28-41]
+[1,7]<stderr>: [a2ap-dgx024:2350105] Rank 7 bound to package[0][core:42-55]
+[1,9]<stderr>: [a2ap-dgx024:2350105] Rank 9 bound to package[1][core:56-69]
+[1,11]<stderr>: [a2ap-dgx024:2350105] Rank 11 bound to package[1][core:70-83]
+[1,15]<stderr>: [a2ap-dgx024:2350105] Rank 15 bound to package[1][core:98-111]
+[1,13]<stderr>: [a2ap-dgx024:2350105] Rank 13 bound to package[1][core:84-97]
+[1,0]<stdout>: [INFO] Validation passed on rank 0
+[1,0]<stdout>: [INFO] Model: /home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1
+[1,0]<stdout>: [INFO] Data: /home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json
+[1,0]<stdout>: [INFO] Cache: /home/users/industry/ai-hpc/apacsc34/.cache/sglang/96712.pbs111
+[1,0]<stdout>: [INFO] RAM disk: /dev/shm/sglang_96712.pbs111
+[1,0]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,0]<stderr>:   warnings.warn(
+[1,6]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,6]<stderr>:   warnings.warn(
+[1,4]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,4]<stderr>:   warnings.warn(
+[1,2]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,2]<stderr>:   warnings.warn(
+[1,8]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,8]<stderr>:   warnings.warn(
+[1,10]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,10]<stderr>:   warnings.warn(
+[1,12]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,12]<stderr>:   warnings.warn(
+[1,14]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,14]<stderr>:   warnings.warn(
+[1,3]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,3]<stderr>:   warnings.warn(
+[1,1]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,1]<stderr>:   warnings.warn(
+[1,7]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,7]<stderr>:   warnings.warn(
+[1,9]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,9]<stderr>:   warnings.warn(
+[1,11]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,11]<stderr>:   warnings.warn(
+[1,5]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,5]<stderr>:   warnings.warn(
+[1,13]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,13]<stderr>:   warnings.warn(
+[1,15]<stderr>: /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+[1,15]<stderr>:   warnings.warn(
+[1,5]<stderr>: Traceback (most recent call last):
+[1,5]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,5]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,5]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,5]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,5]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,5]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,5]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,5]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,5]<stderr>:   File "<string>", line 194, in __init__
+[1,5]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,5]<stderr>:     self.dp_size > 1
+[1,5]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,4]<stderr>: Traceback (most recent call last):
+[1,4]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,4]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,4]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,4]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,4]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,4]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,4]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,4]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,4]<stderr>:   File "<string>", line 194, in __init__
+[1,4]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,4]<stderr>:     self.dp_size > 1
+[1,4]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,12]<stderr>: Traceback (most recent call last):
+[1,12]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,12]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,12]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,12]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,12]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,12]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,12]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,12]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,12]<stderr>:   File "<string>", line 194, in __init__
+[1,12]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,12]<stderr>:     self.dp_size > 1
+[1,12]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,7]<stderr>: Traceback (most recent call last):
+[1,7]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,7]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,7]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,7]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,7]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,7]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:   File "<string>", line 194, in __init__
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,7]<stderr>:     self.dp_size > 1
+[1,7]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,3]<stderr>: Traceback (most recent call last):
+[1,3]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,3]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,3]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,3]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,3]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,3]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,3]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,3]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,3]<stderr>:   File "<string>", line 194, in __init__
+[1,3]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,3]<stderr>:     self.dp_size > 1
+[1,3]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,15]<stderr>: Traceback (most recent call last):
+[1,15]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,15]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,15]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,15]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,15]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,15]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,15]<stderr>:   File "<string>", line 194, in __init__
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,15]<stderr>:     self.dp_size > 1
+[1,15]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,11]<stderr>: Traceback (most recent call last):
+[1,11]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,11]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,11]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,11]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,11]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,11]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,11]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:   File "<string>", line 194, in __init__
+[1,11]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,11]<stderr>:     self.dp_size > 1
+[1,11]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,13]<stderr>: Traceback (most recent call last):
+[1,13]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,13]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,13]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,13]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,13]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,13]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,13]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,13]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,13]<stderr>:   File "<string>", line 194, in __init__
+[1,13]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,13]<stderr>:     self.dp_size > 1
+[1,13]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,9]<stderr>: Traceback (most recent call last):
+[1,9]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,9]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,9]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,9]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,9]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,9]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,9]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,9]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,9]<stderr>:   File "<string>", line 194, in __init__
+[1,9]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,9]<stderr>:     self.dp_size > 1
+[1,9]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,1]<stderr>: Traceback (most recent call last):
+[1,1]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,1]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,1]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,1]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "<string>", line 194, in __init__
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,1]<stderr>:     self.dp_size > 1
+[1,1]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,8]<stderr>: Traceback (most recent call last):
+[1,8]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,8]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,8]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,8]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,8]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,8]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,8]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,8]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,8]<stderr>:   File "<string>", line 194, in __init__
+[1,8]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,8]<stderr>:     self.dp_size > 1
+[1,8]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,14]<stderr>: Traceback (most recent call last):
+[1,14]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,14]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,14]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,14]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,14]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,14]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,14]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,14]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,14]<stderr>:   File "<string>", line 194, in __init__
+[1,14]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,14]<stderr>:     self.dp_size > 1
+[1,14]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,2]<stderr>: Traceback (most recent call last):
+[1,2]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,2]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,2]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,2]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,2]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,2]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,2]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,2]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,2]<stderr>:   File "<string>", line 194, in __init__
+[1,2]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,2]<stderr>:     self.dp_size > 1
+[1,2]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,6]<stderr>: Traceback (most recent call last):
+[1,6]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,6]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,6]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,6]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,6]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,6]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,6]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,6]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,6]<stderr>:   File "<string>", line 194, in __init__
+[1,6]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,6]<stderr>:     self.dp_size > 1
+[1,6]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,10]<stderr>: Traceback (most recent call last):
+[1,10]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,10]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,10]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,10]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,10]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,10]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,10]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,10]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,10]<stderr>:   File "<string>", line 194, in __init__
+[1,10]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,10]<stderr>:     self.dp_size > 1
+[1,10]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,0]<stderr>: Traceback (most recent call last):
+[1,0]<stderr>:   File "<frozen runpy>", line 198, in _run_module_as_main
+[1,0]<stderr>:   File "<frozen runpy>", line 88, in _run_code
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,0]<stderr>:     server_args = ServerArgs.from_cli_args(args)
+[1,0]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,0]<stderr>:     return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,0]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "<string>", line 194, in __init__
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,0]<stderr>:     self.dp_size > 1
+[1,0]<stderr>: AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-a2ap-dgx008-3259423@1,4] Exit code:    1
+--------------------------------------------------------------------------
+
+real	0m56.094s
+user	0m9.308s
+sys	0m17.447s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-10 08:08:58.164349:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 96712.pbs111
+	Project: 50000128
+	Exit Status: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:02:29
+	Memory: Requested(3760gb), Used(7195488kb)
+	Vmem Used: 271583056kb
+	Walltime: Requested(00:10:00), Used(00:01:02)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx008:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx024:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.15mins
+	GPU Power Consumed: 130.87W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

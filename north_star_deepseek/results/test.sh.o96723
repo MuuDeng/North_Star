@@ -1,0 +1,548 @@
+========== 2-NODE TP16 OPTIMIZED ==========
+Prepaid SU: 341.334 | 420s SU: 238.934 | Balance: 49804.445
+N/A
+Job ID: 96723.pbs111 | GPUs: 16 | Master: a2ap-dgx008.asp2p.nscc.sg:5000
+============================================
+[09:14:16] Launching optimized 2-node TP16 benchmark...
+ Data for JOB [4517,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx008	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [4517,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx024	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [4517,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [4517,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx008	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [4517,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx024	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [4517,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+[1,0]<stderr>:W1010 09:14:31.968000 3396844 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:31.968000 3396844 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 09:14:32.874000 2481873 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:32.874000 2481873 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:[2025-10-10 09:14:35] Using default HuggingFace chat template with detected content format: string
+[1,1]<stderr>:W1010 09:14:53.810000 2482308 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:53.810000 2482308 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:54.931000 3397635 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:54.931000 3397635 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 09:14:55.047000 2482310 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:55.047000 2482310 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 09:14:55.228000 2482304 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:55.228000 2482304 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 09:14:55.228000 2482307 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:55.228000 2482307 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 09:14:55.236000 2482311 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:55.236000 2482311 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 09:14:55.306000 2482309 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:55.306000 2482309 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 09:14:55.339000 2482305 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:55.339000 2482305 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 09:14:55.350000 2482306 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 09:14:55.350000 2482306 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:55.597000 3397641 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:55.597000 3397641 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:55.688000 3397637 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:55.688000 3397637 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:55.810000 3397642 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:55.810000 3397642 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:55.822000 3397636 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:55.822000 3397636 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:55.856000 3397643 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:55.856000 3397643 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:55.902000 3397640 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:55.902000 3397640 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:55.942000 3397639 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:55.942000 3397639 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 09:14:56.028000 3397638 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 09:14:56.028000 3397638 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:[2025-10-10 09:14:56 TP0] MLA optimization is turned on. Use flashinfer backend.
+[1,0]<stderr>:[2025-10-10 09:14:56 TP0] Chunked prefix cache is turned on.
+[1,0]<stderr>:[2025-10-10 09:14:56 TP0] Init torch distributed begin.
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stderr>:[2025-10-10 09:15:00 TP0] sglang is using nccl==2.27.3
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397635:3397635 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397635:3397635 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397641:3397641 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397641:3397641 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397640:3397640 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397640:3397640 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397636:3397636 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397636:3397636 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397637:3397637 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397637:3397637 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397639:3397639 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397639:3397639 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397642:3397642 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397642:3397642 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397638:3397638 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-10 09:15:06] a2ap-dgx008:3397638:3397638 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482310:2482310 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482310:2482310 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482304:2482304 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482304:2482304 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482308:2482308 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482308:2482308 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482307:2482307 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482307:2482307 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482309:2482309 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482309:2482309 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482306:2482306 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482306:2482306 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482311:2482311 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482311:2482311 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482305:2482305 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-10 09:15:06] a2ap-dgx024:2482305:2482305 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stderr>:[2025-10-10 09:15:08 TP2] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-10-10 09:15:08 TP1] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-10-10 09:15:08 TP4] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-10-10 09:15:08 TP3] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-10-10 09:15:08 TP0] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-10-10 09:15:08 TP5] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-10-10 09:15:08 TP15] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-10-10 09:15:08 TP12] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-10-10 09:15:08 TP14] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-10-10 09:15:08 TP11] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-10-10 09:15:08 TP13] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-10-10 09:15:08 TP10] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-10-10 09:15:08 TP6] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-10-10 09:15:08 TP7] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-10-10 09:15:08 TP9] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-10-10 09:15:08 TP8] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stderr>:[2025-10-10 09:15:08 TP0] sglang is using nccl==2.27.3
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stderr>:[2025-10-10 09:15:10 TP0] Init torch distributed ends. mem usage=1.75 GB
+[1,0]<stderr>:[2025-10-10 09:15:11 TP2] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-10 09:15:11 TP12] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-10 09:15:11 TP14] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-10 09:15:11 TP15] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-10 09:15:11 TP9] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-10 09:15:11 TP11] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-10-10 09:15:11 TP0] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-10 09:15:11 TP10] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-10 09:15:11 TP8] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-10 09:15:11 TP13] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-10-10 09:15:11 TP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-10-10 09:15:11 TP6] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-10-10 09:15:11 TP5] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-10-10 09:15:11 TP4] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-10-10 09:15:11 TP7] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-10-10 09:15:11 TP3] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-10-10 09:15:12 TP0] Load weight begin. avail mem=76.80 GB
+[1,0]<stderr>:[2025-10-10 09:15:12 TP0] Detected fp8 checkpoint.
+[1,0]<stderr>:[2025-10-10 09:15:13 TP0] Load weight end. type=DeepseekV3ForCausalLM, dtype=torch.bfloat16, avail mem=36.24 GB, mem usage=40.55 GB.
+[1,0]<stderr>:[2025-10-10 09:15:13 TP0] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP0] Memory pool end. avail mem=31.52 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP5] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP6] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,1]<stderr>:[2025-10-10 09:15:13 TP9] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP3] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP2] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,1]<stderr>:[2025-10-10 09:15:13 TP14] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,1]<stderr>:[2025-10-10 09:15:13 TP10] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP1] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,1]<stderr>:[2025-10-10 09:15:13 TP8] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,1]<stderr>:[2025-10-10 09:15:13 TP15] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,1]<stderr>:[2025-10-10 09:15:13 TP11] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP4] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,1]<stderr>:[2025-10-10 09:15:13 TP13] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,1]<stderr>:[2025-10-10 09:15:13 TP12] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP7] KV Cache is allocated. #tokens: 65536, KV size: 4.29 GB
+[1,0]<stderr>:[2025-10-10 09:15:13 TP0] max_total_num_tokens=65536, chunked_prefill_size=1024, max_prefill_tokens=4096, max_running_requests=512, context_len=163840, available_gpu_mem=31.01 GB
+[1,1]<stderr>:[2025-10-10 09:15:14] Starting dummy health check server at 127.0.0.1:30000
+[1,0]<stdout>:#Input tokens: 626729
+[1,0]<stdout>:#Output tokens: 388685
+[1,0]<stdout>:#Input tokens: 4096
+[1,0]<stdout>:#Output tokens: 256
+[1,0]<stderr>:[2025-10-10 09:15:26] 
+[1,0]<stderr>:Warmup...
+[1,0]<stderr>:[2025-10-10 09:15:26 TP0] Prefill batch. #new-seq: 4, #new-token: 1024, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 11, 
+[1,0]<stderr>:[2025-10-10 09:15:27 TP0] Prefill batch. #new-seq: 5, #new-token: 1024, #cached-token: 8, token usage: 0.02, #running-req: 3, #queue-req: 8, 
+[1,0]<stderr>:[2025-10-10 09:15:28 TP0] TpModelWorkerClient hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 141, in forward_thread_func
+[1,0]<stderr>:    self.forward_thread_func_()
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stderr>:    return func(*args, **kwargs)
+[1,0]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 176, in forward_thread_func_
+[1,0]<stderr>:    self.worker.forward_batch_generation(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 238, in forward_batch_generation
+[1,0]<stderr>:    logits_output, can_run_cuda_graph = self.model_runner.forward(
+[1,0]<stderr>:                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1741, in forward
+[1,0]<stderr>:    output = self._forward_raw(
+[1,0]<stderr>:             ^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1786, in _forward_raw
+[1,0]<stderr>:    ret = self.forward_extend(
+[1,0]<stderr>:          ^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1677, in forward_extend
+[1,0]<stderr>:    self.attn_backend.init_forward_metadata(forward_batch)
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/attention/flashinfer_mla_backend.py", line 190, in init_forward_metadata
+[1,0]<stderr>:    self.indices_updater_prefill.update(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/attention/flashinfer_mla_backend.py", line 650, in update
+[1,0]<stderr>:    self.call_begin_forward(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/attention/flashinfer_mla_backend.py", line 718, in call_begin_forward
+[1,0]<stderr>:    wrapper_ragged.begin_forward(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/prefill.py", line 2676, in plan
+[1,0]<stderr>:    self._cached_module = get_batch_prefill_module(
+[1,0]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/prefill.py", line 357, in get_batch_prefill_module
+[1,0]<stderr>:    module = gen_batch_prefill_module(backend, *args).build_and_load()
+[1,0]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/jit/core.py", line 147, in build_and_load
+[1,0]<stderr>:    self.build(verbose, need_lock=False)
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/jit/core.py", line 127, in build
+[1,0]<stderr>:    run_ninja(jit_env.FLASHINFER_JIT_DIR, self.ninja_path, verbose)
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/jit/cpp_ext.py", line 199, in run_ninja
+[1,0]<stderr>:    subprocess.run(
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/subprocess.py", line 548, in run
+[1,0]<stderr>:    with Popen(*popenargs, **kwargs) as process:
+[1,0]<stderr>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/subprocess.py", line 1026, in __init__
+[1,0]<stderr>:    self._execute_child(args, executable, preexec_fn, close_fds,
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/subprocess.py", line 1955, in _execute_child
+[1,0]<stderr>:    raise child_exception_type(errno_num, err_msg, err_filename)
+[1,0]<stderr>:FileN[1,0]<stderr>:otFoundError: [Errno 2] No such file or directory: 'ninja'
+[1,0]<stderr>:
+[1,0]<stderr>:[2025-10-10 09:15:28] Received sigquit from a child process. It usually means the child failed.
+[1,0]<stderr>:bash: line 4: 3396844 Killed                  '/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3' -m sglang.bench_offline_throughput --model-path '/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1' --dataset-path '/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json' --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr ${DIST_INIT_ADDR}:5000 --node-rank ${OMPI_COMM_WORLD_RANK} --max-running-requests 512 --max-total-tokens 65536 --chunked-prefill-size 1024 --max-prefill-tokens 4096 --schedule-policy lpm --attention-backend flashinfer --disable-cuda-graph
+[1,0]<stderr>:
+[1,0]<stderr>:real	1m11.681s
+[1,0]<stderr>:user	0m31.332s
+[1,0]<stderr>:sys	0m9.833s
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[1,1]<stderr>:[rank14]:[W1010 09:15:28.854678273 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx024.asp2p.nscc.sg]:59376, remote=[a2ap-dgx008.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe750d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7ffe591ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a933 (0x7ffe591f0933 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7ffe591f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe591ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe186d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank14]:[W1010 09:15:28.857981222 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 14] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank9]:[W1010 09:15:28.854648245 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx024.asp2p.nscc.sg]:59414, remote=[a2ap-dgx008.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe750d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7ffe591ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a933 (0x7ffe591f0933 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7ffe591f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe591ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe186d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank9]:[W1010 09:15:28.858030554 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 9] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank11]:[W1010 09:15:28.854604748 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx024.asp2p.nscc.sg]:59402, remote=[a2ap-dgx008.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe750d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7ffe591ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a933 (0x7ffe591f0933 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7ffe591f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe591ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe186d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank13]:[W1010 09:15:28.854609439 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx024.asp2p.nscc.sg]:59426, remote=[a2ap-dgx008.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe750d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7ffe591ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a933 (0x7ffe591f0933 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7ffe591f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe591ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe186d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank15]:[W1010 09:15:28.854598446 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx024.asp2p.nscc.sg]:59392, remote=[a2a[1,1]<stderr>:p-dgx008.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe750d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7ffe591ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a933 (0x7ffe591f0933 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7ffe591f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe591ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe186d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank11]:[W1010 09:15:28.858448535 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 11] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank13]:[W1010 09:15:28.858468358 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 13] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank15]:[W1010 09:15:28.858470174 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 15] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank10]:[W1010 09:15:28.854690105 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx024.asp2p.nscc.sg]:59428, remote=[a2ap-dgx008.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe750d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7ffe591ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a933 (0x7ffe591f0933 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7ffe591f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe591ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe186d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank10]:[W1010 09:15:28.858598708 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 10] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank8]:[W1010 09:15:28.854586676 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx024.asp2p.nscc.sg]:59384, remote=[a2ap-dgx008.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe750d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7ffe591ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a933 (0x7ffe591f0933 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7ffe591f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe591ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe186d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unkno[1,1]<stderr>:wn function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank8]:[W1010 09:15:28.858647749 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 8] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank12]:[W1010 09:15:29.978643676 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=101, addr=[a2ap-dgx024.asp2p.nscc.sg]:59360, remote=[a2ap-dgx008.asp2p.nscc.sg]:5000): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe750d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7ffe591ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a8cd (0x7ffe591f08cd in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7ffe591f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe591ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe186d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank12]:[W1010 09:15:29.982446294 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 12] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,1]<stderr>:[2025-10-10 09:15:29 TP8] TpModelWorkerClient hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 141, in forward_thread_func
+[1,1]<stderr>:    self.forward_thread_func_()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 176, in forward_thread_func_
+[1,1]<stderr>:    self.worker.forward_batch_generation(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 238, in forward_batch_generation
+[1,1]<stderr>:    logits_output, can_run_cuda_graph = self.model_runner.forward(
+[1,1]<stderr>:                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1741, in forward
+[1,1]<stderr>:    output = self._forward_raw(
+[1,1]<stderr>:             ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1786, in _forward_raw
+[1,1]<stderr>:    ret = self.forward_extend(
+[1,1]<stderr>:          ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1677, in forward_extend
+[1,1]<stderr>:    self.attn_backend.init_forward_metadata(forward_batch)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/attention/flashinfer_mla_backend.py", line 190, in init_forward_metadata
+[1,1]<stderr>:    self.indices_updater_prefill.update(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/attention/flashinfer_mla_backend.py", line 650, in update
+[1,1]<stderr>:    self.call_begin_forward(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/attention/flashinfer_mla_backend.py", line 718, in call_begin_forward
+[1,1]<stderr>:    wrapper_ragged.begin_forward(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/prefill.py", line 2676, in plan
+[1,1]<stderr>:    self._cached_module = get_batch_prefill_module(
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/prefill.py", line 357, in get_batch_prefill_module
+[1,1]<stderr>:    module = gen_batch_prefill_module(backend, *args).build_and_load()
+[1,1]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/jit/core.py", line 147, in build_and_load
+[1,1]<stderr>:    self.build(verbose, need_lock=False)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/jit/core.py", line 127, in build
+[1,1]<stderr>:    run_ninja(jit_env.FLASHINFER_JIT_DIR, self.ninja_path, verbose)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/flashinfer/jit/cpp_ext.py", line 199, in run_ninja
+[1,1]<stderr>:    subprocess.run(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/subprocess.py", line 548, in run
+[1,1]<stderr>:    with Popen(*popenargs, **kwargs) as process:
+[1,1]<stderr>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/subprocess.py", line 1026, in __init__
+[1,1]<stderr>:    self._execute_child(args, executable, preexec_fn, close_fds,
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/subprocess.py", line 1955, in _execute_child
+[1,1]<stderr>:    raise child_exception_type(errno_num, err_msg, err_filename)
+[1,1]<stderr>:FileN[1,1]<stderr>:otFoundError: [Errno 2] No such file or directory: 'ninja'
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-10-10 09:15:29] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>:bash: line 4: 2481873 Killed                  '/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3' -m sglang.bench_offline_throughput --model-path '/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1' --dataset-path '/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json' --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr ${DIST_INIT_ADDR}:5000 --node-rank ${OMPI_COMM_WORLD_RANK} --max-running-requests 512 --max-total-tokens 65536 --chunked-prefill-size 1024 --max-prefill-tokens 4096 --schedule-policy lpm --attention-backend flashinfer --disable-cuda-graph
+[1,1]<stderr>:
+[1,1]<stderr>:real	1m12.453s
+[1,1]<stderr>:user	0m21.260s
+[1,1]<stderr>:sys	0m6.759s
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[4517,1],0]
+  Exit code:    137
+--------------------------------------------------------------------------
+
+real	1m16.694s
+user	0m31.351s
+sys	0m9.927s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-10 09:15:44.132348:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 96723.pbs111
+	Project: 50000128
+	Exit Status: 137
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:09:12
+	Memory: Requested(3760gb), Used(21060352kb)
+	Vmem Used: 20064044016kb
+	Walltime: Requested(00:10:00), Used(00:01:24)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx008:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx024:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.52mins
+	GPU Power Consumed: 174.73000000000002W
+	GPU Max GPU Memory Used: 770.25GB
+	Memory Throughput Rate (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:2%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:1%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:17%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: GPUs 1, 0, 2, 3, 4, 6, 7 have a percentage of 0 utilisation.
+GPU application profile: Low
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

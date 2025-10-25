@@ -1,0 +1,107 @@
+========== SU SUMMARY (Project 50000128) ==========
+Requested walltime: 00:10:00  -> Prepaid SU ~ 341.334
+Benchmark window:   420s       -> Expected SU ~ 238.934
+Current Balance:    52759.254
+N/A
+Est. Balance after prepaid: 52417.920
+Est. Balance after 420s run: 52520.320
+======================================================
+[INFO] Starting MPI run with 2 ranks (1 per node)
+[INFO] Master: a2ap-dgx012.asp2p.nscc.sg:26993
+[INFO] Model: /home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1
+[INFO] Dataset: /home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json
+[1,0]<stderr>: [a2ap-dgx012:4017143] Rank 0 is not bound (or bound to all available processors)
+[1,1]<stderr>: [a2ap-dgx020:441749] Rank 1 is not bound (or bound to all available processors)
+[1,1]<stderr>: [INFO] Rank=1 starting on a2ap-dgx020
+[1,1]<stderr>: [INFO] Rank=1 using network interface: ib0
+[1,1]<stderr>: [RUN] Starting SGLang benchmark on rank 1
+[1,0]<stderr>: [INFO] Rank=0 starting on a2ap-dgx012
+[1,0]<stderr>: [OK] All paths validated
+[1,0]<stderr>: [INFO] Rank=0 using network interface: ib0
+[1,0]<stderr>: [RUN] Starting SGLang benchmark on rank 0
+[1,0]<stderr>: [2025-10-07 11:56:38] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>: [2025-10-07 11:57:02 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,0]<stderr>: [2025-10-07 11:57:02 TP0] Chunked prefix cache is turned on.
+[1,0]<stderr>: [2025-10-07 11:57:02 TP0] Init torch distributed begin.
+[1,0]<stderr>: [2025-10-07 11:57:03 TP7] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:     scheduler = Scheduler(
+[1,0]<stderr>:                 ^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                      ^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,0]<stderr>:     self.worker = TpModelWorker(
+[1,0]<stderr>:                   ^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:     self.model_runner = ModelRunner(
+[1,0]<stderr>:                         ^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,0]<stderr>:     init_distributed_environment(
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1280, in init_distributed_environment
+[1,0]<stderr>:     _WORLD = init_world_group(ranks, local_rank, backend)
+[1,0]<stderr>:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1101, in init_world_group
+[1,0]<stderr>:     return GroupCoordinator(
+[1,0]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 242, in __init__
+[1,0]<stderr>:     cpu_group = torch.distributed.new_group(ranks, backend="gloo")
+[1,0]<stderr>:                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,0]<stderr>:     func_return = func(*args, **kwargs)
+[1,0]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5254, in new_group
+[1,0]<stderr>:     return _new_group_with_tag(
+[1,0]<stderr>:            ^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5344, in _new_group_with_tag
+[1,0]<stderr>:     pg, pg_store = _new_process_group_helper(
+[1,0]<stderr>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1991, in _new_process_group_helper
+[1,0]<stderr>:     backend_class = ProcessGroupGloo(
+[1,0]<stderr>:                     ^^^^^^^^^^^^^^^^^
+[1,0]<stderr>: RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ib0
+[1,0]<stderr>: 
+[1,0]<stderr>: [2025-10-07 11:57:03] Received sigquit from a child process. It usually means the child failed.
+[1,0]<stderr>: bash: line 38: 4018113 Killed                  "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3" -m sglang.bench_offline_throughput --model-path "/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1" --dataset-path "/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json" --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --node-rank $NODE_RANK --trust-remote-code --dist-init-addr "a2ap-dgx012.asp2p.nscc.sg:26993"
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-a2ap-dgx012-4017143@1,0] Exit code:    137
+--------------------------------------------------------------------------
+
+real	2m16.790s
+user	0m25.802s
+sys	0m17.086s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-07 11:57:19.617151:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 94786.pbs111
+	Project: 50000128
+	Exit Status: 137
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:06:21
+	Memory: Requested(3760gb), Used(9528512kb)
+	Vmem Used: 2405292956kb
+	Walltime: Requested(00:10:00), Used(00:02:23)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx012:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx020:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 2.58mins
+	GPU Power Consumed: 163.35W
+	GPU Max GPU Memory Used: 4.06GB
+	Memory Throughput Rate (Average): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx020:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx020:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx020:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx020:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx020:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx020:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

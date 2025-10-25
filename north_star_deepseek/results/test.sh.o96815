@@ -1,0 +1,131 @@
+========== 2-NODE TP16 STABLE BENCHMARK ==========
+Job ID: 96815.pbs111 | GPUs: 16 | Master: a2ap-dgx021.asp2p.nscc.sg:5000
+Using HCAs: mlx5_0,mlx5_1,mlx5_10,mlx5_11,mlx5_2,mlx5_3,mlx5_4,mlx5_5,mlx5_6,mlx5_7,mlx5_8,mlx5_9
+===================================================
+[18:01:12] Launching stable 2-node TP16 benchmark...
+[a2ap-dgx021:3916050] Warning: could not find environment variable "MASTER_ADDR"
+[1,0]<stderr>:W1010 18:01:23.719000 3916088 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 18:01:23.719000 3916088 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 18:01:24.120000 2905423 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 18:01:24.120000 2905423 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:[2025-10-10 18:01:25] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>:W1010 18:01:43.024000 3916572 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 18:01:43.024000 3916572 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1010 18:01:44.178000 3916570 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1010 18:01:44.178000 3916570 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:[2025-10-10 18:01:44 TP4] Context: self.device='cuda' self.gpu_id=4 os.environ.get('CUDA_VISIBLE_DEVICES')='0' self.tp_rank=4 self.tp_size=16
+[1,0]<stderr>:[2025-10-10 18:01:44 TP4] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:    scheduler = Scheduler(
+[1,0]<stderr>:                ^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                     ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,0]<stderr>:    self.worker = TpModelWorker(
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:    self.model_runner = ModelRunner(
+[1,0]<stderr>:                        ^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 547, in init_torch_distributed
+[1,0]<stderr>:    torch.get_device_module(self.device).set_device(self.gpu_id)
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/cuda/__init__.py", line 569, in set_device
+[1,0]<stderr>:    torch._C._cuda_setDevice(device)
+[1,0]<stderr>:torch.AcceleratorError: CUDA error: invalid device ordinal
+[1,0]<stderr>:CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[1,0]<stderr>:For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[1,0]<stderr>:Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[1,0]<stderr>:
+[1,0]<stderr>:
+[1,0]<stderr>:[2025-10-10 18:01:44] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>:W1010 18:01:45.190000 2906183 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 18:01:45.190000 2906183 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:bash: line 7: 3916088 Killed                  '/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3' -m sglang.bench_offline_throughput --model-path '/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1' --dataset-path '/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json' --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr a2ap-dgx021.asp2p.nscc.sg:5000 --node-rank ${OMPI_COMM_WORLD_RANK} --schedule-policy lpm
+[1,0]<stderr>:
+[1,0]<stderr>:real	0m31.856s
+[1,0]<stderr>:user	0m21.788s
+[1,0]<stderr>:sys	0m3.800s
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[1,1]<stderr>:W1010 18:01:45.824000 2906182 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 18:01:45.824000 2906182 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1010 18:01:45.828000 2906180 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1010 18:01:45.828000 2906180 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:[2025-10-10 18:01:46 TP11] Context: self.device='cuda' self.gpu_id=3 os.environ.get('CUDA_VISIBLE_DEVICES')='0' self.tp_rank=11 self.tp_size=16
+[1,1]<stderr>:[2025-10-10 18:01:46 TP11] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:    scheduler = Scheduler(
+[1,1]<stderr>:                ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                     ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:    self.worker = TpModelWorker(
+[1,1]<stderr>:                  ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:    self.model_runner = ModelRunner(
+[1,1]<stderr>:                        ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 547, in init_torch_distributed
+[1,1]<stderr>:    torch.get_device_module(self.device).set_device(self.gpu_id)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/cuda/__init__.py", line 569, in set_device
+[1,1]<stderr>:    torch._C._cuda_setDevice(device)
+[1,1]<stderr>:torch.AcceleratorError: CUDA error: invalid device ordinal
+[1,1]<stderr>:CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[1,1]<stderr>:For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[1,1]<stderr>:Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[1,1]<stderr>:
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-10-10 18:01:46] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>:bash: line 7: 2905423 Killed                  '/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3' -m sglang.bench_offline_throughput --model-path '/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1' --dataset-path '/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json' --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr a2ap-dgx021.asp2p.nscc.sg:5000 --node-rank ${OMPI_COMM_WORLD_RANK} --schedule-policy lpm
+[1,1]<stderr>:
+[1,1]<stderr>:real	0m33.481s
+[1,1]<stderr>:user	0m21.253s
+[1,1]<stderr>:sys	0m3.977s
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[40497,1],0]
+  Exit code:    137
+--------------------------------------------------------------------------
+
+real	0m36.880s
+user	0m21.801s
+sys	0m3.893s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-10 18:01:59.129767:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 96815.pbs111
+	Project: 50000128
+	Exit Status: 137
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:05:13
+	Memory: Requested(3760gb), Used(7856464kb)
+	Vmem Used: 834313244kb
+	Walltime: Requested(00:30:00), Used(00:00:42)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx021:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx023:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 50.67secs
+	GPU Power Consumed: 120.37W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

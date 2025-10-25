@@ -1,0 +1,1553 @@
+[1,0]<stdout>:Collecting data...
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Bootstrap: Using ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO cudaDriverVersion 12040
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO cudaDriverVersion 12040
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Bootstrap: Using ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO cudaDriverVersion 12040
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Bootstrap: Using ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO cudaDriverVersion 12040
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Bootstrap: Using ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO cudaDriverVersion 12040
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Bootstrap: Using ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO cudaDriverVersion 12040
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Bootstrap: Using ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO cudaDriverVersion 12040
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO cudaDriverVersion 12040
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Bootstrap: Using ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Bootstrap: Using ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Initialized NET plugin IB
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Initialized NET plugin IB
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Initialized NET plugin IB
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Initialized NET plugin IB
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Initialized NET plugin IB
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Initialized NET plugin IB
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Initialized NET plugin IB
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/IB [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/RoCE [9]mlx5_9:1/IB [10]mlx5_10:1/IB [11]mlx5_11:1/IB [RO]; OOB ibp24s0:100.126.0.117<0>
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Initialized NET plugin IB
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO ncclCommInitRank comm 0x555562390f40 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 52000 commId 0xf1f5424a278918e8 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO ncclCommInitRank comm 0x555562391eb0 rank 0 nranks 16 cudaDev 0 nvmlDev 1 busId 43000 commId 0xf1f5424a278918e8 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO ncclCommInitRank comm 0x5555623915d0 rank 1 nranks 16 cudaDev 1 nvmlDev 0 busId 1b000 commId 0xf1f5424a278918e8 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO ncclCommInitRank comm 0x5555634f0e10 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId df000 commId 0xf1f5424a278918e8 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO ncclCommInitRank comm 0x5555623907a0 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId d1000 commId 0xf1f5424a278918e8 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO ncclCommInitRank comm 0x555562512560 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 61000 commId 0xf1f5424a278918e8 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO ncclCommInitRank comm 0x55556238fdb0 rank 4 nranks 16 cudaDev 4 nvmlDev 5 busId c3000 commId 0xf1f5424a278918e8 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO ncclCommInitRank comm 0x55556249bf40 rank 5 nranks 16 cudaDev 5 nvmlDev 4 busId 9d000 commId 0xf1f5424a278918e8 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Bootstrap timings total 0.018226 (create 0.000050, send 0.000128, recv 0.000168, ring 0.000648, delay 0.000001)
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Bootstrap timings total 0.001544 (create 0.000050, send 0.000150, recv 0.000289, ring 0.000667, delay 0.000002)
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Bootstrap timings total 0.040206 (create 0.000094, send 0.000321, recv 0.000108, ring 0.017460, delay 0.000005)
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Bootstrap timings total 0.068855 (create 0.000098, send 0.000275, recv 0.019426, ring 0.048639, delay 0.000005)
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Bootstrap timings total 0.017385 (create 0.000062, send 0.000147, recv 0.015896, ring 0.000820, delay 0.000005)
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Bootstrap timings total 0.049731 (create 0.000074, send 0.000234, recv 0.000494, ring 0.048371, delay 0.000004)
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Bootstrap timings total 0.018282 (create 0.000054, send 0.000148, recv 0.001200, ring 0.015052, delay 0.000002)
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Bootstrap timings total 0.156932 (create 0.000099, send 0.000328, recv 0.140898, ring 0.014535, delay 0.000006)
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO MNNVL busId 0x52000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO MNNVL busId 0x61000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO MNNVL busId 0x43000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO MNNVL busId 0xd1000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO MNNVL busId 0x1b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO MNNVL busId 0xdf000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO MNNVL busId 0x9d000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO MNNVL busId 0xc3000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183095:4183095 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[1 2 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183095:4183095 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[7 8 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183127:4183127 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[1 2 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183127:4183127 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[7 8 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183100:4183100 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[1 2 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183100:4183100 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[7 8 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183097:4183097 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[1 2 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183097:4183097 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[7 8 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183099:4183099 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[1 2 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183099:4183099 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[7 8 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183096:4183096 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[1 2 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183096:4183096 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[7 8 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183098:4183098 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[1 2 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183098:4183098 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[7 8 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183101:4183101 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[1 2 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-18 17:05:57] a2ap-dgx014:4183101:4183101 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO TOPO/NET : Tried merging multiple devices together and failed. vProps={ndevs=2, devs=[7 8 0 0]}. Set NCCL_NET_MERGE_LEVEL=LOC to disable NIC fusion.
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Marking physical devices as unplaced, increasing distance and restarting search.
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Setting affinity for GPU 0 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Setting affinity for GPU 5 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Setting affinity for GPU 2 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Setting affinity for GPU 7 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Setting affinity for GPU 6 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Setting affinity for GPU 3 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Setting affinity for GPU 4 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Setting affinity for GPU 1 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO comm 0x555562391eb0 rank 0 nRanks 16 nNodes 2 localRanks 8 localRank 0 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO comm 0x5555623907a0 rank 6 nRanks 16 nNodes 2 localRanks 8 localRank 6 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO comm 0x5555623915d0 rank 1 nRanks 16 nNodes 2 localRanks 8 localRank 1 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO comm 0x55556249bf40 rank 5 nRanks 16 nNodes 2 localRanks 8 localRank 5 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO comm 0x555562390f40 rank 2 nRanks 16 nNodes 2 localRanks 8 localRank 2 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 00/16 :  0  9 10 11 12 13 14 15  8  1  7  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO comm 0x55556238fdb0 rank 4 nRanks 16 nNodes 2 localRanks 8 localRank 4 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 01/16 :  0  2  3  5  4  6  7  1  8 15 14 13 12 11 10  9
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO comm 0x555562512560 rank 3 nRanks 16 nNodes 2 localRanks 8 localRank 3 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 02/16 :  0  1  7  6  4  5  3 11 12 13 14 15  8  9 10  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 03/16 :  0  2 10  9  8 15 14 13 12 11  3  5  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Trees [0] 7/-1/-1->6->4 [1] 7/-1/-1->6->4 [2] 7/-1/-1->6->4 [3] 7/-1/-1->6->4 [4] 7/-1/-1->6->4 [5] 7/-1/-1->6->4 [6] 7/14/-1->6->-1 [7] -1/-1/-1->6->4 [8] 7/-1/-1->6->4 [9] 7/-1/-1->6->4 [10] 7/-1/-1->6->4 [11] 7/-1/-1->6->4 [12] 7/-1/-1->6->4 [13] 7/-1/-1->6->4 [14] 7/-1/-1->6->14 [15] -1/-1/-1->6->4
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Trees [0] 4/-1/-1->5->3 [1] 4/-1/-1->5->3 [2] 4/-1/-1->5->3 [3] 4/-1/-1->5->3 [4] 4/12/-1->5->-1 [5] -1/-1/-1->5->3 [6] 4/-1/-1->5->3 [7] 4/-1/-1->5->3 [8] 4/-1/-1->5->3 [9] 4/-1/-1->5->3 [10] 4/-1/-1->5->3 [11] 4/-1/-1->5->3 [12] 4/-1/-1->5->12 [13] -1/-1/-1->5->3 [14] 4/-1/-1->5->3 [15] 4/-1/-1->5->3
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 04/16 :  0  1  7  6  4 13 14 15  8  9 10 11 12  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 05/16 :  0  2  3  5 12 11 10  9  8 15 14 13  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 06/16 :  0  1  7 15  8  9 10 11 12 13 14  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Trees [0] 0/8/-1->1->-1 [1] -1/-1/-1->1->7 [2] 0/-1/-1->1->7 [3] 0/-1/-1->1->7 [4] 0/-1/-1->1->7 [5] 0/-1/-1->1->7 [6] 0/-1/-1->1->7 [7] 0/-1/-1->1->7 [8] 0/-1/-1->1->8 [9] -1/-1/-1->1->7 [10] 0/-1/-1->1->7 [11] 0/-1/-1->1->7 [12] 0/-1/-1->1->7 [13] 0/-1/-1->1->7 [14] 0/-1/-1->1->7 [15] 0/-1/-1->1->7
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Trees [0] 3/-1/-1->2->0 [1] 3/-1/-1->2->0 [2] 3/10/-1->2->-1 [3] -1/-1/-1->2->0 [4] 3/-1/-1->2->0 [5] 3/-1/-1->2->0 [6] 3/-1/-1->2->0 [7] 3/-1/-1->2->0 [8] 3/-1/-1->2->0 [9] 3/-1/-1->2->0 [10] 3/-1/-1->2->10 [11] -1/-1/-1->2->0 [12] 3/-1/-1->2->0 [13] 3/-1/-1->2->0 [14] 3/-1/-1->2->0 [15] 3/-1/-1->2->0
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Trees [0] 5/-1/-1->3->2 [1] 5/-1/-1->3->2 [2] 5/-1/-1->3->2 [3] 5/11/-1->3->-1 [4] -1/-1/-1->3->2 [5] 5/-1/-1->3->2 [6] 5/-1/-1->3->2 [7] 5/-1/-1->3->2 [8] 5/-1/-1->3->2 [9] 5/-1/-1->3->2 [10] 5/-1/-1->3->2 [11] 5/-1/-1->3->11 [12] -1/-1/-1->3->2 [13] 5/-1/-1->3->2 [14] 5/-1/-1->3->2 [15] 5/-1/-1->3->2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 07/16 :  0  2  3  5  4  6 14 13 12 11 10  9  8 15  7  1
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 08/16 :  0  9 10 11 12 13 14 15  8  1  7  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 09/16 :  0  2  3  5  4  6  7  1  8 15 14 13 12 11 10  9
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 10/16 :  0  1  7  6  4  5  3 11 12 13 14 15  8  9 10  2
+[1,0]<stdout>:a2ap[1,0]<stdout>:-dgx014:4183099:4183099 [4] NCCL INFO Trees [0] 6/-1/-1->4->5 [1] 6/-1/-1->4->5 [2] 6/-1/-1->4->5 [3] 6/-1/-1->4->5 [4] 6/-1/-1->4->5 [5] 6/13/-1->4->-1 [6] -1/-1/-1->4->5 [7] 6/-1/-1->4->5 [8] 6/-1/-1->4->5 [9] 6/-1/-1->4->5 [10] 6/-1/-1->4->5 [11] 6/-1/-1->4->5 [12] 6/-1/-1->4->5 [13] 6/-1/-1->4->13 [14] -1/-1/-1->4->5 [15] 6/-1/-1->4->5
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 11/16 :  0  2 10  9  8 15 14 13 12 11  3  5  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 12/16 :  0  1  7  6  4 13 14 15  8  9 10 11 12  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 13/16 :  0  2  3  5 12 11 10  9  8 15 14 13  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 14/16 :  0  1  7 15  8  9 10 11 12 13 14  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 15/16 :  0  2  3  5  4  6 14 13 12 11 10  9  8 15  7  1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Trees [0] 2/-1/-1->0->1 [1] 2/9/-1->0->-1 [2] -1/-1/-1->0->1 [3] 2/-1/-1->0->1 [4] 2/-1/-1->0->1 [5] 2/-1/-1->0->1 [6] 2/-1/-1->0->1 [7] 2/-1/-1->0->1 [8] 2/-1/-1->0->1 [9] 2/-1/-1->0->9 [10] -1/-1/-1->0->1 [11] 2/-1/-1->0->1 [12] 2/-1/-1->0->1 [13] 2/-1/-1->0->1 [14] 2/-1/-1->0->1 [15] 2/-1/-1->0->1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO comm 0x5555634f0e10 rank 7 nRanks 16 nNodes 2 localRanks 8 localRank 7 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 1/-1/-1->7->6 [2] 1/-1/-1->7->6 [3] 1/-1/-1->7->6 [4] 1/-1/-1->7->6 [5] 1/-1/-1->7->6 [6] 1/-1/-1->7->6 [7] 1/15/-1->7->-1 [8] -1/-1/-1->7->6 [9] 1/-1/-1->7->6 [10] 1/-1/-1->7->6 [11] 1/-1/-1->7->6 [12] 1/-1/-1->7->6 [13] 1/-1/-1->7->6 [14] 1/-1/-1->7->6 [15] 1/-1/-1->7->15
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 0
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+[1,0]<stdout>:a2ap-dgx014:4183097:4186898 [2] NCCL INFO [Proxy Service] Device 2 CPU core 116
+[1,0]<stdout>:a2ap-dgx014:4183095:4186908 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 8
+[1,0]<stdout>:a2ap-dgx014:4183101:4186901 [6] NCCL INFO [Proxy Service] Device 6 CPU core 69
+[1,0]<stdout>:a2ap-dgx014:4183099:4186905 [4] NCCL INFO [Proxy Service] Device 4 CPU core 111
+[1,0]<stdout>:a2ap-dgx014:4183098:4186902 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 6
+[1,0]<stdout>:a2ap-dgx014:4183127:4186907 [7] NCCL INFO [Proxy Service] Device 7 CPU core 170
+[1,0]<stdout>:a2ap-dgx014:4183096:4186909 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 9
+[1,0]<stdout>:a2ap-dgx014:4183100:4186912 [5] NCCL INFO [Proxy Service] Device 5 CPU core 190
+[1,0]<stdout>:a2ap-dgx014:4183097:4186900 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 114
+[1,0]<stdout>:a2ap-dgx014:4183095:4186904 [0] NCCL INFO [Proxy Service] Device 0 CPU core 0
+[1,0]<stdout>:a2ap-dgx014:4183101:4186906 [6] NCCL INFO [Proxy Service UDS] Device 6 CPU core 71
+[1,0]<stdout>:a2ap-dgx014:4183099:4186910 [4] NCCL INFO [Proxy Service UDS] Device 4 CPU core 73
+[1,0]<stdout>:a2ap-dgx014:4183098:4186899 [3] NCCL INFO [Proxy Service] Device 3 CPU core 5
+[1,0]<stdout>:a2ap-dgx014:4183127:4186911 [7] NCCL INFO [Proxy Service UDS] Device 7 CPU core 75
+[1,0]<stdout>:a2ap-dgx014:4183096:4186903 [1] NCCL INFO [Proxy Service] Device 1 CPU core 7
+[1,0]<stdout>:a2ap-dgx014:4183100:4186913 [5] NCCL INFO [Proxy Service UDS] Device 5 CPU core 191
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 00/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 02/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 02/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 04/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 06/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 09/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 06/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 08/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 10/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 14/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 11/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 01/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 13/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 01/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 10/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 03/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 03/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 12/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 14/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 05/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 07/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 09/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 05/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 11/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 13/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 01/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 00/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 07/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 09/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 15/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 02/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 11/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 03/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 13/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 04/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 15/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 05/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 06/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 05/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 13/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4186917 [5] NCCL INFO [Proxy Progress] Device 5 CPU core 81
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 07/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 03/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 11/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4186918 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 16
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 02/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 10/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 09/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 05/0 : 13[5] -> 4[5] [receive] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 13/0 : 13[5] -> 4[5] [receive] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:4186919 [4] NCCL INFO [Proxy Progress] Device 4 CPU core 171
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 06/0 : 14[6] -> 6[6] [receive] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4186920 [6] NCCL INFO [Proxy Progress] Device 6 CPU core 196
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 14/0 : 14[6] -> 6[6] [receive] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 15/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 08/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 10/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 11/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 04/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 12/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 00/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 04/0 : 12[4] -> 5[4] [receive] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 12/0 : 12[4] -> 5[4] [receive] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 00/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 12/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 02/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 02/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 13/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 04/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 15/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 04/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 06/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 06/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 08/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 08/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 10/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 14/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 12/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 10/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 14/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 01/0 : 9[1] -> 0[1] [receive] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4186923 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 22
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 02/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4186924 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 23
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 09/0 : 9[1] -> 0[1] [receive] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 10/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 00/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 08/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 03/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 11/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 00/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 02/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 12/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 04/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 14/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 06/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 01/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 09/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4186925 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 122
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 00/0 : 8[0] -> 1[0] [receive] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 08/0 : 8[0] -> 1[0] [receive] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 07/0 : 15[7] -> 7[7] [receive] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4186926 [7] NCCL INFO [Proxy Progress] Device 7 CPU core 63
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 15/0 : 15[7] -> 7[7] [receive] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 06/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 14/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 01/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 01/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 08/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 03/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 05/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 03/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 07/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 07/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 09/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 11/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 09/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 13/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 11/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 15/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 10/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 15/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 12/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 14/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 03/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 00/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 05/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 07/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 11/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 13/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 15/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 02/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 04/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 08/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 10/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 12/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 00/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 01/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 03/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 04/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 07/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 09/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 11/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 12/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 00/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 03/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 02/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 15/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 08/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 00/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 06/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 10/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 02/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 08/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 04/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 12/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 14/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 08/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 10/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 10/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 05/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 14/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 12/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 07/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 04/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 03/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 12/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 11/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 01/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 03/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 05/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 08/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 07/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 11/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 09/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 13/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 11/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 15/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 13/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 00/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 01/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 15/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 04/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 06/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 03/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 06/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 14/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 01/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 05/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 13/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 03/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 08/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 05/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 12/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 00/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 05/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 14/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 02/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 07/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 07/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 09/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 04/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 11/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 01/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 09/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 02/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 10/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 09/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 01/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 06/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 13/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 11/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 08/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 15/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 03/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 10/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 13/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 12/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 15/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 15/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 14/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 00/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 08/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 07/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 15/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 02/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 04/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 05/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 06/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 10/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 07/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 09/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 11/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 13/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 15/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 12/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 14/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 00/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 01/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 02/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 04/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 06/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 08/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 10/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 03/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 12/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 14/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 05/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 06/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 09/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 11/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 13/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 14/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO CC Off, workFifoBytes 1048576
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO ncclCommInitRank comm 0x5555623915d0 rank 1 nranks 16 cudaDev 1 nvmlDev 0 busId 1b000 commId 0xf1f5424a278918e8 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO ncclCommInitRank comm 0x5555634f0e10 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId df000 commId 0xf1f5424a278918e8 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO ncclCommInitRank comm 0x5555623907a0 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId d1000 commId 0xf1f5424a278918e8 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 16 total 6.80 (kernels 0.44, alloc 2.63, bootstrap 0.05, allgathers 0.09, topo 2.00, graphs 0.03, connections 1.54, rest 0.02)
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO ncclCommInitRank comm 0x55556238fdb0 rank 4 nranks 16 cudaDev 4 nvmlDev 5 busId c3000 commId 0xf1f5424a278918e8 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Init timings - ncclCommInitRank: rank 7 nranks 16 total 6.83 (kernels 0.44, alloc 2.67, bootstrap 0.04, allgathers 0.10, topo 2.00, graphs 0.02, connections 1.47, rest 0.10)
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Init timings - ncclCommInitRank: rank 6 nranks 16 total 6.80 (kernels 0.33, alloc 2.77, bootstrap 0.02, allgathers 0.10, topo 2.00, graphs 0.02, connections 1.50, rest 0.07)
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Init timings - ncclCommInitRank: rank 4 nranks 16 total 6.76 (kernels 0.47, alloc 2.59, bootstrap 0.02, allgathers 0.11, topo 2.00, graphs 0.02, connections 1.38, rest 0.18)
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO ncclCommInitRank comm 0x555562390f40 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 52000 commId 0xf1f5424a278918e8 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Init timings - ncclCommInitRank: rank 2 nranks 16 total 6.76 (kernels 0.30, alloc 2.63, bootstrap 0.16, allgathers 0.10, topo 2.00, graphs 0.02, connections 1.39, rest 0.18)
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO ncclCommInitRank comm 0x555562391eb0 rank 0 nranks 16 cudaDev 0 nvmlDev 1 busId 43000 commId 0xf1f5424a278918e8 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 16 total 6.89 (kernels 0.41, alloc 2.72, bootstrap 0.07, allgathers 0.07, topo 2.02, graphs 0.03, connections 1.47, rest 0.10)
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO ncclCommInitRank comm 0x555562512560 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 61000 commId 0xf1f5424a278918e8 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO ncclCommInitRank comm 0x55556249bf40 rank 5 nranks 16 cudaDev 5 nvmlDev 4 busId 9d000 commId 0xf1f5424a278918e8 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Init timings - ncclCommInitRank: rank 5 nranks 16 total 6.77 (kernels 0.30, alloc 2.79, bootstrap 0.00, allgathers 0.09, topo 2.01, graphs 0.02, connections 1.38, rest 0.19)
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Init timings - ncclCommInitRank: rank 3 nranks 16 total 6.77 (kernels 0.47, alloc 2.59, bootstrap 0.02, allgathers 0.09, topo 2.00, graphs 0.02, connections 1.53, rest 0.04)
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO ncclCommInitRank comm 0x55557006de60 rank 5 nranks 16 cudaDev 5 nvmlDev 4 busId 9d000 commId 0x9984eb1ee0490fbc - Init START
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO ncclCommInitRank comm 0x55557006c6a0 rank 1 nranks 16 cudaDev 1 nvmlDev 0 busId 1b000 commId 0x9984eb1ee0490fbc - Init START
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO ncclCommInitRank comm 0x55557006cb20 rank 4 nranks 16 cudaDev 4 nvmlDev 5 busId c3000 commId 0x9984eb1ee0490fbc - Init START
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO ncclCommInitRank comm 0x55557009aae0 rank 0 nranks 16 cudaDev 0 nvmlDev 1 busId 43000 commId 0x9984eb1ee0490fbc - Init START
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO ncclCommInitRank comm 0x55557006e340 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId d1000 commId 0x9984eb1ee0490fbc - Init START
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO ncclCommInitRank comm 0x55557006d7d0 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 52000 commId 0x9984eb1ee0490fbc - Init START
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO ncclCommInitRank comm 0x55557006c8f0 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId df000 commId 0x9984eb1ee0490fbc - Init START
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO ncclCommInitRank comm 0x55557006f530 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 61000 commId 0x9984eb1ee0490fbc - Init START
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Bootstrap timings total 0.003868 (create 0.000034, send 0.000080, recv 0.000333, ring 0.003042, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Bootstrap timings total 0.008718 (create 0.000057, send 0.000241, recv 0.004948, ring 0.003329, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Bootstrap timings total 0.002569 (create 0.000062, send 0.000266, recv 0.000123, ring 0.001862, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Bootstrap timings total 0.048609 (create 0.000033, send 0.000113, recv 0.001269, ring 0.001417, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Bootstrap timings total 0.008739 (create 0.000081, send 0.000244, recv 0.006214, ring 0.001265, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Bootstrap timings total 0.047630 (create 0.000028, send 0.000089, recv 0.000503, ring 0.001149, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Bootstrap timings total 0.049993 (create 0.000063, send 0.000243, recv 0.048153, ring 0.001146, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Bootstrap timings total 0.051325 (create 0.000029, send 0.000109, recv 0.042885, ring 0.008099, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO MNNVL busId 0xdf000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO MNNVL busId 0xc3000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO MNNVL busId 0x9d000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO MNNVL busId 0x61000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO MNNVL busId 0xd1000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO MNNVL busId 0x1b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO MNNVL busId 0x52000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO MNNVL busId 0x43000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Setting affinity for GPU 7 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Setting affinity for GPU 6 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Setting affinity for GPU 4 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Setting affinity for GPU 5 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Setting affinity for GPU 0 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Setting affinity for GPU 3 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Setting affinity for GPU 1 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Setting affinity for GPU 2 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO comm 0x55557009aae0 rank 0 nRanks 16 nNodes 2 localRanks 8 localRank 0 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 00/16 :  0  9 10 11 12 13 14 15  8  1  7  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 01/16 :  0  2  3  5  4  6  7  1  8 15 14 13 12 11 10  9
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 02/16 :  0  1  7  6  4  5  3 11 12 13 14 15  8  9 10  2
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO comm 0x55557006d7d0 rank 2 nRanks 16 nNodes 2 localRanks 8 localRank 2 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 03/16 :  0  2 10  9  8 15 14 13 12 11  3  5  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 04/16 :  0  1  7  6  4 13 14 15  8  9 10 11 12  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 05/16 :  0  2  3  5 12 11 10  9  8 15 14 13  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO comm 0x55557006c6a0 rank 1 nRanks 16 nNodes 2 localRanks 8 localRank 1 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO comm 0x55557006c8f0 rank 7 nRanks 16 nNodes 2 localRanks 8 localRank 7 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 06/16 :  0  1  7 15  8  9 10 11 12 13 14  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 07/16 :  0  2  3  5  4  6 14 13 12 11 10  9  8 15  7  1
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO comm 0x55557006e340 rank 6 nRanks 16 nNodes 2 localRanks 8 localRank 6 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO comm 0x55557006cb20 rank 4 nRanks 16 nNodes 2 localRanks 8 localRank 4 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 08/16 :  0  9 10 11 12 13 14 15  8  1  7  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO comm 0x55557006de60 rank 5 nRanks 16 nNodes 2 localRanks 8 localRank 5 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 09/16 :  0  2  3  5  4  6  7  1  8 15 14 13 12 11 10  9
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Trees [0] 3/-1/-1->2->0 [1] 3/-1/-1->2->0 [2] 3/10/-1->2->-1 [3] -1/-1/-1->2->0 [4] 3/-1/-1->2->0 [5] 3/-1/-1->2->0 [6] 3/-1/-1->2->0 [7] 3/-1/-1->2->0 [8] 3/-1/-1->2->0 [9] 3/-1/-1->2->0 [10] 3/-1/-1->2->10 [11] -1/-1/-1->2->0 [12] 3/-1/-1->2->0 [13] 3/-1/-1->2->0 [14] 3/-1/-1->2->0 [15] 3/-1/-1->2->0
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 10/16 :  0  1  7  6  4  5  3 11 12 13 14 15  8  9 10  2
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO comm 0x55557006f530 rank 3 nRanks 16 nNodes 2 localRanks 8 localRank 3 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 1/-1/-1->7->6 [2] 1/-1/-1->7->6 [3] 1/-1/-1->7->6 [4] 1/-1/-1->7->6 [5] 1/-1/-1->7->6 [6] 1/-1/-1->7->6 [7] 1/15/-1->7->-1 [8] -1/-1/-1->7->6 [9] 1/-1/-1->7->6 [10] 1/-1/-1->7->6 [11] 1/-1/-1->7->6 [12] 1/-1/-1->7->6 [13] 1/-1/-1->7->6 [14] 1/-1/-1->7->6 [15] 1/-1/-1->7->15
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 11/16 :  0  2 10  9  8 15 14 13 12 11  3  5  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 12/16 :  0  1  7  6  4 13 14 15  8  9 10 11 12  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 13/16 :  0  2  3  5 12 11 10  9  8 15 14 13  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 14/16 :  0  1  7 15  8  9 10 11 12 13 14  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 15/16 :  0  2  3  5  4  6 14 13 12 11 10  9  8 15  7  1
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Trees [0] 7/-1/-1->6->4 [1] 7/-1/-1->6->4 [2] 7/-1/-1->6->4 [3] 7/-1/-1->6->4 [4] 7/-1/-1->6->4 [5] 7/-1/-1->6->4 [6] 7/14/-1->6->-1 [7] -1/-1/-1->6->4 [8] 7/-1/-1->6->4 [9] 7/-1/-1->6->4 [10] 7/-1/-1->6->4 [11] 7/-1/-1->6->4 [12] 7/-1/-1->6->4 [13] 7/-1/-1->6->4 [14] 7/-1/-1->6->14 [15] -1/-1/-1->6->4
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Trees [0] 4/-1/-1->5->3 [1] 4/-1/-1->5->3 [2] 4/-1/-1->5->3 [3] 4/-1/-1->5->3 [4] 4/12/-1->5->-1 [5] -1/-1/-1->5->3 [6] 4/-1/-1->5->3 [7] 4/-1/-1->5->3 [8] 4/-1/-1->5->3 [9] 4/-1/-1->5->3 [10] 4/-1/-1->5->3 [11][1,0]<stdout>: 4/-1/-1->5->3 [12] 4/-1/-1->5->12 [13] -1/-1/-1->5->3 [14] 4/-1/-1->5->3 [15] 4/-1/-1->5->3
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Trees [0] 0/8/-1->1->-1 [1] -1/-1/-1->1->7 [2] 0/-1/-1->1->7 [3] 0/-1/-1->1->7 [4] 0/-1/-1->1->7 [5] 0/-1/-1->1->7 [6] 0/-1/-1->1->7 [7] 0/-1/-1->1->7 [8] 0/-1/-1->1->8 [9] -1/-1/-1->1->7 [10] 0/-1/-1->1->7 [11] 0/-1/-1->1->7 [12] 0/-1/-1->1->7 [13] 0/-1/-1->1->7 [14] 0/-1/-1->1->7 [15] 0/-1/-1->1->7
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Trees [0] 6/-1/-1->4->5 [1] 6/-1/-1->4->5 [2] 6/-1/-1->4->5 [3] 6/-1/-1->4->5 [4] 6/-1/-1->4->5 [5] 6/13/-1->4->-1 [6] -1/-1/-1->4->5 [7] 6/-1/-1->4->5 [8] 6/-1/-1->4->5 [9] 6/-1/-1->4->5 [10] 6/-1/-1->4->5 [11] 6/-1/-1->4->5 [12] 6/-1/-1->4->5 [13] 6/-1/-1->4->13 [14] -1/-1/-1->4->5 [15] 6/-1/-1->4->5
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Trees [0] 2/-1/-1->0->1 [1] 2/9/-1->0->-1 [2] -1/-1/-1->0->1 [3] 2/-1/-1->0->1 [4] 2/-1/-1->0->1 [5] 2/-1/-1->0->1 [6] 2/-1/-1->0->1 [7] 2/-1/-1->0->1 [8] 2/-1/-1->0->1 [9] 2/-1/-1->0->9 [10] -1/-1/-1->0->1 [11] 2/-1/-1->0->1 [12] 2/-1/-1->0->1 [13] 2/-1/-1->0->1 [14] 2/-1/-1->0->1 [15] 2/-1/-1->0->1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Trees [0] 5/-1/-1->3->2 [1] 5/-1/-1->3->2 [2] 5/-1/-1->3->2 [3] 5/11/-1->3->-1 [4] -1/-1/-1->3->2 [5] 5/-1/-1->3->2 [6] 5/-1/-1->3->2 [7] 5/-1/-1->3->2 [8] 5/-1/-1->3->2 [9] 5/-1/-1->3->2 [10] 5/-1/-1->3->2 [11] 5/-1/-1->3->11 [12] -1/-1/-1->3->2 [13] 5/-1/-1->3->2 [14] 5/-1/-1->3->2 [15] 5/-1/-1->3->2
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 0
+[1,0]<stdout>:a2ap-dgx014:4183095:4187155 [0] NCCL INFO [Proxy Service] Device 0 CPU core 4
+[1,0]<stdout>:a2ap-dgx014:4183101:4187154 [6] NCCL INFO [Proxy Service] Device 6 CPU core 205
+[1,0]<stdout>:a2ap-dgx014:4183100:4187156 [5] NCCL INFO [Proxy Service] Device 5 CPU core 103
+[1,0]<stdout>:a2ap-dgx014:4183096:4187167 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 122
+[1,0]<stdout>:a2ap-dgx014:4183097:4187152 [2] NCCL INFO [Proxy Service] Device 2 CPU core 6
+[1,0]<stdout>:a2ap-dgx014:4183099:4187161 [4] NCCL INFO [Proxy Service] Device 4 CPU core 212
+[1,0]<stdout>:a2ap-dgx014:4183098:4187158 [3] NCCL INFO [Proxy Service] Device 3 CPU core 134
+[1,0]<stdout>:a2ap-dgx014:4183127:4187153 [7] NCCL INFO [Proxy Service] Device 7 CPU core 206
+[1,0]<stdout>:a2ap-dgx014:4183101:4187162 [6] NCCL INFO [Proxy Service UDS] Device 6 CPU core 207
+[1,0]<stdout>:a2ap-dgx014:4183095:4187159 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 137
+[1,0]<stdout>:a2ap-dgx014:4183100:4187164 [5] NCCL INFO [Proxy Service UDS] Device 5 CPU core 104
+[1,0]<stdout>:a2ap-dgx014:4183099:4187166 [4] NCCL INFO [Proxy Service UDS] Device 4 CPU core 213
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4187160 [1] NCCL INFO [Proxy Service] Device 1 CPU core 120
+[1,0]<stdout>:a2ap-dgx014:4183127:4187163 [7] NCCL INFO [Proxy Service UDS] Device 7 CPU core 83
+[1,0]<stdout>:a2ap-dgx014:4183098:4187165 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 135
+[1,0]<stdout>:a2ap-dgx014:4183097:4187157 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 8
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 00/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 02/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 02/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 06/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 09/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 08/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 11/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 04/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 10/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 06/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 10/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 14/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 12/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 01/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 13/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 14/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 00/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 01/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 01/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 03/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 03/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 05/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 05/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 07/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 07/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 09/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 09/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 11/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 11/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 13/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 13/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 15/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 15/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 02/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 03/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 04/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 05/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 06/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 07/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 08/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 09/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 11/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 10/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 12/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 14/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 13/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 15/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 06/0 : 14[6] -> 6[6] [receive] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 14/0 : 14[6] -> 6[6] [receive] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4187169 [6] NCCL INFO [Proxy Progress] Device 6 CPU core 96
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 05/0 : 13[5] -> 4[5] [receive] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 15/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:4187170 [4] NCCL INFO [Proxy Progress] Device 4 CPU core 217
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 13/0 : 13[5] -> 4[5] [receive] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4187171 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 123
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 01/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 09/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 02/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 07/0 : 15[7] -> 7[7] [receive] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 10/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 15/0 : 15[7] -> 7[7] [receive] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 03/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4187172 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 125
+[1,0]<stdout>:a2ap-dgx014:4183127:4187173 [7] NCCL INFO [Proxy Progress] Device 7 CPU core 97
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 00/0 : 8[0] -> 1[0] [receive] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 08/0 : 8[0] -> 1[0] [receive] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 11/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 06/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 00/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 14/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4187174 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 14
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 01/0 : 9[1] -> 0[1] [receive] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 09/0 : 9[1] -> 0[1] [receive] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 00/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 08/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 02/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 04/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 04/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 12/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 00/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4187175 [5] NCCL INFO [Proxy Progress] Device 5 CPU core 106
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 03/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4187176 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 24
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 06/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 11/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 02/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 05/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 10/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 13/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 04/0 : 12[4] -> 5[4] [receive] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 12/0 : 12[4] -> 5[4] [receive] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 00/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 02/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 02/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 04/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 08/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 06/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 10/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 08/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 01/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 12/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 04/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 06/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 08/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 10/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 10/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 12/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 14/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 12/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 14/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 14/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 03/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 05/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 07/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 09/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 11/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 13/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 15/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 01/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 03/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 07/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 03/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 00/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 05/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 09/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 07/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 02/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 11/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 04/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 13/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 15/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 11/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 08/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 15/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 10/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 12/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 00/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 01/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 03/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 05/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 07/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 03/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 08/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 11/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 13/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 08/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 15/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 10/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 04/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 12/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 07/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 14/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 09/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 11/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 12/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 00/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 01/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 03/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 04/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 05/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 15/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 06/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 00/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 07/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 02/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 08/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 09/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 06/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 12/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 11/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 08/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 00/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 13/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 14/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 10/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 02/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 15/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 14/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 04/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 00/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 07/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 08/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 15/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 02/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 08/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 10/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 04/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 02/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 10/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 01/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Channel 09/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 01/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 12/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 04/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 03/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 12/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 11/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 01/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 06/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 03/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 10/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 03/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 05/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 05/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Channel 13/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 12/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 07/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 06/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 14/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 01/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 14/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 03/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 00/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 01/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 05/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 09/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 05/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 03/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 11/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 02/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 07/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 05/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 13/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 06/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Channel 15/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 09/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 04/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 11/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 06/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 07/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 09/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 13/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 08/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 09/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 11/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 10/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Channel 14/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 11/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 12/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 13/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 13/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Channel 14/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 15/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Channel 15/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 00/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 02/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 04/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 06/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 08/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 10/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 12/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Channel 14/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Channel 15/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO CC Off, workFifoBytes 1048576
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO ncclCommInitRank comm 0x55557006de60 rank 5 nranks 16 cudaDev 5 nvmlDev 4 busId 9d000 commId 0x9984eb1ee0490fbc - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO ncclCommInitRank comm 0x55557006c6a0 rank 1 nranks 16 cudaDev 1 nvmlDev 0 busId 1b000 commId 0x9984eb1ee0490fbc - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183100:4183100 [5] NCCL INFO Init timings - ncclCommInitRank: rank 5 nranks 16 total 2.94 (kernels 0.00, alloc 0.00, bootstrap 0.05, allgathers 0.03, topo 1.84, graphs 0.02, connections 0.99, rest 0.02)
+[1,0]<stdout>:a2ap-dgx014:4183096:4183096 [1] NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 16 total 2.94 (kernels 0.00, alloc 0.00, bootstrap 0.05, allgathers 0.03, topo 1.84, graphs 0.01, connections 1.01, rest 0.00)
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO ncclCommInitRank comm 0x55557006f530 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 61000 commId 0x9984eb1ee0490fbc - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183098:4183098 [3] NCCL INFO Init timings - ncclCommInitRank: rank 3 nranks 16 total 2.90 (kernels 0.00, alloc 0.00, bootstrap 0.00, allgathers 0.03, topo 1.84, graphs 0.02, connections 0.97, rest 0.04)
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO ncclCommInitRank comm 0x55557006c8f0 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId df000 commId 0x9984eb1ee0490fbc - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183127:4183127 [7] NCCL INFO Init timings - ncclCommInitRank: rank 7 nranks 16 total 2.90 (kernels 0.00, alloc 0.00, bootstrap 0.00, allgathers 0.04, topo 1.83, graphs 0.01, connections 0.98, rest 0.03)
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO ncclCommInitRank comm 0x55557006cb20 rank 4 nranks 16 cudaDev 4 nvmlDev 5 busId c3000 commId 0x9984eb1ee0490fbc - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO ncclCommInitRank comm 0x55557009aae0 rank 0 nranks 16 cudaDev 0 nvmlDev 1 busId 43000 commId 0x9984eb1ee0490fbc - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183099:4183099 [4] NCCL INFO Init timings - ncclCommInitRank: rank 4 nranks 16 total 2.94 (kernels 0.00, alloc 0.00, bootstrap 0.05, allgathers 0.03, topo 1.84, graphs 0.02, connections 1.00, rest 0.01)
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO ncclCommInitRank comm 0x55557006e340 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId d1000 commId 0x9984eb1ee0490fbc - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183095:4183095 [0] NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 16 total 2.94 (kernels 0.00, alloc 0.00, bootstrap 0.05, allgathers 0.03, topo 1.84, graphs 0.02, connections 0.97, rest 0.04)
+[1,0]<stdout>:a2ap-dgx014:4183101:4183101 [6] NCCL INFO Init timings - ncclCommInitRank: rank 6 nranks 16 total 2.90 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.03, topo 1.83, graphs 0.02, connections 0.97, rest 0.04)
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO ncclCommInitRank comm 0x55557006d7d0 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 52000 commId 0x9984eb1ee0490fbc - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183097:4183097 [2] NCCL INFO Init timings - ncclCommInitRank: rank 2 nranks 16 total 2.90 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.03, topo 1.84, graphs 0.02, connections 0.95, rest 0.06)
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:a2ap-dgx014:4183095:14937 [0] NCCL INFO Comm config Blocking set to 1
+[1,0]<stdout>:a2ap-dgx014:4183100:14938 [5] NCCL INFO Comm config Blocking set to 1
+[1,0]<stdout>:a2ap-dgx014:4183127:14940 [7] NCCL INFO Comm config Blocking set to 1
+[1,0]<stdout>:a2ap-dgx014:4183099:14939 [4] NCCL INFO Comm config Blocking set to 1
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183097:14942 [2] NCCL INFO Comm config Blocking set to 1
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183098:14941 [3] NCCL INFO Comm config Blocking set to 1
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO ncclCommInitRankConfig comm 0x7fdf9c218f20 rank 5 nranks 16 cudaDev 5 nvmlDev 4 busId 9d000 commId 0x237aa00269f589b4 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO ncclCommInitRankConfig comm 0x7fdf4c2063d0 rank 0 nranks 16 cudaDev 0 nvmlDev 1 busId 43000 commId 0x237aa00269f589b4 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183096:14943 [1] NCCL INFO Comm config Blocking set to 1
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO ncclCommInitRankConfig comm 0x7fdf48205880 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId df000 commId 0x237aa00269f589b4 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO ncclCommInitRankConfig comm 0x7fdf84201d10 rank 4 nranks 16 cudaDev 4 nvmlDev 5 busId c3000 commId 0x237aa00269f589b4 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183101:14944 [6] NCCL INFO Comm config Blocking set to 1
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Assigned NET plugin IB to comm
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Using network IB
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO ncclCommInitRankConfig comm 0x7fdf8c207110 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 52000 commId 0x237aa00269f589b4 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO ncclCommInitRankConfig comm 0x7fdf64218ba0 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 61000 commId 0x237aa00269f589b4 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO ncclCommInitRankConfig comm 0x7fdfa02031f0 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId d1000 commId 0x237aa00269f589b4 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO ncclCommInitRankConfig comm 0x7fdf58201e60 rank 1 nranks 16 cudaDev 1 nvmlDev 0 busId 1b000 commId 0x237aa00269f589b4 - Init START
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Bootstrap timings total 0.010086 (create 0.000076, send 0.000340, recv 0.008922, ring 0.000554, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Bootstrap timings total 0.006205 (create 0.000044, send 0.000141, recv 0.000173, ring 0.005697, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Bootstrap timings total 0.001590 (create 0.000054, send 0.000142, recv 0.000723, ring 0.000504, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Bootstrap timings total 0.006578 (create 0.000086, send 0.000277, recv 0.000555, ring 0.000503, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Bootstrap timings total 0.006250 (create 0.000095, send 0.000302, recv 0.000224, ring 0.005334, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Bootstrap timings total 0.010116 (create 0.000080, send 0.000357, recv 0.003786, ring 0.005712, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Bootstrap timings total 0.009245 (create 0.000081, send 0.000281, recv 0.000865, ring 0.005422, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Bootstrap timings total 0.009569 (create 0.000083, send 0.000287, recv 0.000987, ring 0.005685, delay 0.000000)
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO MNNVL busId 0xd1000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO MNNVL busId 0x43000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO MNNVL busId 0x61000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO MNNVL busId 0xdf000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO MNNVL busId 0x1b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO MNNVL busId 0x52000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO MNNVL busId 0xc3000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO MNNVL busId 0x9d000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Setting affinity for GPU 1 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Setting affinity for GPU 6 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Setting affinity for GPU 7 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Setting affinity for GPU 4 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Setting affinity for GPU 3 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Setting affinity for GPU 2 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Setting affinity for GPU 5 to 56-111,168-223
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Setting affinity for GPU 0 to 0-55,112-167
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO comm 0x7fdf4c2063d0 rank 0 nRanks 16 nNodes 2 localRanks 8 localRank 0 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO comm 0x7fdf58201e60 rank 1 nRanks 16 nNodes 2 localRanks 8 localRank 1 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO comm 0x7fdf8c207110 rank 2 nRanks 16 nNodes 2 localRanks 8 localRank 2 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO comm 0x7fdf48205880 rank 7 nRanks 16 nNodes 2 localRanks 8 localRank 7 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO comm 0x7fdfa02031f0 rank 6 nRanks 16 nNodes 2 localRanks 8 localRank 6 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 00/16 :  0  9 10 11 12 13 14 15  8  1  7  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 01/16 :  0  2  3  5  4  6  7  1  8 15 14 13 12 11 10  9
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO comm 0x7fdf64218ba0 rank 3 nRanks 16 nNodes 2 localRanks 8 localRank 3 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO comm 0x7fdf9c218f20 rank 5 nRanks 16 nNodes 2 localRanks 8 localRank 5 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 02/16 :  0  1  7  6  4  5  3 11 12 13 14 15  8  9 10  2
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO comm 0x7fdf84201d10 rank 4 nRanks 16 nNodes 2 localRanks 8 localRank 4 MNNVL 0
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 03/16 :  0  2 10  9  8 15 14 13 12 11  3  5  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Trees [0] 0/8/-1->1->-1 [1] -1/-1/-1->1->7 [2] 0/-1/-1->1->7 [3] 0/-1/-1->1->7 [4] 0/-1/-1->1->7 [5] 0/-1/-1->1->7 [6] 0/-1/-1->1->7 [7] 0/-1/-1->1->7 [8] 0/-1/-1->1->8 [9] -1/-1/-1->1->7 [10] 0/-1/-1->1->7 [11] 0/-1/-1->1->7 [12] 0/-1/-1->1->7 [13] 0/-1/-1->1->7 [14] 0/-1/-1->1->7 [15] 0/-1/-1->1->7
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 04/16 :  0  1  7  6  4 13 14 15  8  9 10 11 12  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 05/16 :  0  2  3  5 12 11 10  9  8 15 14 13  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 06/16 :  0  1  7 15  8  9 10 11 12 13 14  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Trees [0] 7/-1/-1->6->4 [1] 7/-1/-1->6->4 [2] 7/-1/-1->6->4 [3] 7/-1/-1->6->4 [4] 7/-1/-1->6->4 [5] 7/-1/-1->6->4 [6] 7/14/-1->6->-1 [7] -1/-1/-1->6->4 [8] 7/-1/-1->6->4 [9] 7/-1/-1->6->4 [10] 7/-1/-1->6->4 [11] 7/-1/-1->6->4 [12] 7/-1/-1->6->4 [13] 7/-1/-1->6->4 [14] 7/-1/-1->6->14 [15] -1/-1/-1->6->4
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 07/16 :  0  2  3  5  4  6 14 13 12 11 10  9  8 15  7  1
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 08/16 :  0  9 10 11 12 13 14 15  8  1  7  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 1/-1/-1->7->6 [2] 1/-1/-1->7->6 [3] 1/-1/-1->7->6 [4] 1/-1/-1->7->6 [5] 1/-1/-1->7->6 [6] 1/-1/-1->7->6 [7] 1/15/-1->7->-1 [8] -1/-1/-1->7->6 [9] 1/-1/-1->7->6 [10] 1/-1/-1->7->6 [11] 1/-1/-1->7->6 [12] 1/-1/-1->7->6 [13] 1/-1/-1->7->6 [14] 1/-1/-1->7->6 [15] 1/-1/-1->7->15
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 09/16 :  0  2  3  5  4  6  7  1  8 15 14 13 12 11 10  9
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 10/16 :  0  1  7  6  4  5  3 11 12 13 14 15  8  9 10  2
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Trees [0] 3/-1/-1->2->0 [1] 3/-1/-1->2->0 [2] 3/10/-1->2->-1 [3] -1/-1/-1->2->0 [4] 3/-1/-1->2->0 [5] 3/-1/-1->2->0 [6] 3/-1/-1->2->0 [7] 3/-1/-1->2->0 [8] 3/-1/-1->2->0 [9] 3/-1/-1->2->0 [10] 3/-1/-1->2->10 [11] -1/-1/-1->2->0 [12] 3/-1/-1->2->0 [13] 3/-1/-1->2->0 [14] 3/-1/-1->2->0 [15] 3/-1/-1->2->0
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 11/16 :  0  2 10  9  8 15 14 13 12 11  3  5  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Trees [0] 4/-1/-1->5->3 [1] 4/-1/-1->5->3 [2] 4/-1/-1->5->3 [3] 4/-1/-1->5->3 [4] 4/12/-1->5->-1 [5] -1/-1/-1->5->3 [6] 4/-1/-1->5->3 [7] 4/-1/-1->5->3 [8] 4/-1/-1->5->3 [9] 4/-1/-1->5->3 [10] 4/-1/-1->5->3 [11] 4/-1/-1->5->3 [12] 4/-1/-1->5->12 [13] -1/-1/-1->5->3 [14] 4/-1/-1[1,0]<stdout>:->5->3 [15] 4/-1/-1->5->3
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 12/16 :  0  1  7  6  4 13 14 15  8  9 10 11 12  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Trees [0] 5/-1/-1->3->2 [1] 5/-1/-1->3->2 [2] 5/-1/-1->3->2 [3] 5/11/-1->3->-1 [4] -1/-1/-1->3->2 [5] 5/-1/-1->3->2 [6] 5/-1/-1->3->2 [7] 5/-1/-1->3->2 [8] 5/-1/-1->3->2 [9] 5/-1/-1->3->2 [10] 5/-1/-1->3->2 [11] 5/-1/-1->3->11 [12] -1/-1/-1->3->2 [13] 5/-1/-1->3->2 [14] 5/-1/-1->3->2 [15] 5/-1/-1->3->2
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Trees [0] 6/-1/-1->4->5 [1] 6/-1/-1->4->5 [2] 6/-1/-1->4->5 [3] 6/-1/-1->4->5 [4] 6/-1/-1->4->5 [5] 6/13/-1->4->-1 [6] -1/-1/-1->4->5 [7] 6/-1/-1->4->5 [8] 6/-1/-1->4->5 [9] 6/-1/-1->4->5 [10] 6/-1/-1->4->5 [11] 6/-1/-1->4->5 [12] 6/-1/-1->4->5 [13] 6/-1/-1->4->13 [14] -1/-1/-1->4->5 [15] 6/-1/-1->4->5
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 13/16 :  0  2  3  5 12 11 10  9  8 15 14 13  4  6  7  1
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 14/16 :  0  1  7 15  8  9 10 11 12 13 14  6  4  5  3  2
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 15/16 :  0  2  3  5  4  6 14 13 12 11 10  9  8 15  7  1
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Trees [0] 2/-1/-1->0->1 [1] 2/9/-1->0->-1 [2] -1/-1/-1->0->1 [3] 2/-1/-1->0->1 [4] 2/-1/-1->0->1 [5] 2/-1/-1->0->1 [6] 2/-1/-1->0->1 [7] 2/-1/-1->0->1 [8] 2/-1/-1->0->1 [9] 2/-1/-1->0->9 [10] -1/-1/-1->0->1 [11] 2/-1/-1->0->1 [12] 2/-1/-1->0->1 [13] 2/-1/-1->0->1 [14] 2/-1/-1->0->1 [15] 2/-1/-1->0->1
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO P2P Chunksize set to 131072
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 0
+[1,0]<stdout>:a2ap-dgx014:4183095:16632 [0] NCCL INFO [Proxy Service] Device 0 CPU core 1
+[1,0]<stdout>:a2ap-dgx014:4183101:16643 [6] NCCL INFO [Proxy Service UDS] Device 6 CPU core 172
+[1,0]<stdout>:a2ap-dgx014:4183097:16635 [2] NCCL INFO [Proxy Service] Device 2 CPU core 25
+[1,0]<stdout>:a2ap-dgx014:4183098:16644 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 149
+[1,0]<stdout>:a2ap-dgx014:4183099:16645 [4] NCCL INFO [Proxy Service UDS] Device 4 CPU core 80
+[1,0]<stdout>:a2ap-dgx014:4183096:16628 [1] NCCL INFO [Proxy Service] Device 1 CPU core 118
+[1,0]<stdout>:a2ap-dgx014:4183100:16631 [5] NCCL INFO [Proxy Service] Device 5 CPU core 186
+[1,0]<stdout>:a2ap-dgx014:4183127:16629 [7] NCCL INFO [Proxy Service] Device 7 CPU core 74
+[1,0]<stdout>:a2ap-dgx014:4183101:16630 [6] NCCL INFO [Proxy Service] Device 6 CPU core 59
+[1,0]<stdout>:a2ap-dgx014:4183095:16647 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 11
+[1,0]<stdout>:a2ap-dgx014:4183097:16646 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 26
+[1,0]<stdout>:a2ap-dgx014:4183099:16634 [4] NCCL INFO [Proxy Service] Device 4 CPU core 78
+[1,0]<stdout>:a2ap-dgx014:4183098:16633 [3] NCCL INFO [Proxy Service] Device 3 CPU core 36
+[1,0]<stdout>:a2ap-dgx014:4183096:16636 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 10
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 02/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16640 [5] NCCL INFO [Proxy Service UDS] Device 5 CPU core 79
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 00/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16641 [7] NCCL INFO [Proxy Service UDS] Device 7 CPU core 191
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 02/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 06/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 08/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 10/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 09/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 14/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 11/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 13/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 01/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 04/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 03/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 06/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 05/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 10/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 07/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 12/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 09/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 14/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 11/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 01/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 01/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 00/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 13/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 03/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 03/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 15/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 02/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 05/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 05/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 07/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 04/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 09/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 06/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 11/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 07/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 08/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 09/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 10/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 13/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 11/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 12/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 15/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 13/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 14/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 15/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 06/0 : 14[6] -> 6[6] [receive] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 14/0 : 14[6] -> 6[6] [receive] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 15/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:16649 [6] NCCL INFO [Proxy Progress] Device 6 CPU core 173
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 01/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 09/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:16650 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 124
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 07/0 : 15[7] -> 7[7] [receive] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 15/0 : 15[7] -> 7[7] [receive] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:16651 [7] NCCL INFO [Proxy Progress] Device 7 CPU core 77
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 06/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:16652 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 4
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 14/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 02/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 10/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 03/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 11/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 01/0 : 9[1] -> 0[1] [receive] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:16653 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 30
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 09/0 : 9[1] -> 0[1] [receive] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 00/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 08/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 00/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 05/0 : 13[5] -> 4[5] [receive] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:16654 [4] NCCL INFO [Proxy Progress] Device 4 CPU core 81
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 13/0 : 13[5] -> 4[5] [receive] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 02/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 04/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 06/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 08/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 03/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:16656 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 151
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 11/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 02/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 10/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 10/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 05/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16657 [5] NCCL INFO [Proxy Progress] Device 5 CPU core 82
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 13/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 04/0 : 12[4] -> 5[4] [receive] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 12/0 : 12[4] -> 5[4] [receive] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 00/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 12/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 14/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 02/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 00/0 : 8[0] -> 1[0] [receive] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 08/0 : 8[0] -> 1[0] [receive] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 04/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 04/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 00/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 12/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 02/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 04/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 06/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 06/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 08/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 08/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 10/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 10/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 12/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 12/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 14/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 14/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 01/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 03/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 01/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 07/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 03/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 09/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 11/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 05/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 15/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 07/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 09/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 11/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 13/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 15/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 03/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 00/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 05/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 02/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 07/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 04/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 11/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 08/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 13/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 10/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 15/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 12/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 00/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 01/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 03/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 08/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 04/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 03/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 10/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 07/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 12/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 05/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 09/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 14/0 : 6[6] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 11/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 07/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 12/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 08/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 15/0 : 4[5] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 11/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 00/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 02/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 04/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 13/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 08/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 00/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 10/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 15/0 : 0[1] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 02/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 12/0 : 4[5] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 01/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 00/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 04/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 03/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 06/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 06/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 08/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 08/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 05/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 12/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 14/0 : 0[1] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 02/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 01/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 10/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 10/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Channel 09/0 : 0[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 07/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 14/0 : 3[3] -> 5[4] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 09/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 06/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 05/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 14/0 : 6[6] -> 14[6] [send] via NET/IB/10/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Channel 13/0 : 4[5] -> 13[5] [send] via NET/IB/9/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 04/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 03/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 11/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 11/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 12/0 : 5[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 01/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 03/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 13/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 05/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 07/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 15/0 : 1[0] -> 7[7] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 09/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 00/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 07/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 15/0 : 7[7] -> 15[7] [send] via NET/IB/11/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 08/0 : 1[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 11/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 13/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 01/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 15/0 : 5[4] -> 3[3] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 03/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 05/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 07/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 01/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 09/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 11/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 03/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 05/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 13/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 00/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Channel 15/0 : 2[2] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 02/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 07/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 09/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 11/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 04/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 13/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 06/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Channel 15/0 : 6[6] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 08/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 10/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 12/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 02/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Channel 15/0 : 3[3] -> 2[2] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Channel 14/0 : 5[4] -> 4[5] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 04/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 06/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 10/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 12/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 14/0 : 7[7] -> 1[0] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 01/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 00/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 03/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 05/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 02/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 06/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 04/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 09/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 06/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 11/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 08/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 10/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 13/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 12/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Channel 14/0 : 7[7] -> 6[6] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Channel 14/0 : 1[0] -> 0[1] via P2P/IPC
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Connected all trees
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO CC Off, workFifoBytes 1048576
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO ncclCommInitRankConfig comm 0x7fdf58201e60 rank 1 nranks 16 cudaDev 1 nvmlDev 0 busId 1b000 commId 0x237aa00269f589b4 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183096:16595 [1] NCCL INFO Init timings - ncclCommInitRankConfig: rank 1 nranks 16 total 2.22 (kernels 0.00, alloc 0.01, bootstrap 0.00, allgathers 0.03, topo 1.30, graphs 0.02, connections 0.86, rest 0.00)
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO ncclCommInitRankConfig comm 0x7fdf48205880 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId df000 commId 0x237aa00269f589b4 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO ncclCommInitRankConfig comm 0x7fdf9c218f20 rank 5 nranks 16 cudaDev 5 nvmlDev 4 busId 9d000 commId 0x237aa00269f589b4 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO ncclCommInitRankConfig comm 0x7fdf64218ba0 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 61000 commId 0x237aa00269f589b4 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183098:16594 [3] NCCL INFO Init timings - ncclCommInitRankConfig: rank 3 nranks 16 total 2.23 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.04, topo 1.30, graphs 0.02, connections 0.85, rest 0.01)
+[1,0]<stdout>:a2ap-dgx014:4183100:16590 [5] NCCL INFO Init timings - ncclCommInitRankConfig: rank 5 nranks 16 total 2.23 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.04, topo 1.30, graphs 0.02, connections 0.84, rest 0.02)
+[1,0]<stdout>:a2ap-dgx014:4183127:16591 [7] NCCL INFO Init timings - ncclCommInitRankConfig: rank 7 nranks 16 total 2.23 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.04, topo 1.30, graphs 0.02, connections 0.86, rest 0.00)
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO ncclCommInitRankConfig comm 0x7fdf8c207110 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 52000 commId 0x237aa00269f589b4 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO ncclCommInitRankConfig comm 0x7fdfa02031f0 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId d1000 commId 0x237aa00269f589b4 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO ncclCommInitRankConfig comm 0x7fdf4c2063d0 rank 0 nranks 16 cudaDev 0 nvmlDev 1 busId 43000 commId 0x237aa00269f589b4 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183097:16593 [2] NCCL INFO Init timings - ncclCommInitRankConfig: rank 2 nranks 16 total 2.23 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.04, topo 1.30, graphs 0.02, connections 0.85, rest 0.02)
+[1,0]<stdout>:a2ap-dgx014:4183095:16589 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 0 nranks 16 total 2.23 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.05, topo 1.30, graphs 0.01, connections 0.84, rest 0.02)
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO ncclCommInitRankConfig comm 0x7fdf84201d10 rank 4 nranks 16 cudaDev 4 nvmlDev 5 busId c3000 commId 0x237aa00269f589b4 - Init COMPLETE
+[1,0]<stdout>:a2ap-dgx014:4183101:16596 [6] NCCL INFO Init timings - ncclCommInitRankConfig: rank 6 nranks 16 total 2.22 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.05, topo 1.30, graphs 0.01, connections 0.85, rest 0.01)
+[1,0]<stdout>:a2ap-dgx014:4183099:16592 [4] NCCL INFO Init timings - ncclCommInitRankConfig: rank 4 nranks 16 total 2.23 (kernels 0.00, alloc 0.00, bootstrap 0.01, allgathers 0.04, topo 1.30, graphs 0.02, connections 0.84, rest 0.03)
+[1,0]<stdout>:#Input tokens: 626729
+[1,0]<stdout>:#Output tokens: 388685
+[1,0]<stdout>:#Input tokens: 4096
+[1,0]<stdout>:#Output tokens: 256
+[1,0]<stdout>:
+[1,0]<stdout>:====== Offline Throughput Benchmark Result =======
+[1,0]<stdout>:Backend:                                 engine    
+[1,0]<stdout>:Successful requests:                     2000      
+[1,0]<stdout>:Benchmark duration (s):                  304.01    
+[1,0]<stdout>:Total input tokens:                      626729    
+[1,0]<stdout>:Total generated tokens:                  388685    
+[1,0]<stdout>:Last generation throughput (tok/s):      26.66     
+[1,0]<stdout>:Request throughput (req/s):              6.58      
+[1,0]<stdout>:Input token throughput (tok/s):          2061.53   
+[1,0]<stdout>:Output token throughput (tok/s):         1278.52   
+[1,0]<stdout>:Total token throughput (tok/s):          3340.05   
+[1,0]<stdout>:==================================================
+[1,0]<stdout>:Generating '/raid/pbs.98207.pbs111/nsys-report-1770.qdstrm'

@@ -1,0 +1,781 @@
+========== OPTIMIZED TP16 BENCHMARK ==========
+Prepaid SU: 341.334 | 7min SU: 238.934 | Balance: 46343.895
+N/A
+Job ID: 97045.pbs111 | GPUs: 16 | Master: a2ap-dgx008.asp2p.nscc.sg:5000
+Config: TP16 + FlashInfer + Torch Compile
+Features: NCCL Multi-Node + Chunked Prefill + Gloo TCP
+==============================================
+[19:59:40] Launching SGLang offline throughput benchmark...
+[1,0]<stdout>:[2025-10-11 19:59:59] Using default HuggingFace chat template with detected content format: string
+[1,0]<stdout>:[2025-10-11 20:00:22 TP0] MLA optimization is turned on. Use flashinfer backend.
+[1,0]<stdout>:[2025-10-11 20:00:22 TP0] Chunked prefix cache is turned on.
+[1,0]<stdout>:[2025-10-11 20:00:22 TP0] Init torch distributed begin.
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[2025-10-11 20:00:30 TP0] sglang is using nccl==2.27.3
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:[2025-10-11 20:00:38 TP1] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-11 20:00:38 TP2] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-11 20:00:38 TP0] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-11 20:00:38 TP3] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-11 20:00:38 TP4] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-11 20:00:38 TP5] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-11 20:00:38 TP6] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-11 20:00:38 TP7] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-11 20:00:38 TP15] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-11 20:00:38 TP14] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-11 20:00:38 TP11] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-11 20:00:38 TP10] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-11 20:00:38 TP12] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-11 20:00:38 TP13] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-11 20:00:38 TP8] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-11 20:00:38 TP9] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[2025-10-11 20:00:38 TP0] sglang is using nccl==2.27.3
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[2025-10-11 20:00:42 TP0] Init torch distributed ends. mem usage=2.18 GB
+[1,1]<stdout>:[2025-10-11 20:00:42 TP14] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-11 20:00:42 TP11] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:42 TP4] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-11 20:00:42 TP8] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:42 TP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:42 TP6] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:42 TP7] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:42 TP0] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-11 20:00:42 TP10] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-11 20:00:42 TP15] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:42 TP2] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:43 TP5] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-11 20:00:43 TP12] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-11 20:00:43 TP9] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-11 20:00:43 TP13] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:43 TP3] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-11 20:00:43 TP0] Load weight begin. avail mem=76.36 GB
+[1,0]<stdout>:[2025-10-11 20:00:43 TP0] Detected fp8 checkpoint.
+[1,0]<stdout>:[2025-10-11 20:00:50 TP0] Load weight end. type=DeepseekV3ForCausalLM, dtype=torch.bfloat16, avail mem=36.04 GB, mem usage=40.33 GB.
+[1,0]<stdout>:[2025-10-11 20:00:56 TP5] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,0]<stdout>:[2025-10-11 20:00:57 TP3] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,0]<stdout>:[2025-10-11 20:00:57 TP2] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,0]<stdout>:[2025-10-11 20:00:57 TP6] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,0]<stdout>:[2025-10-11 20:00:57 TP0] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,0]<stdout>:[2025-10-11 20:00:57 TP0] Memory pool end. avail mem=8.95 GB
+[1,0]<stdout>:[2025-10-11 20:00:57 TP7] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,0]<stdout>:[2025-10-11 20:00:57 TP4] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,0]<stdout>:[2025-10-11 20:00:57 TP1] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,1]<stdout>:[2025-10-11 20:00:59 TP14] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,1]<stdout>:[2025-10-11 20:01:00 TP9] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,1]<stdout>:[2025-10-11 20:01:00 TP8] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,1]<stdout>:[2025-10-11 20:01:00 TP10] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,1]<stdout>:[2025-10-11 20:01:00 TP11] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,1]<stdout>:[2025-10-11 20:01:01 TP12] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,1]<stdout>:[2025-10-11 20:01:01 TP15] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,1]<stdout>:[2025-10-11 20:01:01 TP13] KV Cache is allocated. #tokens: 410021, KV size: 26.83 GB
+[1,0]<stdout>:[2025-10-11 20:01:03 TP0] max_total_num_tokens=410021, chunked_prefill_size=8192, max_prefill_tokens=16384, max_running_requests=2048, context_len=32768, available_gpu_mem=8.47 GB
+[1,1]<stdout>:[2025-10-11 20:01:04] Starting dummy health check server at 127.0.0.1:30000
+[1,0]<stdout>:#Input tokens: 626729
+[1,0]<stdout>:#Output tokens: 388685
+[1,0]<stdout>:#Input tokens: 4096
+[1,0]<stdout>:#Output tokens: 256
+[1,0]<stdout>:[2025-10-11 20:01:17] 
+[1,0]<stdout>:Warmup...
+[1,0]<stdout>:[2025-10-11 20:01:17 TP0] Prefill batch. #new-seq: 15, #new-token: 3855, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:01:18 TP0] Prefill batch. #new-seq: 1, #new-token: 257, #cached-token: 0, token usage: 0.01, #running-req: 15, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stdout>:[2025-10-11 20:02:05 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:05 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:05 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:05 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:05 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:05 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:05 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:05 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stdout>:[2025-10-11 20:02:05 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:05 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,0]<stdout>:100% 33/33 [00:00<00:00, 703.48it/s]
+[1,0]<stdout>:100% 33/33 [00:00<00:00, 837.49it/s]
+[1,0]<stdout>:100% 33/33 [00:00<00:00, 959.82it/s]
+[1,0]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,0]<stdout>:[2025-10-11 20:02:05 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,0]<stdout>:100% 33/33 [00:00<00:00, 5203.85it/s]
+[1,0]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,0]<stdout>:100% 33/33 [00:00<00:00, 4922.72it/s]
+[1,0]<stdout>:100% 33/33 [00:00<00:00, 4976.17it/s][1,0]<stdout>:
+[1,0]<stdout>:[2025-10-11 20:02:05 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:100% 33/33 [00:00<00:00, 5024.21it/s]
+[1,0]<stdout>:[2025-10-11 20:02:05 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:05 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stdout>:[2025-10-11 20:02:05 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,0]<stdout>:[2025-10-11 20:02:05 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:100% 33/33 [00:00<00:00, 4655.95it/s]
+[1,0]<stdout>:[2025-10-11 20:02:05 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,1]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,1]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,1]<stdout>:100% 33/33 [00:00<00:00, 791.64it/s]
+[1,1]<stdout>:  0% 0/33 [00:00<?, ?it/s]100% 33/33 [00:00<00:00, 808.10it/s]
+[1,1]<stdout>:100% 33/33 [00:00<00:00, 1775.29it/s]
+[1,1]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,1]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,1]<stdout>:100% 33/33 [00:00<00:00, 2058.14it/s]
+[1,1]<stdout>:[2025-10-11 20:02:06 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:06 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:100% 33/33 [00:00<00:00, 2064.53it/s]
+[1,1]<stdout>:[2025-10-11 20:02:06 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:100% 33/33 [00:00<00:00, 2199.91it/s]
+[1,1]<stdout>:[2025-10-11 20:02:06 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,1]<stdout>:[2025-10-11 20:02:06 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stdout>:[2025-10-11 20:02:06 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:06 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:100% 33/33 [00:00<00:00, 1810.33it/s]
+[1,1]<stdout>:[2025-10-11 20:02:06 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/33 [00:00<?, ?it/s][1,1]<stdout>:100% 33/33 [00:00<00:00, 2618.27it/s]
+[1,0]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:[2025-10-11 20:02:06 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,0]<stdout>:100% 44/44 [00:00<00:00, 989.80it/s]
+[1,0]<stdout>:100% 44/44 [00:00<00:00, 790.36it/s]
+[1,0]<stdout>:100% 44/44 [00:00<00:00, 804.74it/s]
+[1,0]<stdout>:[2025-10-11 20:02:06 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:06 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:06 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,0]<stdout>:100% 44/44 [00:00<00:00, 13073.77it/s]
+[1,0]<stdout>:100% 44/44 [00:00<00:00, 12912.77it/s]
+[1,0]<stdout>:100% 44/44 [00:00<00:00, 11876.53it/s][1,0]<stdout>:
+[1,0]<stdout>:100% 44/44 [00:00<00:00, 12676.84it/s]
+[1,0]<stdout>:[2025-10-11 20:02:06 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:06 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:06 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stdout>:[2025-10-11 20:02:06 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:06 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,0]<stdout>:100% 44/44 [00:00<00:00, 13086.75it/s]
+[1,0]<stdout>:[2025-10-11 20:02:06 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,0]<stdout>:100% 35/35 [00:00<00:00, 608.09it/s]
+[1,0]<stdout>:100% 35/35 [00:00<00:00, 523.30it/s]
+[1,0]<stdout>:100% 35/35 [00:00<00:00, 538.17it/s]
+[1,0]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,0]<stdout>:100% 35/35 [00:00<00:00, 8233.81it/s]
+[1,0]<stdout>:100% 35/35 [00:00<00:00, 8341.89it/s]
+[1,0]<stdout>:100% 35/35 [00:00<00:00, 8595.89it/s]
+[1,0]<stdout>:100% 35/35 [00:00<00:00, 9803.70it/s]
+[1,0]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,0]<stdout>:100% 35/35 [00:00<00:00, 11357.88it/s][1,0]<stdout>:
+[1,0]<stdout>:[2025-10-11 20:02:07 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stdout>:[2025-10-11 20:02:07 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:100% 44/44 [00:00<00:00, 4294.14it/s]
+[1,1]<stdout>:[2025-10-11 20:02:07 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:100% 44/44 [00:00<00:00, 7414.60it/s]
+[1,1]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:100% 44/44 [00:00<00:00, 7386.70it/s]
+[1,1]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:100% 44/44 [00:00<00:00, 7659.24it/s]
+[1,1]<stdout>:[2025-10-11 20:02:07 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:07 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:100% 44/44 [00:00<00:00, 6999.79it/s][1,1]<stdout>:
+[1,1]<stdout>:[2025-10-11 20:02:07 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:[2025-10-11 20:02:07 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:100% 44/44 [00:00<00:00, 8304.80it/s]
+[1,1]<stdout>:[2025-10-11 20:02:07 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stdout>:[2025-10-11 20:02:07 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:100% 44/44 [00:00<00:00, 3947.66it/s]
+[1,1]<stdout>:[2025-10-11 20:02:07 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/44 [00:00<?, ?it/s][1,1]<stdout>:100% 44/44 [00:00<00:00, 8082.93it/s]
+[1,1]<stdout>:[2025-10-11 20:02:07 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 2113.47it/s]
+[1,0]<stdout>:100% 16/16 [00:00<00:00, 1012.29it/s]
+[1,0]<stdout>:100% 16/16 [00:00<00:00, 2002.53it/s]
+[1,0]<stdout>:[2025-10-11 20:02:07 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 17115.24it/s]
+[1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 15033.35it/s]
+[1,0]<stdout>:100% 16/16 [00:00<00:00, 16452.28it/s]
+[1,0]<stdout>:[2025-10-11 20:02:07 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 12098.23it/s]
+[1,0]<stdout>:[2025-10-11 20:02:07 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stdout>:[2025-10-11 20:02:07 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:07 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 13419.09it/s]
+[1,0]<stdout>:[2025-10-11 20:02:07 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,1]<stdout>:100% 35/35 [00:00<00:00, 4605.08it/s]
+[1,1]<stdout>:[2025-10-11 20:02:07 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,1]<stdout>:100% 35/35 [00:00<00:00, 4277.78it/s]
+[1,1]<stdout>:[2025-10-11 20:02:08 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,1]<stdout>:100% 35/35 [00:00<00:00, 7241.90it/s][1,1]<stdout>:
+[1,1]<stdout>:[2025-10-11 20:02:08 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,1]<stdout>:100% 35/35 [00:00<00:00, 6754.42it/s]
+[1,0]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:[2025-10-11 20:02:08 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:100% 32/32 [00:00<00:00, 896.11it/s]
+[1,0]<stdout>:100% 32/32 [00:00<00:00, 841.88it/s][1,0]<stdout>:
+[1,0]<stdout>:100% 32/32 [00:00<00:00, 823.17it/s]
+[1,0]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,0]<stdout>:100% 32/32 [00:00<00:00, 14219.49it/s]
+[1,0]<stdout>:100% 32/32 [00:00<00:00, 15541.65it/s]
+[1,0]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,0]<stdout>:100% 32/32 [00:00<00:00, 15577.73it/s]
+[1,0]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,0]<stdout>:100% 32/32 [00:00<00:00, 12467.97it/s]
+[1,0]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,0]<stdout>:100% 32/32 [00:00<00:00, 13697.08it/s][1,0]<stdout>:
+[1,1]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,1]<stdout>:100% 35/35 [00:00<00:00, 7202.46it/s]
+[1,1]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,1]<stdout>:100% 35/35 [00:00<00:00, 7762.71it/s]
+[1,1]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,1]<stdout>:[2025-10-11 20:02:08 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:100% 35/35 [00:00<00:00, 8161.94it/s]
+[1,1]<stdout>:[2025-10-11 20:02:08 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:08 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stdout>:[2025-10-11 20:02:08 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/35 [00:00<?, ?it/s][1,1]<stdout>:100% 35/35 [00:00<00:00, 8030.23it/s]
+[1,1]<stdout>:[2025-10-11 20:02:08 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 4116.86it/s]
+[1,1]<stdout>:[2025-10-11 20:02:08 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 5867.19it/s]
+[1,1]<stdout>:[2025-10-11 20:02:08 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 7818.81it/s]
+[1,1]<stdout>:[2025-10-11 20:02:08 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 8607.01it/s]
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 6671.52it/s]
+[1,1]<stdout>:[2025-10-11 20:02:09 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:09 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:100% 32/32 [00:00<00:00, 4956.52it/s]
+[1,1]<stdout>:100% 32/32 [00:00<00:00, 6823.13it/s]
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 5850.82it/s]
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 10349.92it/s]
+[1,1]<stdout>:[2025-10-11 20:02:09 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 8841.75it/s]
+[1,1]<stdout>:[2025-10-11 20:02:09 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stdout>:[2025-10-11 20:02:09 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:09 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:09 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:09 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:09 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:09 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:09 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:09 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:[2025-10-11 20:02:09 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:09 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stdout>:[2025-10-11 20:02:09 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:09 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stdout>:[2025-10-11 20:02:09 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:100% 32/32 [00:00<00:00, 8017.79it/s]
+[1,1]<stdout>:[2025-10-11 20:02:09 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:100% 32/32 [00:00<00:00, 8437.12it/s]
+[1,1]<stdout>:[2025-10-11 20:02:09 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 1174.01it/s]
+[1,0]<stdout>:100% 16/16 [00:00<00:00, 861.01it/s]
+[1,0]<stdout>:100% 16/16 [00:00<00:00, 906.20it/s]
+[1,1]<stdout>:100% 16/16 [00:00<00:00, 695.08it/s]
+[1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 14824.14it/s]
+[1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 12223.84it/s]100% 16/16 [00:00<00:00, 14582.54it/s]
+[1,0]<stdout>:
+[1,0]<stdout>:100% 16/16 [00:00<00:00, 14830.69it/s]
+[1,0]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,0]<stdout>:100% 16/16 [00:00<00:00, 14376.36it/s]
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 7852.66it/s]
+[1,1]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:100% 32/32 [00:00<00:00, 7798.37it/s]
+[1,1]<stdout>:[2025-10-11 20:02:10 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 6247.33it/s]
+[1,1]<stdout>:100% 16/16 [00:00<00:00, 6290.08it/s][1,1]<stdout>:
+[1,1]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:100% 32/32 [00:00<00:00, 8003.44it/s]
+[1,1]<stdout>:[2025-10-11 20:02:10 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:100% 32/32 [00:00<00:00, 7861.40it/s]
+[1,1]<stdout>:[2025-10-11 20:02:10 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stdout>:[2025-10-11 20:02:10 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/32 [00:00<?, ?it/s][1,1]<stdout>:100% 32/32 [00:00<00:00, 9590.41it/s]
+[1,1]<stdout>:[2025-10-11 20:02:10 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 5694.43it/s]
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 5662.24it/s]
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 6276.55it/s]
+[1,1]<stdout>:  0% 0/16 [00:00<?, ?it/s][1,1]<stdout>:100% 16/16 [00:00<00:00, 8547.81it/s]
+[1,1]<stdout>:[2025-10-11 20:02:11 TP11] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:11 TP6] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stdout>:[2025-10-11 20:02:11 TP15] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:11 TP3] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:11 TP4] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stdout>:[2025-10-11 20:02:11 TP14] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stdout>:[2025-10-11 20:02:11 TP12] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stdout>:[2025-10-11 20:02:11 TP13] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:11 TP5] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stdout>:[2025-10-11 20:02:11 TP9] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:11 TP7] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:11 TP0] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stdout>:[2025-10-11 20:02:11 TP10] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:11 TP2] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:11 TP1] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stdout>:[2025-10-11 20:02:11 TP8] Config file not found at /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stdout>:[2025-10-11 20:02:28] 
+[1,0]<stdout>:Benchmark...
+[1,0]<stdout>:[2025-10-11 20:02:28 TP0] Prefill batch. #new-seq: 1, #new-token: 507, #cached-token: 1, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:02:28 TP0] Prefill batch. #new-seq: 3, #new-token: 241, #cached-token: 3, token usage: 0.00, #running-req: 1, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:02:28 TP0] Prefill batch. #new-seq: 27, #new-token: 8188, #cached-token: 32, token usage: 0.00, #running-req: 4, #queue-req: 601, 
+[1,0]<stdout>:[2025-10-11 20:02:29 TP0] Prefill batch. #new-seq: 23, #new-token: 8162, #cached-token: 28, token usage: 0.02, #running-req: 30, #queue-req: 1577, 
+[1,0]<stdout>:[2025-10-11 20:02:30 TP0] Prefill batch. #new-seq: 30, #new-token: 8140, #cached-token: 50, token usage: 0.04, #running-req: 52, #queue-req: 1918, 
+[1,0]<stdout>:[2025-10-11 20:02:30 TP0] Prefill batch. #new-seq: 31, #new-token: 8111, #cached-token: 63, token usage: 0.06, #running-req: 81, #queue-req: 1888, 
+[1,0]<stdout>:[2025-10-11 20:02:30 TP0] Prefill batch. #new-seq: 25, #new-token: 8083, #cached-token: 59, token usage: 0.08, #running-req: 109, #queue-req: 1864, 
+[1,0]<stdout>:[2025-10-11 20:02:31 TP0] Prefill batch. #new-seq: 25, #new-token: 8061, #cached-token: 52, token usage: 0.10, #running-req: 131, #queue-req: 1840, 
+[1,0]<stdout>:[2025-10-11 20:02:31 TP0] Prefill batch. #new-seq: 27, #new-token: 8040, #cached-token: 58, token usage: 0.10, #running-req: 152, #queue-req: 1814, 
+[1,0]<stdout>:[2025-10-11 20:02:31 TP0] Prefill batch. #new-seq: 36, #new-token: 8015, #cached-token: 84, token usage: 0.12, #running-req: 177, #queue-req: 1779, 
+[1,0]<stdout>:[2025-10-11 20:02:32 TP0] Prefill batch. #new-seq: 32, #new-token: 7983, #cached-token: 76, token usage: 0.14, #running-req: 209, #queue-req: 1748, 
+[1,0]<stdout>:[2025-10-11 20:02:32 TP0] Prefill batch. #new-seq: 30, #new-token: 7952, #cached-token: 64, token usage: 0.16, #running-req: 240, #queue-req: 1719, 
+[1,0]<stdout>:[2025-10-11 20:02:32 TP0] Prefill batch. #new-seq: 28, #new-token: 7923, #cached-token: 78, token usage: 0.18, #running-req: 269, #queue-req: 1692, 
+[1,0]<stdout>:[2025-10-11 20:02:33 TP0] Prefill batch. #new-seq: 40, #new-token: 7898, #cached-token: 99, token usage: 0.19, #running-req: 294, #queue-req: 1653, 
+[1,0]<stdout>:[2025-10-11 20:02:33 TP0] Prefill batch. #new-seq: 19, #new-token: 7860, #cached-token: 56, token usage: 0.21, #running-req: 332, #queue-req: 1635, 
+[1,0]<stdout>:[2025-10-11 20:02:33 TP0] Prefill batch. #new-seq: 20, #new-token: 7846, #cached-token: 50, token usage: 0.23, #running-req: 346, #queue-req: 1616, 
+[1,0]<stdout>:[2025-10-11 20:02:34 TP0] Prefill batch. #new-seq: 23, #new-token: 7834, #cached-token: 56, token usage: 0.24, #running-req: 358, #queue-req: 1594, 
+[1,0]<stdout>:[2025-10-11 20:02:34 TP0] Prefill batch. #new-seq: 27, #new-token: 7815, #cached-token: 64, token usage: 0.26, #running-req: 377, #queue-req: 1568, 
+[1,0]<stdout>:[2025-10-11 20:02:35 TP0] Prefill batch. #new-seq: 25, #new-token: 7795, #cached-token: 73, token usage: 0.27, #running-req: 397, #queue-req: 1544, 
+[1,0]<stdout>:[2025-10-11 20:02:36 TP0] Prefill batch. #new-seq: 37, #new-token: 7780, #cached-token: 96, token usage: 0.29, #running-req: 412, #queue-req: 1508, 
+[1,0]<stdout>:[2025-10-11 20:02:36 TP0] Prefill batch. #new-seq: 30, #new-token: 7752, #cached-token: 90, token usage: 0.30, #running-req: 440, #queue-req: 1479, 
+[1,0]<stdout>:[2025-10-11 20:02:37 TP0] Prefill batch. #new-seq: 34, #new-token: 7724, #cached-token: 86, token usage: 0.31, #running-req: 468, #queue-req: 1446, 
+[1,0]<stdout>:[2025-10-11 20:02:37 TP0] Prefill batch. #new-seq: 18, #new-token: 7695, #cached-token: 48, token usage: 0.33, #running-req: 497, #queue-req: 1429, 
+[1,0]<stdout>:[2025-10-11 20:02:38 TP0] Prefill batch. #new-seq: 26, #new-token: 7687, #cached-token: 97, token usage: 0.33, #running-req: 505, #queue-req: 1404, 
+[1,0]<stdout>:[2025-10-11 20:02:39 TP0] Prefill batch. #new-seq: 23, #new-token: 7669, #cached-token: 65, token usage: 0.35, #running-req: 523, #queue-req: 1382, 
+[1,0]<stdout>:[2025-10-11 20:02:40 TP0] Prefill batch. #new-seq: 24, #new-token: 7652, #cached-token: 75, token usage: 0.36, #running-req: 540, #queue-req: 1359, 
+[1,0]<stdout>:[2025-10-11 20:02:41 TP0] Prefill batch. #new-seq: 37, #new-token: 7635, #cached-token: 122, token usage: 0.38, #running-req: 557, #queue-req: 1323, 
+[1,0]<stdout>:[2025-10-11 20:02:43 TP0] Prefill batch. #new-seq: 25, #new-token: 7606, #cached-token: 59, token usage: 0.39, #running-req: 586, #queue-req: 1299, 
+[1,0]<stdout>:[2025-10-11 20:02:43 TP0] Prefill batch. #new-seq: 26, #new-token: 7593, #cached-token: 85, token usage: 0.40, #running-req: 599, #queue-req: 1274, 
+[1,0]<stdout>:[2025-10-11 20:02:44 TP0] Prefill batch. #new-seq: 9, #new-token: 7576, #cached-token: 17, token usage: 0.41, #running-req: 616, #queue-req: 1266, 
+[1,0]<stdout>:[2025-10-11 20:02:45 TP0] Prefill batch. #new-seq: 24, #new-token: 7576, #cached-token: 187, token usage: 0.42, #running-req: 616, #queue-req: 1243, 
+[1,0]<stdout>:[2025-10-11 20:02:45 TP0] Prefill batch. #new-seq: 21, #new-token: 7561, #cached-token: 47, token usage: 0.43, #running-req: 631, #queue-req: 1223, 
+[1,0]<stdout>:[2025-10-11 20:02:46 TP0] Prefill batch. #new-seq: 26, #new-token: 7544, #cached-token: 71, token usage: 0.45, #running-req: 648, #queue-req: 1198, 
+[1,0]<stdout>:[2025-10-11 20:02:47 TP0] Prefill batch. #new-seq: 20, #new-token: 7523, #cached-token: 56, token usage: 0.47, #running-req: 669, #queue-req: 1179, 
+[1,0]<stdout>:[2025-10-11 20:02:48 TP0] Prefill batch. #new-seq: 30, #new-token: 7514, #cached-token: 89, token usage: 0.48, #running-req: 678, #queue-req: 1150, 
+[1,0]<stdout>:[2025-10-11 20:02:49 TP0] Prefill batch. #new-seq: 29, #new-token: 7497, #cached-token: 1460, token usage: 0.49, #running-req: 695, #queue-req: 1121, 
+[1,0]<stdout>:[2025-10-11 20:02:50 TP0] Prefill batch. #new-seq: 31, #new-token: 7476, #cached-token: 465, token usage: 0.50, #running-req: 716, #queue-req: 1091, 
+[1,0]<stdout>:[2025-10-11 20:02:52 TP0] Prefill batch. #new-seq: 27, #new-token: 7455, #cached-token: 74, token usage: 0.51, #running-req: 737, #queue-req: 1065, 
+[1,0]<stdout>:[2025-10-11 20:02:52 TP0] Prefill batch. #new-seq: 36, #new-token: 7434, #cached-token: 110, token usage: 0.53, #running-req: 758, #queue-req: 1030, 
+[1,0]<stdout>:[2025-10-11 20:02:53 TP0] Prefill batch. #new-seq: 17, #new-token: 7407, #cached-token: 40, token usage: 0.54, #running-req: 785, #queue-req: 1014, 
+[1,0]<stdout>:[2025-10-11 20:02:54 TP0] Prefill batch. #new-seq: 21, #new-token: 7400, #cached-token: 58, token usage: 0.55, #running-req: 792, #queue-req: 994, 
+[1,0]<stdout>:[2025-10-11 20:02:55 TP0] Prefill batch. #new-seq: 19, #new-token: 7390, #cached-token: 55, token usage: 0.56, #running-req: 802, #queue-req: 976, 
+[1,0]<stdout>:[2025-10-11 20:02:56 TP0] Prefill batch. #new-seq: 25, #new-token: 7381, #cached-token: 74, token usage: 0.57, #running-req: 811, #queue-req: 952, 
+[1,0]<stdout>:[2025-10-11 20:02:56 TP0] Prefill batch. #new-seq: 19, #new-token: 7363, #cached-token: 60, token usage: 0.59, #running-req: 829, #queue-req: 934, 
+[1,0]<stdout>:[2025-10-11 20:02:58 TP0] Prefill batch. #new-seq: 18, #new-token: 7351, #cached-token: 52, token usage: 0.60, #running-req: 841, #queue-req: 917, 
+[1,0]<stdout>:[2025-10-11 20:02:59 TP0] Prefill batch. #new-seq: 14, #new-token: 7345, #cached-token: 40, token usage: 0.62, #running-req: 847, #queue-req: 904, 
+[1,0]<stdout>:[2025-10-11 20:03:00 TP0] Prefill batch. #new-seq: 32, #new-token: 7346, #cached-token: 90, token usage: 0.62, #running-req: 846, #queue-req: 873, 
+[1,0]<stdout>:[2025-10-11 20:03:01 TP0] Prefill batch. #new-seq: 13, #new-token: 5241, #cached-token: 39, token usage: 0.63, #running-req: 867, #queue-req: 861, 
+[1,0]<stdout>:[2025-10-11 20:03:02 TP0] Prefill batch. #new-seq: 19, #new-token: 5189, #cached-token: 50, token usage: 0.63, #running-req: 868, #queue-req: 842, 
+[1,0]<stdout>:[2025-10-11 20:03:04 TP0] Prefill batch. #new-seq: 7, #new-token: 1688, #cached-token: 31, token usage: 0.64, #running-req: 877, #queue-req: 835, 
+[1,0]<stdout>:[2025-10-11 20:03:05 TP0] Prefill batch. #new-seq: 9, #new-token: 2153, #cached-token: 22, token usage: 0.63, #running-req: 875, #queue-req: 826, 
+[1,0]<stdout>:[2025-10-11 20:03:05 TP0] Prefill batch. #new-seq: 13, #new-token: 3942, #cached-token: 32, token usage: 0.63, #running-req: 872, #queue-req: 813, 
+[1,0]<stdout>:[2025-10-11 20:03:06 TP0] Prefill batch. #new-seq: 12, #new-token: 3452, #cached-token: 38, token usage: 0.63, #running-req: 873, #queue-req: 801, 
+[1,0]<stdout>:[2025-10-11 20:03:07 TP0] Prefill batch. #new-seq: 6, #new-token: 2456, #cached-token: 32, token usage: 0.63, #running-req: 875, #queue-req: 795, 
+[1,0]<stdout>:[2025-10-11 20:03:08 TP0] Prefill batch. #new-seq: 14, #new-token: 2569, #cached-token: 35, token usage: 0.63, #running-req: 872, #queue-req: 781, 
+[1,0]<stdout>:[2025-10-11 20:03:09 TP0] Prefill batch. #new-seq: 7, #new-token: 2062, #cached-token: 15, token usage: 0.63, #running-req: 881, #queue-req: 774, 
+[1,0]<stdout>:[2025-10-11 20:03:09 TP0] Prefill batch. #new-seq: 3, #new-token: 883, #cached-token: 7, token usage: 0.63, #running-req: 883, #queue-req: 771, 
+[1,0]<stdout>:[2025-10-11 20:03:10 TP0] Prefill batch. #new-seq: 6, #new-token: 1021, #cached-token: 39, token usage: 0.63, #running-req: 881, #queue-req: 765, 
+[1,0]<stdout>:[2025-10-11 20:03:11 TP0] Prefill batch. #new-seq: 5, #new-token: 786, #cached-token: 18, token usage: 0.63, #running-req: 882, #queue-req: 760, 
+[1,0]<stdout>:[2025-10-11 20:03:11 TP0] Prefill batch. #new-seq: 7, #new-token: 974, #cached-token: 19, token usage: 0.63, #running-req: 880, #queue-req: 753, 
+[1,0]<stdout>:[2025-10-11 20:03:12 TP0] Prefill batch. #new-seq: 4, #new-token: 1827, #cached-token: 12, token usage: 0.63, #running-req: 879, #queue-req: 749, 
+[1,0]<stdout>:[2025-10-11 20:03:13 TP0] Prefill batch. #new-seq: 8, #new-token: 2382, #cached-token: 26, token usage: 0.63, #running-req: 872, #queue-req: 741, 
+[1,0]<stdout>:[2025-10-11 20:03:13 TP0] Prefill batch. #new-seq: 12, #new-token: 1989, #cached-token: 22, token usage: 0.62, #running-req: 871, #queue-req: 729, 
+[1,0]<stdout>:[2025-10-11 20:03:14 TP0] Prefill batch. #new-seq: 1, #new-token: 35, #cached-token: 4, token usage: 0.63, #running-req: 879, #queue-req: 728, 
+[1,0]<stdout>:[2025-10-11 20:03:14 TP0] Prefill batch. #new-seq: 3, #new-token: 1255, #cached-token: 10, token usage: 0.62, #running-req: 875, #queue-req: 725, 
+[1,0]<stdout>:[2025-10-11 20:03:15 TP0] Prefill batch. #new-seq: 3, #new-token: 1458, #cached-token: 8, token usage: 0.63, #running-req: 872, #queue-req: 722, 
+[1,0]<stdout>:[2025-10-11 20:03:16 TP0] Prefill batch. #new-seq: 6, #new-token: 997, #cached-token: 27, token usage: 0.63, #running-req: 868, #queue-req: 716, 
+[1,0]<stdout>:[2025-10-11 20:03:16 TP0] Prefill batch. #new-seq: 2, #new-token: 27, #cached-token: 6, token usage: 0.63, #running-req: 872, #queue-req: 714, 
+[1,0]<stdout>:[2025-10-11 20:03:16 TP0] Prefill batch. #new-seq: 9, #new-token: 1502, #cached-token: 70, token usage: 0.62, #running-req: 864, #queue-req: 705, 
+[1,0]<stdout>:[2025-10-11 20:03:17 TP0] Prefill batch. #new-seq: 5, #new-token: 2409, #cached-token: 16, token usage: 0.62, #running-req: 869, #queue-req: 700, 
+[1,0]<stdout>:[2025-10-11 20:03:18 TP0] Prefill batch. #new-seq: 4, #new-token: 698, #cached-token: 10, token usage: 0.63, #running-req: 867, #queue-req: 696, 
+[1,0]<stdout>:[2025-10-11 20:03:19 TP0] Prefill batch. #new-seq: 2, #new-token: 1547, #cached-token: 3, token usage: 0.63, #running-req: 865, #queue-req: 694, 
+[1,0]<stdout>:[2025-10-11 20:03:20 TP0] Prefill batch. #new-seq: 1, #new-token: 4374, #cached-token: 2, token usage: 0.62, #running-req: 854, #queue-req: 693, 
+[1,0]<stdout>:[2025-10-11 20:03:21 TP0] Prefill batch. #new-seq: 3, #new-token: 1836, #cached-token: 6, token usage: 0.63, #running-req: 847, #queue-req: 690, 
+[1,0]<stdout>:[2025-10-11 20:03:21 TP0] Prefill batch. #new-seq: 4, #new-token: 2272, #cached-token: 19, token usage: 0.63, #running-req: 844, #queue-req: 686, 
+[1,0]<stdout>:[2025-10-11 20:03:22 TP0] Prefill batch. #new-seq: 1, #new-token: 454, #cached-token: 3, token usage: 0.63, #running-req: 838, #queue-req: 685, 
+[1,0]<stdout>:[2025-10-11 20:03:22 TP0] Prefill batch. #new-seq: 3, #new-token: 2299, #cached-token: 7, token usage: 0.63, #running-req: 838, #queue-req: 682, 
+[1,0]<stdout>:[2025-10-11 20:03:23 TP0] Prefill batch. #new-seq: 2, #new-token: 59, #cached-token: 7, token usage: 0.64, #running-req: 836, #queue-req: 680, 
+[1,0]<stdout>:[2025-10-11 20:03:24 TP0] Prefill batch. #new-seq: 7, #new-token: 1442, #cached-token: 22, token usage: 0.63, #running-req: 831, #queue-req: 673, 
+[1,0]<stdout>:[2025-10-11 20:03:25 TP0] Prefill batch. #new-seq: 2, #new-token: 1190, #cached-token: 8, token usage: 0.64, #running-req: 828, #queue-req: 671, 
+[1,0]<stdout>:[2025-10-11 20:03:25 TP0] Prefill batch. #new-seq: 2, #new-token: 920, #cached-token: 9, token usage: 0.64, #running-req: 827, #queue-req: 669, 
+[1,0]<stdout>:[2025-10-11 20:03:27 TP0] Prefill batch. #new-seq: 7, #new-token: 1236, #cached-token: 27, token usage: 0.64, #running-req: 822, #queue-req: 662, 
+[1,0]<stdout>:[2025-10-11 20:03:27 TP0] Prefill batch. #new-seq: 8, #new-token: 1822, #cached-token: 27, token usage: 0.64, #running-req: 819, #queue-req: 654, 
+[1,0]<stdout>:[2025-10-11 20:03:28 TP0] Prefill batch. #new-seq: 2, #new-token: 809, #cached-token: 4, token usage: 0.64, #running-req: 822, #queue-req: 652, 
+[1,0]<stdout>:[2025-10-11 20:03:28 TP0] Prefill batch. #new-seq: 4, #new-token: 451, #cached-token: 10, token usage: 0.64, #running-req: 821, #queue-req: 648, 
+[1,0]<stdout>:[2025-10-11 20:03:29 TP0] Prefill batch. #new-seq: 2, #new-token: 2398, #cached-token: 3, token usage: 0.64, #running-req: 818, #queue-req: 646, 
+[1,0]<stdout>:[2025-10-11 20:03:30 TP0] Prefill batch. #new-seq: 2, #new-token: 30, #cached-token: 6, token usage: 0.64, #running-req: 817, #queue-req: 644, 
+[1,0]<stdout>:[2025-10-11 20:03:30 TP0] Prefill batch. #new-seq: 11, #new-token: 2427, #cached-token: 35, token usage: 0.63, #running-req: 813, #queue-req: 633, 
+[1,0]<stdout>:[2025-10-11 20:03:31 TP0] Prefill batch. #new-seq: 6, #new-token: 3305, #cached-token: 19, token usage: 0.64, #running-req: 819, #queue-req: 627, 
+[1,0]<stdout>:[2025-10-11 20:03:31 TP0] Prefill batch. #new-seq: 1, #new-token: 194, #cached-token: 2, token usage: 0.64, #running-req: 816, #queue-req: 626, 
+[1,0]<stdout>:[2025-10-11 20:03:32 TP0] Prefill batch. #new-seq: 2, #new-token: 914, #cached-token: 11, token usage: 0.64, #running-req: 811, #queue-req: 624, 
+[1,0]<stdout>:[2025-10-11 20:03:32 TP0] Prefill batch. #new-seq: 2, #new-token: 860, #cached-token: 8, token usage: 0.65, #running-req: 811, #queue-req: 622, 
+[1,0]<stdout>:[2025-10-11 20:03:32 TP0] Prefill batch. #new-seq: 5, #new-token: 941, #cached-token: 17, token usage: 0.65, #running-req: 806, #queue-req: 617, 
+[1,0]<stdout>:[2025-10-11 20:03:33 TP0] Prefill batch. #new-seq: 5, #new-token: 671, #cached-token: 17, token usage: 0.65, #running-req: 805, #queue-req: 612, 
+[1,0]<stdout>:[2025-10-11 20:03:34 TP0] Prefill batch. #new-seq: 12, #new-token: 1329, #cached-token: 34, token usage: 0.65, #running-req: 804, #queue-req: 600, 
+[1,0]<stdout>:[2025-10-11 20:03:35 TP0] Prefill batch. #new-seq: 9, #new-token: 1977, #cached-token: 24, token usage: 0.65, #running-req: 807, #queue-req: 591, 
+[1,0]<stdout>:[2025-10-11 20:03:35 TP0] Prefill batch. #new-seq: 2, #new-token: 28, #cached-token: 3, token usage: 0.65, #running-req: 814, #queue-req: 589, 
+[1,0]<stdout>:[2025-10-11 20:03:36 TP0] Prefill batch. #new-seq: 4, #new-token: 1804, #cached-token: 10, token usage: 0.65, #running-req: 813, #queue-req: 585, 
+[1,0]<stdout>:[2025-10-11 20:03:37 TP0] Prefill batch. #new-seq: 1, #new-token: 237, #cached-token: 3, token usage: 0.66, #running-req: 814, #queue-req: 584, 
+[1,0]<stdout>:[2025-10-11 20:03:37 TP0] Prefill batch. #new-seq: 3, #new-token: 489, #cached-token: 12, token usage: 0.65, #running-req: 809, #queue-req: 581, 
+[1,0]<stdout>:[2025-10-11 20:03:38 TP0] Prefill batch. #new-seq: 2, #new-token: 477, #cached-token: 882, token usage: 0.66, #running-req: 808, #queue-req: 579, 
+[1,0]<stdout>:[2025-10-11 20:03:38 TP0] Prefill batch. #new-seq: 2, #new-token: 757, #cached-token: 6, token usage: 0.66, #running-req: 807, #queue-req: 577, 
+[1,0]<stdout>:[2025-10-11 20:03:39 TP0] Prefill batch. #new-seq: 3, #new-token: 972, #cached-token: 9, token usage: 0.66, #running-req: 802, #queue-req: 574, 
+[1,0]<stdout>:[2025-10-11 20:03:40 TP0] Prefill batch. #new-seq: 4, #new-token: 510, #cached-token: 12, token usage: 0.66, #running-req: 802, #queue-req: 570, 
+[1,0]<stdout>:[2025-10-11 20:03:40 TP0] Prefill batch. #new-seq: 5, #new-token: 1376, #cached-token: 21, token usage: 0.65, #running-req: 801, #queue-req: 565, 
+[1,0]<stdout>:[2025-10-11 20:03:40 TP0] Prefill batch. #new-seq: 5, #new-token: 2334, #cached-token: 25, token usage: 0.65, #running-req: 798, #queue-req: 560, 
+[1,0]<stdout>:[2025-10-11 20:03:41 TP0] Prefill batch. #new-seq: 1, #new-token: 18, #cached-token: 3, token usage: 0.66, #running-req: 798, #queue-req: 559, 
+[1,0]<stdout>:[2025-10-11 20:03:41 TP0] Prefill batch. #new-seq: 2, #new-token: 2202, #cached-token: 3, token usage: 0.66, #running-req: 796, #queue-req: 557, 
+[1,0]<stdout>:[2025-10-11 20:03:42 TP0] Prefill batch. #new-seq: 4, #new-token: 820, #cached-token: 13, token usage: 0.66, #running-req: 790, #queue-req: 553, 
+[1,0]<stdout>:[2025-10-11 20:03:44 TP0] Prefill batch. #new-seq: 4, #new-token: 129, #cached-token: 7, token usage: 0.67, #running-req: 791, #queue-req: 549, 
+[1,0]<stdout>:[2025-10-11 20:03:44 TP0] Prefill batch. #new-seq: 5, #new-token: 330, #cached-token: 17, token usage: 0.67, #running-req: 787, #queue-req: 544, 
+[1,0]<stdout>:[2025-10-11 20:03:45 TP0] Prefill batch. #new-seq: 2, #new-token: 503, #cached-token: 5, token usage: 0.66, #running-req: 786, #queue-req: 542, 
+[1,0]<stdout>:[2025-10-11 20:03:46 TP0] Prefill batch. #new-seq: 1, #new-token: 1116, #cached-token: 3, token usage: 0.67, #running-req: 785, #queue-req: 541, 
+[1,0]<stdout>:[2025-10-11 20:03:47 TP0] Prefill batch. #new-seq: 4, #new-token: 798, #cached-token: 11, token usage: 0.67, #running-req: 782, #queue-req: 537, 
+[1,0]<stdout>:[2025-10-11 20:03:47 TP0] Prefill batch. #new-seq: 1, #new-token: 23, #cached-token: 3, token usage: 0.68, #running-req: 780, #queue-req: 536, 
+[1,0]<stdout>:[2025-10-11 20:03:47 TP0] Prefill batch. #new-seq: 5, #new-token: 1358, #cached-token: 14, token usage: 0.67, #running-req: 776, #queue-req: 531, 
+[1,0]<stdout>:[2025-10-11 20:03:48 TP0] Prefill batch. #new-seq: 1, #new-token: 25, #cached-token: 1, token usage: 0.67, #running-req: 780, #queue-req: 530, 
+[1,0]<stdout>:[2025-10-11 20:03:49 TP0] Decode batch. #running-req: 778, #token: 279039, token usage: 0.68, cuda graph: False, gen throughput (token/s): 117.89, #queue-req: 530, 
+[1,0]<stdout>:[2025-10-11 20:03:49 TP0] Prefill batch. #new-seq: 1, #new-token: 388, #cached-token: 3, token usage: 0.68, #running-req: 777, #queue-req: 529, 
+[1,0]<stdout>:[2025-10-11 20:03:50 TP0] Prefill batch. #new-seq: 2, #new-token: 168, #cached-token: 6, token usage: 0.68, #running-req: 774, #queue-req: 527, 
+[1,0]<stdout>:[2025-10-11 20:03:50 TP0] Prefill batch. #new-seq: 3, #new-token: 537, #cached-token: 7, token usage: 0.68, #running-req: 770, #queue-req: 524, 
+[1,0]<stdout>:[2025-10-11 20:03:51 TP0] Prefill batch. #new-seq: 2, #new-token: 224, #cached-token: 7, token usage: 0.69, #running-req: 772, #queue-req: 522, 
+[1,0]<stdout>:[2025-10-11 20:03:51 TP0] Prefill batch. #new-seq: 7, #new-token: 560, #cached-token: 18, token usage: 0.68, #running-req: 770, #queue-req: 515, 
+[1,0]<stdout>:[2025-10-11 20:03:51 TP0] Prefill batch. #new-seq: 2, #new-token: 16, #cached-token: 5, token usage: 0.68, #running-req: 774, #queue-req: 513, 
+[1,0]<stdout>:[2025-10-11 20:03:53 TP0] Prefill batch. #new-seq: 3, #new-token: 2044, #cached-token: 6, token usage: 0.68, #running-req: 772, #queue-req: 510, 
+[1,0]<stdout>:[2025-10-11 20:03:53 TP0] Prefill batch. #new-seq: 6, #new-token: 1308, #cached-token: 12, token usage: 0.69, #running-req: 768, #queue-req: 504, 
+[1,0]<stdout>:[2025-10-11 20:03:54 TP0] Prefill batch. #new-seq: 1, #new-token: 263, #cached-token: 5, token usage: 0.69, #running-req: 772, #queue-req: 503, 
+[1,0]<stdout>:[2025-10-11 20:03:54 TP0] Prefill batch. #new-seq: 1, #new-token: 335, #cached-token: 5, token usage: 0.69, #running-req: 771, #queue-req: 502, 
+[1,0]<stdout>:[2025-10-11 20:03:55 TP0] Prefill batch. #new-seq: 2, #new-token: 62, #cached-token: 3, token usage: 0.69, #running-req: 771, #queue-req: 500, 
+[1,0]<stdout>:[2025-10-11 20:03:55 TP0] Prefill batch. #new-seq: 2, #new-token: 1490, #cached-token: 7, token usage: 0.69, #running-req: 770, #queue-req: 498, 
+[1,0]<stdout>:[2025-10-11 20:03:56 TP0] Prefill batch. #new-seq: 4, #new-token: 958, #cached-token: 17, token usage: 0.69, #running-req: 768, #queue-req: 494, 
+[1,0]<stdout>:[2025-10-11 20:03:56 TP0] Prefill batch. #new-seq: 4, #new-token: 782, #cached-token: 10, token usage: 0.69, #running-req: 768, #queue-req: 490, 
+[1,0]<stdout>:[2025-10-11 20:03:58 TP0] Prefill batch. #new-seq: 3, #new-token: 909, #cached-token: 15, token usage: 0.70, #running-req: 767, #queue-req: 487, 
+[1,0]<stdout>:[2025-10-11 20:03:59 TP0] Prefill batch. #new-seq: 1, #new-token: 151, #cached-token: 2, token usage: 0.70, #running-req: 766, #queue-req: 486, 
+[1,0]<stdout>:[2025-10-11 20:04:00 TP0] Prefill batch. #new-seq: 3, #new-token: 1028, #cached-token: 9, token usage: 0.70, #running-req: 763, #queue-req: 483, 
+[1,0]<stdout>:[2025-10-11 20:04:01 TP0] Prefill batch. #new-seq: 2, #new-token: 27, #cached-token: 3, token usage: 0.70, #running-req: 764, #queue-req: 481, 
+[1,0]<stdout>:[2025-10-11 20:04:02 TP0] Prefill batch. #new-seq: 2, #new-token: 50, #cached-token: 4, token usage: 0.70, #running-req: 764, #queue-req: 479, 
+[1,0]<stdout>:[2025-10-11 20:04:03 TP0] Prefill batch. #new-seq: 1, #new-token: 720, #cached-token: 3, token usage: 0.70, #running-req: 761, #queue-req: 478, 
+[1,0]<stdout>:[2025-10-11 20:04:03 TP0] Prefill batch. #new-seq: 4, #new-token: 3028, #cached-token: 12, token usage: 0.70, #running-req: 754, #queue-req: 474, 
+[1,0]<stdout>:[2025-10-11 20:04:04 TP0] Prefill batch. #new-seq: 7, #new-token: 1004, #cached-token: 18, token usage: 0.70, #running-req: 753, #queue-req: 467, 
+[1,0]<stdout>:[2025-10-11 20:04:05 TP0] Prefill batch. #new-seq: 1, #new-token: 27, #cached-token: 4, token usage: 0.71, #running-req: 760, #queue-req: 466, 
+[1,0]<stdout>:[2025-10-11 20:04:07 TP0] Prefill batch. #new-seq: 7, #new-token: 2377, #cached-token: 28, token usage: 0.70, #running-req: 754, #queue-req: 459, 
+[1,0]<stdout>:[2025-10-11 20:04:07 TP0] Prefill batch. #new-seq: 3, #new-token: 540, #cached-token: 5, token usage: 0.70, #running-req: 755, #queue-req: 456, 
+[1,0]<stdout>:[2025-10-11 20:04:08 TP0] Prefill batch. #new-seq: 7, #new-token: 2249, #cached-token: 13, token usage: 0.71, #running-req: 754, #queue-req: 449, 
+[1,0]<stdout>:[2025-10-11 20:04:09 TP0] Prefill batch. #new-seq: 2, #new-token: 267, #cached-token: 5, token usage: 0.71, #running-req: 757, #queue-req: 447, 
+[1,0]<stdout>:[2025-10-11 20:04:09 TP0] Prefill batch. #new-seq: 2, #new-token: 139, #cached-token: 5, token usage: 0.71, #running-req: 754, #queue-req: 445, 
+[1,0]<stdout>:[2025-10-11 20:04:10 TP0] Prefill batch. #new-seq: 1, #new-token: 1864, #cached-token: 1, token usage: 0.71, #running-req: 751, #queue-req: 444, 
+[1,0]<stdout>:[2025-10-11 20:04:11 TP0] Prefill batch. #new-seq: 3, #new-token: 1099, #cached-token: 6, token usage: 0.71, #running-req: 750, #queue-req: 441, 
+[1,0]<stdout>:[2025-10-11 20:04:11 TP0] Prefill batch. #new-seq: 9, #new-token: 669, #cached-token: 30, token usage: 0.71, #running-req: 747, #queue-req: 432, 
+[1,0]<stdout>:[2025-10-11 20:04:11 TP0] Prefill batch. #new-seq: 5, #new-token: 1091, #cached-token: 420, token usage: 0.71, #running-req: 752, #queue-req: 427, 
+[1,0]<stdout>:[2025-10-11 20:04:12 TP0] Prefill batch. #new-seq: 2, #new-token: 22, #cached-token: 6, token usage: 0.71, #running-req: 754, #queue-req: 425, 
+[1,0]<stdout>:[2025-10-11 20:04:12 TP0] Prefill batch. #new-seq: 3, #new-token: 320, #cached-token: 7, token usage: 0.71, #running-req: 754, #queue-req: 422, 
+[1,0]<stdout>:[2025-10-11 20:04:13 TP0] Prefill batch. #new-seq: 2, #new-token: 1392, #cached-token: 11, token usage: 0.71, #running-req: 756, #queue-req: 420, 
+[1,0]<stdout>:[2025-10-11 20:04:14 TP0] Prefill batch. #new-seq: 5, #new-token: 1729, #cached-token: 10, token usage: 0.72, #running-req: 754, #queue-req: 415, 
+[1,0]<stdout>:[2025-10-11 20:04:15 TP0] Prefill batch. #new-seq: 8, #new-token: 1619, #cached-token: 20, token usage: 0.71, #running-req: 750, #queue-req: 407, 
+[1,0]<stdout>:[2025-10-11 20:04:16 TP0] Prefill batch. #new-seq: 4, #new-token: 2829, #cached-token: 14, token usage: 0.71, #running-req: 754, #queue-req: 403, 
+[1,0]<stdout>:[2025-10-11 20:04:16 TP0] Prefill batch. #new-seq: 1, #new-token: 850, #cached-token: 6, token usage: 0.72, #running-req: 756, #queue-req: 402, 
+[1,0]<stdout>:[2025-10-11 20:04:17 TP0] Prefill batch. #new-seq: 2, #new-token: 436, #cached-token: 4, token usage: 0.72, #running-req: 752, #queue-req: 400, 
+[1,0]<stdout>:[2025-10-11 20:04:18 TP0] Prefill batch. #new-seq: 4, #new-token: 1406, #cached-token: 13, token usage: 0.72, #running-req: 752, #queue-req: 396, 
+[1,0]<stdout>:[2025-10-11 20:04:19 TP0] Prefill batch. #new-seq: 2, #new-token: 648, #cached-token: 3, token usage: 0.72, #running-req: 748, #queue-req: 394, 
+[1,0]<stdout>:[2025-10-11 20:04:19 TP0] Prefill batch. #new-seq: 3, #new-token: 553, #cached-token: 5, token usage: 0.72, #running-req: 746, #queue-req: 391, 
+[1,0]<stdout>:[2025-10-11 20:04:20 TP0] Prefill batch. #new-seq: 2, #new-token: 92, #cached-token: 3, token usage: 0.72, #running-req: 744, #queue-req: 389, 
+[1,0]<stdout>:[2025-10-11 20:04:20 TP0] Prefill batch. #new-seq: 3, #new-token: 1783, #cached-token: 9, token usage: 0.72, #running-req: 738, #queue-req: 386, 
+[1,0]<stdout>:[2025-10-11 20:04:21 TP0] Prefill batch. #new-seq: 2, #new-token: 764, #cached-token: 4, token usage: 0.73, #running-req: 737, #queue-req: 384, 
+[1,0]<stdout>:[2025-10-11 20:04:22 TP0] Prefill batch. #new-seq: 8, #new-token: 2811, #cached-token: 30, token usage: 0.73, #running-req: 734, #queue-req: 376, 
+[1,0]<stdout>:[2025-10-11 20:04:22 TP0] Prefill batch. #new-seq: 3, #new-token: 1607, #cached-token: 12, token usage: 0.73, #running-req: 738, #queue-req: 373, 
+[1,0]<stdout>:[2025-10-11 20:04:23 TP0] Prefill batch. #new-seq: 2, #new-token: 1322, #cached-token: 6, token usage: 0.73, #running-req: 734, #queue-req: 371, 
+[1,0]<stdout>:[2025-10-11 20:04:24 TP0] Prefill batch. #new-seq: 3, #new-token: 674, #cached-token: 9, token usage: 0.74, #running-req: 733, #queue-req: 368, 
+[1,0]<stdout>:[2025-10-11 20:04:24 TP0] Prefill batch. #new-seq: 2, #new-token: 67, #cached-token: 5, token usage: 0.74, #running-req: 732, #queue-req: 366, 
+[1,0]<stdout>:[2025-10-11 20:04:24 TP0] Prefill batch. #new-seq: 5, #new-token: 1191, #cached-token: 15, token usage: 0.74, #running-req: 731, #queue-req: 361, 
+[1,0]<stdout>:[2025-10-11 20:04:25 TP0] Prefill batch. #new-seq: 3, #new-token: 349, #cached-token: 4, token usage: 0.74, #running-req: 734, #queue-req: 358, 
+[1,0]<stdout>:[2025-10-11 20:04:25 TP0] Prefill batch. #new-seq: 3, #new-token: 1169, #cached-token: 8, token usage: 0.74, #running-req: 733, #queue-req: 355, 
+[1,0]<stdout>:[2025-10-11 20:04:25 TP0] Prefill batch. #new-seq: 1, #new-token: 6, #cached-token: 3, token usage: 0.74, #running-req: 733, #queue-req: 354, 
+[1,0]<stdout>:[2025-10-11 20:04:25 TP0] Prefill batch. #new-seq: 2, #new-token: 393, #cached-token: 5, token usage: 0.74, #running-req: 730, #queue-req: 352, 
+[1,0]<stdout>:[2025-10-11 20:04:26 TP0] Prefill batch. #new-seq: 8, #new-token: 1131, #cached-token: 21, token usage: 0.74, #running-req: 727, #queue-req: 344, 
+[1,0]<stdout>:[2025-10-11 20:04:26 TP0] Prefill batch. #new-seq: 1, #new-token: 485, #cached-token: 3, token usage: 0.74, #running-req: 734, #queue-req: 343, 
+[1,0]<stdout>:[2025-10-11 20:04:26 TP0] Prefill batch. #new-seq: 3, #new-token: 1466, #cached-token: 12, token usage: 0.74, #running-req: 731, #queue-req: 340, 
+[1,0]<stdout>:[2025-10-11 20:04:29 TP0] Prefill batch. #new-seq: 5, #new-token: 2974, #cached-token: 12, token usage: 0.74, #running-req: 726, #queue-req: 335, 
+[1,0]<stdout>:[2025-10-11 20:04:29 TP0] Prefill batch. #new-seq: 2, #new-token: 468, #cached-token: 7, token usage: 0.75, #running-req: 725, #queue-req: 333, 
+[1,0]<stdout>:[2025-10-11 20:04:29 TP0] Prefill batch. #new-seq: 6, #new-token: 1491, #cached-token: 23, token usage: 0.74, #running-req: 721, #queue-req: 327, 
+[1,0]<stdout>:[2025-10-11 20:04:29 TP0] Prefill batch. #new-seq: 8, #new-token: 1948, #cached-token: 19, token usage: 0.74, #running-req: 721, #queue-req: 319, 
+[1,0]<stdout>:[2025-10-11 20:04:30 TP0] Prefill batch. #new-seq: 3, #new-token: 512, #cached-token: 11, token usage: 0.74, #running-req: 726, #queue-req: 316, 
+[1,0]<stdout>:[2025-10-11 20:04:30 TP0] Prefill batch. #new-seq: 1, #new-token: 130, #cached-token: 4, token usage: 0.75, #running-req: 727, #queue-req: 315, 
+[1,0]<stdout>:[2025-10-11 20:04:30 TP0] Prefill batch. #new-seq: 1, #new-token: 576, #cached-token: 3, token usage: 0.74, #running-req: 722, #queue-req: 314, 
+[1,0]<stdout>:[2025-10-11 20:04:32 TP0] Prefill batch. #new-seq: 7, #new-token: 2888, #cached-token: 20, token usage: 0.74, #running-req: 718, #queue-req: 307, 
+[1,0]<stdout>:[2025-10-11 20:04:32 TP0] Prefill batch. #new-seq: 6, #new-token: 2163, #cached-token: 17, token usage: 0.74, #running-req: 715, #queue-req: 301, 
+[1,0]<stdout>:[2025-10-11 20:04:33 TP0] Prefill batch. #new-seq: 2, #new-token: 260, #cached-token: 7, token usage: 0.75, #running-req: 720, #queue-req: 299, 
+[1,0]<stdout>:[2025-10-11 20:04:33 TP0] Prefill batch. #new-seq: 2, #new-token: 502, #cached-token: 3, token usage: 0.75, #running-req: 718, #queue-req: 297, 
+[1,0]<stdout>:[2025-10-11 20:04:34 TP0] Prefill batch. #new-seq: 8, #new-token: 2332, #cached-token: 24, token usage: 0.74, #running-req: 714, #queue-req: 289, 
+[1,0]<stdout>:[2025-10-11 20:04:34 TP0] Prefill batch. #new-seq: 7, #new-token: 1212, #cached-token: 14, token usage: 0.74, #running-req: 715, #queue-req: 282, 
+[1,0]<stdout>:[2025-10-11 20:04:35 TP0] Prefill batch. #new-seq: 1, #new-token: 1342, #cached-token: 4, token usage: 0.75, #running-req: 719, #queue-req: 281, 
+[1,0]<stdout>:[2025-10-11 20:04:36 TP0] Prefill batch. #new-seq: 4, #new-token: 3685, #cached-token: 14, token usage: 0.74, #running-req: 711, #queue-req: 277, 
+[1,0]<stdout>:[2025-10-11 20:04:36 TP0] Decode batch. #running-req: 711, #token: 308423, token usage: 0.75, cuda graph: False, gen throughput (token/s): 639.18, #queue-req: 277, 
+[1,0]<stdout>:[2025-10-11 20:04:36 TP0] Prefill batch. #new-seq: 4, #new-token: 870, #cached-token: 8, token usage: 0.75, #running-req: 710, #queue-req: 273, 
+[1,0]<stdout>:[2025-10-11 20:04:36 TP0] Prefill batch. #new-seq: 3, #new-token: 772, #cached-token: 12, token usage: 0.75, #running-req: 710, #queue-req: 270, 
+[1,0]<stdout>:[2025-10-11 20:04:37 TP0] Prefill batch. #new-seq: 1, #new-token: 3484, #cached-token: 3, token usage: 0.75, #running-req: 708, #queue-req: 269, 
+[1,0]<stdout>:[2025-10-11 20:04:39 TP0] Prefill batch. #new-seq: 9, #new-token: 363, #cached-token: 21, token usage: 0.76, #running-req: 705, #queue-req: 260, 
+[1,0]<stdout>:[2025-10-11 20:04:39 TP0] Prefill batch. #new-seq: 2, #new-token: 663, #cached-token: 8, token usage: 0.76, #running-req: 712, #queue-req: 258, 
+[1,0]<stdout>:[2025-10-11 20:04:39 TP0] Prefill batch. #new-seq: 1, #new-token: 42, #cached-token: 1, token usage: 0.76, #running-req: 711, #queue-req: 257, 
+[1,0]<stdout>:[2025-10-11 20:04:39 TP0] Prefill batch. #new-seq: 1, #new-token: 2036, #cached-token: 4, token usage: 0.76, #running-req: 708, #queue-req: 256, 
+[1,0]<stdout>:[2025-10-11 20:04:41 TP0] Prefill batch. #new-seq: 1, #new-token: 108, #cached-token: 8, token usage: 0.76, #running-req: 705, #queue-req: 255, 
+[1,0]<stdout>:[2025-10-11 20:04:42 TP0] Prefill batch. #new-seq: 9, #new-token: 4913, #cached-token: 24, token usage: 0.76, #running-req: 697, #queue-req: 246, 
+[1,0]<stdout>:[2025-10-11 20:04:43 TP0] Prefill batch. #new-seq: 6, #new-token: 900, #cached-token: 23, token usage: 0.76, #running-req: 699, #queue-req: 240, 
+[1,0]<stdout>:[2025-10-11 20:04:44 TP0] Prefill batch. #new-seq: 4, #new-token: 204, #cached-token: 8, token usage: 0.77, #running-req: 702, #queue-req: 236, 
+[1,0]<stdout>:[2025-10-11 20:04:44 TP0] Prefill batch. #new-seq: 2, #new-token: 894, #cached-token: 11, token usage: 0.77, #running-req: 703, #queue-req: 234, 
+[1,0]<stdout>:[2025-10-11 20:04:44 TP0] Prefill batch. #new-seq: 3, #new-token: 898, #cached-token: 4, token usage: 0.76, #running-req: 703, #queue-req: 231, 
+[1,0]<stdout>:[2025-10-11 20:04:45 TP0] Prefill batch. #new-seq: 7, #new-token: 1836, #cached-token: 26, token usage: 0.76, #running-req: 698, #queue-req: 224, 
+[1,0]<stdout>:[2025-10-11 20:04:45 TP0] Prefill batch. #new-seq: 3, #new-token: 1202, #cached-token: 5, token usage: 0.76, #running-req: 701, #queue-req: 221, 
+[1,0]<stdout>:[2025-10-11 20:04:46 TP0] Prefill batch. #new-seq: 2, #new-token: 2544, #cached-token: 5, token usage: 0.76, #running-req: 700, #queue-req: 219, 
+[1,0]<stdout>:[2025-10-11 20:04:46 TP0] Prefill batch. #new-seq: 1, #new-token: 624, #cached-token: 4, token usage: 0.77, #running-req: 693, #queue-req: 218, 
+[1,0]<stdout>:[2025-10-11 20:04:46 TP0] Prefill batch. #new-seq: 5, #new-token: 720, #cached-token: 16, token usage: 0.77, #running-req: 690, #queue-req: 213, 
+[1,0]<stdout>:[2025-10-11 20:04:47 TP0] Prefill batch. #new-seq: 1, #new-token: 816, #cached-token: 6, token usage: 0.77, #running-req: 693, #queue-req: 212, 
+[1,0]<stdout>:[2025-10-11 20:04:47 TP0] Prefill batch. #new-seq: 6, #new-token: 1315, #cached-token: 22, token usage: 0.77, #running-req: 688, #queue-req: 206, 
+[1,0]<stdout>:[2025-10-11 20:04:48 TP0] Prefill batch. #new-seq: 2, #new-token: 833, #cached-token: 7, token usage: 0.77, #running-req: 691, #queue-req: 204, 
+[1,0]<stdout>:[2025-10-11 20:04:48 TP0] Prefill batch. #new-seq: 7, #new-token: 958, #cached-token: 24, token usage: 0.77, #running-req: 686, #queue-req: 197, 
+[1,0]<stdout>:[2025-10-11 20:04:48 TP0] Prefill batch. #new-seq: 1, #new-token: 125, #cached-token: 2, token usage: 0.77, #running-req: 691, #queue-req: 196, 
+[1,0]<stdout>:[2025-10-11 20:04:49 TP0] Prefill batch. #new-seq: 2, #new-token: 794, #cached-token: 7, token usage: 0.77, #running-req: 689, #queue-req: 194, 
+[1,0]<stdout>:[2025-10-11 20:04:49 TP0] Prefill batch. #new-seq: 3, #new-token: 1315, #cached-token: 9, token usage: 0.77, #running-req: 687, #queue-req: 191, 
+[1,0]<stdout>:[2025-10-11 20:04:50 TP0] Prefill batch. #new-seq: 3, #new-token: 485, #cached-token: 5, token usage: 0.77, #running-req: 687, #queue-req: 188, 
+[1,0]<stdout>:[2025-10-11 20:04:50 TP0] Prefill batch. #new-seq: 10, #new-token: 2928, #cached-token: 36, token usage: 0.77, #running-req: 684, #queue-req: 178, 
+[1,0]<stdout>:[2025-10-11 20:04:51 TP0] Prefill batch. #new-seq: 4, #new-token: 913, #cached-token: 12, token usage: 0.77, #running-req: 687, #queue-req: 174, 
+[1,0]<stdout>:[2025-10-11 20:04:52 TP0] Prefill batch. #new-seq: 6, #new-token: 2264, #cached-token: 19, token usage: 0.77, #running-req: 686, #queue-req: 168, 
+[1,0]<stdout>:[2025-10-11 20:04:53 TP0] Prefill batch. #new-seq: 14, #new-token: 2648, #cached-token: 42, token usage: 0.77, #running-req: 683, #queue-req: 154, 
+[1,0]<stdout>:[2025-10-11 20:04:55 TP0] Prefill batch. #new-seq: 2, #new-token: 1733, #cached-token: 9, token usage: 0.78, #running-req: 689, #queue-req: 152, 
+[1,0]<stdout>:[2025-10-11 20:04:58 TP0] Prefill batch. #new-seq: 2, #new-token: 2769, #cached-token: 4, token usage: 0.78, #running-req: 680, #queue-req: 150, 
+[1,0]<stdout>:[2025-10-11 20:04:59 TP0] Prefill batch. #new-seq: 8, #new-token: 2907, #cached-token: 19, token usage: 0.78, #running-req: 674, #queue-req: 142, 
+[1,0]<stdout>:[2025-10-11 20:04:59 TP0] Prefill batch. #new-seq: 1, #new-token: 687, #cached-token: 3, token usage: 0.79, #running-req: 680, #queue-req: 141, 
+[1,0]<stdout>:[2025-10-11 20:04:59 TP0] Prefill batch. #new-seq: 3, #new-token: 589, #cached-token: 14, token usage: 0.79, #running-req: 678, #queue-req: 138, 
+[1,0]<stdout>:[2025-10-11 20:05:00 TP0] Prefill batch. #new-seq: 4, #new-token: 1105, #cached-token: 5, token usage: 0.79, #running-req: 676, #queue-req: 134, 
+[1,0]<stdout>:[2025-10-11 20:05:00 TP0] Prefill batch. #new-seq: 5, #new-token: 1624, #cached-token: 16, token usage: 0.78, #running-req: 678, #queue-req: 129, 
+[1,0]<stdout>:[2025-10-11 20:05:00 TP0] Prefill batch. #new-seq: 2, #new-token: 869, #cached-token: 9, token usage: 0.79, #running-req: 680, #queue-req: 127, 
+[1,0]<stdout>:[2025-10-11 20:05:02 TP0] Prefill batch. #new-seq: 1, #new-token: 1170, #cached-token: 4, token usage: 0.79, #running-req: 678, #queue-req: 126, 
+[1,0]<stdout>:[2025-10-11 20:05:02 TP0] Prefill batch. #new-seq: 2, #new-token: 231, #cached-token: 6, token usage: 0.79, #running-req: 675, #queue-req: 124, 
+[1,0]<stdout>:[2025-10-11 20:05:03 TP0] Prefill batch. #new-seq: 2, #new-token: 3773, #cached-token: 3, token usage: 0.79, #running-req: 669, #queue-req: 122, 
+[1,0]<stdout>:[2025-10-11 20:05:03 TP0] Prefill batch. #new-seq: 5, #new-token: 1895, #cached-token: 15, token usage: 0.79, #running-req: 665, #queue-req: 117, 
+[1,0]<stdout>:[2025-10-11 20:05:04 TP0] Prefill batch. #new-seq: 1, #new-token: 3145, #cached-token: 2, token usage: 0.79, #running-req: 662, #queue-req: 116, 
+[1,0]<stdout>:[2025-10-11 20:05:04 TP0] Prefill batch. #new-seq: 1, #new-token: 412, #cached-token: 3, token usage: 0.80, #running-req: 661, #queue-req: 115, 
+[1,0]<stdout>:[2025-10-11 20:05:05 TP0] Prefill batch. #new-seq: 4, #new-token: 1823, #cached-token: 10, token usage: 0.79, #running-req: 657, #queue-req: 111, 
+[1,0]<stdout>:[2025-10-11 20:05:05 TP0] Prefill batch. #new-seq: 1, #new-token: 14, #cached-token: 3, token usage: 0.80, #running-req: 657, #queue-req: 110, 
+[1,0]<stdout>:[2025-10-11 20:05:06 TP0] Prefill batch. #new-seq: 7, #new-token: 1541, #cached-token: 15, token usage: 0.79, #running-req: 654, #queue-req: 103, 
+[1,0]<stdout>:[2025-10-11 20:05:06 TP0] Prefill batch. #new-seq: 3, #new-token: 752, #cached-token: 4, token usage: 0.79, #running-req: 658, #queue-req: 100, 
+[1,0]<stdout>:[2025-10-11 20:05:06 TP0] Prefill batch. #new-seq: 6, #new-token: 1330, #cached-token: 19, token usage: 0.79, #running-req: 659, #queue-req: 94, 
+[1,0]<stdout>:[2025-10-11 20:05:07 TP0] Prefill batch. #new-seq: 1, #new-token: 364, #cached-token: 6, token usage: 0.79, #running-req: 664, #queue-req: 93, 
+[1,0]<stdout>:[2025-10-11 20:05:07 TP0] Prefill batch. #new-seq: 8, #new-token: 3366, #cached-token: 17, token usage: 0.79, #running-req: 657, #queue-req: 85, 
+[1,0]<stdout>:[2025-10-11 20:05:09 TP0] Prefill batch. #new-seq: 6, #new-token: 2836, #cached-token: 13, token usage: 0.79, #running-req: 653, #queue-req: 79, 
+[1,0]<stdout>:[2025-10-11 20:05:09 TP0] Prefill batch. #new-seq: 6, #new-token: 882, #cached-token: 16, token usage: 0.79, #running-req: 653, #queue-req: 73, 
+[1,0]<stdout>:[2025-10-11 20:05:10 TP0] Prefill batch. #new-seq: 15, #new-token: 3435, #cached-token: 53, token usage: 0.79, #running-req: 651, #queue-req: 58, 
+[1,0]<stdout>:[2025-10-11 20:05:12 TP0] Prefill batch. #new-seq: 12, #new-token: 3751, #cached-token: 26, token usage: 0.79, #running-req: 659, #queue-req: 46, 
+[1,0]<stdout>:[2025-10-11 20:05:12 TP0] Prefill batch. #new-seq: 5, #new-token: 575, #cached-token: 17, token usage: 0.80, #running-req: 664, #queue-req: 41, 
+[1,0]<stdout>:[2025-10-11 20:05:13 TP0] Prefill batch. #new-seq: 2, #new-token: 1183, #cached-token: 11, token usage: 0.80, #running-req: 663, #queue-req: 39, 
+[1,0]<stdout>:[2025-10-11 20:05:14 TP0] Prefill batch. #new-seq: 9, #new-token: 3737, #cached-token: 17, token usage: 0.79, #running-req: 658, #queue-req: 30, 
+[1,0]<stdout>:[2025-10-11 20:05:14 TP0] Prefill batch. #new-seq: 5, #new-token: 1912, #cached-token: 8, token usage: 0.79, #running-req: 662, #queue-req: 25, 
+[1,0]<stdout>:[2025-10-11 20:05:15 TP0] Prefill batch. #new-seq: 7, #new-token: 2454, #cached-token: 21, token usage: 0.79, #running-req: 661, #queue-req: 18, 
+[1,0]<stdout>:[2025-10-11 20:05:16 TP0] Prefill batch. #new-seq: 3, #new-token: 316, #cached-token: 10, token usage: 0.80, #running-req: 666, #queue-req: 15, 
+[1,0]<stdout>:[2025-10-11 20:05:17 TP0] Prefill batch. #new-seq: 4, #new-token: 1375, #cached-token: 12, token usage: 0.79, #running-req: 665, #queue-req: 11, 
+[1,0]<stdout>:[2025-10-11 20:05:17 TP0] Prefill batch. #new-seq: 2, #new-token: 231, #cached-token: 3, token usage: 0.79, #running-req: 666, #queue-req: 9, 
+[1,0]<stdout>:[2025-10-11 20:05:18 TP0] Prefill batch. #new-seq: 9, #new-token: 2240, #cached-token: 27, token usage: 0.79, #running-req: 661, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:05:21 TP0] Decode batch. #running-req: 654, #token: 318383, token usage: 0.78, cuda graph: False, gen throughput (token/s): 609.95, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:05:28 TP0] Decode batch. #running-req: 536, #token: 278670, token usage: 0.68, cuda graph: False, gen throughput (token/s): 3156.60, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:05:33 TP0] Decode batch. #running-req: 455, #token: 254723, token usage: 0.62, cuda graph: False, gen throughput (token/s): 3743.40, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:05:39 TP0] Decode batch. #running-req: 389, #token: 232146, token usage: 0.57, cuda graph: False, gen throughput (token/s): 3232.05, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:05:45 TP0] Decode batch. #running-req: 326, #token: 213636, token usage: 0.52, cuda graph: False, gen throughput (token/s): 2338.55, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:05:50 TP0] Decode batch. #running-req: 264, #token: 193889, token usage: 0.47, cuda graph: False, gen throughput (token/s): 2294.79, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:05:55 TP0] Decode batch. #running-req: 226, #token: 174533, token usage: 0.43, cuda graph: False, gen throughput (token/s): 1914.52, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:00 TP0] Decode batch. #running-req: 175, #token: 146837, token usage: 0.36, cuda graph: False, gen throughput (token/s): 1474.59, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:06 TP0] Decode batch. #running-req: 137, #token: 127652, token usage: 0.31, cuda graph: False, gen throughput (token/s): 1087.80, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:12 TP0] Decode batch. #running-req: 118, #token: 118418, token usage: 0.29, cuda graph: False, gen throughput (token/s): 858.88, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:17 TP0] Decode batch. #running-req: 101, #token: 109383, token usage: 0.27, cuda graph: False, gen throughput (token/s): 796.34, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:23 TP0] Decode batch. #running-req: 73, #token: 80627, token usage: 0.20, cuda graph: False, gen throughput (token/s): 662.30, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:29 TP0] Decode batch. #running-req: 57, #token: 58766, token usage: 0.14, cuda graph: False, gen throughput (token/s): 429.59, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:34 TP0] Decode batch. #running-req: 41, #token: 43442, token usage: 0.11, cuda graph: False, gen throughput (token/s): 397.55, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:38 TP0] Decode batch. #running-req: 35, #token: 38713, token usage: 0.09, cuda graph: False, gen throughput (token/s): 314.17, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:43 TP0] Decode batch. #running-req: 30, #token: 34827, token usage: 0.08, cuda graph: False, gen throughput (token/s): 249.09, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:48 TP0] Decode batch. #running-req: 17, #token: 20313, token usage: 0.05, cuda graph: False, gen throughput (token/s): 187.24, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:53 TP0] Decode batch. #running-req: 13, #token: 15083, token usage: 0.04, cuda graph: False, gen throughput (token/s): 122.88, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:06:59 TP0] Decode batch. #running-req: 11, #token: 13382, token usage: 0.03, cuda graph: False, gen throughput (token/s): 86.64, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:07:04 TP0] Decode batch. #running-req: 5, #token: 6473, token usage: 0.02, cuda graph: False, gen throughput (token/s): 73.22, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:07:09 TP0] Decode batch. #running-req: 4, #token: 4260, token usage: 0.01, cuda graph: False, gen throughput (token/s): 31.21, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:07:14 TP0] Decode batch. #running-req: 3, #token: 4380, token usage: 0.01, cuda graph: False, gen throughput (token/s): 25.29, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:07:18 TP0] Decode batch. #running-req: 2, #token: 3150, token usage: 0.01, cuda graph: False, gen throughput (token/s): 18.24, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:07:23 TP0] Decode batch. #running-req: 1, #token: 1716, token usage: 0.00, cuda graph: False, gen throughput (token/s): 13.00, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:07:28 TP0] Decode batch. #running-req: 1, #token: 1756, token usage: 0.00, cuda graph: False, gen throughput (token/s): 8.43, #queue-req: 0, 
+[1,0]<stdout>:[2025-10-11 20:07:33 TP0] Decode batch. #running-req: 1, #token: 1796, token usage: 0.00, cuda graph: False, gen throughput (token/s): 8.29, #queue-req: 0, 
+[1,0]<stdout>:
+[1,0]<stdout>:====== Offline Throughput Benchmark Result =======
+[1,0]<stdout>:Backend:                                 engine    
+[1,0]<stdout>:Successful requests:                     2000      
+[1,0]<stdout>:Benchmark duration (s):                  306.77    
+[1,0]<stdout>:Total input tokens:                      626729    
+[1,0]<stdout>:Total generated tokens:                  388685    
+[1,0]<stdout>:Last generation throughput (tok/s):      8.29      
+[1,0]<stdout>:Request throughput (req/s):              6.52      
+[1,0]<stdout>:Input token throughput (tok/s):          2042.98   
+[1,0]<stdout>:Output token throughput (tok/s):         1267.01   
+[1,0]<stdout>:Total token throughput (tok/s):          3309.99   
+[1,0]<stdout>:==================================================
+[1,1]<stdout>:[2025-10-11 20:07:35 TP10] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2578, in run_scheduler_process
+[1,1]<stdout>:    scheduler.event_loop_overlap()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 789, in event_loop_overlap
+[1,1]<stdout>:    recv_reqs = self.recv_requests()
+[1,1]<stdout>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1040, in recv_requests
+[1,1]<stdout>:    recv_reqs = broadcast_pyobj(
+[1,1]<stdout>:                ^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1094, in broadcast_pyobj
+[1,1]<stdout>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stdout>:    work.wait()
+[1,1]<stdout>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.82]:54699
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-11 20:07:35] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stdout>:[2025-10-11 20:07:35 TP15] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2578, in run_scheduler_process
+[1,1]<stdout>:    scheduler.event_loop_overlap()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 789, in event_loop_overlap
+[1,1]<stdout>:    recv_reqs = self.recv_requests()
+[1,1]<stdout>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1040, in recv_requests
+[1,1]<stdout>:    recv_reqs = broadcast_pyobj(
+[1,1]<stdout>:                ^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1094, in broadcast_pyobj
+[1,1]<stdout>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stdout>:    work.wait()
+[1,1]<stdout>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.82]:2968
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-11 20:07:35] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>:bash: line 4: 2322020 Killed                  '/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3' -m sglang.bench_offline_throughput --model-path '/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1' --dataset-path '/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json' --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --node-rank ${OMPI_COMM_WORLD_RANK} --dist-init-addr ${DIST_INIT_ADDR}:5000 --trust-remote-code --schedule-policy fcfs --schedule-conservativeness 1.0 --attention-backend flashinfer --enable-torch-compile --disable-cuda-graph --kv-cache-dtype auto --mem-fraction-static 0.88 --context-length 32768 --enable-p2p-check --chunked-prefill-size 8192 --max-prefill-tokens 16384 --max-running-requests 2048 --enable-mixed-chunk --watchdog-timeout 600 2>&1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[8445,1],1]
+  Exit code:    137
+--------------------------------------------------------------------------
+
+real	7m58.621s
+user	0m0.050s
+sys	0m0.111s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-11 20:07:56.349296:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 97045.pbs111
+	Project: 50000128
+	Exit Status: 137
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 01:14:38
+	Memory: Requested(3760gb), Used(37022728kb)
+	Vmem Used: 63491573824kb
+	Walltime: Requested(00:15:00), Used(00:08:13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx008:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx014:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 8.38mins
+	GPU Power Consumed: 333.63W
+	GPU Max GPU Memory Used: 1.24TB
+	Memory Throughput Rate (Average): a2ap-dgx008:(gpu1:3%+gpu0:3%+gpu2:3%+gpu3:3%+gpu5:3%+gpu4:3%+gpu6:4%+gpu7:3%)+a2ap-dgx014:(gpu1:2%+gpu0:4%+gpu2:4%+gpu3:4%+gpu5:5%+gpu4:6%+gpu6:5%+gpu7:4%)
+	Memory Throughput Rate (Max): a2ap-dgx008:(gpu1:46%+gpu0:44%+gpu2:38%+gpu3:46%+gpu5:45%+gpu4:45%+gpu6:38%+gpu7:38%)+a2ap-dgx014:(gpu1:34%+gpu0:31%+gpu2:45%+gpu3:41%+gpu5:46%+gpu4:47%+gpu6:37%+gpu7:45%)
+	Memory Throughput Rate (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx008:(gpu1:50%+gpu0:51%+gpu2:60%+gpu3:57%+gpu5:49%+gpu4:54%+gpu6:55%+gpu7:54%)+a2ap-dgx014:(gpu1:59%+gpu0:51%+gpu2:51%+gpu3:52%+gpu5:59%+gpu4:52%+gpu6:60%+gpu7:56%)
+	GPU SM Utilization (Max): a2ap-dgx008:(gpu1:100%+gpu0:100%+gpu2:100%+gpu3:100%+gpu5:100%+gpu4:100%+gpu6:100%+gpu7:100%)+a2ap-dgx014:(gpu1:100%+gpu0:100%+gpu2:100%+gpu3:100%+gpu5:100%+gpu4:100%+gpu6:100%+gpu7:100%)
+	GPU SM Utilization (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: None
+GPU application profile: Medium
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

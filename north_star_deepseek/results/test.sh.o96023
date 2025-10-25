@@ -1,0 +1,397 @@
+========== SU SUMMARY (Project 50000128) ==========
+Requested walltime: 00:10:00  -> Prepaid SU ~ 341.334
+Benchmark window:   420s       -> Expected SU ~ 238.934
+Current Balance:    52193.209
+N/A
+Est. Balance after prepaid: 51851.875
+Est. Balance after 420s run: 51954.275
+======================================================
+[INFO] Starting 16-rank MPI run (8 per node, 1 GPU per rank)
+[INFO] Master: a2ap-dgx026.asp2p.nscc.sg:21970
+[INFO] Model: /home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1
+[INFO] Dataset: /home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json
+[1,0]<stderr>: [a2ap-dgx026:1949822] Rank 0 is not bound (or bound to all available processors)
+[1,1]<stderr>: [a2ap-dgx026:1949822] Rank 1 is not bound (or bound to all available processors)
+[1,2]<stderr>: [a2ap-dgx026:1949822] Rank 2 is not bound (or bound to all available processors)
+[1,3]<stderr>: [a2ap-dgx026:1949822] Rank 3 is not bound (or bound to all available processors)
+[1,4]<stderr>: [a2ap-dgx026:1949822] Rank 4 is not bound (or bound to all available processors)
+[1,5]<stderr>: [a2ap-dgx026:1949822] Rank 5 is not bound (or bound to all available processors)
+[1,6]<stderr>: [a2ap-dgx026:1949822] Rank 6 is not bound (or bound to all available processors)
+[1,7]<stderr>: [a2ap-dgx026:1949822] Rank 7 is not bound (or bound to all available processors)
+[1,8]<stderr>: [a2ap-dgx029:878624] Rank 8 is not bound (or bound to all available processors)
+[1,9]<stderr>: [a2ap-dgx029:878624] Rank 9 is not bound (or bound to all available processors)
+[1,10]<stderr>: [a2ap-dgx029:878624] Rank 10 is not bound (or bound to all available processors)
+[1,11]<stderr>: [a2ap-dgx029:878624] Rank 11 is not bound (or bound to all available processors)
+[1,15]<stderr>: [a2ap-dgx029:878624] Rank 15 is not bound (or bound to all available processors)
+[1,13]<stderr>: [a2ap-dgx029:878624] Rank 13 is not bound (or bound to all available processors)
+[1,14]<stderr>: [a2ap-dgx029:878624] Rank 14 is not bound (or bound to all available processors)
+[1,12]<stderr>: [a2ap-dgx029:878624] Rank 12 is not bound (or bound to all available processors)
+[1,0]<stdout>: [OK] Paths validated
+[1,4]<stdout>: [WARN] Fallback interface: bond0
+[1,4]<stdout>: [INFO] Rank=4 NodeRank=4 LocalRank=4 WorldSize=16 on a2ap-dgx026
+[1,4]<stdout>: [INFO] Using IFACE=bond0  GPU=4
+[1,6]<stdout>: [WARN] Fallback interface: bond0
+[1,3]<stdout>: [WARN] Fallback interface: bond0
+[1,0]<stdout>: [WARN] Fallback interface: bond0
+[1,2]<stdout>: [WARN] Fallback interface: bond0
+[1,1]<stdout>: [WARN] Fallback interface: bond0
+[1,7]<stdout>: [WARN] Fallback interface: bond0
+[1,5]<stdout>: [WARN] Fallback interface: bond0
+[1,6]<stdout>: [INFO] Rank=6 NodeRank=6 LocalRank=6 WorldSize=16 on a2ap-dgx026
+[1,6]<stdout>: [INFO] Using IFACE=bond0  GPU=6
+[1,0]<stdout>: [INFO] Rank=0 NodeRank=0 LocalRank=0 WorldSize=16 on a2ap-dgx026
+[1,0]<stdout>: [INFO] Using IFACE=bond0  GPU=0
+[1,3]<stdout>: [INFO] Rank=3 NodeRank=3 LocalRank=3 WorldSize=16 on a2ap-dgx026
+[1,3]<stdout>: [INFO] Using IFACE=bond0  GPU=3
+[1,7]<stdout>: [INFO] Rank=7 NodeRank=7 LocalRank=7 WorldSize=16 on a2ap-dgx026
+[1,1]<stdout>: [INFO] Rank=1 NodeRank=1 LocalRank=1 WorldSize=16 on a2ap-dgx026
+[1,1]<stdout>: [INFO] Using IFACE=bond0  GPU=1
+[1,7]<stdout>: [INFO] Using IFACE=bond0  GPU=7
+[1,5]<stdout>: [INFO] Rank=5 NodeRank=5 LocalRank=5 WorldSize=16 on a2ap-dgx026
+[1,2]<stdout>: [INFO] Rank=2 NodeRank=2 LocalRank=2 WorldSize=16 on a2ap-dgx026
+[1,5]<stdout>: [INFO] Using IFACE=bond0  GPU=5
+[1,2]<stdout>: [INFO] Using IFACE=bond0  GPU=2
+[1,8]<stdout>: [WARN] Fallback interface: bond0
+[1,8]<stdout>: [INFO] Rank=8 NodeRank=0 LocalRank=0 WorldSize=16 on a2ap-dgx029
+[1,8]<stdout>: [INFO] Using IFACE=bond0  GPU=0
+[1,9]<stdout>: [WARN] Fallback interface: bond0
+[1,13]<stdout>: [WARN] Fallback interface: bond0
+[1,11]<stdout>: [WARN] Fallback interface: bond0
+[1,12]<stdout>: [WARN] Fallback interface: bond0
+[1,15]<stdout>: [WARN] Fallback interface: bond0
+[1,14]<stdout>: [WARN] Fallback interface: bond0
+[1,10]<stdout>: [WARN] Fallback interface: bond0
+[1,15]<stdout>: [INFO] Rank=15 NodeRank=7 LocalRank=7 WorldSize=16 on a2ap-dgx029
+[1,14]<stdout>: [INFO] Rank=14 NodeRank=6 LocalRank=6 WorldSize=16 on a2ap-dgx029
+[1,14]<stdout>: [INFO] Using IFACE=bond0  GPU=6
+[1,15]<stdout>: [INFO] Using IFACE=bond0  GPU=7
+[1,11]<stdout>: [INFO] Rank=11 NodeRank=3 LocalRank=3 WorldSize=16 on a2ap-dgx029
+[1,11]<stdout>: [INFO] Using IFACE=bond0  GPU=3
+[1,13]<stdout>: [INFO] Rank=13 NodeRank=5 LocalRank=5 WorldSize=16 on a2ap-dgx029
+[1,9]<stdout>: [INFO] Rank=9 NodeRank=1 LocalRank=1 WorldSize=16 on a2ap-dgx029
+[1,9]<stdout>: [INFO] Using IFACE=bond0  GPU=1
+[1,13]<stdout>: [INFO] Using IFACE=bond0  GPU=5
+[1,12]<stdout>: [INFO] Rank=12 NodeRank=4 LocalRank=4 WorldSize=16 on a2ap-dgx029
+[1,12]<stdout>: [INFO] Using IFACE=bond0  GPU=4
+[1,10]<stdout>: [INFO] Rank=10 NodeRank=2 LocalRank=2 WorldSize=16 on a2ap-dgx029
+[1,10]<stdout>: [INFO] Using IFACE=bond0  GPU=2
+[1,8]<stderr>: [2025-10-08 21:12:57] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>: [2025-10-08 21:12:58] Using default HuggingFace chat template with detected content format: string
+[1,15]<stderr>: [W1008 21:13:27.655863117 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,15]<stderr>: 
+[1,1]<stderr>: [W1008 21:13:29.860683959 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,1]<stderr>: 
+[1,7]<stderr>: [W1008 21:13:30.477681117 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,7]<stderr>: 
+[1,1]<stderr>: [W1008 21:13:32.900623959 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,1]<stderr>: 
+[1,15]<stderr>: [W1008 21:13:37.887851709 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,15]<stderr>: 
+[1,15]<stderr>: [W1008 21:13:41.971300282 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,15]<stderr>: 
+[1,9]<stderr>: [W1008 21:13:43.889448014 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,9]<stderr>: 
+[1,7]<stderr>: [W1008 21:13:43.560591318 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,7]<stderr>: 
+[1,9]<stderr>: [W1008 21:13:43.497226597 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,9]<stderr>: 
+[1,7]<stderr>: [W1008 21:13:45.894013842 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,7]<stderr>: 
+[1,15]<stderr>: [W1008 21:13:45.489642382 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,15]<stderr>: 
+[1,15]<stderr>: [W1008 21:13:46.270783613 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,15]<stderr>: 
+[1,9]<stderr>: [W1008 21:13:47.041138808 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,9]<stderr>: 
+[1,15]<stderr>: [W1008 21:13:48.295875290 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,15]<stderr>: 
+[1,9]<stderr>: [W1008 21:13:49.060779598 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,9]<stderr>: 
+[1,9]<stderr>: [W1008 21:13:49.546120999 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,9]<stderr>: 
+[1,15]<stderr>: [W1008 21:13:49.767578971 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,15]<stderr>: 
+[1,9]<stderr>: [W1008 21:13:50.823602558 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,9]<stderr>: 
+[1,7]<stderr>: [W1008 21:13:50.114437566 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,7]<stderr>: 
+[1,9]<stderr>: [W1008 21:13:50.070467789 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,9]<stderr>: 
+[1,1]<stderr>: [W1008 21:13:55.531853110 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,1]<stderr>: 
+[1,12]<stderr>: [W1008 21:13:59.210183093 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,12]<stderr>: 
+[1,7]<stderr>: [W1008 21:14:00.926221180 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,7]<stderr>: 
+[1,1]<stderr>: [W1008 21:14:00.022455278 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,1]<stderr>: 
+[1,7]<stderr>: [W1008 21:14:01.550605732 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,7]<stderr>: 
+[1,1]<stderr>: [W1008 21:14:02.988977202 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,1]<stderr>: 
+[1,12]<stderr>: [2025-10-08 21:14:02 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,12]<stderr>: [2025-10-08 21:14:02 TP0] Chunked prefix cache is turned on.
+[1,12]<stderr>: [2025-10-08 21:14:02 TP0] Init torch distributed begin.
+[1,1]<stderr>: [W1008 21:14:02.522447814 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,1]<stderr>: 
+[1,1]<stderr>: [W1008 21:14:03.223154483 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,1]<stderr>: 
+[1,7]<stderr>: [W1008 21:14:04.994650735 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,7]<stderr>: 
+[1,5]<stderr>: [W1008 21:14:04.532355092 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,5]<stderr>: 
+[1,12]<stderr>: [W1008 21:14:05.664845591 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,12]<stderr>: 
+[1,8]<stderr>: [2025-10-08 21:14:06 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,8]<stderr>: [2025-10-08 21:14:06 TP0] Chunked prefix cache is turned on.
+[1,8]<stderr>: [2025-10-08 21:14:06 TP0] Init torch distributed begin.
+[1,15]<stderr>: [2025-10-08 21:14:07 TP11] Context: self.device='cuda' self.gpu_id=3 os.environ.get('CUDA_VISIBLE_DEVICES')='7' self.tp_rank=11 self.tp_size=16
+[1,15]<stderr>: [2025-10-08 21:14:07 TP11] Scheduler hit an exception: Traceback (most recent call last):
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,15]<stderr>:     scheduler = Scheduler(
+[1,15]<stderr>:                 ^^^^^^^^^^
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,15]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,15]<stderr>:                      ^^^^^^^^^^^^^^
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,15]<stderr>:     self.worker = TpModelWorker(
+[1,15]<stderr>:                   ^^^^^^^^^^^^^^
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,15]<stderr>:     self.model_runner = ModelRunner(
+[1,15]<stderr>:                         ^^^^^^^^^^^^
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,15]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,15]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 547, in init_torch_distributed
+[1,15]<stderr>:     torch.get_device_module(self.device).set_device(self.gpu_id)
+[1,15]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/cuda/__init__.py", line 569, in set_device
+[1,15]<stderr>:     torch._C._cuda_setDevice(device)
+[1,15]<stderr>: torch.AcceleratorError: CUDA error: invalid device ordinal
+[1,15]<stderr>: CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[1,15]<stderr>: For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[1,15]<stderr>: Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[1,15]<stderr>: 
+[1,15]<stderr>: Exception raised from c10_cuda_check_implementation at /pytorch/c10/cuda/CUDAException.cpp:42 (most recent call first):
+[1,15]<stderr>: C++ CapturedTraceback:
+[1,15]<stderr>: #4 std::_Function_handler<std::shared_ptr<c10::LazyValue<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const> (), c10::SetStackTraceFetcher(std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > ()>)::{lambda()#1}>::_M_invoke(std::_Any_data const&) from Logging.cpp:0
+[1,15]<stderr>: #5 c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) from ??:0
+[1,15]<stderr>: #6 c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) [clone .cold] from CUDAException.cpp:0
+[1,15]<stderr>: #7 THCPModule_setDevice_wrap(_object*, _object*) from :0
+[1,15]<stderr>: #8 cfunction_vectorcall_O from /usr/local/src/conda/python-3.12.11/Objects/methodobject.c:509
+[1,15]<stderr>: #9 _PyObject_VectorcallTstate from /usr/local/src/conda/python-3.12.11/Include/internal/pycore_call.h:92
+[1,15]<stderr>: #10 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,15]<stderr>: #11 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,15]<stderr>: #12 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,15]<stderr>: #13 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,15]<stderr>: #14 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,15]<stderr>: #15 _PyEval_EvalFrame from /usr/local/src/conda/python-3.12.11/Include/internal/pycore_ceval.h:89
+[1,15]<stderr>: #16 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,15]<stderr>: #17 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,15]<stderr>: #18 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,15]<stderr>: #19 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,15]<stderr>: #20 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,15]<stderr>: #21 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,15]<stderr>: #22 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,15]<stderr>: #23 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,15]<stderr>: #24 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,15]<stderr>: #25 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,15]<stderr>: #26 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,15]<stderr>: #27 PyEval_EvalCode from /usr/local/src/conda/python-3.12.11/Python/ceval.c:580
+[1,15]<stderr>: #28 run_eval_code_obj from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1757
+[1,15]<stderr>: #29 run_mod from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1778
+[1,15]<stderr>: #30 PyRun_StringFlags from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1649
+[1,15]<stderr>: #31 PyRun_SimpleStringFlags from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:506
+[1,15]<stderr>: #32 pymain_run_command from /usr/local/src/conda/python-3.12.11/Modules/main.c:255
+[1,15]<stderr>: #33 Py_BytesMain from /usr/local/src/conda/python-3.12.11/Modules/main.c:768
+[1,15]<stderr>: #34 __libc_init_first from ??:0
+[1,15]<stderr>: #35 __libc_start_main from ??:0
+[1,15]<stderr>: #36 _start from ??:0
+[1,15]<stderr>: 
+[1,15]<stderr>: 
+[1,15]<stderr>: [2025-10-08 21:14:07] Received sigquit from a child process. It usually means the child failed.
+[1,13]<stderr>: [W1008 21:14:07.702984034 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,13]<stderr>: 
+[1,6]<stderr>: [W1008 21:14:07.843620221 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,6]<stderr>: 
+[1,5]<stderr>: [W1008 21:14:08.644926542 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,5]<stderr>: 
+[1,14]<stderr>: [W1008 21:14:10.232252473 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,14]<stderr>: 
+[1,5]<stderr>: [W1008 21:14:10.406806811 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,5]<stderr>: 
+[1,12]<stderr>: [W1008 21:14:11.127726220 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,12]<stderr>: 
+[1,7]<stderr>: [2025-10-08 21:14:12 TP15] Context: self.device='cuda' self.gpu_id=7 os.environ.get('CUDA_VISIBLE_DEVICES')='7' self.tp_rank=15 self.tp_size=16
+[1,7]<stderr>: [2025-10-08 21:14:12 TP15] Scheduler hit an exception: Traceback (most recent call last):
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,7]<stderr>:     scheduler = Scheduler(
+[1,7]<stderr>:                 ^^^^^^^^^^
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,7]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,7]<stderr>:                      ^^^^^^^^^^^^^^
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,7]<stderr>:     self.worker = TpModelWorker(
+[1,7]<stderr>:                   ^^^^^^^^^^^^^^
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,7]<stderr>:     self.model_runner = ModelRunner(
+[1,7]<stderr>:                         ^^^^^^^^^^^^
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,7]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,7]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 547, in init_torch_distributed
+[1,7]<stderr>:     torch.get_device_module(self.device).set_device(self.gpu_id)
+[1,7]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/cuda/__init__.py", line 569, in set_device
+[1,7]<stderr>:     torch._C._cuda_setDevice(device)
+[1,7]<stderr>: torch.AcceleratorError: CUDA error: invalid device ordinal
+[1,7]<stderr>: CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[1,7]<stderr>: For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[1,7]<stderr>: Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[1,7]<stderr>: 
+[1,7]<stderr>: Exception raised from c10_cuda_check_implementation at /pytorch/c10/cuda/CUDAException.cpp:42 (most recent call first):
+[1,7]<stderr>: C++ CapturedTraceback:
+[1,7]<stderr>: #4 std::_Function_handler<std::shared_ptr<c10::LazyValue<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const> (), c10::SetStackTraceFetcher(std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > ()>)::{lambda()#1}>::_M_invoke(std::_Any_data const&) from Logging.cpp:0
+[1,7]<stderr>: #5 c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) from ??:0
+[1,7]<stderr>: #6 c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) [clone .cold] from CUDAException.cpp:0
+[1,7]<stderr>: #7 THCPModule_setDevice_wrap(_object*, _object*) from :0
+[1,7]<stderr>: #8 cfunction_vectorcall_O from /usr/local/src/conda/python-3.12.11/Objects/methodobject.c:509
+[1,7]<stderr>: #9 _PyObject_VectorcallTstate from /usr/local/src/conda/python-3.12.11/Include/internal/pycore_call.h:92
+[1,7]<stderr>: #10 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,7]<stderr>: #11 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,7]<stderr>: #12 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,7]<stderr>: #13 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,7]<stderr>: #14 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,7]<stderr>: #15 _PyEval_EvalFrame from /usr/local/src/conda/python-3.12.11/Include/internal/pycore_ceval.h:89
+[1,7]<stderr>: #16 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,7]<stderr>: #17 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,7]<stderr>: #18 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,7]<stderr>: #19 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,7]<stderr>: #20 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,7]<stderr>: #21 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,7]<stderr>: #22 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,7]<stderr>: #23 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,7]<stderr>: #24 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,7]<stderr>: #25 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,7]<stderr>: #26 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,7]<stderr>: #27 PyEval_EvalCode from /usr/local/src/conda/python-3.12.11/Python/ceval.c:580
+[1,7]<stderr>: #28 run_eval_code_obj from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1757
+[1,7]<stderr>: #29 run_mod from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1778
+[1,7]<stderr>: #30 PyRun_StringFlags from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1649
+[1,7]<stderr>: #31 PyRun_SimpleStringFlags from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:506
+[1,7]<stderr>: #32 pymain_run_command from /usr/local/src/conda/python-3.12.11/Modules/main.c:255
+[1,7]<stderr>: #33 Py_BytesMain from /usr/local/src/conda/python-3.12.11/Modules/main.c:768
+[1,7]<stderr>: #34 __libc_init_first from ??:0
+[1,7]<stderr>: #35 __libc_start_main from ??:0
+[1,7]<stderr>: #36 _start from ??:0
+[1,7]<stderr>: 
+[1,7]<stderr>: 
+[1,7]<stderr>: [2025-10-08 21:14:12] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>: [2025-10-08 21:14:12 TP13] Context: self.device='cuda' self.gpu_id=5 os.environ.get('CUDA_VISIBLE_DEVICES')='1' self.tp_rank=13 self.tp_size=16
+[1,1]<stderr>: [2025-10-08 21:14:12 TP13] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 547, in init_torch_distributed
+[1,1]<stderr>:     torch.get_device_module(self.device).set_device(self.gpu_id)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/cuda/__init__.py", line 569, in set_device
+[1,1]<stderr>:     torch._C._cuda_setDevice(device)
+[1,1]<stderr>: torch.AcceleratorError: CUDA error: invalid device ordinal
+[1,1]<stderr>: CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[1,1]<stderr>: For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[1,1]<stderr>: Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[1,1]<stderr>: 
+[1,1]<stderr>: Exception raised from c10_cuda_check_implementation at /pytorch/c10/cuda/CUDAException.cpp:42 (most recent call first):
+[1,1]<stderr>: C++ CapturedTraceback:
+[1,1]<stderr>: #4 std::_Function_handler<std::shared_ptr<c10::LazyValue<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const> (), c10::SetStackTraceFetcher(std::function<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > ()>)::{lambda()#1}>::_M_invoke(std::_Any_data const&) from Logging.cpp:0
+[1,1]<stderr>: #5 c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) from ??:0
+[1,1]<stderr>: #6 c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) [clone .cold] from CUDAException.cpp:0
+[1,1]<stderr>: #7 THCPModule_setDevice_wrap(_object*, _object*) from :0
+[1,1]<stderr>: #8 cfunction_vectorcall_O from /usr/local/src/conda/python-3.12.11/Objects/methodobject.c:509
+[1,1]<stderr>: #9 _PyObject_VectorcallTstate from /usr/local/src/conda/python-3.12.11/Include/internal/pycore_call.h:92
+[1,1]<stderr>: #10 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,1]<stderr>: #11 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,1]<stderr>: #12 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,1]<stderr>: #13 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,1]<stderr>: #14 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,1]<stderr>: #15 _PyEval_EvalFrame from /usr/local/src/conda/python-3.12.11/Include/internal/pycore_ceval.h:89
+[1,1]<stderr>: #16 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,1]<stderr>: #17 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,1]<stderr>: #18 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,1]<stderr>: #19 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,1]<stderr>: #20 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,1]<stderr>: #21 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,1]<stderr>: #22 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,1]<stderr>: #23 _PyObject_FastCallDictTstate from /usr/local/src/conda/python-3.12.11/Objects/call.c:144
+[1,1]<stderr>: #24 _PyObject_Call_Prepend from /usr/local/src/conda/python-3.12.11/Objects/call.c:508
+[1,1]<stderr>: #25 type_call from /usr/local/src/conda/python-3.12.11/Objects/typeobject.c:1679
+[1,1]<stderr>: #26 _PyEval_EvalFrameDefault from /home/conda/feedstock_root/build_artifacts/python-split_1749046816465/work/build-static/Python/bytecodes.c:2715
+[1,1]<stderr>: #27 PyEval_EvalCode from /usr/local/src/conda/python-3.12.11/Python/ceval.c:580
+[1,1]<stderr>: #28 run_eval_code_obj from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1757
+[1,1]<stderr>: #29 run_mod from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1778
+[1,1]<stderr>: #30 PyRun_StringFlags from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:1649
+[1,1]<stderr>: #31 PyRun_SimpleStringFlags from /usr/local/src/conda/python-3.12.11/Python/pythonrun.c:506
+[1,1]<stderr>: #32 pymain_run_command from /usr/local/src/conda/python-3.12.11/Modules/main.c:255
+[1,1]<stderr>: #33 Py_BytesMain from /usr/local/src/conda/python-3.12.11/Modules/main.c:768
+[1,1]<stderr>: #34 __libc_init_first from ??:0
+[1,1]<stderr>: #35 __libc_start_main from ??:0
+[1,1]<stderr>: #36 _start from ??:0
+[1,1]<stderr>: 
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-08 21:14:12] Received sigquit from a child process. It usually means the child failed.
+[1,11]<stderr>: [W1008 21:14:13.879428398 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,11]<stderr>: 
+[1,3]<stderr>: [W1008 21:14:14.519353141 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,3]<stderr>: 
+[1,11]<stderr>: [W1008 21:14:15.602124138 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,11]<stderr>: 
+[1,15]<stderr>: bash: line 40: 879379 Killed                  "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3" -m sglang.bench_offline_throughput --model-path "/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1" --dataset-path "/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json" --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tensor-parallel-size 16 --nnodes 2 --node-rank "$NODE_RANK" --trust-remote-code --dist-init-addr "a2ap-dgx026.asp2p.nscc.sg:21970" --enable-flashinfer-allreduce-fusion --enable-nccl-nvls
+[1,5]<stderr>: [W1008 21:14:17.981219585 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,5]<stderr>: 
+[1,10]<stderr>: [W1008 21:14:17.998070760 Module.cpp:190] symbolizing C++ stack trace for exception; if this hangs, rerun with TORCH_DISABLE_ADDR2LINE=1...
+[1,10]<stderr>: 
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-a2ap-dgx026-1949822@1,15] Exit code:    137
+--------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-08 21:14:28.449833:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 96023.pbs111
+	Project: 50000128
+	Exit Status: 137
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:33:33
+	Memory: Requested(3760gb), Used(52838304kb)
+	Vmem Used: 5880573900kb
+	Walltime: Requested(00:10:00), Used(00:02:38)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx026:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx029:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 2.75mins
+	GPU Power Consumed: 164.51W
+	GPU Max GPU Memory Used: 2.03GB
+	Memory Throughput Rate (Average): a2ap-dgx026:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx029:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx026:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx029:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx026:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx029:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx026:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx029:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx026:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx029:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx026:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx029:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

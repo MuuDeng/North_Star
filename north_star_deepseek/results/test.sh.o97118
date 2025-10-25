@@ -1,0 +1,1478 @@
+========== FA3 OPTIMIZED BENCHMARK ==========
+Target: <15min | Est. SU: 238.934 | Balance: 40737.496
+N/A
+Job ID: 97118.pbs111 | GPUs: 16 | Master: a2ap-dgx007.asp2p.nscc.sg:5000
+Config: TP16+DP2 | Attention: FlashAttention-3 | NCCL: Optimized
+=============================================
+[02:41:38] Launching FA3-optimized benchmark...
+[1,0]<stdout>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 4096 to avoid MoE kernel issues. 
+[1,0]<stdout>:WARNING:sglang.srt.server_args:Overlap scheduler is disabled because of using eagle speculative decoding.
+[1,0]<stdout>:WARNING:sglang.srt.server_args:Mixed chunked prefill is disabled because of using eagle speculative decoding.
+[1,0]<stdout>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 2048 to avoid MoE kernel issues. 
+[1,0]<stdout>:WARNING:sglang.srt.server_args:Overlap scheduler is disabled because of using eagle speculative decoding.
+[1,0]<stdout>:WARNING:sglang.srt.server_args:DeepSeek MTP does not require setting speculative_draft_model_path.
+[1,0]<stdout>:[2025-10-12 02:41:58] Using default HuggingFace chat template with detected content format: string
+[1,1]<stdout>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 4096 to avoid MoE kernel issues. 
+[1,1]<stdout>:WARNING:sglang.srt.server_args:Overlap scheduler is disabled because of using eagle speculative decoding.
+[1,1]<stdout>:WARNING:sglang.srt.server_args:Mixed chunked prefill is disabled because of using eagle speculative decoding.
+[1,1]<stdout>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 2048 to avoid MoE kernel issues. 
+[1,1]<stdout>:WARNING:sglang.srt.server_args:Overlap scheduler is disabled because of using eagle speculative decoding.
+[1,1]<stdout>:WARNING:sglang.srt.server_args:DeepSeek MTP does not require setting speculative_draft_model_path.
+[1,0]<stdout>:[2025-10-12 02:42:43 DP0 TP0] MLA optimization is turned on. Use fa3 backend.
+[1,0]<stdout>:[2025-10-12 02:42:43 DP0 TP0] Chunked prefix cache is turned on.
+[1,0]<stdout>:[2025-10-12 02:42:43 DP0 TP0] Init torch distributed begin.
+[1,0]<stdout>:[W1012 02:42:45.050878047 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,0]<stdout>:[W1012 02:42:45.050905717 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,0]<stdout>:[W1012 02:42:45.054661904 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,0]<stdout>:[W1012 02:42:45.054688078 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,0]<stdout>:[W1012 02:42:45.072550289 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,0]<stdout>:[W1012 02:42:45.072573092 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[W1012 02:42:46.638883533 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,1]<stdout>:[W1012 02:42:46.638909769 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,0]<stdout>:[W1012 02:42:46.236833993 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,0]<stdout>:[W1012 02:42:46.236865753 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[W1012 02:42:46.794674904 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,1]<stdout>:[W1012 02:42:46.794696560 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[W1012 02:42:46.850579080 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,1]<stdout>:[W1012 02:42:46.850607270 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,0]<stdout>:[W1012 02:42:46.409281989 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,0]<stdout>:[W1012 02:42:46.409314447 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,0]<stdout>:[W1012 02:42:46.487079179 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,0]<stdout>:[W1012 02:42:46.487115477 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[W1012 02:42:46.254875289 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,1]<stdout>:[W1012 02:42:46.254902867 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[W1012 02:42:46.290034580 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,1]<stdout>:[W1012 02:42:46.290053133 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[W1012 02:42:46.438417898 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,1]<stdout>:[W1012 02:42:46.438436960 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[W1012 02:42:46.506920584 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,1]<stdout>:[W1012 02:42:46.506942075 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[W1012 02:42:47.897791384 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,1]<stdout>:[W1012 02:42:47.897821186 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,0]<stdout>:[W1012 02:42:48.461656780 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,0]<stdout>:[W1012 02:42:48.461683644 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,0]<stdout>:[W1012 02:42:48.470335236 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+[1,0]<stdout>:[W1012 02:42:48.470361467 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[2025-10-12 02:42:48 DP0 TP0] sglang is using nccl==2.27.3
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150719:1150719 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150719:1150719 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150717:1150717 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150717:1150717 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150718:1150718 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150718:1150718 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150720:1150720 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150720:1150720 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150722:1150722 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150722:1150722 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150723:1150723 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150723:1150723 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687533:687533 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687533:687533 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150724:1150724 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150724:1150724 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150721:1150721 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:42:53] a2ap-dgx007:1150721:1150721 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687529:687529 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687529:687529 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687535:687535 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687535:687535 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687532:687532 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687532:687532 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687527:687527 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687527:687527 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687528:687528 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687528:687528 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687531:687531 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687531:687531 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687530:687530 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:42:53] a2ap-dgx010:687530:687530 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP0] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP1] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP2] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP4] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP3] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-12 02:42:56 DP1 TP15] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-12 02:42:56 DP1 TP14] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP5] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-12 02:42:56 DP1 TP13] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-12 02:42:56 DP1 TP12] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-12 02:42:56 DP1 TP11] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-12 02:42:56 DP1 TP10] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-12 02:42:56 DP1 TP9] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP6] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stdout>:[2025-10-12 02:42:56 DP1 TP8] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP7] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[2025-10-12 02:42:56 DP0 TP0] sglang is using nccl==2.27.3
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[2025-10-12 02:43:01 DP0 TP0] Init torch distributed ends. mem usage=1.46 GB
+[1,0]<stdout>:[2025-10-12 02:43:02 DP0 TP0] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-12 02:43:02 DP0 TP3] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-12 02:43:02 DP0 TP5] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-12 02:43:02 DP0 TP6] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-12 02:43:02 DP1 TP15] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-12 02:43:02 DP1 TP10] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-12 02:43:02 DP1 TP9] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-12 02:43:02 DP1 TP12] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-12 02:43:02 DP0 TP7] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-12 02:43:02 DP1 TP8] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-12 02:43:02 DP1 TP14] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-12 02:43:02 DP1 TP11] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-12 02:43:02 DP0 TP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stdout>:[2025-10-12 02:43:02 DP1 TP13] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-12 02:43:02 DP0 TP4] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-12 02:43:02 DP0 TP2] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stdout>:[2025-10-12 02:43:03 DP0 TP0] Load weight begin. avail mem=77.08 GB
+[1,0]<stdout>:[2025-10-12 02:43:03 DP0 TP0] Detected fp8 checkpoint.
+[1,0]<stdout>:[2025-10-12 02:43:18 DP0 TP0] Load weight end. type=DeepseekV3ForCausalLM, dtype=torch.bfloat16, avail mem=33.04 GB, mem usage=44.04 GB.
+[1,0]<stdout>:[2025-10-12 02:43:21 DP0 TP7] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,1]<stdout>:[2025-10-12 02:43:21 DP1 TP11] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,1]<stdout>:[2025-10-12 02:43:21 DP1 TP10] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,1]<stdout>:[2025-10-12 02:43:21 DP1 TP15] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,1]<stdout>:[2025-10-12 02:43:21 DP1 TP12] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,1]<stdout>:[2025-10-12 02:43:21 DP1 TP9] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:21 DP0 TP1] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:21 DP0 TP0] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:21 DP0 TP0] Memory pool end. avail mem=22.53 GB
+[1,1]<stdout>:[2025-10-12 02:43:21 DP1 TP13] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:21 DP0 TP5] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:21 DP0 TP6] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:21 DP0 TP2] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:21 DP0 TP4] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,1]<stdout>:[2025-10-12 02:43:22 DP1 TP8] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:22 DP0 TP3] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:22 DP0 TP0] Capture cuda graph begin. This can take up to several minutes. avail mem=22.48 GB
+[1,1]<stdout>:[2025-10-12 02:43:22 DP1 TP14] KV Cache is allocated. #tokens: 157447, KV size: 10.30 GB
+[1,0]<stdout>:[2025-10-12 02:43:23 DP0 TP0] Capture cuda graph bs [16, 32]
+[1,0]<stdout>:  0% 0/2 [00:00<?, ?it/s][1,0]<stdout>:Capturing batches (bs=32 avail_mem=22.13 GB):   0% 0/2 [00:00<?, ?it/s][1,1]<stdout>:[1/2] c++ -MMD -MF main.o.d -DTORCH_EXTENSION_NAME=nccl_allocator -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1018\" -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/include -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /app/apps/cuda/12.6.0/include -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/include/python3.12 -fPIC -std=c++17 -c /raid/pbs.97118.pbs111/main.cpp -o main.o 
+[1,1]<stdout>:FAILED: main.o 
+[1,1]<stdout>:c++ -MMD -MF main.o.d -DTORCH_EXTENSION_NAME=nccl_allocator -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1018\" -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/include -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /app/apps/cuda/12.6.0/include -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/include/python3.12 -fPIC -std=c++17 -c /raid/pbs.97118.pbs111/main.cpp -o main.o 
+[1,1]<stdout>:/raid/pbs.97118.pbs111/main.cpp:3:10: fatal error: nccl.h: No such file or directory
+[1,1]<stdout>:    3 | #include <nccl.h>
+[1,1]<stdout>:      |          ^~~~~~~~
+[1,1]<stdout>:compilation terminated.
+[1,1]<stdout>:ninja: build stopped: subcommand failed.
+[1,0]<stdout>:[1/2] c++ -MMD -MF main.o.d -DTORCH_EXTENSION_NAME=nccl_allocator -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1018\" -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/include -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /app/apps/cuda/12.6.0/include -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/include/python3.12 -fPIC -std=c++17 -c /raid/pbs.97118.pbs111/main.cpp -o main.o 
+[1,0]<stdout>:FAILED: main.o 
+[1,0]<stdout>:c++ -MMD -MF main.o.d -DTORCH_EXTENSION_NAME=nccl_allocator -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1018\" -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/include -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /app/apps/cuda/12.6.0/include -isystem /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/include/python3.12 -fPIC -std=c++17 -c /raid/pbs.97118.pbs111/main.cpp -o main.o 
+[1,0]<stdout>:/raid/pbs.97118.pbs111/main.cpp:3:10: fatal error: nccl.h: No such file or directory
+[1,0]<stdout>:    3 | #include <nccl.h>
+[1,0]<stdout>:      |          ^~~~~~~~
+[1,0]<stdout>:compilation terminated.
+[1,0]<stdout>:ninja: build stopped: subcommand failed.
+[1,1]<stdout>:[2025-10-12 02:43:32 DP1 TP11] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2595, in _run_ninja_build
+[1,1]<stdout>:    subprocess.run(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/subprocess.py", line 571, in run
+[1,1]<stdout>:    raise CalledProcessError(retcode, process.args,
+[1,1]<stdout>:subprocess.CalledProcessError: Command '['ninja', '-v', '-j', '112']' returned non-zero exit status 1.
+[1,1]<stdout>:
+[1,1]<stdout>:The above exception was the direct cause of the following exception:
+[1,1]<stdout>:
+[1,1]<stdout>:Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,1]<stdout>:    self.capture()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,1]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,1]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,1]<stdout>:    run_once()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,1]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,1]<stdout>:                                        ^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,1]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,1]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parall[1,1]<stdout>:el_embedding.py", line 476, in forward
+[1,1]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,1]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,1]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,1]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,1]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,1]<stdout>:    return _jit_compile(
+[1,1]<stdout>:           ^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2138, in _jit_compile
+[1,1]<stdout>:    _write_ninja_file_and_build_library(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2290, in _write_ninja_file_and_build_library
+[1,1]<stdout>:    _run_ninja_build(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2612, in _run_ninja_build
+[1,1]<stdout>:    raise RuntimeError(message) from e
+[1,1]<stdout>:RuntimeError: Error building extension 'nccl_allocator'
+[1,1]<stdout>:
+[1,1]<stdout>:During handling of the above exception, another exception occurred:
+[1,1]<stdout>:
+[1,1]<stdout>:Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stdout>:    scheduler = Scheduler(
+[1,1]<stdout>:                ^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,1]<stdout>:                     ^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stdout>:    self.model_runner = ModelRunner(
+[1,1]<stdout>:                        ^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,1]<stdout>:    self.init_cuda_graphs()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,1]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,1]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 382, in __init__
+[1,1]<stdout>:    raise Exception(
+[1,1]<stdout>:Exception: Capture cuda graph failed: Error building extension 'nccl_allocator'
+[1,1]<stdout>:Possible solutions:
+[1,1]<stdout>:1. set --mem-fraction-static to a smaller value (e.g., 0.8 or 0.7)
+[1,1]<stdout>:2. set --cuda-graph-max-bs to a smaller value (e.g., 16)
+[1,1]<stdout>:3. disable torch compile by not using --enable-torch-compile
+[1,1]<stdout>:4. disable CUDA graph by --disable-cuda-graph. (Not recommended. Huge performance loss)
+[1,1]<stdout>:Open an issue on GitHub https://github.com/sgl-project/sglang/issues/new/choose 
+[1,1]<stdout>:
+[1,1]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:43:32 DP0 TP1] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2595, in _run_ninja_build
+[1,0]<stdout>:    subprocess.run(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/subprocess.py", line 571, in run
+[1,0]<stdout>:    raise CalledProcessError(retcode, process.args,
+[1,0]<stdout>:subprocess.CalledProcessError: Command '['ninja', '-v', '-j', '112']' returned non-zero exit status 1.
+[1,0]<stdout>:
+[1,0]<stdout>:The above exception was the direct cause of the following exception:
+[1,0]<stdout>:
+[1,0]<stdout>:Traceback (most recent call last):
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,0]<stdout>:    self.capture()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,0]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,0]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,0]<stdout>:    run_once()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,0]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,0]<stdout>:                                        ^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,0]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,0]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_paralle[1,0]<stdout>:l_embedding.py", line 476, in forward
+[1,0]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,0]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,0]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,0]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,0]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,0]<stdout>:    return _jit_compile(
+[1,0]<stdout>:           ^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2138, in _jit_compile
+[1,0]<stdout>:    _write_ninja_file_and_build_library(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2290, in _write_ninja_file_and_build_library
+[1,0]<stdout>:    _run_ninja_build(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2612, in _run_ninja_build
+[1,0]<stdout>:    raise RuntimeError(message) from e
+[1,0]<stdout>:RuntimeError: Error building extension 'nccl_allocator'
+[1,0]<stdout>:
+[1,0]<stdout>:During handling of the above exception, another exception occurred:
+[1,0]<stdout>:
+[1,0]<stdout>:Traceback (most recent call last):
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stdout>:    scheduler = Scheduler(
+[1,0]<stdout>:                ^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,0]<stdout>:                     ^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stdout>:    self.model_runner = ModelRunner(
+[1,0]<stdout>:                        ^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,0]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,0]<stdout>:    self.init_cuda_graphs()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,0]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,0]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 382, in __init__
+[1,0]<stdout>:    raise Exception(
+[1,0]<stdout>:Exception: Capture cuda graph failed: Error building extension 'nccl_allocator'
+[1,0]<stdout>:Possible solutions:
+[1,0]<stdout>:1. set --mem-fraction-static to a smaller value (e.g., 0.8 or 0.7)
+[1,0]<stdout>:2. set --cuda-graph-max-bs to a smaller value (e.g., 16)
+[1,0]<stdout>:3. disable torch compile by not using --enable-torch-compile
+[1,0]<stdout>:4. disable CUDA graph by --disable-cuda-graph. (Not recommended. Huge performance loss)
+[1,0]<stdout>:Open an issue on GitHub https://github.com/sgl-project/sglang/issues/new/choose 
+[1,0]<stdout>:
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:43:32 DP0 TP6] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stdout>:    scheduler = Scheduler(
+[1,0]<stdout>:                ^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,0]<stdout>:                     ^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stdout>:    self.model_runner = ModelRunner(
+[1,0]<stdout>:                        ^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,0]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,0]<stdout>:    self.init_cuda_graphs()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,0]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,0]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,0]<stdout>:    self.capture()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,0]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,0]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,0]<stdout>:    run_once()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,0]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,0]<stdout>:                                        ^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,0]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/[1,0]<stdout>:python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,0]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,0]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,0]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,0]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,0]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,0]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,0]<stdout>:    return _jit_compile(
+[1,0]<stdout>:           ^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,0]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,0]<stdout>:    torch.ops.load_library(filepath)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,0]<stdout>:    ctypes.CDLL(path)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,0]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,0]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,0]<stdout>:
+[1,0]<stdout>:Capturing batches (bs=32 avail_mem=22.13 GB):   0% 0/2 [00:08<?, ?it/s]
+[1,1]<stdout>:[2025-10-12 02:43:32 DP1 TP10] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stdout>:    scheduler = Scheduler(
+[1,1]<stdout>:                ^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,1]<stdout>:                     ^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stdout>:    self.model_runner = ModelRunner(
+[1,1]<stdout>:                        ^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,1]<stdout>:    self.init_cuda_graphs()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,1]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,1]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,1]<stdout>:    self.capture()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,1]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,1]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,1]<stdout>:    run_once()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,1]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,1]<stdout>:                                        ^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,1]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/li[1,1]<stdout>:b/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,1]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,1]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,1]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,1]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,1]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,1]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,1]<stdout>:    return _jit_compile(
+[1,1]<stdout>:           ^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,1]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,1]<stdout>:    torch.ops.load_library(filepath)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,1]<stdout>:    ctypes.CDLL(path)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,1]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,1]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,1]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:43:32 DP0 TP3] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stdout>:    scheduler = Scheduler(
+[1,0]<stdout>:                ^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,0]<stdout>:                     ^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stdout>:    self.model_runner = ModelRunner(
+[1,0]<stdout>:                        ^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,0]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,0]<stdout>:    self.init_cuda_graphs()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,0]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,0]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,0]<stdout>:    self.capture()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,0]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,0]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,0]<stdout>:    run_once()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,0]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,0]<stdout>:                                        ^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,0]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/[1,0]<stdout>:python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,0]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,0]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,0]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,0]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,0]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,0]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,0]<stdout>:    return _jit_compile(
+[1,0]<stdout>:           ^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,0]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,0]<stdout>:    torch.ops.load_library(filepath)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,0]<stdout>:    ctypes.CDLL(path)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,0]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,0]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:43:32 DP0 TP0] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stdout>:    scheduler = Scheduler(
+[1,0]<stdout>:                ^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,0]<stdout>:                     ^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stdout>:    self.model_runner = ModelRunner(
+[1,0]<stdout>:                        ^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,0]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,0]<stdout>:    self.init_cuda_graphs()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,0]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,0]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,0]<stdout>:    self.capture()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,0]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,0]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,0]<stdout>:    run_once()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,0]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,0]<stdout>:                                        ^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,0]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/[1,0]<stdout>:python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,0]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,0]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,0]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,0]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,0]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,0]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,0]<stdout>:    return _jit_compile(
+[1,0]<stdout>:           ^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,0]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,0]<stdout>:    torch.ops.load_library(filepath)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,0]<stdout>:    ctypes.CDLL(path)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,0]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,0]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:43:32 DP0 TP2] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stdout>:    scheduler = Scheduler(
+[1,0]<stdout>:                ^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,0]<stdout>:                     ^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stdout>:    self.model_runner = ModelRunner(
+[1,0]<stdout>:                        ^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,0]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,0]<stdout>:    self.init_cuda_graphs()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,0]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,0]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,0]<stdout>:    self.capture()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,0]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,0]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,0]<stdout>:    run_once()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,0]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,0]<stdout>:                                        ^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,0]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/[1,0]<stdout>:python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,0]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,0]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,0]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,0]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,0]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,0]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,0]<stdout>:    return _jit_compile(
+[1,0]<stdout>:           ^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,0]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,0]<stdout>:    torch.ops.load_library(filepath)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,0]<stdout>:    ctypes.CDLL(path)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,0]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,0]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-10-12 02:43:32 DP0 TP4] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stdout>:    scheduler = Scheduler(
+[1,0]<stdout>:                ^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,0]<stdout>:                     ^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stdout>:    self.model_runner = ModelRunner(
+[1,0]<stdout>:                        ^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,0]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,0]<stdout>:    self.init_cuda_graphs()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,0]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,0]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,0]<stdout>:    self.capture()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,0]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,0]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,0]<stdout>:    run_once()
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,0]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,0]<stdout>:                                        ^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,0]<stdout>:    return fn(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,0]<stdout>:    return func(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,0]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib[1,0]<stdout>:/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,0]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,0]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,0]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,0]<stdout>:    return forward_call(*args, **kwargs)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,0]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,0]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,0]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,0]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,0]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,0]<stdout>:    return _jit_compile(
+[1,0]<stdout>:           ^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,0]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,0]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,0]<stdout>:    torch.ops.load_library(filepath)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,0]<stdout>:    ctypes.CDLL(path)
+[1,0]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,0]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,0]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,0]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:43:32 DP1 TP9] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stdout>:    scheduler = Scheduler(
+[1,1]<stdout>:                ^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,1]<stdout>:                     ^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stdout>:    self.model_runner = ModelRunner(
+[1,1]<stdout>:                        ^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,1]<stdout>:    self.init_cuda_graphs()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,1]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,1]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,1]<stdout>:    self.capture()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,1]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,1]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,1]<stdout>:    run_once()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,1]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,1]<stdout>:                                        ^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,1]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib[1,1]<stdout>:/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,1]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,1]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,1]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,1]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,1]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,1]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,1]<stdout>:    return _jit_compile(
+[1,1]<stdout>:           ^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,1]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,1]<stdout>:    torch.ops.load_library(filepath)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,1]<stdout>:    ctypes.CDLL(path)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,1]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,1]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:43:32 DP1 TP8] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stdout>:    scheduler = Scheduler(
+[1,1]<stdout>:                ^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,1]<stdout>:                     ^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stdout>:    self.model_runner = ModelRunner(
+[1,1]<stdout>:                        ^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,1]<stdout>:    self.init_cuda_graphs()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,1]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,1]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,1]<stdout>:    self.capture()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,1]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,1]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,1]<stdout>:    run_once()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,1]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,1]<stdout>:                                        ^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,1]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/[1,1]<stdout>:python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,1]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,1]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,1]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,1]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,1]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,1]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,1]<stdout>:    return _jit_compile(
+[1,1]<stdout>:           ^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,1]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,1]<stdout>:    torch.ops.load_library(filepath)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,1]<stdout>:    ctypes.CDLL(path)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,1]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,1]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:43:32 DP1 TP13] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stdout>:    scheduler = Scheduler(
+[1,1]<stdout>:                ^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,1]<stdout>:                     ^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stdout>:    self.model_runner = ModelRunner(
+[1,1]<stdout>:                        ^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,1]<stdout>:    self.init_cuda_graphs()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,1]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,1]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,1]<stdout>:    self.capture()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,1]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,1]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,1]<stdout>:    run_once()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,1]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,1]<stdout>:                                        ^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,1]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib[1,1]<stdout>:/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,1]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,1]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,1]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,1]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,1]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,1]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,1]<stdout>:    return _jit_compile(
+[1,1]<stdout>:           ^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,1]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,1]<stdout>:    torch.ops.load_library(filepath)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,1]<stdout>:    ctypes.CDLL(path)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,1]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,1]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:43:32 DP1 TP15] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stdout>:    scheduler = Scheduler(
+[1,1]<stdout>:                ^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,1]<stdout>:                     ^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stdout>:    self.model_runner = ModelRunner(
+[1,1]<stdout>:                        ^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,1]<stdout>:    self.init_cuda_graphs()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,1]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,1]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,1]<stdout>:    self.capture()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,1]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,1]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,1]<stdout>:    run_once()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,1]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,1]<stdout>:                                        ^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,1]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib[1,1]<stdout>:/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,1]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,1]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,1]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,1]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,1]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,1]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,1]<stdout>:    return _jit_compile(
+[1,1]<stdout>:           ^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,1]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,1]<stdout>:    torch.ops.load_library(filepath)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,1]<stdout>:    ctypes.CDLL(path)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,1]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,1]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:43:32 DP1 TP12] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stdout>:    scheduler = Scheduler(
+[1,1]<stdout>:                ^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,1]<stdout>:                     ^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stdout>:    self.model_runner = ModelRunner(
+[1,1]<stdout>:                        ^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,1]<stdout>:    self.init_cuda_graphs()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,1]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,1]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,1]<stdout>:    self.capture()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,1]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,1]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,1]<stdout>:    run_once()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,1]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,1]<stdout>:                                        ^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,1]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/li[1,1]<stdout>:b/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,1]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,1]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,1]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,1]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,1]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,1]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,1]<stdout>:    return _jit_compile(
+[1,1]<stdout>:           ^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,1]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,1]<stdout>:    torch.ops.load_library(filepath)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,1]<stdout>:    ctypes.CDLL(path)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,1]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,1]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-10-12 02:43:32 DP1 TP14] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stdout>:    scheduler = Scheduler(
+[1,1]<stdout>:                ^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stdout>:    self.tp_worker = TpWorkerClass(
+[1,1]<stdout>:                     ^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stdout>:    self.model_runner = ModelRunner(
+[1,1]<stdout>:                        ^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stdout>:    self.initialize(min_per_gpu_memory)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 342, in initialize
+[1,1]<stdout>:    self.init_cuda_graphs()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 1611, in init_cuda_graphs
+[1,1]<stdout>:    self.cuda_graph_runner = CudaGraphRunner(self)
+[1,1]<stdout>:                             ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 380, in __init__
+[1,1]<stdout>:    self.capture()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 485, in capture
+[1,1]<stdout>:    ) = self.capture_one_batch_size(bs, forward)
+[1,1]<stdout>:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 649, in capture_one_batch_size
+[1,1]<stdout>:    run_once()
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/cuda_graph_runner.py", line 637, in run_once
+[1,1]<stdout>:    logits_output_or_pp_proxy_tensors = forward(
+[1,1]<stdout>:                                        ^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 736, in compile_wrapper
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_dynamo/external_utils.py", line 70, in inner
+[1,1]<stdout>:    return fn(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stdout>:    return func(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2221, in forward
+[1,1]<stdout>:    hidden_states = self.model(input_ids, positions, forward_batch, input_embeds)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib[1,1]<stdout>:/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2088, in forward
+[1,1]<stdout>:    hidden_states = self.embed_tokens(input_ids)
+[1,1]<stdout>:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[1,1]<stdout>:    return self._call_impl(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[1,1]<stdout>:    return forward_call(*args, **kwargs)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/layers/vocab_parallel_embedding.py", line 476, in forward
+[1,1]<stdout>:    with use_symmetric_memory(parallel_state.get_tp_group()) as sm:
+[1,1]<stdout>:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 76, in __init__
+[1,1]<stdout>:    self._mem_pool_ctx = torch.cuda.use_mem_pool(get_nccl_mem_pool())
+[1,1]<stdout>:                                                 ^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_allocator.py", line 48, in get_nccl_mem_pool
+[1,1]<stdout>:    torch.utils.cpp_extension.load_inline(
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2057, in load_inline
+[1,1]<stdout>:    return _jit_compile(
+[1,1]<stdout>:           ^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2164, in _jit_compile
+[1,1]<stdout>:    return _import_module_from_library(name, build_directory, is_python_module)
+[1,1]<stdout>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 2637, in _import_module_from_library
+[1,1]<stdout>:    torch.ops.load_library(filepath)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/_ops.py", line 1478, in load_library
+[1,1]<stdout>:    ctypes.CDLL(path)
+[1,1]<stdout>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/ctypes/__init__.py", line 379, in __init__
+[1,1]<stdout>:    self._handle = _dlopen(self._name, mode)
+[1,1]<stdout>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stdout>:OSError: /raid/pbs.97118.pbs111/nccl_allocator.so: cannot open shared object file: No such file or directory
+[1,1]<stdout>:
+=>> PBS: job killed: walltime 606 exceeded limit 600
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-12 02:51:58.988079:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 97118.pbs111
+	Project: 50000128
+	Exit Status: -29
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:11:06
+	Memory: Requested(3760gb), Used(23979276kb)
+	Vmem Used: 73398179820kb
+	Walltime: Requested(00:10:00), Used(00:10:16)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx007:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx010:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 10.4mins
+	GPU Power Consumed: 152.53W
+	GPU Max GPU Memory Used: 1.24TB
+	Memory Throughput Rate (Average): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx010:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:2%+gpu6:8%+gpu7:2%)+a2ap-dgx010:(gpu1:1%+gpu0:1%+gpu2:0%+gpu3:0%+gpu5:1%+gpu4:0%+gpu6:1%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx010:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx010:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx007:(gpu1:3%+gpu0:1%+gpu2:0%+gpu3:1%+gpu5:0%+gpu4:1%+gpu6:5%+gpu7:3%)+a2ap-dgx010:(gpu1:1%+gpu0:1%+gpu2:0%+gpu3:1%+gpu5:1%+gpu4:0%+gpu6:2%+gpu7:3%)
+	GPU SM Utilization (Min): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx010:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

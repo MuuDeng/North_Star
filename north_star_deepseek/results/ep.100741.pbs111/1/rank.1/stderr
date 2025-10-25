@@ -1,0 +1,150 @@
+[1,1]<stderr>:WARNING: CPU IP/backtrace sampling not supported, disabling.
+[1,1]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,1]<stderr>:
+[1,1]<stderr>:WARNING: CPU context switch tracing not supported, disabling.
+[1,1]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,1]<stderr>:
+[1,1]<stderr>:W1025 10:35:01.739000 2545367 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:01.739000 2545367 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:WARNING:sglang.srt.server_args:[33mNOTE: --enable-ep-moe is deprecated. Please set `--ep-size` to the same value as `--tp-size` instead.[0m
+[1,1]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,1]<stderr>:WARNING:sglang.srt.server_args:[33mNOTE: --enable-ep-moe is deprecated. Please set `--ep-size` to the same value as `--tp-size` instead.[0m
+[1,1]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,1]<stderr>:W1025 10:35:24.985000 2546135 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:24.985000 2546135 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:[2025-10-25 10:35:26 TP0 EP0 PP1] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,1]<stderr>:[2025-10-25 10:35:26 TP0 EP0 PP1] Chunked prefix cache is turned on.
+[1,1]<stderr>:[2025-10-25 10:35:26 TP0 EP0 PP1] Init torch distributed begin.
+[1,1]<stderr>:W1025 10:35:27.343000 2546137 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:27.343000 2546137 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1025 10:35:27.524000 2546140 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:27.524000 2546140 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1025 10:35:27.737000 2546136 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:27.737000 2546136 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1025 10:35:27.896000 2546139 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:27.896000 2546139 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1025 10:35:27.931000 2546167 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:27.931000 2546167 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1025 10:35:27.947000 2546138 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:27.947000 2546138 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1025 10:35:28.005000 2546141 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1025 10:35:28.005000 2546141 /scratch/users/industry/ai-hpc/apacsc34/phattadon/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:[2025-10-25 10:35:58 TP0 EP0 PP1] sglang is using nccl==2.27.3
+[1,1]<stderr>:[2025-10-25 10:36:04 TP0 EP0 PP1] sglang is using nccl==2.27.3
+[1,1]<stderr>:[2025-10-25 10:36:08 TP0 EP0 PP1] Init torch distributed ends. mem usage=2.10 GB
+[1,1]<stderr>:[2025-10-25 10:36:09 TP5 EP5 PP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-25 10:36:09 TP6 EP6 PP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-25 10:36:09 TP2 EP2 PP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-25 10:36:09 TP7 EP7 PP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-25 10:36:09 TP4 EP4 PP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-25 10:36:09 TP3 EP3 PP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-25 10:36:09 TP0 EP0 PP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-25 10:36:09 TP1 EP1 PP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-10-25 10:36:10 TP0 EP0 PP1] Load weight begin. avail mem=76.42 GB
+[1,1]<stderr>:[2025-10-25 10:36:10 TP0 EP0 PP1] Detected fp8 checkpoint.
+[1,1]<stderr>:[2025-10-25 10:36:10 TP0 EP0 PP1] Deepseek V3/R1 can not use shared experts fusion optimization under expert parallelism. Shared experts fusion optimization is disabled.
+[1,1]<stderr>:[2025-10-25 10:36:11 TP4 EP4 PP1] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:    scheduler = Scheduler(
+[1,1]<stderr>:                ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                     ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:    self.model_runner = ModelRunner(
+[1,1]<stderr>:                        ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stderr>:    self.initialize(min_per_gpu_memory)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 288, in initialize
+[1,1]<stderr>:    self.load_model()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 679, in load_model
+[1,1]<stderr>:    self.model = get_model(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_loader/__init__.py", line 22, in get_model
+[1,1]<stderr>:    return loader.load_model(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 571, in load_model
+[1,1]<stderr>:    model = _initialize_model(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 186, in _initialize_model
+[1,1]<stderr>:    return model_class(
+[1,1]<stderr>:           ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2155, in __init__
+[1,1]<stderr>:    self.model = DeepseekV2Model(
+[1,1]<stderr>:                 ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2057, in __init__
+[1,1]<stderr>:    DeepseekV2DecoderLayer(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1836, in __init__
+[1,1]<stderr>:    self.mlp = DeepseekV2MoE(
+[1,1]<stderr>:               ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 327, in __init__
+[1,1]<stderr>:    self.experts = get_moe_impl_class()(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/ep_moe/layer.py", line 100, in __init__
+[1,1]<stderr>:    super().__init__(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/layer.py", line 220, in __init__
+[1,1]<stderr>:    self.quant_method.create_weights(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/layers/quantization/fp8.py", line 581, in create_weights
+[1,1]<stderr>:    torch.empty(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/torch/utils/_device.py", line 103, in __torch_function__
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 4 has a total capacity of 79.10 GiB of which 300.00 MiB is free. Including non-PyTorch memory, this process has 78.79 GiB memory in use. Of the allocated memory 76.03 GiB is allocated by PyTorch, and 58.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLO[1,1]<stderr>:C_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-10-25 10:36:11] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>:[2025-10-25 10:36:11 TP5 EP5 PP1] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:    scheduler = Scheduler(
+[1,1]<stderr>:                ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                     ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:    self.model_runner = ModelRunner(
+[1,1]<stderr>:                        ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stderr>:    self.initialize(min_per_gpu_memory)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 288, in initialize
+[1,1]<stderr>:    self.load_model()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 679, in load_model
+[1,1]<stderr>:    self.model = get_model(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_loader/__init__.py", line 22, in get_model
+[1,1]<stderr>:    return loader.load_model(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 571, in load_model
+[1,1]<stderr>:    model = _initialize_model(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 186, in _initialize_model
+[1,1]<stderr>:    return model_class(
+[1,1]<stderr>:           ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2155, in __init__
+[1,1]<stderr>:    self.model = DeepseekV2Model(
+[1,1]<stderr>:                 ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2057, in __init__
+[1,1]<stderr>:    DeepseekV2DecoderLayer(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1836, in __init__
+[1,1]<stderr>:    self.mlp = DeepseekV2MoE(
+[1,1]<stderr>:               ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 327, in __init__
+[1,1]<stderr>:    self.experts = get_moe_impl_class()(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/ep_moe/layer.py", line 100, in __init__
+[1,1]<stderr>:    super().__init__(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/layer.py", line 220, in __init__
+[1,1]<stderr>:    self.quant_method.create_weights(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/sglang/srt/layers/quantization/fp8.py", line 581, in create_weights
+[1,1]<stderr>:    torch.empty(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/phattadon/py312/lib/python3.12/site-packages/torch/utils/_device.py", line 103, in __torch_function__
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 448.00 MiB. GPU 5 has a total capacity of 79.10 GiB of which 300.00 MiB is free. Including non-PyTorch memory, this process has 78.79 GiB memory in use. Of the allocated memory 76.03 GiB is allocated by PyTorch, and 58.62 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLO[1,1]<stderr>:C_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-10-25 10:36:11] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>:The target application terminated. One or more process it created re-parented.
+[1,1]<stderr>:Waiting for termination of re-parented processes.
+[1,1]<stderr>:Use the `--wait` option to modify this behavior.
+[1,1]<stderr>:
+[1,1]<stderr>:real	2m26.289s
+[1,1]<stderr>:user	0m0.036s
+[1,1]<stderr>:sys	0m3.209s

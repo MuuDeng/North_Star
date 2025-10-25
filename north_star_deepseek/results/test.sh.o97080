@@ -1,0 +1,258 @@
+========== ULTRA-OPTIMIZED 7-MIN BENCHMARK ==========
+Target: 7min | Est. SU: 238.934 | Balance: 41559.540
+N/A
+Job ID: 97080.pbs111 | GPUs: 16 | Master: a2ap-dgx008.asp2p.nscc.sg:5000
+Config: TP16+DP2 | NCCL: 32ch×8QPSperConn | IB: AR+GDR+PHB
+Optimizations: CUDA Graph + Aggressive Batching + Max NCCL Tuning
+====================================================
+[22:34:23] Launching ULTRA-OPTIMIZED benchmark...
+[1,0]<stdout>:usage: bench_offline_throughput.py [-h] --model-path MODEL_PATH
+[1,0]<stdout>:                                   [--tokenizer-path TOKENIZER_PATH]
+[1,0]<stdout>:                                   [--tokenizer-mode {auto,slow}]
+[1,0]<stdout>:                                   [--skip-tokenizer-init]
+[1,0]<stdout>:                                   [--load-format {auto,pt,safetensors,npcache,dummy,sharded_state,gguf,bitsandbytes,layered,remote}]
+[1,0]<stdout>:                                   [--model-loader-extra-config MODEL_LOADER_EXTRA_CONFIG]
+[1,0]<stdout>:                                   [--trust-remote-code]
+[1,0]<stdout>:                                   [--context-length CONTEXT_LENGTH]
+[1,0]<stdout>:                                   [--is-embedding] [--enable-multimodal]
+[1,0]<stdout>:                                   [--revision REVISION]
+[1,0]<stdout>:                                   [--model-impl MODEL_IMPL] [--host HOST]
+[1,0]<stdout>:                                   [--port PORT] [--skip-server-warmup]
+[1,0]<stdout>:                                   [--warmups WARMUPS] [--nccl-port NCCL_PORT]
+[1,0]<stdout>:                                   [--dtype {auto,half,float16,bfloat16,float,float32}]
+[1,0]<stdout>:                                   [--quantization {awq,fp8,gptq,marlin,gptq_marlin,awq_marlin,bitsandbytes,gguf,modelopt,modelopt_fp4,petit_nvfp4,w8a8_int8,w8a8_fp8,moe_wna16,qoq,w4afp8,mxfp4}]
+[1,0]<stdout>:                                   [--quantization-param-path QUANTIZATION_PARAM_PATH]
+[1,0]<stdout>:                                   [--kv-cache-dtype {auto,fp8_e5m2,fp8_e4m3}]
+[1,0]<stdout>:                                   [--mem-fraction-static MEM_FRACTION_STATIC]
+[1,0]<stdout>:                                   [--max-running-requests MAX_RUNNING_REQUESTS]
+[1,0]<stdout>:                                   [--max-queued-requests MAX_QUEUED_REQUESTS]
+[1,0]<stdout>:                                   [--max-total-tokens MAX_TOTAL_TOKENS]
+[1,0]<stdout>:                                   [--chunked-prefill-size CHUNKED_PREFILL_SIZE]
+[1,0]<stdout>:                                   [--max-prefill-tokens MAX_PREFILL_TOKENS]
+[1,0]<stdout>:                                   [--schedule-policy {lpm,random,fcfs,dfs-weight,lof}]
+[1,0]<stdout>:                                   [--schedule-conservativeness SCHEDULE_CONSERVATIVENESS]
+[1,0]<stdout>:                                   [--cpu-offload-gb CPU_OFFLOAD_GB]
+[1,0]<stdout>:                                   [--page-size PAGE_SIZE]
+[1,0]<stdout>:                                   [--hybrid-kvcache-ratio [HYBRID_KVCACHE_RATIO]]
+[1,0]<stdout>:                                   [--swa-full-tokens-ratio SWA_FULL_TOKENS_RATIO]
+[1,0]<stdout>:                                   [--disable-hybrid-swa-memory]
+[1,0]<stdout>:                                   [--device DEVICE]
+[1,0]<stdout>:                                   [--tensor-parallel-size TENSOR_PARALLEL_SIZE]
+[1,0]<stdout>:                                   [--pipeline-parallel-size PIPELINE_PARALLEL_SIZE]
+[1,0]<stdout>:                                   [--max-micro-batch-size MAX_MICRO_BATCH_SIZE]
+[1,0]<stdout>:                                   [--stream-interval STREAM_INTERVAL]
+[1,0]<stdout>:                                   [--stream-output]
+[1,0]<stdout>:                                   [--random-seed RANDOM_SEED]
+[1,0]<stdout>:                                   [--constrained-json-whitespace-pattern CONSTRAINED_JSON_WHITESPACE_PATTERN]
+[1,0]<stdout>:                                   [--watchdog-timeout WATCHDOG_TIMEOUT]
+[1,0]<stdout>:                                   [--dist-timeout DIST_TIMEOUT]
+[1,0]<stdout>:                                   [--download-dir DOWNLOAD_DIR]
+[1,0]<stdout>:                                   [--base-gpu-id BASE_GPU_ID]
+[1,0]<stdout>:                                   [--gpu-id-step GPU_ID_STEP]
+[1,0]<stdout>:                                   [--sleep-on-idle] [--log-level LOG_LEVEL]
+[1,0]<stdout>:                                   [--log-level-http LOG_LEVEL_HTTP]
+[1,0]<stdout>:                                   [--log-requests]
+[1,0]<stdout>:                                   [--log-requests-level {0,1,2,3}]
+[1,0]<stdout>:                                   [--crash-dump-folder CRASH_DUMP_FOLDER]
+[1,0]<stdout>:                                   [--show-time-cost] [--enable-metrics]
+[1,0]<stdout>:                                   [--enable-metrics-for-all-schedulers]
+[1,0]<stdout>:                                   [--bucket-time-to-first-token BUCKET_TIME_TO_FIRST_TOKEN [BUCKET_TIME_TO_FIRST_TOKEN ...]]
+[1,0]<stdout>:                                   [--bucket-inter-token-latency BUCKET_INTER_TOKEN_LATENCY [BUCKET_INTER_TOKEN_LATENCY ...]]
+[1,0]<stdout>:      [1,0]<stdout>:                             [--bucket-e2e-request-latency BUCKET_E2E_REQUEST_LATENCY [BUCKET_E2E_REQUEST_LATENCY ...]]
+[1,0]<stdout>:                                   [--collect-tokens-histogram]
+[1,0]<stdout>:                                   [--decode-log-interval DECODE_LOG_INTERVAL]
+[1,0]<stdout>:                                   [--enable-request-time-stats-logging]
+[1,0]<stdout>:                                   [--kv-events-config KV_EVENTS_CONFIG]
+[1,0]<stdout>:                                   [--api-key API_KEY]
+[1,0]<stdout>:                                   [--served-model-name SERVED_MODEL_NAME]
+[1,0]<stdout>:                                   [--weight-version WEIGHT_VERSION]
+[1,0]<stdout>:                                   [--chat-template CHAT_TEMPLATE]
+[1,0]<stdout>:                                   [--completion-template COMPLETION_TEMPLATE]
+[1,0]<stdout>:                                   [--file-storage-path FILE_STORAGE_PATH]
+[1,0]<stdout>:                                   [--enable-cache-report]
+[1,0]<stdout>:                                   [--reasoning-parser {deepseek-r1,qwen3,qwen3-thinking,glm45,kimi,step3,gpt-oss}]
+[1,0]<stdout>:                                   [--tool-call-parser {qwen25,mistral,llama3,deepseekv3,pythonic,kimi_k2,qwen3_coder,glm45,step3,gpt-oss}]
+[1,0]<stdout>:                                   [--tool-server TOOL_SERVER]
+[1,0]<stdout>:                                   [--data-parallel-size DATA_PARALLEL_SIZE]
+[1,0]<stdout>:                                   [--load-balance-method {round_robin,shortest_queue,minimum_tokens}]
+[1,0]<stdout>:                                   [--dist-init-addr DIST_INIT_ADDR]
+[1,0]<stdout>:                                   [--nnodes NNODES] [--node-rank NODE_RANK]
+[1,0]<stdout>:                                   [--json-model-override-args JSON_MODEL_OVERRIDE_ARGS]
+[1,0]<stdout>:                                   [--preferred-sampling-params PREFERRED_SAMPLING_PARAMS]
+[1,0]<stdout>:                                   [--enable-lora]
+[1,0]<stdout>:                                   [--max-lora-rank MAX_LORA_RANK]
+[1,0]<stdout>:                                   [--lora-target-modules [{q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj,all} ...]]
+[1,0]<stdout>:                                   [--lora-paths [LORA_PATHS ...]]
+[1,0]<stdout>:                                   [--max-loras-per-batch MAX_LORAS_PER_BATCH]
+[1,0]<stdout>:                                   [--max-loaded-loras MAX_LOADED_LORAS]
+[1,0]<stdout>:                                   [--lora-backend LORA_BACKEND]
+[1,0]<stdout>:                                   [--attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,aiter,wave,intel_amx,ascend}]
+[1,0]<stdout>:                                   [--prefill-attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,aiter,wave,intel_amx,ascend}]
+[1,0]<stdout>:                                   [--decode-attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,aiter,wave,intel_amx,ascend}]
+[1,0]<stdout>:                                   [--sampling-backend {flashinfer,pytorch}]
+[1,0]<stdout>:                                   [--grammar-backend {xgrammar,outlines,llguidance,none}]
+[1,0]<stdout>:                                   [--mm-attention-backend {sdpa,fa3,triton_attn}]
+[1,0]<stdout>:                                   [--speculative-algorithm {EAGLE,EAGLE3,NEXTN}]
+[1,0]<stdout>:                                   [--speculative-draft-model-path SPECULATIVE_DRAFT_MODEL_PATH]
+[1,0]<stdout>:                                   [--speculative-num-steps SPECULATIVE_NUM_STEPS]
+[1,0]<stdout>:                                   [--speculative-eagle-topk SPECULATIVE_EAGLE_TOPK]
+[1,0]<stdout>:                                   [--speculative-num-draft-tokens SPECULATIVE_NUM_DRAFT_TOKENS]
+[1,0]<stdout>:                                   [--speculative-accept-threshold-single SPECULATIVE_ACCEPT_THRESHOLD_SINGLE]
+[1,0]<stdout>:                                   [--speculative-accept-threshold-acc SPECULATIVE_ACCEPT_THRESHOLD_ACC]
+[1,0]<stdout>:                                   [--speculative-token-map SPECULATIVE_TOKEN_MAP]
+[1,0]<stdout>:                                   [--expert-parallel-size EXPERT_PARALLEL_SIZE]
+[1,0]<stdout>:                                   [--moe-a2a-backend {deepep}]
+[1,0]<stdout>:                                   [--enable-flashinfer-cutlass-moe]
+[1,0]<stdout>:                                   [--enable-flashinfer-trtllm-moe]
+[1,0]<stdout>: [1,0]<stdout>:                                  [--enable-flashinfer-allreduce-fusion]
+[1,0]<stdout>:                                   [--deepep-mode {normal,low_latency,auto}]
+[1,0]<stdout>:                                   [--ep-num-redundant-experts EP_NUM_REDUNDANT_EXPERTS]
+[1,0]<stdout>:                                   [--ep-dispatch-algorithm EP_DISPATCH_ALGORITHM]
+[1,0]<stdout>:                                   [--init-expert-location INIT_EXPERT_LOCATION]
+[1,0]<stdout>:                                   [--enable-eplb]
+[1,0]<stdout>:                                   [--eplb-algorithm EPLB_ALGORITHM]
+[1,0]<stdout>:                                   [--eplb-rebalance-num-iterations EPLB_REBALANCE_NUM_ITERATIONS]
+[1,0]<stdout>:                                   [--eplb-rebalance-layers-per-chunk EPLB_REBALANCE_LAYERS_PER_CHUNK]
+[1,0]<stdout>:                                   [--expert-distribution-recorder-mode EXPERT_DISTRIBUTION_RECORDER_MODE]
+[1,0]<stdout>:                                   [--expert-distribution-recorder-buffer-size EXPERT_DISTRIBUTION_RECORDER_BUFFER_SIZE]
+[1,0]<stdout>:                                   [--enable-expert-distribution-metrics]
+[1,0]<stdout>:                                   [--deepep-config DEEPEP_CONFIG]
+[1,0]<stdout>:                                   [--moe-dense-tp-size MOE_DENSE_TP_SIZE]
+[1,0]<stdout>:                                   [--enable-hierarchical-cache]
+[1,0]<stdout>:                                   [--hicache-ratio HICACHE_RATIO]
+[1,0]<stdout>:                                   [--hicache-size HICACHE_SIZE]
+[1,0]<stdout>:                                   [--hicache-write-policy {write_back,write_through,write_through_selective}]
+[1,0]<stdout>:                                   [--hicache-io-backend {direct,kernel}]
+[1,0]<stdout>:                                   [--hicache-mem-layout {layer_first,page_first}]
+[1,0]<stdout>:                                   [--hicache-storage-backend {file,mooncake,hf3fs,nixl}]
+[1,0]<stdout>:                                   [--hicache-storage-prefetch-policy {best_effort,wait_complete,timeout}]
+[1,0]<stdout>:                                   [--enable-double-sparsity]
+[1,0]<stdout>:                                   [--ds-channel-config-path DS_CHANNEL_CONFIG_PATH]
+[1,0]<stdout>:                                   [--ds-heavy-channel-num DS_HEAVY_CHANNEL_NUM]
+[1,0]<stdout>:                                   [--ds-heavy-token-num DS_HEAVY_TOKEN_NUM]
+[1,0]<stdout>:                                   [--ds-heavy-channel-type DS_HEAVY_CHANNEL_TYPE]
+[1,0]<stdout>:                                   [--ds-sparse-decode-threshold DS_SPARSE_DECODE_THRESHOLD]
+[1,0]<stdout>:                                   [--disable-radix-cache]
+[1,0]<stdout>:                                   [--cuda-graph-max-bs CUDA_GRAPH_MAX_BS]
+[1,0]<stdout>:                                   [--cuda-graph-bs CUDA_GRAPH_BS [CUDA_GRAPH_BS ...]]
+[1,0]<stdout>:                                   [--disable-cuda-graph]
+[1,0]<stdout>:                                   [--disable-cuda-graph-padding]
+[1,0]<stdout>:                                   [--enable-profile-cuda-graph]
+[1,0]<stdout>:                                   [--enable-cudagraph-gc]
+[1,0]<stdout>:                                   [--enable-nccl-nvls] [--enable-symm-mem]
+[1,0]<stdout>:                                   [--enable-tokenizer-batch-encode]
+[1,0]<stdout>:                                   [--disable-outlines-disk-cache]
+[1,0]<stdout>:                                   [--disable-custom-all-reduce]
+[1,0]<stdout>:                                   [--enable-mscclpp]
+[1,0]<stdout>:                                   [--disable-overlap-schedule]
+[1,0]<stdout>:                                   [--enable-mixed-chunk]
+[1,0]<stdout>:                                   [--enable-dp-attention]
+[1,0]<stdout>:                                   [--enable-dp-lm-head]
+[1,0]<stdout>:                                   [--enable-two-batch-overlap]
+[1,0]<stdout>:                                   [--tbo-token-distribution-threshold TBO_TOKEN_DISTRIBUTION_THRESHOLD]
+[1,0]<stdout>:                                   [--enable-torch-compile]
+[1,0]<stdout>:                                   [--torch-compile-max-bs TORCH_COMPILE_MAX_BS]
+[1,0]<stdout>:                                   [--torchao-config TORCHAO_CONFIG]
+[1,0]<stdout>:                                   [--enable-nan-detection]
+[1,0]<stdout>:                                   [--enable-p2p-check]
+[1,0]<stdout>:                                   [--triton-attention-reduce-in-fp32]
+[1,0]<stdout>:                                   [--triton-attention-num-kv-splits TRITON_ATTENTION_NUM_KV_SPLITS]
+[1,0]<stdout>:                                   [--num-continuous-decode-steps NUM_CONTINUO[1,0]<stdout>:US_DECODE_STEPS]
+[1,0]<stdout>:                                   [--delete-ckpt-after-loading]
+[1,0]<stdout>:                                   [--enable-memory-saver]
+[1,0]<stdout>:                                   [--allow-auto-truncate]
+[1,0]<stdout>:                                   [--enable-custom-logit-processor]
+[1,0]<stdout>:                                   [--flashinfer-mla-disable-ragged]
+[1,0]<stdout>:                                   [--disable-shared-experts-fusion]
+[1,0]<stdout>:                                   [--disable-chunked-prefix-cache]
+[1,0]<stdout>:                                   [--disable-fast-image-processor]
+[1,0]<stdout>:                                   [--enable-return-hidden-states]
+[1,0]<stdout>:                                   [--enable-triton-kernel-moe]
+[1,0]<stdout>:                                   [--enable-flashinfer-mxfp4-moe]
+[1,0]<stdout>:                                   [--scheduler-recv-interval SCHEDULER_RECV_INTERVAL]
+[1,0]<stdout>:                                   [--debug-tensor-dump-output-folder DEBUG_TENSOR_DUMP_OUTPUT_FOLDER]
+[1,0]<stdout>:                                   [--debug-tensor-dump-input-file DEBUG_TENSOR_DUMP_INPUT_FILE]
+[1,0]<stdout>:                                   [--debug-tensor-dump-inject DEBUG_TENSOR_DUMP_INJECT]
+[1,0]<stdout>:                                   [--debug-tensor-dump-prefill-only]
+[1,0]<stdout>:                                   [--disaggregation-mode {null,prefill,decode}]
+[1,0]<stdout>:                                   [--disaggregation-transfer-backend {mooncake,nixl,ascend}]
+[1,0]<stdout>:                                   [--disaggregation-bootstrap-port DISAGGREGATION_BOOTSTRAP_PORT]
+[1,0]<stdout>:                                   [--disaggregation-decode-tp DISAGGREGATION_DECODE_TP]
+[1,0]<stdout>:                                   [--disaggregation-decode-dp DISAGGREGATION_DECODE_DP]
+[1,0]<stdout>:                                   [--disaggregation-prefill-pp DISAGGREGATION_PREFILL_PP]
+[1,0]<stdout>:                                   [--disaggregation-ib-device DISAGGREGATION_IB_DEVICE]
+[1,0]<stdout>:                                   [--num-reserved-decode-tokens NUM_RESERVED_DECODE_TOKENS]
+[1,0]<stdout>:                                   [--pdlb-url PDLB_URL]
+[1,0]<stdout>:                                   [--custom-weight-loader [CUSTOM_WEIGHT_LOADER ...]]
+[1,0]<stdout>:                                   [--enable-pdmux]
+[1,0]<stdout>:                                   [--sm-group-num SM_GROUP_NUM]
+[1,0]<stdout>:                                   [--weight-loader-disable-mmap]
+[1,0]<stdout>:                                   [--enable-ep-moe] [--enable-deepep-moe]
+[1,0]<stdout>:                                   [--backend BACKEND]
+[1,0]<stdout>:                                   [--result-filename RESULT_FILENAME]
+[1,0]<stdout>:                                   [--dataset-name {sharegpt,random,generated-shared-prefix}]
+[1,0]<stdout>:                                   [--dataset-path DATASET_PATH]
+[1,0]<stdout>:                                   [--num-prompts NUM_PROMPTS]
+[1,0]<stdout>:                                   [--sharegpt-output-len SHAREGPT_OUTPUT_LEN]
+[1,0]<stdout>:                                   [--sharegpt-context-len SHAREGPT_CONTEXT_LEN]
+[1,0]<stdout>:                                   [--random-input-len RANDOM_INPUT_LEN]
+[1,0]<stdout>:                                   [--random-output-len RANDOM_OUTPUT_LEN]
+[1,0]<stdout>:                                   [--random-range-ratio RANDOM_RANGE_RATIO]
+[1,0]<stdout>:                                   [--gsp-num-groups GSP_NUM_GROUPS]
+[1,0]<stdout>:                                   [--gsp-prompts-per-group GSP_PROMPTS_PER_GROUP]
+[1,0]<stdout>:                                   [--gsp-system-prompt-len GSP_SYSTEM_PROMPT_LEN]
+[1,0]<stdout>:                                   [--gsp-question-len GSP_QUESTION_LEN]
+[1,0]<stdout>:                                   [--gsp-output-len GSP_OUTPUT_LEN]
+[1,0]<stdout>:                                   [--seed SEED] [--disable-ignore-eos]
+[1,0]<stdout>:                                   [--extra-request-body {"key1": "value1", "key2": "value2"}]
+[1,0]<stdout>:                                   [--apply-chat-template] [--profile]
+[1,0]<stdout>:                                   [--skip-warmup] [--do-not-exit]
+[1,0]<stdout>:                                   [--prompt-suffix PROMPT_SUFFIX]
+[1,0]<stdout>:bench_offline_throughput.py: error: unrecognized arguments: --disable-mla --schedule-heuristic lpm
+[1,0]<stdout>:[RANK 0] Benchmark failed with exit code 2
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[1,1]<stderr>:Terminated
+[1,1]<stdout>:[RANK 1] Signal caught, cleaning up...
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6191,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------
+
+real	0m44.957s
+user	0m33.303s
+sys	0m11.389s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-11 22:35:29.487289:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 97080.pbs111
+	Project: 50000128
+	Exit Status: 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:00:45
+	Memory: Requested(3760gb), Used(2197008kb)
+	Vmem Used: 52197884kb
+	Walltime: Requested(00:30:00), Used(00:01:00)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx008:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx012:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.24mins
+	GPU Power Consumed: 125.57W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

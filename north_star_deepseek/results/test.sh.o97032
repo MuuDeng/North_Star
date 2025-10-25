@@ -1,0 +1,92 @@
+========== DOCS-COMPLIANT OPTIMIZED TP16 ==========
+Prepaid SU: 341.334 | 420s SU: 238.934 | Balance: 47173.334
+N/A
+Job ID: 97032.pbs111 | GPUs: 16 | Master: a2ap-dgx008.asp2p.nscc.sg:5000
+Config: TP16 + DP Attention + FlashInfer + Torch Compile
+Features: All arguments verified in SGLang v0.4+ docs
+====================================================
+[18:02:32] Launching with SGLang documented arguments...
+ Data for JOB [63411,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx008	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [63411,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx014	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [63411,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [63411,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx008	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [63411,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx014	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [63411,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+[1,0]<stderr>:Traceback (most recent call last):
+[1,0]<stderr>:  File "<frozen runpy>", line 198, in _run_module_as_main
+[1,0]<stderr>:  File "<frozen runpy>", line 88, in _run_code
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 441, in <module>
+[1,0]<stderr>:    server_args = ServerArgs.from_cli_args(args)
+[1,0]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 1976, in from_cli_args
+[1,0]<stderr>:    return cls(**{attr: getattr(args, attr) for attr in attrs})
+[1,0]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "<string>", line 194, in __init__
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 506, in __post_init__
+[1,0]<stderr>:    self.dp_size > 1
+[1,0]<stderr>:AssertionError: Please set a dp-size > 1. You can use 1 < dp-size <= tp-size 
+[1,0]<stderr>:
+[1,0]<stderr>:real	0m37.369s
+[1,0]<stderr>:user	0m33.157s
+[1,0]<stderr>:sys	0m11.602s
+[1,0]<stdout>:[RANK 0] Process failed with exit code 1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[63411,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+real	0m48.197s
+user	0m33.184s
+sys	0m11.692s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-11 18:03:40.836382:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 97032.pbs111
+	Project: 50000128
+	Exit Status: 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:00:45
+	Memory: Requested(3760gb), Used(2195420kb)
+	Vmem Used: 15910932kb
+	Walltime: Requested(00:15:00), Used(00:01:03)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx008:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx014:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.29mins
+	GPU Power Consumed: 125.38W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx008:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

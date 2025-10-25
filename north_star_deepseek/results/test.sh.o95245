@@ -1,0 +1,437 @@
+========== SU SUMMARY (Project 50000128) ==========
+Requested walltime: 00:10:00  -> Prepaid SU ~ 341.334
+Benchmark window:   420s       -> Expected SU ~ 238.934
+Current Balance:    52523.165
+N/A
+Est. Balance after prepaid: 52181.831
+Est. Balance after 420s run: 52284.231
+======================================================
+[INFO] Starting MPI run with 2 ranks (1 per node)
+[INFO] Master: a2ap-dgx003.asp2p.nscc.sg:26839
+[INFO] Model: /home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1
+[INFO] Dataset: /home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json
+[1,0]<stderr>: [a2ap-dgx003:1004159] Rank 0 is not bound (or bound to all available processors)
+[1,1]<stderr>: [a2ap-dgx006:1144401] Rank 1 is not bound (or bound to all available processors)
+[1,0]<stderr>: [INFO] Rank=0 starting on a2ap-dgx003
+[1,0]<stderr>: [OK] All paths validated
+[1,0]<stderr>: grep: lookbehind assertion is not fixed length
+[1,0]<stderr>: [INFO] Rank=0 using fallback: bond0
+[1,0]<stderr>: [INFO] Rank=0 GLOO=bond0 NCCL=ib0
+[1,0]<stderr>: [RUN] Starting SGLang benchmark on rank 0
+[1,1]<stderr>: [INFO] Rank=1 starting on a2ap-dgx006
+[1,1]<stderr>: grep: lookbehind assertion is not fixed length
+[1,1]<stderr>: [INFO] Rank=1 using fallback: bond0
+[1,1]<stderr>: [INFO] Rank=1 GLOO=bond0 NCCL=ib0
+[1,1]<stderr>: [RUN] Starting SGLang benchmark on rank 1
+[1,0]<stderr>: [2025-10-07 13:02:31] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>: [2025-10-07 13:02:56 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,0]<stderr>: [2025-10-07 13:02:56 TP0] Chunked prefix cache is turned on.
+[1,0]<stderr>: [2025-10-07 13:02:56 TP0] Init torch distributed begin.
+[1,0]<stdout>: [Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stderr>: [2025-10-07 13:03:00 TP0] sglang is using nccl==2.27.3
+[1,0]<stdout>: [Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>: [Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: [Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>: a2ap-dgx003:1005360:1005360 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to ib0
+[1,0]<stdout>: 
+[1,0]<stdout>: [2025-10-07 13:03:01] a2ap-dgx003:1005360:1005360 [0] bootstrap.cc:115 NCCL WARN Bootstrap : no socket interface found
+[1,0]<stdout>: a2ap-dgx003:1005360:1005360 [0] NCCL INFO init.cc:80 -> 5
+[1,0]<stdout>: a2ap-dgx003:1005360:1005360 [0] NCCL INFO init.cc:100 -> 5
+[1,0]<stderr>: [2025-10-07 13:03:01 TP0] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:     scheduler = Scheduler(
+[1,0]<stderr>:                 ^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                      ^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,0]<stderr>:     self.worker = TpModelWorker(
+[1,0]<stderr>:                   ^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:     self.model_runner = ModelRunner(
+[1,0]<stderr>:                         ^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,0]<stderr>:     initialize_model_parallel(
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,0]<stderr>:     _TP = init_model_parallel_group(
+[1,0]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,0]<stderr>:     return GroupCoordinator(
+[1,0]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,0]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,0]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 84, in __init__
+[1,0]<stderr>:     self.unique_id = self.nccl.ncclGetUniqueId()
+[1,0]<stderr>:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_wrapper.py", line 368, in ncclGetUniqueId
+[1,0]<stderr>:     self.NCCL_CHECK(self._funcs["ncclGetUniqueId"](ctypes.byref(unique_id)))
+[1,0]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl_wrapper.py", line 350, in NCCL_CHECK
+[1,0]<stderr>:     raise RuntimeError(f"NCCL error: {error_str}")
+[1,0]<stderr>: RuntimeError: NCCL error: invalid usage (run with NCCL_DEBUG=WARN for details)
+[1,0]<stderr>: 
+[1,0]<stderr>: [2025-10-07 13:03:01] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>: [2025-10-07 13:03:01 TP10] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,1]<stderr>:     initialize_model_parallel(
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,1]<stderr>:     _TP = init_model_parallel_group(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,1]<stderr>:     return GroupCoordinator(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,1]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,1]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 93, in __init__
+[1,1]<stderr>:     dist.broadcast(tensor, src=ranks[0], group=group)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:     return func(*args, **kwargs)
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stderr>:     work.wait()
+[1,1]<stderr>: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.77]:64949
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-07 13:03:01] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>: [2025-10-07 13:03:01 TP8] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,1]<stderr>:     initialize_model_parallel(
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,1]<stderr>:     _TP = init_model_parallel_group(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,1]<stderr>:     return GroupCoordinator(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,1]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,1]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 93, in __init__
+[1,1]<stderr>:     dist.broadcast(tensor, src=ranks[0], group=group)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:     return func(*args, **kwargs)
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stderr>:     work.wait()
+[1,1]<stderr>: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.77]:28587
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-07 13:03:01 TP9] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,1]<stderr>:     initialize_model_parallel(
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,1]<stderr>:     _TP = init_model_parallel_group(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,1]<stderr>:     return GroupCoordinator(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,1]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,1]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 93, in __init__
+[1,1]<stderr>:     dist.broadcast(tensor, src=ranks[0], group=group)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:     return func(*args, **kwargs)
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stderr>:     work.wait()
+[1,1]<stderr>: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.77]:37814
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-07 13:03:01 TP13] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,1]<stderr>:     initialize_model_parallel(
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,1]<stderr>:     _TP = init_model_parallel_group(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,1]<stderr>:     return GroupCoordinator(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,1]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,1]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 93, in __init__
+[1,1]<stderr>:     dist.broadcast(tensor, src=ranks[0], group=group)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:     return func(*args, **kwargs)
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stderr>:     work.wait()
+[1,1]<stderr>: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.77]:939
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-07 13:03:01] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>: [2025-10-07 13:03:01 TP14] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,1]<stderr>:     initialize_model_parallel(
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,1]<stderr>:     _TP = init_model_parallel_group(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,1]<stderr>:     return GroupCoordinator(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,1]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,1]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 93, in __init__
+[1,1]<stderr>:     dist.broadcast(tensor, src=ranks[0], group=group)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:     return func(*args, **kwargs)
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stderr>:     work.wait()
+[1,1]<stderr>: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.77]:27016
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-07 13:03:01 TP15] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,1]<stderr>:     initialize_model_parallel(
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,1]<stderr>:     _TP = init_model_parallel_group(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,1]<stderr>:     return GroupCoordinator(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,1]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,1]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 93, in __init__
+[1,1]<stderr>:     dist.broadcast(tensor, src=ranks[0], group=group)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:     return func(*args, **kwargs)
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stderr>:     work.wait()
+[1,1]<stderr>: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.77]:48563
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-07 13:03:01] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>: [2025-10-07 13:03:01 TP11] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,1]<stderr>:     initialize_model_parallel(
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,1]<stderr>:     _TP = init_model_parallel_group(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,1]<stderr>:     return GroupCoordinator(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,1]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,1]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 93, in __init__
+[1,1]<stderr>:     dist.broadcast(tensor, src=ranks[0], group=group)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:     return func(*args, **kwargs)
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stderr>:     work.wait()
+[1,1]<stderr>: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.77]:5013
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-07 13:03:01] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>: [2025-10-07 13:03:01 TP12] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:     scheduler = Scheduler(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:     self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                      ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:     self.worker = TpModelWorker(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:     self.model_runner = ModelRunner(
+[1,1]<stderr>:                         ^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:     min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 599, in init_torch_distributed
+[1,1]<stderr>:     initialize_model_parallel(
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1340, in initialize_model_parallel
+[1,1]<stderr>:     _TP = init_model_parallel_group(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1128, in init_model_parallel_group
+[1,1]<stderr>:     return GroupCoordinator(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 282, in __init__
+[1,1]<stderr>:     self.pynccl_comm = PyNcclCommunicator(
+[1,1]<stderr>:                        ^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/device_communicators/pynccl.py", line 93, in __init__
+[1,1]<stderr>:     dist.broadcast(tensor, src=ranks[0], group=group)
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:     return func(*args, **kwargs)
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:   File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+[1,1]<stderr>:     work.wait()
+[1,1]<stderr>: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [10.104.4.77]:16307
+[1,1]<stderr>: 
+[1,1]<stderr>: [2025-10-07 13:03:01] Received sigquit from a child process. It usually means the child failed.
+[1,1]<stderr>: bash: line 49: 1144622 Killed                  "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/bin/python3" -m sglang.bench_offline_throughput --model-path "/home/users/industry/ai-hpc/apacsc34/scratch/model/DeepSeek-R1" --dataset-path "/home/users/industry/ai-hpc/apacsc34/scratch/ShareGPT_V3_unfiltered_cleaned_split.json" --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --node-rank $NODE_RANK --trust-remote-code --dist-init-addr "a2ap-dgx003.asp2p.nscc.sg:26839"
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-a2ap-dgx003-1004159@1,1] Exit code:    137
+--------------------------------------------------------------------------
+
+real	1m7.482s
+user	0m21.922s
+sys	0m9.479s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-07 13:03:14.966029:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 95245.pbs111
+	Project: 50000128
+	Exit Status: 137
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:06:24
+	Memory: Requested(3760gb), Used(10006152kb)
+	Vmem Used: 2078152988kb
+	Walltime: Requested(00:10:00), Used(00:01:14)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx003:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx006:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.39mins
+	GPU Power Consumed: 156.17000000000002W
+	GPU Max GPU Memory Used: 7.62GB
+	Memory Throughput Rate (Average): a2ap-dgx003:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx006:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx003:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx006:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx003:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx006:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx003:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx006:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx003:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx006:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx003:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx006:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
