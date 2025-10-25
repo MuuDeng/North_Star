@@ -1,0 +1,90 @@
+ Data for JOB [31268,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx001	Num slots: 2	Max slots: 0	Num procs: 2
+ 	Process OMPI jobid: [31268,1] App: 0 Process rank: 0 Bound: N/A
+ 	Process OMPI jobid: [31268,1] App: 0 Process rank: 1 Bound: N/A
+
+ Data for node: a2ap-dgx002	Num slots: 2	Max slots: 0	Num procs: 2
+ 	Process OMPI jobid: [31268,1] App: 0 Process rank: 2 Bound: N/A
+ 	Process OMPI jobid: [31268,1] App: 0 Process rank: 3 Bound: N/A
+
+ =============================================================
+ Data for JOB [31268,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx001	Num slots: 2	Max slots: 0	Num procs: 2
+ 	Process OMPI jobid: [31268,1] App: 0 Process rank: 0 Bound: N/A
+ 	Process OMPI jobid: [31268,1] App: 0 Process rank: 1 Bound: N/A
+
+ Data for node: a2ap-dgx002	Num slots: 2	Max slots: 0	Num procs: 2
+ 	Process OMPI jobid: [31268,1] App: 0 Process rank: 2 Bound: N/A
+ 	Process OMPI jobid: [31268,1] App: 0 Process rank: 3 Bound: N/A
+
+ =============================================================
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/py312/bin/python3: Error while finding module specification for 'sglang.bench_offline_throughput' (ModuleNotFoundError: No module named 'sglang')
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/py312/bin/python3: Error while finding module specification for 'sglang.bench_offline_throughput' (ModuleNotFoundError: No module named 'sglang')
+[1,0]<stderr>:
+[1,0]<stderr>:real	0m0.118s
+[1,0]<stderr>:user	0m0.015s
+[1,0]<stderr>:sys	0m0.034s
+[1,1]<stderr>:
+[1,1]<stderr>:real	0m0.117s
+[1,1]<stderr>:user	0m0.017s
+[1,1]<stderr>:sys	0m0.026s
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/py312/bin/python3: Error while finding module specification for 'sglang.bench_offline_throughput' (ModuleNotFoundError: No module named 'sglang')
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/py312/bin/python3: Error while finding module specification for 'sglang.bench_offline_throughput' (ModuleNotFoundError: No module named 'sglang')
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[1,3]<stderr>:
+[1,3]<stderr>:real	0m0.126s
+[1,3]<stderr>:user	0m0.010s
+[1,3]<stderr>:sys	0m0.025s
+[1,2]<stderr>:
+[1,2]<stderr>:real	0m0.128s
+[1,2]<stderr>:user	0m0.016s
+[1,2]<stderr>:sys	0m0.029s
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[31268,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+real	0m6.333s
+user	0m0.115s
+sys	0m0.210s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-14 03:50:35.437519:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 97788.pbs111
+	Project: 50000128
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:00:00
+	Memory: Requested(3760gb), Used(48648kb)
+	Vmem Used: 9192kb
+	Walltime: Requested(00:07:00), Used(00:00:13)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx001:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx002:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 28.26secs
+	GPU Power Consumed: 87.53W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx001:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx002:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx001:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx002:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx001:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx002:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx001:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx002:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx001:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx002:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx001:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx002:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
