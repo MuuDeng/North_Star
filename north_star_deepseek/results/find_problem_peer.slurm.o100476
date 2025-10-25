@@ -1,0 +1,43 @@
+=== DDP Diagnostics (single node) ===
+BACKEND=nccl, NPROC=8, MASTER=127.0.0.1:29500, IFNAME=''
+/var/spool/pbs/mom_priv/jobs/100476.pbs111.SC: line 103: python: command not found
+/var/spool/pbs/mom_priv/jobs/100476.pbs111.SC: line 106: python: command not found
+Running torchrun probe -> ./ddp_diagnostics_20251023_055009/probe.jsonl
+/var/spool/pbs/mom_priv/jobs/100476.pbs111.SC: line 246: python: command not found
+Files collected in: ./ddp_diagnostics_20251023_055009
+- env.txt             : สภาพแวดล้อมและตัวแปรสำคัญ
+- network.txt         : สถานะ network interfaces, routes, sockets
+- gpu_cuda.txt        : ข้อมูล GPU/CUDA/Topo
+- python_torch.txt    : เวอร์ชัน PyTorch/CUDA/NCCL
+- probe_raw.log       : log เต็มจาก torchrun
+- probe.jsonl         : ต่อ-rank สรุปผล init/barrier/all_reduce (JSON)
+=== Done. Attach ./ddp_diagnostics_20251023_055009 when reporting. ===
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-23 05:50:27.195039:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 100476.pbs111
+	Project: 50000128
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(112), Used(112)
+	CPU Time Used: 00:00:05
+	Memory: Requested(1880gb), Used(23088kb)
+	Vmem Used: 39608kb
+	Walltime: Requested(00:07:00), Used(00:00:14)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx016:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 18.07secs
+	GPU Power Consumed: 45.48W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx016:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx016:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx016:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx016:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx016:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx016:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

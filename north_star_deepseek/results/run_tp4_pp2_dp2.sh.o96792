@@ -1,0 +1,138 @@
+ Data for JOB [51746,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx021	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [51746,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx023	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [51746,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [51746,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx021	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [51746,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx023	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [51746,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+[1,1]<stderr>:WARNING: CPU IP/backtrace sampling not supported, disabling.
+[1,1]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,1]<stderr>:
+[1,1]<stderr>:WARNING: CPU context switch tracing not supported, disabling.
+[1,1]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,1]<stderr>:
+[1,0]<stderr>:WARNING: CPU IP/backtrace sampling not supported, disabling.
+[1,0]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,0]<stderr>:
+[1,0]<stderr>:WARNING: CPU context switch tracing not supported, disabling.
+[1,0]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,0]<stderr>:
+[1,0]<stdout>:Collecting data...
+[1,1]<stdout>:Collecting data...
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,0]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,0]<stderr>:Traceback (most recent call last):
+[1,0]<stderr>:  File "<frozen runpy>", line 198, in _run_module_as_main
+[1,0]<stderr>:  File "<frozen runpy>", line 88, in _run_code
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 449, in <module>
+[1,0]<stderr>:    throughput_test(server_args, bench_args)
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 315, in throughput_test
+[1,0]<stderr>:    backend = Engine(**dataclasses.asdict(server_args))
+[1,0]<stderr>:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/entrypoints/engine.py", line 130, in __init__
+[1,0]<stderr>:    tokenizer_manager, template_manager, scheduler_info = _launch_subprocesses(
+[1,0]<stderr>:                                                          ^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/entrypoints/engine.py", line 762, in _launch_subprocesses
+[1,0]<stderr>:    server_args.check_server_args()
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 2915, in check_server_args
+[1,0]<stderr>:    assert not (
+[1,0]<stderr>:           ^^^^^
+[1,0]<stderr>:AssertionError: multi-node data parallel is not supported unless dp attention!
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,0]<stdout>:Generating '/raid/pbs.96792.pbs111/nsys-report-bb3e.qdstrm'
+[1,1]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,1]<stderr>:Traceback (most recent call last):
+[1,1]<stderr>:  File "<frozen runpy>", line 198, in _run_module_as_main
+[1,1]<stderr>:  File "<frozen runpy>", line 88, in _run_code
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 449, in <module>
+[1,1]<stderr>:    throughput_test(server_args, bench_args)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 315, in throughput_test
+[1,1]<stderr>:    backend = Engine(**dataclasses.asdict(server_args))
+[1,1]<stderr>:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/entrypoints/engine.py", line 130, in __init__
+[1,1]<stderr>:    tokenizer_manager, template_manager, scheduler_info = _launch_subprocesses(
+[1,1]<stderr>:                                                          ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/entrypoints/engine.py", line 762, in _launch_subprocesses
+[1,1]<stderr>:    server_args.check_server_args()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 2915, in check_server_args
+[1,1]<stderr>:    assert not (
+[1,1]<stderr>:           ^^^^^
+[1,1]<stderr>:AssertionError: multi-node data parallel is not supported unless dp attention!
+[1,0]<stdout>:[1/1] [0%                          ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [0%                          ] nsys_trace.96792.pbs111.nsys-rep[1/1] [7%                          ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [14%                         ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [11%                         ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [9%                          ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [8%                          ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [9%                          ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [10%                         ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [11%                         ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [====28%                     ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [=========43%                ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [=============59%            ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [==================77%       ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [=======================94%  ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [========================99% ] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [========================100%] nsys_trace.96792.pbs111.nsys-rep[1,0]<stdout>:[1/1] [========================100%] nsys_trace.96792.pbs111.nsys-rep
+[1,0]<stdout>:Generated:
+[1,0]<stdout>:    /home/users/industry/ai-hpc/apacsc34/result_from_profiling/nsys_trace.96792.pbs111.nsys-rep
+[1,1]<stdout>:Generating '/raid/pbs.96792.pbs111/nsys-report-1ecb.qdstrm'
+[1,1]<stderr>:Failed to create '/home/users/industry/ai-hpc/apacsc34/result_from_profiling/nsys_trace.96792.pbs111.nsys-rep': File exists.
+[1,1]<stderr>:Use `--force-overwrite true` to overwrite existing files.
+[1,1]<stdout>:[1/1] [0%                          ] nsys-report-526d.nsys-rep[1,1]<stdout>:[1/1] [0%                          ] nsys-report-526d.nsys-rep[1/1] [7%                          ] nsys-report-526d.nsys-rep[1,1]<stdout>:[1/1] [14%                         ] nsys-report-526d.nsys-rep[1,1]<stdout>:[1/1] [11%                         ] nsys-report-526d.nsys-rep[1,1]<stdout>:[1/1] [9%                          ] nsys-report-526d.nsys-rep[1,1]<stdout>:[1/1] [10%                         ] nsys-report-526d.nsys-rep[1,1]<stdout>:[1/1] [11%                         ] nsys-report-526d.nsys-rep[1,0]<stderr>:
+[1,0]<stderr>:real	0m53.897s
+[1,0]<stderr>:user	0m0.052s
+[1,0]<stderr>:sys	0m3.370s
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[1,1]<stdout>:[1/1] [12%                         ] nsys-report-526d.nsys-rep[1,1]<stdout>:[1/1] [=====29%                    ] nsys-report-526d.nsys-rep[1,1]<stdout>:[1/1] [=========45%                ] nsys-report-526d.nsys-rep[1/1] [==============62%           ] nsys-report-526d.nsys-rep[1/1] [===================80%      ] nsys-report-526d.nsys-rep[1/1] [========================99% ] nsys-report-526d.nsys-rep[1/1] [========================100%] nsys-report-526d.nsys-rep[1/1] [========================100%] nsys-report-526d.nsys-rep
+[1,1]<stdout>:Generated:
+[1,1]<stdout>:    /raid/pbs.96792.pbs111/nsys-report-526d.nsys-rep
+[1,1]<stderr>:
+[1,1]<stderr>:real	0m56.510s
+[1,1]<stderr>:user	0m0.056s
+[1,1]<stderr>:sys	0m2.828s
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[51746,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+real	0m58.618s
+user	0m0.085s
+sys	0m3.448s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-10 17:58:13.831576:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 96792.pbs111
+	Project: 50000128
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:01:00
+	Memory: Requested(3760gb), Used(1644452kb)
+	Vmem Used: 43122188kb
+	Walltime: Requested(00:07:00), Used(00:01:04)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx021:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx023:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.18mins
+	GPU Power Consumed: 131.7W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx023:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

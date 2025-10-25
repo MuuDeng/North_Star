@@ -1,0 +1,90 @@
+ Data for JOB [31626,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx012	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [31626,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx021	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [31626,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [31626,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx012	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [31626,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx021	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [31626,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,1]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,1]<stderr>:Traceback (most recent call last):
+[1,1]<stderr>:  File "<frozen runpy>", line 198, in _run_module_as_main
+[1,1]<stderr>:  File "<frozen runpy>", line 88, in _run_code
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 449, in <module>
+[1,1]<stderr>:    throughput_test(server_args, bench_args)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/bench_offline_throughput.py", line 315, in throughput_test
+[1,1]<stderr>:    backend = Engine(**dataclasses.asdict(server_args))
+[1,1]<stderr>:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/entrypoints/engine.py", line 130, in __init__
+[1,1]<stderr>:    tokenizer_manager, template_manager, scheduler_info = _launch_subprocesses(
+[1,1]<stderr>:                                                          ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/entrypoints/engine.py", line 762, in _launch_subprocesses
+[1,1]<stderr>:    server_args.check_server_args()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/nattanon/py312/lib/python3.12/site-packages/sglang/srt/server_args.py", line 2915, in check_server_args
+[1,1]<stderr>:    assert not (
+[1,1]<stderr>:           ^^^^^
+[1,1]<stderr>:AssertionError: multi-node data parallel is not supported unless dp attention!
+[1,1]<stderr>:
+[1,1]<stderr>:real	0m23.224s
+[1,1]<stderr>:user	0m32.391s
+[1,1]<stderr>:sys	0m8.406s
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[31626,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+real	0m27.346s
+user	0m0.051s
+sys	0m0.143s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-10 21:23:36.733733:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 96866.pbs111
+	Project: 50000128
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:00:41
+	Memory: Requested(3760gb), Used(815304kb)
+	Vmem Used: 9698180kb
+	Walltime: Requested(00:07:00), Used(00:00:31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx012:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx021:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 45.38secs
+	GPU Power Consumed: 109.84W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

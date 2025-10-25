@@ -1,0 +1,153 @@
+[1,7]<stderr>:[a2ap-dgx009:1832913] MCW rank 7 bound to socket 1[core 98[hwt 0-1]], socket 1[core 99[hwt 0-1]], socket 1[core 100[hwt 0-1]], socket 1[core 101[hwt 0-1]], socket 1[core 102[hwt 0-1]], socket 1[core 103[hwt 0-1]], socket 1[core 104[hwt 0-1]], socket 1[core 105[hwt 0-1]], socket 1[core 106[hwt 0-1]], socket 1[core 107[hwt 0-1]], socket 1[core 108[hwt 0-1]], socket 1[core 109[hwt 0-1]], socket 1[core 110[hwt 0-1]], socket 1[core 111[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB]
+[1,7]<stderr>:[DBG] host=a2ap-dgx009 rank=7 local=7 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,7]<stderr>:W1004 16:19:44.524000 1833151 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:19:44.524000 1833151 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:[2025-10-04 16:19:47] Using default HuggingFace chat template with detected content format: string
+[1,7]<stderr>:W1004 16:20:20.522000 1834286 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:20.522000 1834286 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:21.511000 1834290 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:21.511000 1834290 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:21.624000 1834283 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:21.624000 1834283 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:21.899000 1834282 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:21.899000 1834282 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.160000 1834284 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.160000 1834284 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.241000 1834287 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.241000 1834287 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.255000 1834289 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.255000 1834289 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.347000 1834288 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.347000 1834288 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.388000 1834285 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.388000 1834285 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:[2025-10-04 16:20:24 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,7]<stderr>:[2025-10-04 16:20:24 TP0] Chunked prefix cache is turned on.
+[1,7]<stderr>:[2025-10-04 16:20:24 TP0] Init torch distributed begin.
+[1,7]<stderr>:[2025-10-04 16:20:30 TP6] Scheduler hit an exception: Traceback (most recent call last):
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,7]<stderr>:    scheduler = Scheduler(
+[1,7]<stderr>:                ^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,7]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,7]<stderr>:                     ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,7]<stderr>:    self.worker = TpModelWorker(
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,7]<stderr>:    self.model_runner = ModelRunner(
+[1,7]<stderr>:                        ^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,7]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,7]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,7]<stderr>:    init_distributed_environment(
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1280, in init_distributed_environment
+[1,7]<stderr>:    _WORLD = init_world_group(ranks, local_rank, backend)
+[1,7]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1101, in init_world_group
+[1,7]<stderr>:    return GroupCoordinator(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 242, in __init__
+[1,7]<stderr>:    cpu_group = torch.distributed.new_group(ranks, backend="gloo")
+[1,7]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,7]<stderr>:    func_return = func(*args, **kwargs)
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5254, in new_group
+[1,7]<stderr>:    return _new_group_with_tag(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5344, in _new_group_with_tag
+[1,7]<stderr>:    pg, pg_store = _new_process_group_helper(
+[1,7]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1991, in _new_process_group_helper
+[1,7]<stderr>:    backend_class = ProcessGroupGloo(
+[1,7]<stderr>:                    ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ib0
+[1,7]<stderr>:
+[1,7]<stderr>:[2025-10-04 16:20:30] Received sigquit from a child process. It usually means the child failed.
+[1,7]<stderr>:[2025-10-04 16:20:30 TP3] Scheduler hit an exception: Traceback (most recent call last):
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,7]<stderr>:    scheduler = Scheduler(
+[1,7]<stderr>:                ^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,7]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,7]<stderr>:                     ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,7]<stderr>:    self.worker = TpModelWorker(
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,7]<stderr>:    self.model_runner = ModelRunner(
+[1,7]<stderr>:                        ^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,7]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,7]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,7]<stderr>:    init_distributed_environment(
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1280, in init_distributed_environment
+[1,7]<stderr>:    _WORLD = init_world_group(ranks, local_rank, backend)
+[1,7]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1101, in init_world_group
+[1,7]<stderr>:    return GroupCoordinator(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 242, in __init__
+[1,7]<stderr>:    cpu_group = torch.distributed.new_group(ranks, backend="gloo")
+[1,7]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,7]<stderr>:    func_return = func(*args, **kwargs)
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5254, in new_group
+[1,7]<stderr>:    return _new_group_with_tag(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5344, in _new_group_with_tag
+[1,7]<stderr>:    pg, pg_store = _new_process_group_helper(
+[1,7]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1991, in _new_process_group_helper
+[1,7]<stderr>:    backend_class = ProcessGroupGloo(
+[1,7]<stderr>:                    ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ib0
+[1,7]<stderr>:
+[1,7]<stderr>:[2025-10-04 16:20:30] Received sigquit from a child process. It usually means the child failed.
+[1,7]<stderr>:[2025-10-04 16:20:30 TP5] Scheduler hit an exception: Traceback (most recent call last):
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,7]<stderr>:    scheduler = Scheduler(
+[1,7]<stderr>:                ^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,7]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,7]<stderr>:                     ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,7]<stderr>:    self.worker = TpModelWorker(
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,7]<stderr>:    self.model_runner = ModelRunner(
+[1,7]<stderr>:                        ^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,7]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,7]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,7]<stderr>:    init_distributed_environment(
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1280, in init_distributed_environment
+[1,7]<stderr>:    _WORLD = init_world_group(ranks, local_rank, backend)
+[1,7]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1101, in init_world_group
+[1,7]<stderr>:    return GroupCoordinator(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 242, in __init__
+[1,7]<stderr>:    cpu_group = torch.distributed.new_group(ranks, backend="gloo")
+[1,7]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,7]<stderr>:    func_return = func(*args, **kwargs)
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5254, in new_group
+[1,7]<stderr>:    return _new_group_with_tag(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5344, in _new_group_with_tag
+[1,7]<stderr>:    pg, pg_store = _new_process_group_helper(
+[1,7]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1991, in _new_process_group_helper
+[1,7]<stderr>:    backend_class = ProcessGroupGloo(
+[1,7]<stderr>:                    ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ib0
+[1,7]<stderr>:
+[1,7]<stderr>:[2025-10-04 16:20:30] Received sigquit from a child process. It usually means the child failed.
+[1,7]<stderr>:bash: line 40: 1833151 Killed                  "$PYTHON" -m sglang.bench_offline_throughput --model-path "$MODEL" --dataset-path "$DATA" --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr ${MASTER_ADDR}:${MASTER_PORT} --node-rank ${NODE_RANK}
