@@ -1,0 +1,121 @@
+ Data for JOB [7978,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx024	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [7978,1] App: 0 Process rank: 0 Bound: UNBOUND
+
+ Data for node: a2ap-dgx030	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [7978,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [7978,1] offset 0 Total slots allocated 4
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx024	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [7978,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx030	Num slots: 2	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [7978,1] App: 0 Process rank: 1 Bound: UNBOUND
+
+ =============================================================
+[1,0]<stderr>:[a2ap-dgx024:2443122] MCW rank 0 is not bound (or bound to all available processors)
+[1,1]<stderr>:[a2ap-dgx030:2191900] MCW rank 1 is not bound (or bound to all available processors)
+[1,0]<stderr>:[DBG] host=a2ap-dgx024 rank=0 local=0 node=0 world=2
+[1,1]<stderr>:[DBG] host=a2ap-dgx030 rank=1 local=0 node=1 world=2
+[1,0]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,1]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,0]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,0]<stderr>:[2025-10-25 09:55:53] Using default HuggingFace chat template with detected content format: string
+[1,1]<stderr>:WARNING:sglang.srt.server_args:Pipeline parallelism is incompatible with overlap schedule.
+[1,1]<stderr>:[2025-10-25 09:56:13 TP2 PP1] Context: self.device='cuda' self.gpu_id=2 os.environ.get('CUDA_VISIBLE_DEVICES')='0' self.tp_rank=2 self.tp_size=8
+[1,1]<stderr>:[2025-10-25 09:56:13 TP2 PP1] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,1]<stderr>:    scheduler = Scheduler(
+[1,1]<stderr>:                ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,1]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                     ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:    self.model_runner = ModelRunner(
+[1,1]<stderr>:                        ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,1]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,1]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 547, in init_torch_distributed
+[1,1]<stderr>:    torch.get_device_module(self.device).set_device(self.gpu_id)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/cuda/__init__.py", line 569, in set_device
+[1,1]<stderr>:    torch._C._cuda_setDevice(device)
+[1,1]<stderr>:torch.AcceleratorError: CUDA error: invalid device ordinal
+[1,1]<stderr>:CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[1,1]<stderr>:For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[1,1]<stderr>:Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[1,1]<stderr>:
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-10-25 09:56:13] Received sigquit from a child process. It usually means the child failed.
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[1,0]<stderr>:[2025-10-25 09:56:14 TP4 PP0] Context: self.device='cuda' self.gpu_id=4 os.environ.get('CUDA_VISIBLE_DEVICES')='0' self.tp_rank=4 self.tp_size=8
+[1,0]<stderr>:[2025-10-25 09:56:14 TP4 PP0] Scheduler hit an exception: Traceback (most recent call last):
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,0]<stderr>:    scheduler = Scheduler(
+[1,0]<stderr>:                ^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,0]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,0]<stderr>:                     ^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,0]<stderr>:    self.model_runner = ModelRunner(
+[1,0]<stderr>:                        ^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,0]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,0]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 547, in init_torch_distributed
+[1,0]<stderr>:    torch.get_device_module(self.device).set_device(self.gpu_id)
+[1,0]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/cuda/__init__.py", line 569, in set_device
+[1,0]<stderr>:    torch._C._cuda_setDevice(device)
+[1,0]<stderr>:torch.AcceleratorError: CUDA error: invalid device ordinal
+[1,0]<stderr>:CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[1,0]<stderr>:For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[1,0]<stderr>:Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[1,0]<stderr>:
+[1,0]<stderr>:
+[1,0]<stderr>:[2025-10-25 09:56:14] Received sigquit from a child process. It usually means the child failed.
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 2191916 on node a2ap-dgx030 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+
+real	1m12.769s
+user	0m6.839s
+sys	0m5.326s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-25 09:56:29.819752:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 99958.pbs111
+	Project: 50000128
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:03:00
+	Memory: Requested(3760gb), Used(9513204kb)
+	Vmem Used: 663037056kb
+	Walltime: Requested(06:00:00), Used(00:01:21)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx024:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx030:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.49mins
+	GPU Power Consumed: 132.57W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx030:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx030:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx030:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx030:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx030:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx030:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

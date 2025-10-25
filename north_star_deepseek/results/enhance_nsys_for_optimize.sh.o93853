@@ -1,0 +1,286 @@
+[1,0]<stderr>:[a2ap-dgx009:1832913] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]], socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,1]<stderr>:[a2ap-dgx009:1832913] MCW rank 1 bound to socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]], socket 0[core 16[hwt 0-1]], socket 0[core 17[hwt 0-1]], socket 0[core 18[hwt 0-1]], socket 0[core 19[hwt 0-1]], socket 0[core 20[hwt 0-1]], socket 0[core 21[hwt 0-1]], socket 0[core 22[hwt 0-1]], socket 0[core 23[hwt 0-1]], socket 0[core 24[hwt 0-1]], socket 0[core 25[hwt 0-1]], socket 0[core 26[hwt 0-1]], socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,2]<stderr>:[a2ap-dgx009:1832913] MCW rank 2 bound to socket 0[core 28[hwt 0-1]], socket 0[core 29[hwt 0-1]], socket 0[core 30[hwt 0-1]], socket 0[core 31[hwt 0-1]], socket 0[core 32[hwt 0-1]], socket 0[core 33[hwt 0-1]], socket 0[core 34[hwt 0-1]], socket 0[core 35[hwt 0-1]], socket 0[core 36[hwt 0-1]], socket 0[core 37[hwt 0-1]], socket 0[core 38[hwt 0-1]], socket 0[core 39[hwt 0-1]], socket 0[core 40[hwt 0-1]], socket 0[core 41[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,3]<stderr>:[a2ap-dgx009:1832913] MCW rank 3 bound to socket 0[core 42[hwt 0-1]], socket 0[core 43[hwt 0-1]], socket 0[core 44[hwt 0-1]], socket 0[core 45[hwt 0-1]], socket 0[core 46[hwt 0-1]], socket 0[core 47[hwt 0-1]], socket 0[core 48[hwt 0-1]], socket 0[core 49[hwt 0-1]], socket 0[core 50[hwt 0-1]], socket 0[core 51[hwt 0-1]], socket 0[core 52[hwt 0-1]], socket 0[core 53[hwt 0-1]], socket 0[core 54[hwt 0-1]], socket 0[core 55[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,4]<stderr>:[a2ap-dgx009:1832913] MCW rank 4 bound to socket 1[core 56[hwt 0-1]], socket 1[core 57[hwt 0-1]], socket 1[core 58[hwt 0-1]], socket 1[core 59[hwt 0-1]], socket 1[core 60[hwt 0-1]], socket 1[core 61[hwt 0-1]], socket 1[core 62[hwt 0-1]], socket 1[core 63[hwt 0-1]], socket 1[core 64[hwt 0-1]], socket 1[core 65[hwt 0-1]], socket 1[core 66[hwt 0-1]], socket 1[core 67[hwt 0-1]], socket 1[core 68[hwt 0-1]], socket 1[core 69[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,5]<stderr>:[a2ap-dgx009:1832913] MCW rank 5 bound to socket 1[core 70[hwt 0-1]], socket 1[core 71[hwt 0-1]], socket 1[core 72[hwt 0-1]], socket 1[core 73[hwt 0-1]], socket 1[core 74[hwt 0-1]], socket 1[core 75[hwt 0-1]], socket 1[core 76[hwt 0-1]], socket 1[core 77[hwt 0-1]], socket 1[core 78[hwt 0-1]], socket 1[core 79[hwt 0-1]], socket 1[core 80[hwt 0-1]], socket 1[core 81[hwt 0-1]], socket 1[core 82[hwt 0-1]], socket 1[core 83[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,6]<stderr>:[a2ap-dgx009:1832913] MCW rank 6 bound to socket 1[core 84[hwt 0-1]], socket 1[core 85[hwt 0-1]], socket 1[core 86[hwt 0-1]], socket 1[core 87[hwt 0-1]], socket 1[core 88[hwt 0-1]], socket 1[core 89[hwt 0-1]], socket 1[core 90[hwt 0-1]], socket 1[core 91[hwt 0-1]], socket 1[core 92[hwt 0-1]], socket 1[core 93[hwt 0-1]], socket 1[core 94[hwt 0-1]], socket 1[core 95[hwt 0-1]], socket 1[core 96[hwt 0-1]], socket 1[core 97[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..]
+[1,7]<stderr>:[a2ap-dgx009:1832913] MCW rank 7 bound to socket 1[core 98[hwt 0-1]], socket 1[core 99[hwt 0-1]], socket 1[core 100[hwt 0-1]], socket 1[core 101[hwt 0-1]], socket 1[core 102[hwt 0-1]], socket 1[core 103[hwt 0-1]], socket 1[core 104[hwt 0-1]], socket 1[core 105[hwt 0-1]], socket 1[core 106[hwt 0-1]], socket 1[core 107[hwt 0-1]], socket 1[core 108[hwt 0-1]], socket 1[core 109[hwt 0-1]], socket 1[core 110[hwt 0-1]], socket 1[core 111[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB]
+[1,8]<stderr>:[a2ap-dgx012:1658665] MCW rank 8 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]], socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,9]<stderr>:[a2ap-dgx012:1658665] MCW rank 9 bound to socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]], socket 0[core 16[hwt 0-1]], socket 0[core 17[hwt 0-1]], socket 0[core 18[hwt 0-1]], socket 0[core 19[hwt 0-1]], socket 0[core 20[hwt 0-1]], socket 0[core 21[hwt 0-1]], socket 0[core 22[hwt 0-1]], socket 0[core 23[hwt 0-1]], socket 0[core 24[hwt 0-1]], socket 0[core 25[hwt 0-1]], socket 0[core 26[hwt 0-1]], socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,10]<stderr>:[a2ap-dgx012:1658665] MCW rank 10 bound to socket 0[core 28[hwt 0-1]], socket 0[core 29[hwt 0-1]], socket 0[core 30[hwt 0-1]], socket 0[core 31[hwt 0-1]], socket 0[core 32[hwt 0-1]], socket 0[core 33[hwt 0-1]], socket 0[core 34[hwt 0-1]], socket 0[core 35[hwt 0-1]], socket 0[core 36[hwt 0-1]], socket 0[core 37[hwt 0-1]], socket 0[core 38[hwt 0-1]], socket 0[core 39[hwt 0-1]], socket 0[core 40[hwt 0-1]], socket 0[core 41[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,11]<stderr>:[a2ap-dgx012:1658665] MCW rank 11 bound to socket 0[core 42[hwt 0-1]], socket 0[core 43[hwt 0-1]], socket 0[core 44[hwt 0-1]], socket 0[core 45[hwt 0-1]], socket 0[core 46[hwt 0-1]], socket 0[core 47[hwt 0-1]], socket 0[core 48[hwt 0-1]], socket 0[core 49[hwt 0-1]], socket 0[core 50[hwt 0-1]], socket 0[core 51[hwt 0-1]], socket 0[core 52[hwt 0-1]], socket 0[core 53[hwt 0-1]], socket 0[core 54[hwt 0-1]], socket 0[core 55[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,12]<stderr>:[a2ap-dgx012:1658665] MCW rank 12 bound to socket 1[core 56[hwt 0-1]], socket 1[core 57[hwt 0-1]], socket 1[core 58[hwt 0-1]], socket 1[core 59[hwt 0-1]], socket 1[core 60[hwt 0-1]], socket 1[core 61[hwt 0-1]], socket 1[core 62[hwt 0-1]], socket 1[core 63[hwt 0-1]], socket 1[core 64[hwt 0-1]], socket 1[core 65[hwt 0-1]], socket 1[core 66[hwt 0-1]], socket 1[core 67[hwt 0-1]], socket 1[core 68[hwt 0-1]], socket 1[core 69[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,13]<stderr>:[a2ap-dgx012:1658665] MCW rank 13 bound to socket 1[core 70[hwt 0-1]], socket 1[core 71[hwt 0-1]], socket 1[core 72[hwt 0-1]], socket 1[core 73[hwt 0-1]], socket 1[core 74[hwt 0-1]], socket 1[core 75[hwt 0-1]], socket 1[core 76[hwt 0-1]], socket 1[core 77[hwt 0-1]], socket 1[core 78[hwt 0-1]], socket 1[core 79[hwt 0-1]], socket 1[core 80[hwt 0-1]], socket 1[core 81[hwt 0-1]], socket 1[core 82[hwt 0-1]], socket 1[core 83[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,14]<stderr>:[a2ap-dgx012:1658665] MCW rank 14 bound to socket 1[core 84[hwt 0-1]], socket 1[core 85[hwt 0-1]], socket 1[core 86[hwt 0-1]], socket 1[core 87[hwt 0-1]], socket 1[core 88[hwt 0-1]], socket 1[core 89[hwt 0-1]], socket 1[core 90[hwt 0-1]], socket 1[core 91[hwt 0-1]], socket 1[core 92[hwt 0-1]], socket 1[core 93[hwt 0-1]], socket 1[core 94[hwt 0-1]], socket 1[core 95[hwt 0-1]], socket 1[core 96[hwt 0-1]], socket 1[core 97[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..]
+[1,15]<stderr>:[a2ap-dgx012:1658665] MCW rank 15 bound to socket 1[core 98[hwt 0-1]], socket 1[core 99[hwt 0-1]], socket 1[core 100[hwt 0-1]], socket 1[core 101[hwt 0-1]], socket 1[core 102[hwt 0-1]], socket 1[core 103[hwt 0-1]], socket 1[core 104[hwt 0-1]], socket 1[core 105[hwt 0-1]], socket 1[core 106[hwt 0-1]], socket 1[core 107[hwt 0-1]], socket 1[core 108[hwt 0-1]], socket 1[core 109[hwt 0-1]], socket 1[core 110[hwt 0-1]], socket 1[core 111[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB]
+[1,0]<stderr>:[DBG] host=a2ap-dgx009 rank=0 local=0 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,0]<stdout>:[INFO] Profiling rank 0 (node 0, local 0)
+[1,1]<stderr>:[DBG] host=a2ap-dgx009 rank=1 local=1 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,1]<stdout>:[INFO] Rank 1 (node 0, local 1) running baseline.
+[1,2]<stderr>:[DBG] host=a2ap-dgx009 rank=2 local=2 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,2]<stdout>:[INFO] Rank 2 (node 0, local 2) running baseline.
+[1,3]<stderr>:[DBG] host=a2ap-dgx009 rank=3 local=3 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,3]<stdout>:[INFO] Rank 3 (node 0, local 3) running baseline.
+[1,5]<stderr>:[DBG] host=a2ap-dgx009 rank=5 local=5 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,4]<stderr>:[DBG] host=a2ap-dgx009 rank=4 local=4 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,5]<stdout>:[INFO] Rank 5 (node 0, local 5) running baseline.
+[1,4]<stdout>:[INFO] Rank 4 (node 0, local 4) running baseline.
+[1,7]<stderr>:[DBG] host=a2ap-dgx009 rank=7 local=7 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,7]<stdout>:[INFO] Rank 7 (node 0, local 7) running baseline.
+[1,6]<stderr>:[DBG] host=a2ap-dgx009 rank=6 local=6 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,6]<stdout>:[INFO] Rank 6 (node 0, local 6) running baseline.
+[1,12]<stderr>:[DBG] host=a2ap-dgx012 rank=12 local=4 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,12]<stdout>:[INFO] Rank 12 (node 1, local 4) running baseline.
+[1,9]<stderr>:[DBG] host=a2ap-dgx012 rank=9 local=1 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,9]<stdout>:[INFO] Rank 9 (node 1, local 1) running baseline.
+[1,8]<stderr>:[DBG] host=a2ap-dgx012 rank=8 local=0 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,8]<stdout>:[INFO] Profiling rank 8 (node 1, local 0)
+[1,10]<stderr>:[DBG] host=a2ap-dgx012 rank=10 local=2 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,10]<stdout>:[INFO] Rank 10 (node 1, local 2) running baseline.
+[1,13]<stderr>:[DBG] host=a2ap-dgx012 rank=13 local=5 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,13]<stdout>:[INFO] Rank 13 (node 1, local 5) running baseline.
+[1,14]<stderr>:[DBG] host=a2ap-dgx012 rank=14 local=6 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,14]<stdout>:[INFO] Rank 14 (node 1, local 6) running baseline.
+[1,15]<stderr>:[DBG] host=a2ap-dgx012 rank=15 local=7 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,15]<stdout>:[INFO] Rank 15 (node 1, local 7) running baseline.
+[1,11]<stderr>:[DBG] host=a2ap-dgx012 rank=11 local=3 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:22047
+[1,11]<stdout>:[INFO] Rank 11 (node 1, local 3) running baseline.
+[1,0]<stderr>:WARNING: CPU context switch tracing not supported, disabling.
+[1,0]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,0]<stderr>:
+[1,8]<stderr>:WARNING: CPU context switch tracing not supported, disabling.
+[1,8]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,8]<stderr>:
+[1,7]<stderr>:W1004 16:19:44.524000 1833151 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:19:44.524000 1833151 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,4]<stderr>:W1004 16:19:44.963000 1833150 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,4]<stderr>:W1004 16:19:44.963000 1833150 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,6]<stderr>:W1004 16:19:44.983000 1833152 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,6]<stderr>:W1004 16:19:44.983000 1833152 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,3]<stderr>:W1004 16:19:45.029000 1833145 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,3]<stderr>:W1004 16:19:45.029000 1833145 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,2]<stderr>:W1004 16:19:45.164000 1833140 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,2]<stderr>:W1004 16:19:45.164000 1833140 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,5]<stderr>:W1004 16:19:45.180000 1833149 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,5]<stderr>:W1004 16:19:45.180000 1833149 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W1004 16:19:45.183000 1833135 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1004 16:19:45.183000 1833135 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:[2025-10-04 16:19:47] Using default HuggingFace chat template with detected content format: string
+[1,15]<stderr>:W1004 16:19:48.333000 1658898 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,15]<stderr>:W1004 16:19:48.333000 1658898 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,13]<stderr>:W1004 16:19:48.411000 1658896 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,13]<stderr>:W1004 16:19:48.411000 1658896 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,11]<stderr>:W1004 16:19:48.558000 1658899 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,11]<stderr>:W1004 16:19:48.558000 1658899 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,12]<stderr>:W1004 16:19:48.693000 1658886 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,12]<stderr>:W1004 16:19:48.693000 1658886 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,10]<stderr>:W1004 16:19:49.217000 1658895 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,10]<stderr>:W1004 16:19:49.217000 1658895 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,14]<stderr>:W1004 16:19:49.418000 1658897 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,14]<stderr>:W1004 16:19:49.418000 1658897 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,9]<stderr>:W1004 16:19:49.642000 1658892 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,9]<stderr>:W1004 16:19:49.642000 1658892 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,4]<stderr>:[2025-10-04 16:19:51] Using default HuggingFace chat template with detected content format: string
+[1,3]<stderr>:[2025-10-04 16:19:51] Using default HuggingFace chat template with detected content format: string
+[1,6]<stderr>:[2025-10-04 16:19:51] Using default HuggingFace chat template with detected content format: string
+[1,1]<stderr>:[2025-10-04 16:19:52] Using default HuggingFace chat template with detected content format: string
+[1,5]<stderr>:[2025-10-04 16:19:52] Using default HuggingFace chat template with detected content format: string
+[1,2]<stderr>:[2025-10-04 16:19:52] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>:W1004 16:20:08.483000 1833811 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1004 16:20:08.483000 1833811 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,8]<stderr>:W1004 16:20:14.585000 1659608 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,8]<stderr>:W1004 16:20:14.585000 1659608 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:[2025-10-04 16:20:15] Using default HuggingFace chat template with detected content format: string
+[1,7]<stderr>:W1004 16:20:20.522000 1834286 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:20.522000 1834286 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:21.511000 1834290 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:21.511000 1834290 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:21.624000 1834283 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:21.624000 1834283 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:21.899000 1834282 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:21.899000 1834282 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.160000 1834284 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.160000 1834284 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.241000 1834287 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.241000 1834287 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.255000 1834289 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.255000 1834289 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.347000 1834288 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.347000 1834288 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:W1004 16:20:22.388000 1834285 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1004 16:20:22.388000 1834285 /scratch/users/industry/ai-hpc/apacsc34/tanathep/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,7]<stderr>:[2025-10-04 16:20:24 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,7]<stderr>:[2025-10-04 16:20:24 TP0] Chunked prefix cache is turned on.
+[1,7]<stderr>:[2025-10-04 16:20:24 TP0] Init torch distributed begin.
+[1,7]<stderr>:[2025-10-04 16:20:30 TP6] Scheduler hit an exception: Traceback (most recent call last):
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,7]<stderr>:    scheduler = Scheduler(
+[1,7]<stderr>:                ^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,7]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,7]<stderr>:                     ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,7]<stderr>:    self.worker = TpModelWorker(
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,7]<stderr>:    self.model_runner = ModelRunner(
+[1,7]<stderr>:                        ^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,7]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,7]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,7]<stderr>:    init_distributed_environment(
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1280, in init_distributed_environment
+[1,7]<stderr>:    _WORLD = init_world_group(ranks, local_rank, backend)
+[1,7]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1101, in init_world_group
+[1,7]<stderr>:    return GroupCoordinator(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 242, in __init__
+[1,7]<stderr>:    cpu_group = torch.distributed.new_group(ranks, backend="gloo")
+[1,7]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,7]<stderr>:    func_return = func(*args, **kwargs)
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5254, in new_group
+[1,7]<stderr>:    return _new_group_with_tag(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5344, in _new_group_with_tag
+[1,7]<stderr>:    pg, pg_store = _new_process_group_helper(
+[1,7]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1991, in _new_process_group_helper
+[1,7]<stderr>:    backend_class = ProcessGroupGloo(
+[1,7]<stderr>:                    ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ib0
+[1,7]<stderr>:
+[1,7]<stderr>:[2025-10-04 16:20:30] Received sigquit from a child process. It usually means the child failed.
+[1,7]<stderr>:[2025-10-04 16:20:30 TP3] Scheduler hit an exception: Traceback (most recent call last):
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,7]<stderr>:    scheduler = Scheduler(
+[1,7]<stderr>:                ^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,7]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,7]<stderr>:                     ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,7]<stderr>:    self.worker = TpModelWorker(
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,7]<stderr>:    self.model_runner = ModelRunner(
+[1,7]<stderr>:                        ^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,7]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,7]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,7]<stderr>:    init_distributed_environment(
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1280, in init_distributed_environment
+[1,7]<stderr>:    _WORLD = init_world_group(ranks, local_rank, backend)
+[1,7]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1101, in init_world_group
+[1,7]<stderr>:    return GroupCoordinator(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 242, in __init__
+[1,7]<stderr>:    cpu_group = torch.distributed.new_group(ranks, backend="gloo")
+[1,7]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,7]<stderr>:    func_return = func(*args, **kwargs)
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5254, in new_group
+[1,7]<stderr>:    return _new_group_with_tag(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5344, in _new_group_with_tag
+[1,7]<stderr>:    pg, pg_store = _new_process_group_helper(
+[1,7]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1991, in _new_process_group_helper
+[1,7]<stderr>:    backend_class = ProcessGroupGloo(
+[1,7]<stderr>:                    ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ib0
+[1,7]<stderr>:
+[1,7]<stderr>:[2025-10-04 16:20:30] Received sigquit from a child process. It usually means the child failed.
+[1,7]<stderr>:[2025-10-04 16:20:30 TP5] Scheduler hit an exception: Traceback (most recent call last):
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,7]<stderr>:    scheduler = Scheduler(
+[1,7]<stderr>:                ^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,7]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,7]<stderr>:                     ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,7]<stderr>:    self.worker = TpModelWorker(
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,7]<stderr>:    self.model_runner = ModelRunner(
+[1,7]<stderr>:                        ^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,7]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,7]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,7]<stderr>:    init_distributed_environment(
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1280, in init_distributed_environment
+[1,7]<stderr>:    _WORLD = init_world_group(ranks, local_rank, backend)
+[1,7]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1101, in init_world_group
+[1,7]<stderr>:    return GroupCoordinator(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 242, in __init__
+[1,7]<stderr>:    cpu_group = torch.distributed.new_group(ranks, backend="gloo")
+[1,7]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,7]<stderr>:    func_return = func(*args, **kwargs)
+[1,7]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5254, in new_group
+[1,7]<stderr>:    return _new_group_with_tag(
+[1,7]<stderr>:           ^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5344, in _new_group_with_tag
+[1,7]<stderr>:    pg, pg_store = _new_process_group_helper(
+[1,7]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1991, in _new_process_group_helper
+[1,7]<stderr>:    backend_class = ProcessGroupGloo(
+[1,7]<stderr>:                    ^^^^^^^^^^^^^^^^^
+[1,7]<stderr>:RuntimeError: [enforce fail at /pytorch/third_party/gloo/gloo/transport/tcp/device.cc:84] ifa != nullptr. Unable to find address for: ib0
+[1,7]<stderr>:
+[1,7]<stderr>:[2025-10-04 16:20:30] Received sigquit from a child process. It usually means the child failed.
+[1,7]<stderr>:bash: line 40: 1833151 Killed                  "$PYTHON" -m sglang.bench_offline_throughput --model-path "$MODEL" --dataset-path "$DATA" --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr ${MASTER_ADDR}:${MASTER_PORT} --node-rank ${NODE_RANK}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[42061,1],7]
+  Exit code:    137
+--------------------------------------------------------------------------
+
+real	1m12.432s
+user	0m12.810s
+sys	0m7.975s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-04 16:20:53.553257:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 93853.pbs111
+	Project: 50000128
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:29:39
+	Memory: Requested(3760gb), Used(44542284kb)
+	Vmem Used: 10692070596kb
+	Walltime: Requested(00:30:00), Used(00:01:28)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx009:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx012:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.65mins
+	GPU Power Consumed: 137.49W
+	GPU Max GPU Memory Used: 4.06GB
+	Memory Throughput Rate (Average): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

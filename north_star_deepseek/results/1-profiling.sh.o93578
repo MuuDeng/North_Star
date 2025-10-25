@@ -1,0 +1,742 @@
+/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/compile_deep_gemm.py", line 21, in <module>
+    from sglang.srt.entrypoints.http_server import launch_server
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/entrypoints/http_server.py", line 53, in <module>
+    from sglang.srt.entrypoints.engine import _launch_subprocesses
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/entrypoints/engine.py", line 45, in <module>
+    from sglang.srt.managers.data_parallel_controller import (
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/managers/data_parallel_controller.py", line 41, in <module>
+    from sglang.srt.managers.scheduler import run_scheduler_process
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 37, in <module>
+    from sglang.srt.configs.model_config import ModelConfig
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/configs/model_config.py", line 32, in <module>
+    from sglang.srt.layers.quantization import QUANTIZATION_METHODS
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/__init__.py", line 44, in <module>
+    from sglang.srt.layers.quantization.awq import AWQConfig, AWQMarlinConfig
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/awq.py", line 18, in <module>
+    from sglang.srt.layers.quantization.marlin_utils import (
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/marlin_utils.py", line 22, in <module>
+    from sglang.srt.layers.quantization.utils import (
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/utils.py", line 13, in <module>
+    from sglang.srt.layers.quantization.fp8_kernel import scaled_fp8_quant
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/fp8_kernel.py", line 26, in <module>
+    from sglang.srt.layers.quantization import deep_gemm_wrapper
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/deep_gemm_wrapper/__init__.py", line 1, in <module>
+    from .entrypoint import *
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/deep_gemm_wrapper/entrypoint.py", line 7, in <module>
+    from sglang.srt.layers.quantization.deep_gemm_wrapper import compile_utils
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/deep_gemm_wrapper/compile_utils.py", line 10, in <module>
+    from sglang.srt.layers.quantization.deep_gemm_wrapper.configurer import (
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/deep_gemm_wrapper/configurer.py", line 29, in <module>
+    ENABLE_JIT_DEEPGEMM = _compute_enable_deep_gemm()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/layers/quantization/deep_gemm_wrapper/configurer.py", line 16, in _compute_enable_deep_gemm
+    import deep_gemm
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/deep_gemm/__init__.py", line 91, in <module>
+    from . import utils
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/deep_gemm/utils/__init__.py", line 1, in <module>
+    from . import math, layout
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/deep_gemm/utils/layout.py", line 4, in <module>
+    _ensure_initialized()
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/deep_gemm/__init__.py", line 42, in _ensure_initialized
+    torch.ops.deep_gemm.init(library_root, _find_cuda_home())
+                                           ^^^^^^^^^^^^^^^^^
+  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/deep_gemm/__init__.py", line 30, in _find_cuda_home
+    assert cuda_home is not None
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+All deep_gemm operations loaded successfully!
+W1003 11:51:35.364000 1205128 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+W1003 11:51:35.364000 1205128 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+usage: compile_deep_gemm.py [-h] --model-path MODEL_PATH
+                            [--remote-instance-weight-loader-seed-instance-ip REMOTE_INSTANCE_WEIGHT_LOADER_SEED_INSTANCE_IP]
+                            [--remote-instance-weight-loader-seed-instance-service-port REMOTE_INSTANCE_WEIGHT_LOADER_SEED_INSTANCE_SERVICE_PORT]
+                            [--remote-instance-weight-loader-send-weights-group-ports REMOTE_INSTANCE_WEIGHT_LOADER_SEND_WEIGHTS_GROUP_PORTS]
+                            [--tokenizer-path TOKENIZER_PATH]
+                            [--tokenizer-mode {auto,slow}]
+                            [--tokenizer-worker-num TOKENIZER_WORKER_NUM]
+                            [--skip-tokenizer-init]
+                            [--load-format {auto,pt,safetensors,npcache,dummy,sharded_state,gguf,bitsandbytes,layered,remote,remote_instance}]
+                            [--model-loader-extra-config MODEL_LOADER_EXTRA_CONFIG]
+                            [--trust-remote-code]
+                            [--context-length CONTEXT_LENGTH] [--is-embedding]
+                            [--enable-multimodal] [--revision REVISION]
+                            [--model-impl MODEL_IMPL] [--host HOST]
+                            [--port PORT] [--skip-server-warmup]
+                            [--warmups WARMUPS] [--nccl-port NCCL_PORT]
+                            [--dtype {auto,half,float16,bfloat16,float,float32}]
+                            [--quantization {awq,fp8,gptq,marlin,gptq_marlin,awq_marlin,bitsandbytes,gguf,modelopt,modelopt_fp4,petit_nvfp4,w8a8_int8,w8a8_fp8,moe_wna16,qoq,w4afp8,mxfp4}]
+                            [--quantization-param-path QUANTIZATION_PARAM_PATH]
+                            [--kv-cache-dtype {auto,fp8_e5m2,fp8_e4m3}]
+                            [--mem-fraction-static MEM_FRACTION_STATIC]
+                            [--max-running-requests MAX_RUNNING_REQUESTS]
+                            [--max-queued-requests MAX_QUEUED_REQUESTS]
+                            [--max-total-tokens MAX_TOTAL_TOKENS]
+                            [--chunked-prefill-size CHUNKED_PREFILL_SIZE]
+                            [--max-prefill-tokens MAX_PREFILL_TOKENS]
+                            [--schedule-policy {lpm,random,fcfs,dfs-weight,lof,priority}]
+                            [--schedule-conservativeness SCHEDULE_CONSERVATIVENESS]
+                            [--page-size PAGE_SIZE]
+                            [--hybrid-kvcache-ratio [HYBRID_KVCACHE_RATIO]]
+                            [--swa-full-tokens-ratio SWA_FULL_TOKENS_RATIO]
+                            [--disable-hybrid-swa-memory] [--device DEVICE]
+                            [--tensor-parallel-size TENSOR_PARALLEL_SIZE]
+                            [--pipeline-parallel-size PIPELINE_PARALLEL_SIZE]
+                            [--max-micro-batch-size MAX_MICRO_BATCH_SIZE]
+                            [--stream-interval STREAM_INTERVAL]
+                            [--stream-output] [--random-seed RANDOM_SEED]
+                            [--constrained-json-whitespace-pattern CONSTRAINED_JSON_WHITESPACE_PATTERN]
+                            [--watchdog-timeout WATCHDOG_TIMEOUT]
+                            [--dist-timeout DIST_TIMEOUT]
+                            [--download-dir DOWNLOAD_DIR]
+                            [--base-gpu-id BASE_GPU_ID]
+                            [--gpu-id-step GPU_ID_STEP] [--sleep-on-idle]
+                            [--log-level LOG_LEVEL]
+                            [--log-level-http LOG_LEVEL_HTTP] [--log-requests]
+                            [--log-requests-level {0,1,2,3}]
+                            [--crash-dump-folder CRASH_DUMP_FOLDER]
+                            [--show-time-cost] [--enable-metrics]
+                            [--enable-metrics-for-all-schedulers]
+                            [--tokenizer-metrics-custom-labels-header TOKENIZER_METRICS_CUSTOM_LABELS_HEADER]
+                            [--tokenizer-metrics-allowed-customer-labels TOKENIZER_METRICS_ALLOWED_CUSTOMER_LABELS [TOKENIZER_METRICS_ALLOWED_CUSTOMER_LABELS ...]]
+                            [--bucket-time-to-first-token BUCKET_TIME_TO_FIRST_TOKEN [BUCKET_TIME_TO_FIRST_TOKEN ...]]
+                            [--bucket-inter-token-latency BUCKET_INTER_TOKEN_LATENCY [BUCKET_INTER_TOKEN_LATENCY ...]]
+                            [--bucket-e2e-request-latency BUCKET_E2E_REQUEST_LATENCY [BUCKET_E2E_REQUEST_LATENCY ...]]
+                            [--collect-tokens-histogram]
+                            [--prompt-tokens-buckets PROMPT_TOKENS_BUCKETS [PROMPT_TOKENS_BUCKETS ...]]
+                            [--generation-tokens-buckets GENERATION_TOKENS_BUCKETS [GENERATION_TOKENS_BUCKETS ...]]
+                            [--gc-warning-threshold-secs GC_WARNING_THRESHOLD_SECS]
+                            [--decode-log-interval DECODE_LOG_INTERVAL]
+                            [--enable-request-time-stats-logging]
+                            [--kv-events-config KV_EVENTS_CONFIG]
+                            [--enable-trace]
+                            [--oltp-traces-endpoint OLTP_TRACES_ENDPOINT]
+                            [--api-key API_KEY]
+                            [--served-model-name SERVED_MODEL_NAME]
+                            [--weight-version WEIGHT_VERSION]
+                            [--chat-template CHAT_TEMPLATE]
+                            [--completion-template COMPLETION_TEMPLATE]
+                            [--file-storage-path FILE_STORAGE_PATH]
+                            [--enable-cache-report]
+                            [--reasoning-parser {deepseek-r1,deepseek-v3,glm45,gpt-oss,kimi,qwen3,qwen3-thinking,step3}]
+                            [--tool-call-parser {llama3,qwen25,mistral,deepseekv3,deepseekv31,pythonic,kimi_k2,qwen3_coder,glm45,step3,gpt-oss}]
+                            [--tool-server TOOL_SERVER]
+                            [--data-parallel-size DATA_PARALLEL_SIZE]
+                            [--load-balance-method {round_robin,shortest_queue,minimum_tokens}]
+                            [--load-watch-interval LOAD_WATCH_INTERVAL]
+                            [--prefill-round-robin-balance]
+                            [--dist-init-addr DIST_INIT_ADDR]
+                            [--nnodes NNODES] [--node-rank NODE_RANK]
+                            [--json-model-override-args JSON_MODEL_OVERRIDE_ARGS]
+                            [--preferred-sampling-params PREFERRED_SAMPLING_PARAMS]
+                            [--enable-lora] [--max-lora-rank MAX_LORA_RANK]
+                            [--lora-target-modules [{q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj,qkv_proj,gate_up_proj,all} ...]]
+                            [--lora-paths [LORA_PATHS ...]]
+                            [--max-loras-per-batch MAX_LORAS_PER_BATCH]
+                            [--max-loaded-loras MAX_LOADED_LORAS]
+                            [--lora-backend LORA_BACKEND]
+                            [--attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,hybrid_linear_attn,aiter,wave,intel_amx,ascend}]
+                            [--prefill-attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,hybrid_linear_attn,aiter,wave,intel_amx,ascend}]
+                            [--decode-attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,hybrid_linear_attn,aiter,wave,intel_amx,ascend}]
+                            [--sampling-backend {flashinfer,pytorch}]
+                            [--grammar-backend {xgrammar,outlines,llguidance,none}]
+                            [--mm-attention-backend {sdpa,fa3,triton_attn}]
+                            [--speculative-algorithm {EAGLE,EAGLE3,NEXTN,STANDALONE}]
+                            [--speculative-draft-model-path SPECULATIVE_DRAFT_MODEL_PATH]
+                            [--speculative-draft-model-revision SPECULATIVE_DRAFT_MODEL_REVISION]
+                            [--speculative-num-steps SPECULATIVE_NUM_STEPS]
+                            [--speculative-eagle-topk SPECULATIVE_EAGLE_TOPK]
+                            [--speculative-num-draft-tokens SPECULATIVE_NUM_DRAFT_TOKENS]
+                            [--speculative-accept-threshold-single SPECULATIVE_ACCEPT_THRESHOLD_SINGLE]
+                            [--speculative-accept-threshold-acc SPECULATIVE_ACCEPT_THRESHOLD_ACC]
+                            [--speculative-token-map SPECULATIVE_TOKEN_MAP]
+                            [--speculative-attention-mode {prefill,decode}]
+                            [--expert-parallel-size EXPERT_PARALLEL_SIZE]
+                            [--moe-a2a-backend {none,deepep}]
+                            [--moe-runner-backend {auto,triton,triton_kernel,flashinfer_trtllm,flashinfer_cutlass,flashinfer_mxfp4,flashinfer_cutedsl}]
+                            [--flashinfer-mxfp4-moe-precision {default,bf16}]
+                            [--enable-flashinfer-allreduce-fusion]
+                            [--deepep-mode {normal,low_latency,auto}]
+                            [--ep-num-redundant-experts EP_NUM_REDUNDANT_EXPERTS]
+                            [--ep-dispatch-algorithm EP_DISPATCH_ALGORITHM]
+                            [--init-expert-location INIT_EXPERT_LOCATION]
+                            [--enable-eplb] [--eplb-algorithm EPLB_ALGORITHM]
+                            [--eplb-rebalance-num-iterations EPLB_REBALANCE_NUM_ITERATIONS]
+                            [--eplb-rebalance-layers-per-chunk EPLB_REBALANCE_LAYERS_PER_CHUNK]
+                            [--eplb-min-rebalancing-utilization-threshold EPLB_MIN_REBALANCING_UTILIZATION_THRESHOLD]
+                            [--expert-distribution-recorder-mode EXPERT_DISTRIBUTION_RECORDER_MODE]
+                            [--expert-distribution-recorder-buffer-size EXPERT_DISTRIBUTION_RECORDER_BUFFER_SIZE]
+                            [--enable-expert-distribution-metrics]
+                            [--deepep-config DEEPEP_CONFIG]
+                            [--moe-dense-tp-size MOE_DENSE_TP_SIZE]
+                            [--max-mamba-cache-size MAX_MAMBA_CACHE_SIZE]
+                            [--mamba-ssm-dtype {float32,bfloat16}]
+                            [--enable-hierarchical-cache]
+                            [--hicache-ratio HICACHE_RATIO]
+                            [--hicache-size HICACHE_SIZE]
+                            [--hicache-write-policy {write_back,write_through,write_through_selective}]
+                            [--hicache-io-backend {direct,kernel}]
+                            [--hicache-mem-layout {layer_first,page_first,page_first_direct}]
+                            [--hicache-storage-backend {file,mooncake,hf3fs,nixl}]
+                            [--hicache-storage-prefetch-policy {best_effort,wait_complete,timeout}]
+                            [--hicache-storage-backend-extra-config HICACHE_STORAGE_BACKEND_EXTRA_CONFIG]
+                            [--enable-lmcache] [--enable-double-sparsity]
+                            [--ds-channel-config-path DS_CHANNEL_CONFIG_PATH]
+                            [--ds-heavy-channel-num DS_HEAVY_CHANNEL_NUM]
+                            [--ds-heavy-token-num DS_HEAVY_TOKEN_NUM]
+                            [--ds-heavy-channel-type DS_HEAVY_CHANNEL_TYPE]
+                            [--ds-sparse-decode-threshold DS_SPARSE_DECODE_THRESHOLD]
+                            [--cpu-offload-gb CPU_OFFLOAD_GB]
+                            [--offload-group-size OFFLOAD_GROUP_SIZE]
+                            [--offload-num-in-group OFFLOAD_NUM_IN_GROUP]
+                            [--offload-prefetch-step OFFLOAD_PREFETCH_STEP]
+                            [--offload-mode OFFLOAD_MODE]
+                            [--disable-radix-cache]
+                            [--cuda-graph-max-bs CUDA_GRAPH_MAX_BS]
+                            [--cuda-graph-bs CUDA_GRAPH_BS [CUDA_GRAPH_BS ...]]
+                            [--disable-cuda-graph]
+                            [--disable-cuda-graph-padding]
+                            [--enable-profile-cuda-graph]
+                            [--enable-cudagraph-gc] [--enable-nccl-nvls]
+                            [--enable-symm-mem]
+                            [--disable-flashinfer-cutlass-moe-fp4-allgather]
+                            [--enable-tokenizer-batch-encode]
+                            [--disable-outlines-disk-cache]
+                            [--disable-custom-all-reduce] [--enable-mscclpp]
+                            [--disable-overlap-schedule]
+                            [--enable-mixed-chunk] [--enable-dp-attention]
+                            [--enable-dp-lm-head] [--enable-two-batch-overlap]
+                            [--tbo-token-distribution-threshold TBO_TOKEN_DISTRIBUTION_THRESHOLD]
+                            [--enable-torch-compile]
+                            [--torch-compile-max-bs TORCH_COMPILE_MAX_BS]
+                            [--torchao-config TORCHAO_CONFIG]
+                            [--enable-nan-detection] [--enable-p2p-check]
+                            [--triton-attention-reduce-in-fp32]
+                            [--triton-attention-num-kv-splits TRITON_ATTENTION_NUM_KV_SPLITS]
+                            [--triton-attention-split-tile-size TRITON_ATTENTION_SPLIT_TILE_SIZE]
+                            [--num-continuous-decode-steps NUM_CONTINUOUS_DECODE_STEPS]
+                            [--delete-ckpt-after-loading]
+                            [--enable-memory-saver] [--allow-auto-truncate]
+                            [--enable-custom-logit-processor]
+                            [--flashinfer-mla-disable-ragged]
+                            [--disable-shared-experts-fusion]
+                            [--disable-chunked-prefix-cache]
+                            [--disable-fast-image-processor]
+                            [--enable-return-hidden-states]
+                            [--scheduler-recv-interval SCHEDULER_RECV_INTERVAL]
+                            [--numa-node NUMA_NODE [NUMA_NODE ...]]
+                            [--debug-tensor-dump-output-folder DEBUG_TENSOR_DUMP_OUTPUT_FOLDER]
+                            [--debug-tensor-dump-input-file DEBUG_TENSOR_DUMP_INPUT_FILE]
+                            [--debug-tensor-dump-inject DEBUG_TENSOR_DUMP_INJECT]
+                            [--debug-tensor-dump-prefill-only]
+                            [--enable-dynamic-batch-tokenizer]
+                            [--dynamic-batch-tokenizer-batch-size DYNAMIC_BATCH_TOKENIZER_BATCH_SIZE]
+                            [--dynamic-batch-tokenizer-batch-timeout DYNAMIC_BATCH_TOKENIZER_BATCH_TIMEOUT]
+                            [--disaggregation-mode {null,prefill,decode}]
+                            [--disaggregation-transfer-backend {mooncake,nixl,ascend,fake}]
+                            [--disaggregation-bootstrap-port DISAGGREGATION_BOOTSTRAP_PORT]
+                            [--disaggregation-decode-tp DISAGGREGATION_DECODE_TP]
+                            [--disaggregation-decode-dp DISAGGREGATION_DECODE_DP]
+                            [--disaggregation-prefill-pp DISAGGREGATION_PREFILL_PP]
+                            [--disaggregation-ib-device DISAGGREGATION_IB_DEVICE]
+                            [--num-reserved-decode-tokens NUM_RESERVED_DECODE_TOKENS]
+                            [--disaggregation-decode-polling-interval DISAGGREGATION_DECODE_POLLING_INTERVAL]
+                            [--custom-weight-loader [CUSTOM_WEIGHT_LOADER ...]]
+                            [--weight-loader-disable-mmap] [--enable-pdmux]
+                            [--sm-group-num SM_GROUP_NUM] [--enable-ep-moe]
+                            [--enable-deepep-moe]
+                            [--enable-flashinfer-cutlass-moe]
+                            [--enable-flashinfer-cutedsl-moe]
+                            [--enable-flashinfer-trtllm-moe]
+                            [--enable-triton-kernel-moe]
+                            [--enable-flashinfer-mxfp4-moe]
+                            [--timeout TIMEOUT]
+compile_deep_gemm.py: error: the following arguments are required: --model-path/--model
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[38467,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+[a2ap-dgx007:1205746] Warning: could not find environment variable "NCCL_SOCKET_IFNAME"
+[a2ap-dgx007:1205746] Warning: could not find environment variable "GLOO_SOCKET_IFNAME"
+[1,0]<stderr>:[a2ap-dgx007:1205746] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]], socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,1]<stderr>:[a2ap-dgx007:1205746] MCW rank 1 bound to socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]], socket 0[core 16[hwt 0-1]], socket 0[core 17[hwt 0-1]], socket 0[core 18[hwt 0-1]], socket 0[core 19[hwt 0-1]], socket 0[core 20[hwt 0-1]], socket 0[core 21[hwt 0-1]], socket 0[core 22[hwt 0-1]], socket 0[core 23[hwt 0-1]], socket 0[core 24[hwt 0-1]], socket 0[core 25[hwt 0-1]], socket 0[core 26[hwt 0-1]], socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,2]<stderr>:[a2ap-dgx007:1205746] MCW rank 2 bound to socket 0[core 28[hwt 0-1]], socket 0[core 29[hwt 0-1]], socket 0[core 30[hwt 0-1]], socket 0[core 31[hwt 0-1]], socket 0[core 32[hwt 0-1]], socket 0[core 33[hwt 0-1]], socket 0[core 34[hwt 0-1]], socket 0[core 35[hwt 0-1]], socket 0[core 36[hwt 0-1]], socket 0[core 37[hwt 0-1]], socket 0[core 38[hwt 0-1]], socket 0[core 39[hwt 0-1]], socket 0[core 40[hwt 0-1]], socket 0[core 41[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,3]<stderr>:[a2ap-dgx007:1205746] MCW rank 3 bound to socket 0[core 42[hwt 0-1]], socket 0[core 43[hwt 0-1]], socket 0[core 44[hwt 0-1]], socket 0[core 45[hwt 0-1]], socket 0[core 46[hwt 0-1]], socket 0[core 47[hwt 0-1]], socket 0[core 48[hwt 0-1]], socket 0[core 49[hwt 0-1]], socket 0[core 50[hwt 0-1]], socket 0[core 51[hwt 0-1]], socket 0[core 52[hwt 0-1]], socket 0[core 53[hwt 0-1]], socket 0[core 54[hwt 0-1]], socket 0[core 55[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,4]<stderr>:[a2ap-dgx007:1205746] MCW rank 4 bound to socket 1[core 56[hwt 0-1]], socket 1[core 57[hwt 0-1]], socket 1[core 58[hwt 0-1]], socket 1[core 59[hwt 0-1]], socket 1[core 60[hwt 0-1]], socket 1[core 61[hwt 0-1]], socket 1[core 62[hwt 0-1]], socket 1[core 63[hwt 0-1]], socket 1[core 64[hwt 0-1]], socket 1[core 65[hwt 0-1]], socket 1[core 66[hwt 0-1]], socket 1[core 67[hwt 0-1]], socket 1[core 68[hwt 0-1]], socket 1[core 69[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,5]<stderr>:[a2ap-dgx007:1205746] MCW rank 5 bound to socket 1[core 70[hwt 0-1]], socket 1[core 71[hwt 0-1]], socket 1[core 72[hwt 0-1]], socket 1[core 73[hwt 0-1]], socket 1[core 74[hwt 0-1]], socket 1[core 75[hwt 0-1]], socket 1[core 76[hwt 0-1]], socket 1[core 77[hwt 0-1]], socket 1[core 78[hwt 0-1]], socket 1[core 79[hwt 0-1]], socket 1[core 80[hwt 0-1]], socket 1[core 81[hwt 0-1]], socket 1[core 82[hwt 0-1]], socket 1[core 83[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,6]<stderr>:[a2ap-dgx007:1205746] MCW rank 6 bound to socket 1[core 84[hwt 0-1]], socket 1[core 85[hwt 0-1]], socket 1[core 86[hwt 0-1]], socket 1[core 87[hwt 0-1]], socket 1[core 88[hwt 0-1]], socket 1[core 89[hwt 0-1]], socket 1[core 90[hwt 0-1]], socket 1[core 91[hwt 0-1]], socket 1[core 92[hwt 0-1]], socket 1[core 93[hwt 0-1]], socket 1[core 94[hwt 0-1]], socket 1[core 95[hwt 0-1]], socket 1[core 96[hwt 0-1]], socket 1[core 97[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..]
+[1,7]<stderr>:[a2ap-dgx007:1205746] MCW rank 7 bound to socket 1[core 98[hwt 0-1]], socket 1[core 99[hwt 0-1]], socket 1[core 100[hwt 0-1]], socket 1[core 101[hwt 0-1]], socket 1[core 102[hwt 0-1]], socket 1[core 103[hwt 0-1]], socket 1[core 104[hwt 0-1]], socket 1[core 105[hwt 0-1]], socket 1[core 106[hwt 0-1]], socket 1[core 107[hwt 0-1]], socket 1[core 108[hwt 0-1]], socket 1[core 109[hwt 0-1]], socket 1[core 110[hwt 0-1]], socket 1[core 111[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB]
+[1,8]<stderr>:[a2ap-dgx009:2973503] MCW rank 8 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]], socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,9]<stderr>:[a2ap-dgx009:2973503] MCW rank 9 bound to socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]], socket 0[core 16[hwt 0-1]], socket 0[core 17[hwt 0-1]], socket 0[core 18[hwt 0-1]], socket 0[core 19[hwt 0-1]], socket 0[core 20[hwt 0-1]], socket 0[core 21[hwt 0-1]], socket 0[core 22[hwt 0-1]], socket 0[core 23[hwt 0-1]], socket 0[core 24[hwt 0-1]], socket 0[core 25[hwt 0-1]], socket 0[core 26[hwt 0-1]], socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,10]<stderr>:[a2ap-dgx009:2973503] MCW rank 10 bound to socket 0[core 28[hwt 0-1]], socket 0[core 29[hwt 0-1]], socket 0[core 30[hwt 0-1]], socket 0[core 31[hwt 0-1]], socket 0[core 32[hwt 0-1]], socket 0[core 33[hwt 0-1]], socket 0[core 34[hwt 0-1]], socket 0[core 35[hwt 0-1]], socket 0[core 36[hwt 0-1]], socket 0[core 37[hwt 0-1]], socket 0[core 38[hwt 0-1]], socket 0[core 39[hwt 0-1]], socket 0[core 40[hwt 0-1]], socket 0[core 41[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,11]<stderr>:[a2ap-dgx009:2973503] MCW rank 11 bound to socket 0[core 42[hwt 0-1]], socket 0[core 43[hwt 0-1]], socket 0[core 44[hwt 0-1]], socket 0[core 45[hwt 0-1]], socket 0[core 46[hwt 0-1]], socket 0[core 47[hwt 0-1]], socket 0[core 48[hwt 0-1]], socket 0[core 49[hwt 0-1]], socket 0[core 50[hwt 0-1]], socket 0[core 51[hwt 0-1]], socket 0[core 52[hwt 0-1]], socket 0[core 53[hwt 0-1]], socket 0[core 54[hwt 0-1]], socket 0[core 55[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,12]<stderr>:[a2ap-dgx009:2973503] MCW rank 12 bound to socket 1[core 56[hwt 0-1]], socket 1[core 57[hwt 0-1]], socket 1[core 58[hwt 0-1]], socket 1[core 59[hwt 0-1]], socket 1[core 60[hwt 0-1]], socket 1[core 61[hwt 0-1]], socket 1[core 62[hwt 0-1]], socket 1[core 63[hwt 0-1]], socket 1[core 64[hwt 0-1]], socket 1[core 65[hwt 0-1]], socket 1[core 66[hwt 0-1]], socket 1[core 67[hwt 0-1]], socket 1[core 68[hwt 0-1]], socket 1[core 69[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,13]<stderr>:[a2ap-dgx009:2973503] MCW rank 13 bound to socket 1[core 70[hwt 0-1]], socket 1[core 71[hwt 0-1]], socket 1[core 72[hwt 0-1]], socket 1[core 73[hwt 0-1]], socket 1[core 74[hwt 0-1]], socket 1[core 75[hwt 0-1]], socket 1[core 76[hwt 0-1]], socket 1[core 77[hwt 0-1]], socket 1[core 78[hwt 0-1]], socket 1[core 79[hwt 0-1]], socket 1[core 80[hwt 0-1]], socket 1[core 81[hwt 0-1]], socket 1[core 82[hwt 0-1]], socket 1[core 83[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,14]<stderr>:[a2ap-dgx009:2973503] MCW rank 14 bound to socket 1[core 84[hwt 0-1]], socket 1[core 85[hwt 0-1]], socket 1[core 86[hwt 0-1]], socket 1[core 87[hwt 0-1]], socket 1[core 88[hwt 0-1]], socket 1[core 89[hwt 0-1]], socket 1[core 90[hwt 0-1]], socket 1[core 91[hwt 0-1]], socket 1[core 92[hwt 0-1]], socket 1[core 93[hwt 0-1]], socket 1[core 94[hwt 0-1]], socket 1[core 95[hwt 0-1]], socket 1[core 96[hwt 0-1]], socket 1[core 97[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..]
+[1,15]<stderr>:[a2ap-dgx009:2973503] MCW rank 15 bound to socket 1[core 98[hwt 0-1]], socket 1[core 99[hwt 0-1]], socket 1[core 100[hwt 0-1]], socket 1[core 101[hwt 0-1]], socket 1[core 102[hwt 0-1]], socket 1[core 103[hwt 0-1]], socket 1[core 104[hwt 0-1]], socket 1[core 105[hwt 0-1]], socket 1[core 106[hwt 0-1]], socket 1[core 107[hwt 0-1]], socket 1[core 108[hwt 0-1]], socket 1[core 109[hwt 0-1]], socket 1[core 110[hwt 0-1]], socket 1[core 111[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stdout>:All deep_gemm operations loaded successfully!
+[1,14]<stderr>:W1003 11:52:07.683000 2973733 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,14]<stderr>:W1003 11:52:07.683000 2973733 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,4]<stdout>:All deep_gemm operations loaded successfully!
+[1,4]<stderr>:W1003 11:52:08.264000 1205958 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,4]<stderr>:W1003 11:52:08.264000 1205958 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,13]<stdout>:All deep_gemm operations loaded successfully!
+[1,13]<stderr>:W1003 11:52:08.507000 2973734 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,13]<stderr>:W1003 11:52:08.507000 2973734 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,3]<stdout>:All deep_gemm operations loaded successfully!
+[1,3]<stderr>:W1003 11:52:08.754000 1205957 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,3]<stderr>:W1003 11:52:08.754000 1205957 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,15]<stdout>:All deep_gemm operations loaded successfully!
+[1,15]<stderr>:W1003 11:52:09.086000 2973737 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,15]<stderr>:W1003 11:52:09.086000 2973737 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,2]<stdout>:All deep_gemm operations loaded successfully!
+[1,2]<stderr>:W1003 11:52:09.513000 1205956 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,2]<stderr>:W1003 11:52:09.513000 1205956 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,11]<stdout>:All deep_gemm operations loaded successfully!
+[1,11]<stderr>:W1003 11:52:09.821000 2973732 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,11]<stderr>:W1003 11:52:09.821000 2973732 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stderr>:W1003 11:52:10.168000 1205955 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,1]<stderr>:W1003 11:52:10.168000 1205955 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,8]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,8]<stderr>:W1003 11:52:11.219000 2973728 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,8]<stderr>:W1003 11:52:11.219000 2973728 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W1003 11:52:11.292000 1205954 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,0]<stderr>:W1003 11:52:11.292000 1205954 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,10]<stdout>:All deep_gemm operations loaded successfully!
+[1,5]<stdout>:All deep_gemm operations loaded successfully!
+[1,10]<stderr>:W1003 11:52:12.372000 2973731 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,10]<stderr>:W1003 11:52:12.372000 2973731 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,5]<stderr>:W1003 11:52:12.432000 1205959 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,5]<stderr>:W1003 11:52:12.432000 1205959 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,4]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,3]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,2]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,15]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,14]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,13]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,7]<stdout>:All deep_gemm operations loaded successfully!
+[1,7]<stderr>:W1003 11:52:13.282000 1205961 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,7]<stderr>:W1003 11:52:13.282000 1205961 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,11]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,12]<stdout>:All deep_gemm operations loaded successfully!
+[1,12]<stderr>:W1003 11:52:13.549000 2973736 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,12]<stderr>:W1003 11:52:13.549000 2973736 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,8]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,6]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,6]<stderr>:W1003 11:52:15.384000 1205960 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,6]<stderr>:W1003 11:52:15.384000 1205960 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,9]<stdout>:All deep_gemm operations loaded successfully!
+[1,10]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,9]<stderr>:W1003 11:52:16.031000 2973730 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,9]<stderr>:W1003 11:52:16.031000 2973730 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,12]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,5]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,4]<stderr>:[2025-10-03 11:52:16] Using default HuggingFace chat template with detected content format: string
+[1,3]<stderr>:[2025-10-03 11:52:16] Using default HuggingFace chat template with detected content format: string
+[1,7]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,2]<stderr>:[2025-10-03 11:52:16] Using default HuggingFace chat template with detected content format: string
+[1,1]<stderr>:[2025-10-03 11:52:17] Using default HuggingFace chat template with detected content format: string
+[1,6]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:[2025-10-03 11:52:18] Using default HuggingFace chat template with detected content format: string
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,14]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,14]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,13]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,13]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,2]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,2]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,3]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,3]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,15]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,11]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,11]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,4]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,4]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:[2025-10-03 11:52:18] Using default HuggingFace chat template with detected content format: string
+[1,7]<stderr>:[2025-10-03 11:52:19] Using default HuggingFace chat template with detected content format: string
+[1,9]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,8]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,8]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,10]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,10]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:[2025-10-03 11:52:21] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,12]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,12]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,5]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,5]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,7]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,7]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,6]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,6]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,9]<stderr>:/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,9]<stderr>:  import pynvml  # type: ignore[import]
+[1,15]<stdout>:All deep_gemm operations loaded successfully!
+[1,15]<stderr>:W1003 11:52:55.418000 2974774 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1,15]<stderr>:W1003 11:52:55.418000 2974774 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,15]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,15]<stderr>:[2025-10-03 11:52:56 TP12] Context: self.device='cuda' self.gpu_id=4 os.environ.get('CUDA_VISIBLE_DEVICES')='7' self.tp_rank=12 self.tp_size=16
+[1,15]<stderr>:[2025-10-03 11:52:56 TP12] Scheduler hit an exception: Traceback (most recent call last):
+[1,15]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2701, in run_scheduler_process
+[1,15]<stderr>:    scheduler = Scheduler(
+[1,15]<stderr>:                ^^^^^^^^^^
+[1,15]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 344, in __init__
+[1,15]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,15]<stderr>:                     ^^^^^^^^^^^^^^
+[1,15]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 73, in __init__
+[1,15]<stderr>:    self.worker = TpModelWorker(
+[1,15]<stderr>:                  ^^^^^^^^^^^^^^
+[1,15]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 96, in __init__
+[1,15]<stderr>:    self.model_runner = ModelRunner(
+[1,15]<stderr>:                        ^^^^^^^^^^^^
+[1,15]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 250, in __init__
+[1,15]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,15]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,15]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 609, in init_torch_distributed
+[1,15]<stderr>:    torch.get_device_module(self.device).set_device(self.gpu_id)
+[1,15]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py", line 569, in set_device
+[1,15]<stderr>:    torch._C._cuda_setDevice(device)
+[1,15]<stderr>:torch.AcceleratorError: CUDA error: invalid device ordinal
+[1,15]<stderr>:CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[1,15]<stderr>:For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[1,15]<stderr>:Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[1,15]<stderr>:
+[1,15]<stderr>:
+[1,15]<stderr>:[2025-10-03 11:52:56] Received sigquit from a child process. It usually means the child failed.
+[1,15]<stderr>:bash: line 28: 2973737 Killed                  ${NSYS:+$NSYS } /home/users/industry/ai-hpc/apacsc34/scratch/miniforge/bin/python3 -m sglang.bench_offline_throughput --model-path ${HOME}/scratch/model/DeepSeek-R1 --dataset-path ${HOME}/scratch/dataset/ShareGPT_V3_unfiltered_cleaned_split.json --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr ${MASTER_ADDR}:${MASTER_PORT} --node-rank ${NODE_RANK}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[37099,1],15]
+  Exit code:    137
+--------------------------------------------------------------------------
+
+real	1m17.404s
+user	0m0.229s
+sys	0m1.184s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-03 11:53:13.849707:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 93578.pbs111
+	Project: 50000128
+	Exit Status: 137
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:45:37
+	Memory: Requested(3760gb), Used(45459368kb)
+	Vmem Used: 4875679384kb
+	Walltime: Requested(00:30:00), Used(00:01:55)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx007:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx009:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 2.08mins
+	GPU Power Consumed: 133.42000000000002W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx007:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

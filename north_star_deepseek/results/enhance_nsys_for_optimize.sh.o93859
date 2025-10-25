@@ -1,0 +1,723 @@
+[1,0]<stderr>:[a2ap-dgx009:1963511] MCW rank 0 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]], socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,1]<stderr>:[a2ap-dgx009:1963511] MCW rank 1 bound to socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]], socket 0[core 16[hwt 0-1]], socket 0[core 17[hwt 0-1]], socket 0[core 18[hwt 0-1]], socket 0[core 19[hwt 0-1]], socket 0[core 20[hwt 0-1]], socket 0[core 21[hwt 0-1]], socket 0[core 22[hwt 0-1]], socket 0[core 23[hwt 0-1]], socket 0[core 24[hwt 0-1]], socket 0[core 25[hwt 0-1]], socket 0[core 26[hwt 0-1]], socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,2]<stderr>:[a2ap-dgx009:1963511] MCW rank 2 bound to socket 0[core 28[hwt 0-1]], socket 0[core 29[hwt 0-1]], socket 0[core 30[hwt 0-1]], socket 0[core 31[hwt 0-1]], socket 0[core 32[hwt 0-1]], socket 0[core 33[hwt 0-1]], socket 0[core 34[hwt 0-1]], socket 0[core 35[hwt 0-1]], socket 0[core 36[hwt 0-1]], socket 0[core 37[hwt 0-1]], socket 0[core 38[hwt 0-1]], socket 0[core 39[hwt 0-1]], socket 0[core 40[hwt 0-1]], socket 0[core 41[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,3]<stderr>:[a2ap-dgx009:1963511] MCW rank 3 bound to socket 0[core 42[hwt 0-1]], socket 0[core 43[hwt 0-1]], socket 0[core 44[hwt 0-1]], socket 0[core 45[hwt 0-1]], socket 0[core 46[hwt 0-1]], socket 0[core 47[hwt 0-1]], socket 0[core 48[hwt 0-1]], socket 0[core 49[hwt 0-1]], socket 0[core 50[hwt 0-1]], socket 0[core 51[hwt 0-1]], socket 0[core 52[hwt 0-1]], socket 0[core 53[hwt 0-1]], socket 0[core 54[hwt 0-1]], socket 0[core 55[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,4]<stderr>:[a2ap-dgx009:1963511] MCW rank 4 bound to socket 1[core 56[hwt 0-1]], socket 1[core 57[hwt 0-1]], socket 1[core 58[hwt 0-1]], socket 1[core 59[hwt 0-1]], socket 1[core 60[hwt 0-1]], socket 1[core 61[hwt 0-1]], socket 1[core 62[hwt 0-1]], socket 1[core 63[hwt 0-1]], socket 1[core 64[hwt 0-1]], socket 1[core 65[hwt 0-1]], socket 1[core 66[hwt 0-1]], socket 1[core 67[hwt 0-1]], socket 1[core 68[hwt 0-1]], socket 1[core 69[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,5]<stderr>:[a2ap-dgx009:1963511] MCW rank 5 bound to socket 1[core 70[hwt 0-1]], socket 1[core 71[hwt 0-1]], socket 1[core 72[hwt 0-1]], socket 1[core 73[hwt 0-1]], socket 1[core 74[hwt 0-1]], socket 1[core 75[hwt 0-1]], socket 1[core 76[hwt 0-1]], socket 1[core 77[hwt 0-1]], socket 1[core 78[hwt 0-1]], socket 1[core 79[hwt 0-1]], socket 1[core 80[hwt 0-1]], socket 1[core 81[hwt 0-1]], socket 1[core 82[hwt 0-1]], socket 1[core 83[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,6]<stderr>:[a2ap-dgx009:1963511] MCW rank 6 bound to socket 1[core 84[hwt 0-1]], socket 1[core 85[hwt 0-1]], socket 1[core 86[hwt 0-1]], socket 1[core 87[hwt 0-1]], socket 1[core 88[hwt 0-1]], socket 1[core 89[hwt 0-1]], socket 1[core 90[hwt 0-1]], socket 1[core 91[hwt 0-1]], socket 1[core 92[hwt 0-1]], socket 1[core 93[hwt 0-1]], socket 1[core 94[hwt 0-1]], socket 1[core 95[hwt 0-1]], socket 1[core 96[hwt 0-1]], socket 1[core 97[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..]
+[1,7]<stderr>:[a2ap-dgx009:1963511] MCW rank 7 bound to socket 1[core 98[hwt 0-1]], socket 1[core 99[hwt 0-1]], socket 1[core 100[hwt 0-1]], socket 1[core 101[hwt 0-1]], socket 1[core 102[hwt 0-1]], socket 1[core 103[hwt 0-1]], socket 1[core 104[hwt 0-1]], socket 1[core 105[hwt 0-1]], socket 1[core 106[hwt 0-1]], socket 1[core 107[hwt 0-1]], socket 1[core 108[hwt 0-1]], socket 1[core 109[hwt 0-1]], socket 1[core 110[hwt 0-1]], socket 1[core 111[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB]
+[1,8]<stderr>:[a2ap-dgx012:1785413] MCW rank 8 bound to socket 0[core 0[hwt 0-1]], socket 0[core 1[hwt 0-1]], socket 0[core 2[hwt 0-1]], socket 0[core 3[hwt 0-1]], socket 0[core 4[hwt 0-1]], socket 0[core 5[hwt 0-1]], socket 0[core 6[hwt 0-1]], socket 0[core 7[hwt 0-1]], socket 0[core 8[hwt 0-1]], socket 0[core 9[hwt 0-1]], socket 0[core 10[hwt 0-1]], socket 0[core 11[hwt 0-1]], socket 0[core 12[hwt 0-1]], socket 0[core 13[hwt 0-1]]: [BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,9]<stderr>:[a2ap-dgx012:1785413] MCW rank 9 bound to socket 0[core 14[hwt 0-1]], socket 0[core 15[hwt 0-1]], socket 0[core 16[hwt 0-1]], socket 0[core 17[hwt 0-1]], socket 0[core 18[hwt 0-1]], socket 0[core 19[hwt 0-1]], socket 0[core 20[hwt 0-1]], socket 0[core 21[hwt 0-1]], socket 0[core 22[hwt 0-1]], socket 0[core 23[hwt 0-1]], socket 0[core 24[hwt 0-1]], socket 0[core 25[hwt 0-1]], socket 0[core 26[hwt 0-1]], socket 0[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,10]<stderr>:[a2ap-dgx012:1785413] MCW rank 10 bound to socket 0[core 28[hwt 0-1]], socket 0[core 29[hwt 0-1]], socket 0[core 30[hwt 0-1]], socket 0[core 31[hwt 0-1]], socket 0[core 32[hwt 0-1]], socket 0[core 33[hwt 0-1]], socket 0[core 34[hwt 0-1]], socket 0[core 35[hwt 0-1]], socket 0[core 36[hwt 0-1]], socket 0[core 37[hwt 0-1]], socket 0[core 38[hwt 0-1]], socket 0[core 39[hwt 0-1]], socket 0[core 40[hwt 0-1]], socket 0[core 41[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,11]<stderr>:[a2ap-dgx012:1785413] MCW rank 11 bound to socket 0[core 42[hwt 0-1]], socket 0[core 43[hwt 0-1]], socket 0[core 44[hwt 0-1]], socket 0[core 45[hwt 0-1]], socket 0[core 46[hwt 0-1]], socket 0[core 47[hwt 0-1]], socket 0[core 48[hwt 0-1]], socket 0[core 49[hwt 0-1]], socket 0[core 50[hwt 0-1]], socket 0[core 51[hwt 0-1]], socket 0[core 52[hwt 0-1]], socket 0[core 53[hwt 0-1]], socket 0[core 54[hwt 0-1]], socket 0[core 55[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,12]<stderr>:[a2ap-dgx012:1785413] MCW rank 12 bound to socket 1[core 56[hwt 0-1]], socket 1[core 57[hwt 0-1]], socket 1[core 58[hwt 0-1]], socket 1[core 59[hwt 0-1]], socket 1[core 60[hwt 0-1]], socket 1[core 61[hwt 0-1]], socket 1[core 62[hwt 0-1]], socket 1[core 63[hwt 0-1]], socket 1[core 64[hwt 0-1]], socket 1[core 65[hwt 0-1]], socket 1[core 66[hwt 0-1]], socket 1[core 67[hwt 0-1]], socket 1[core 68[hwt 0-1]], socket 1[core 69[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,13]<stderr>:[a2ap-dgx012:1785413] MCW rank 13 bound to socket 1[core 70[hwt 0-1]], socket 1[core 71[hwt 0-1]], socket 1[core 72[hwt 0-1]], socket 1[core 73[hwt 0-1]], socket 1[core 74[hwt 0-1]], socket 1[core 75[hwt 0-1]], socket 1[core 76[hwt 0-1]], socket 1[core 77[hwt 0-1]], socket 1[core 78[hwt 0-1]], socket 1[core 79[hwt 0-1]], socket 1[core 80[hwt 0-1]], socket 1[core 81[hwt 0-1]], socket 1[core 82[hwt 0-1]], socket 1[core 83[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../../../../../../../../../../../../../../../..]
+[1,14]<stderr>:[a2ap-dgx012:1785413] MCW rank 14 bound to socket 1[core 84[hwt 0-1]], socket 1[core 85[hwt 0-1]], socket 1[core 86[hwt 0-1]], socket 1[core 87[hwt 0-1]], socket 1[core 88[hwt 0-1]], socket 1[core 89[hwt 0-1]], socket 1[core 90[hwt 0-1]], socket 1[core 91[hwt 0-1]], socket 1[core 92[hwt 0-1]], socket 1[core 93[hwt 0-1]], socket 1[core 94[hwt 0-1]], socket 1[core 95[hwt 0-1]], socket 1[core 96[hwt 0-1]], socket 1[core 97[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/../../../../../../../../../../../../../..]
+[1,15]<stderr>:[a2ap-dgx012:1785413] MCW rank 15 bound to socket 1[core 98[hwt 0-1]], socket 1[core 99[hwt 0-1]], socket 1[core 100[hwt 0-1]], socket 1[core 101[hwt 0-1]], socket 1[core 102[hwt 0-1]], socket 1[core 103[hwt 0-1]], socket 1[core 104[hwt 0-1]], socket 1[core 105[hwt 0-1]], socket 1[core 106[hwt 0-1]], socket 1[core 107[hwt 0-1]], socket 1[core 108[hwt 0-1]], socket 1[core 109[hwt 0-1]], socket 1[core 110[hwt 0-1]], socket 1[core 111[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB/BB]
+[1,0]<stderr>:[DBG] host=a2ap-dgx009 if=bond0 rank=0 local=0 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,0]<stdout>:[INFO] Profiling rank 0 (node 0, local 0)
+[1,1]<stderr>:[DBG] host=a2ap-dgx009 if=bond0 rank=1 local=1 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,1]<stdout>:[INFO] Rank 1 (node 0, local 1) running baseline.
+[1,2]<stderr>:[DBG] host=a2ap-dgx009 if=bond0 rank=2 local=2 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,2]<stdout>:[INFO] Rank 2 (node 0, local 2) running baseline.
+[1,3]<stderr>:[DBG] host=a2ap-dgx009 if=bond0 rank=3 local=3 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,3]<stdout>:[INFO] Rank 3 (node 0, local 3) running baseline.
+[1,4]<stderr>:[DBG] host=a2ap-dgx009 if=bond0 rank=4 local=4 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,4]<stdout>:[INFO] Rank 4 (node 0, local 4) running baseline.
+[1,5]<stderr>:[DBG] host=a2ap-dgx009 if=bond0 rank=5 local=5 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,5]<stdout>:[INFO] Rank 5 (node 0, local 5) running baseline.
+[1,7]<stderr>:[DBG] host=a2ap-dgx009 if=bond0 rank=7 local=7 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,6]<stderr>:[DBG] host=a2ap-dgx009 if=bond0 rank=6 local=6 node=0 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,7]<stdout>:[INFO] Rank 7 (node 0, local 7) running baseline.
+[1,6]<stdout>:[INFO] Rank 6 (node 0, local 6) running baseline.
+[1,11]<stderr>:[DBG] host=a2ap-dgx012 if=bond0 rank=11 local=3 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,11]<stdout>:[INFO] Rank 11 (node 1, local 3) running baseline.
+[1,10]<stderr>:[DBG] host=a2ap-dgx012 if=bond0 rank=10 local=2 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,10]<stdout>:[INFO] Rank 10 (node 1, local 2) running baseline.
+[1,8]<stderr>:[DBG] host=a2ap-dgx012 if=bond0 rank=8 local=0 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,8]<stdout>:[INFO] Profiling rank 8 (node 1, local 0)
+[1,9]<stderr>:[DBG] host=a2ap-dgx012 if=bond0 rank=9 local=1 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,9]<stdout>:[INFO] Rank 9 (node 1, local 1) running baseline.
+[1,12]<stderr>:[DBG] host=a2ap-dgx012 if=bond0 rank=12 local=4 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,12]<stdout>:[INFO] Rank 12 (node 1, local 4) running baseline.
+[1,13]<stderr>:[DBG] host=a2ap-dgx012 if=bond0 rank=13 local=5 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,14]<stderr>:[DBG] host=a2ap-dgx012 if=bond0 rank=14 local=6 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,15]<stderr>:[DBG] host=a2ap-dgx012 if=bond0 rank=15 local=7 node=1 world=16 init=a2ap-dgx009.asp2p.nscc.sg:27808
+[1,13]<stdout>:[INFO] Rank 13 (node 1, local 5) running baseline.
+[1,14]<stdout>:[INFO] Rank 14 (node 1, local 6) running baseline.
+[1,15]<stdout>:[INFO] Rank 15 (node 1, local 7) running baseline.
+[1,0]<stderr>:WARNING: CPU context switch tracing not supported, disabling.
+[1,0]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,0]<stderr>:
+[1,8]<stderr>:WARNING: CPU context switch tracing not supported, disabling.
+[1,8]<stderr>:Try the 'nsys status --environment' command to learn more.
+[1,8]<stderr>:
+[1,6]<stderr>:[2025-10-04 17:11:25] Using default HuggingFace chat template with detected content format: string
+[1,5]<stderr>:[2025-10-04 17:11:25] Using default HuggingFace chat template with detected content format: string
+[1,7]<stderr>:[2025-10-04 17:11:25] Using default HuggingFace chat template with detected content format: string
+[1,2]<stderr>:[2025-10-04 17:11:26] Using default HuggingFace chat template with detected content format: string
+[1,4]<stderr>:[2025-10-04 17:11:26] Using default HuggingFace chat template with detected content format: string
+[1,3]<stderr>:[2025-10-04 17:11:26] Using default HuggingFace chat template with detected content format: string
+[1,1]<stderr>:[2025-10-04 17:11:26] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>:[2025-10-04 17:11:47] Using default HuggingFace chat template with detected content format: string
+[1,6]<stderr>:[2025-10-04 17:12:31 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,6]<stderr>:[2025-10-04 17:12:31 TP0] Chunked prefix cache is turned on.
+[1,6]<stderr>:[2025-10-04 17:12:31 TP0] Init torch distributed begin.
+[1,5]<stderr>:[2025-10-04 17:12:45 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,5]<stderr>:[2025-10-04 17:12:45 TP0] Chunked prefix cache is turned on.
+[1,5]<stderr>:[2025-10-04 17:12:45 TP0] Init torch distributed begin.
+[1,5]<stderr>:[2025-10-04 17:12:57 TP0] Scheduler hit an exception: Traceback (most recent call last):
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,5]<stderr>:    scheduler = Scheduler(
+[1,5]<stderr>:                ^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,5]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,5]<stderr>:                     ^^^^^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,5]<stderr>:    self.worker = TpModelWorker(
+[1,5]<stderr>:                  ^^^^^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,5]<stderr>:    self.model_runner = ModelRunner(
+[1,5]<stderr>:                        ^^^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,5]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,5]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,5]<stderr>:    init_distributed_environment(
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1259, in init_distributed_environment
+[1,5]<stderr>:    torch.distributed.init_process_group(
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,5]<stderr>:    return func(*args, **kwargs)
+[1,5]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,5]<stderr>:    func_return = func(*args, **kwargs)
+[1,5]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1757, in init_process_group
+[1,5]<stderr>:    store, rank, world_size = next(rendezvous_iterator)
+[1,5]<stderr>:                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/rendezvous.py", line 230, in _tcp_rendezvous_handler
+[1,5]<stderr>:    store = _create_c10d_store(
+[1,5]<stderr>:            ^^^^^^^^^^^^^^^^^^^
+[1,5]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/rendezvous.py", line 198, in _create_c10d_store
+[1,5]<stderr>:    return TCPStore(
+[1,5]<stderr>:           ^^^^^^^^^
+[1,5]<stderr>:torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 27808, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+[1,5]<stderr>:
+[1,5]<stderr>:[2025-10-04 17:12:57] Received sigquit from a child process. It usually means the child failed.
+[1,5]<stderr>:bash: line 52: 1963824 Killed                  "$PYTHON" -m sglang.bench_offline_throughput --model-path "$MODEL" --dataset-path "$DATA" --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr ${MASTER_ADDR}:${MASTER_PORT} --node-rank ${NODE_RANK}
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[1,9]<stderr>:[W1004 17:12:59.655641256 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx012.asp2p.nscc.sg]:56304, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Connection reset by peer
+[1,9]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,9]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,9]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #2: <unknown function> + 0x5d6a473 (0x7fff311f0473 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #3: <unknown function> + 0x5d6b71a (0x7fff311f171a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #4: c10d::TCPStore::ping() + 0x95 (0x7fff311ec365 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #5: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x518 (0x7fff311ee8c8 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #6: <unknown function> + 0xbf05f5 (0x7fff4052e5f5 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #7: <unknown function> + 0xc26bb6 (0x7fff40564bb6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #8: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #9: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #10: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #11: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #12: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #13: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #14: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #15: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #16: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #17: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #18: <unknown function> + 0x265d2e (0x5555557b9d2e in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #19: <unknown function> + 0x21cf2b (0x555555770f2b in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #20: PyObject_Vectorcall + 0x2e (0x555555765dde in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #21: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #22: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #23: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #24: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #27: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #31: <unknown function> + 0x22a21c (0x5[1,13]<stderr>:[rank10]:[W1004 17:12:59.654825251 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=100, addr=[a2ap-dgx012.asp2p.nscc.sg]:56282, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,13]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,13]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,13]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #2: <unknown function> + 0x5d6ab2d (0x7fff311f0b2d in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #3: <unknown function> + 0x5d6b1e9 (0x7fff311f11e9 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fff311ec5f6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #5: c10d::TCPStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x206 (0x7fff311ec8c6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #6: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #7: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #8: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #9: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #10: gloo::rendezvous::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x109 (0x7fff3364de39 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312[1,14]<stderr>:[rank12]:[W1004 17:12:59.655149140 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=101, addr=[a2ap-dgx012.asp2p.nscc.sg]:56298, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,14]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,14]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,14]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #2: <unknown function> + 0x5d6ab2d (0x7fff311f0b2d in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #3: <unknown function> + 0x5d6b1e9 (0x7fff311f11e9 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fff311ec5f6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #5: c10d::TCPStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x206 (0x7fff311ec8c6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #6: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #7: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #8: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #9: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #10: gloo::rendezvous::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x109 (0x7fff3364de39 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312[1,11]<stderr>:[rank8]:[W1004 17:12:59.655641975 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=101, addr=[a2ap-dgx012.asp2p.nscc.sg]:56230, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,11]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,11]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,11]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #2: <unknown function> + 0x5d6ab2d (0x7fff311f0b2d in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #3: <unknown function> + 0x5d6b1e9 (0x7fff311f11e9 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fff311ec5f6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #5: c10d::TCPStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x206 (0x7fff311ec8c6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #6: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #7: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #8: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #9: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #10: gloo::rendezvous::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x109 (0x7fff3364de39 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/[1,10]<stderr>:[rank11]:[W1004 17:12:59.655651755 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=101, addr=[a2ap-dgx012.asp2p.nscc.sg]:56222, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,10]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,10]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,10]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #2: <unknown function> + 0x5d6ab2d (0x7fff311f0b2d in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #3: <unknown function> + 0x5d6b1e9 (0x7fff311f11e9 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fff311ec5f6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #5: c10d::TCPStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x206 (0x7fff311ec8c6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #6: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #7: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #8: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #9: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #10: gloo::rendezvous::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x109 (0x7fff3364de39 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312[1,9]<stderr>:5555577e21c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #36: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #37: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #38: PyEval_EvalCode + 0xa1 (0x5555558041a1 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #39: <unknown function> + 0x2ea8ca (0x55555583e8ca in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #40: <unknown function> + 0x2e5585 (0x555555839585 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #41: PyRun_StringFlags + 0x62 (0x555555835aa2 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #42: PyRun_SimpleStringFlags + 0x3c (0x55555583589c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #43: Py_RunMain + 0x4e4 (0x555555832ff4 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #44: Py_BytesMain + 0x37 (0x5555557ee247 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #45: <unknown function> + 0x29d90 (0x7ffff7cb4d90 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,9]<stderr>:frame #46: __libc_start_main + 0x80 (0x7ffff7cb4e40 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,9]<stderr>:frame #47: <unknown function> + 0x29a0ed (0x5555557ee0ed in sglang::scheduler_TP10)
+[1,9]<stderr>:
+[1,9]<stderr>:[W1004 17:12:59.664156891 TCPStore.cpp:340] [c10d] TCP client failed to connect/validate to host a2ap-dgx009.asp2p.nscc.sg:27808 - retrying (try=0, timeout=600000ms, delay=5680ms): Connection reset by peer
+[1,9]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,9]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,9]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #2: <unknown function> + 0x5d6a473 (0x7fff311f0473 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #3: <unknown function> + 0x5d6b71a (0x7fff311f171a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #4: c10d::TCPStore::ping() + 0x95 (0x7fff311ec365 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #5: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x518 (0x7fff311ee8c8 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #6: <unknown function> + 0xbf05f5 (0x7fff4052e5f5 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #7: <unknown function> + 0xc26bb6 (0x7fff40564bb6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #8: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #9: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #10: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #11: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #12: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #13: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #14: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #15: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/li[1,13]<stderr>:/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #11: gloo::transport::tcp::Context::createAndConnectAllPairs(std::shared_ptr<gloo::IStore>) + 0xa18 (0x7fff3366b338 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #12: gloo::rendezvous::Context::connectFullMesh(std::shared_ptr<gloo::rendezvous::Store>, std::shared_ptr<gloo::transport::Device>&) + 0x5c (0x7fff3364abfc in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #13: c10d::ProcessGroupGloo::ProcessGroupGloo(c10::intrusive_ptr<c10d::Store, c10::detail::intrusive_target_default_null_type<c10d::Store> > const&, int, int, c10::intrusive_ptr<c10d::ProcessGroupGloo::Options, c10::detail::intrusive_target_default_null_type<c10d::ProcessGroupGloo::Options> >) + 0x430 (0x7fff311c52b0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #14: <unknown function> + 0xbf197a (0x7fff4052f97a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,13]<stderr>:frame #15: <unknown function> + 0xc223d7 (0x7fff405603d7 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,13]<stderr>:frame #16: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,13]<stderr>:frame #17: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #18: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #19: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #20: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #21: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #22: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #23: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,13]<stderr>:frame #24: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #27: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #36: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #37: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #38: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #39: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #40: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #41: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #42: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #43: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #44: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #45: <unknown function> + 0x112b23 (0x555555666b23 in sglang::[1,14]<stderr>:/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #11: gloo::transport::tcp::Context::createAndConnectAllPairs(std::shared_ptr<gloo::IStore>) + 0xa18 (0x7fff3366b338 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #12: gloo::rendezvous::Context::connectFullMesh(std::shared_ptr<gloo::rendezvous::Store>, std::shared_ptr<gloo::transport::Device>&) + 0x5c (0x7fff3364abfc in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #13: c10d::ProcessGroupGloo::ProcessGroupGloo(c10::intrusive_ptr<c10d::Store, c10::detail::intrusive_target_default_null_type<c10d::Store> > const&, int, int, c10::intrusive_ptr<c10d::ProcessGroupGloo::Options, c10::detail::intrusive_target_default_null_type<c10d::ProcessGroupGloo::Options> >) + 0x430 (0x7fff311c52b0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #14: <unknown function> + 0xbf197a (0x7fff4052f97a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,14]<stderr>:frame #15: <unknown function> + 0xc223d7 (0x7fff405603d7 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,14]<stderr>:frame #16: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,14]<stderr>:frame #17: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #18: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #19: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #20: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #21: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #22: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #23: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,14]<stderr>:frame #24: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #27: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #36: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #37: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #38: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #39: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #40: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #41: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #42: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #43: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #44: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #45: <unknown function> + 0x112b23 (0x555555666b23 in sglang::[1,11]<stderr>:lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #11: gloo::transport::tcp::Context::createAndConnectAllPairs(std::shared_ptr<gloo::IStore>) + 0xa18 (0x7fff3366b338 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #12: gloo::rendezvous::Context::connectFullMesh(std::shared_ptr<gloo::rendezvous::Store>, std::shared_ptr<gloo::transport::Device>&) + 0x5c (0x7fff3364abfc in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #13: c10d::ProcessGroupGloo::ProcessGroupGloo(c10::intrusive_ptr<c10d::Store, c10::detail::intrusive_target_default_null_type<c10d::Store> > const&, int, int, c10::intrusive_ptr<c10d::ProcessGroupGloo::Options, c10::detail::intrusive_target_default_null_type<c10d::ProcessGroupGloo::Options> >) + 0x430 (0x7fff311c52b0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #14: <unknown function> + 0xbf197a (0x7fff4052f97a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,11]<stderr>:frame #15: <unknown function> + 0xc223d7 (0x7fff405603d7 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,11]<stderr>:frame #16: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,11]<stderr>:frame #17: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #18: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #19: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #20: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #21: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #22: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #23: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,11]<stderr>:frame #24: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #27: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #36: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #37: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #38: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #39: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #40: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #41: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #42: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #43: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #44: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #45: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #46: Py[1,10]<stderr>:/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #11: gloo::transport::tcp::Context::createAndConnectAllPairs(std::shared_ptr<gloo::IStore>) + 0xa18 (0x7fff3366b338 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #12: gloo::rendezvous::Context::connectFullMesh(std::shared_ptr<gloo::rendezvous::Store>, std::shared_ptr<gloo::transport::Device>&) + 0x5c (0x7fff3364abfc in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #13: c10d::ProcessGroupGloo::ProcessGroupGloo(c10::intrusive_ptr<c10d::Store, c10::detail::intrusive_target_default_null_type<c10d::Store> > const&, int, int, c10::intrusive_ptr<c10d::ProcessGroupGloo::Options, c10::detail::intrusive_target_default_null_type<c10d::ProcessGroupGloo::Options> >) + 0x430 (0x7fff311c52b0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #14: <unknown function> + 0xbf197a (0x7fff4052f97a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,10]<stderr>:frame #15: <unknown function> + 0xc223d7 (0x7fff405603d7 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,10]<stderr>:frame #16: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,10]<stderr>:frame #17: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #18: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #19: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #20: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #21: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #22: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #23: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,10]<stderr>:frame #24: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #27: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #36: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #37: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #38: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #39: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #40: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #41: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #42: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #43: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #44: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #45: <unknown function> + 0x112b23 (0x555555666b23 in sglang::[1,9]<stderr>:b/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #16: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #17: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #18: <unknown function> + 0x265d2e (0x5555557b9d2e in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #19: <unknown function> + 0x21cf2b (0x555555770f2b in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #20: PyObject_Vectorcall + 0x2e (0x555555765dde in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #21: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #22: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #23: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #24: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #27: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #36: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #37: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #38: PyEval_EvalCode + 0xa1 (0x5555558041a1 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #39: <unknown function> + 0x2ea8ca (0x55555583e8ca in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #40: <unknown function> + 0x2e5585 (0x555555839585 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #41: PyRun_StringFlags + 0x62 (0x555555835aa2 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #42: PyRun_SimpleStringFlags + 0x3c (0x55555583589c in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #43: Py_RunMain + 0x4e4 (0x555555832ff4 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #44: Py_BytesMain + 0x37 (0x5555557ee247 in sglang::scheduler_TP10)
+[1,9]<stderr>:frame #45: <unknown function> + 0x29d90 (0x7ffff7cb4d90 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,9]<stderr>:frame #46: __libc_start_main + 0x80 (0x7ffff7cb4e40 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,9]<stderr>:frame #47: <unknown function> + 0x29a0ed (0x5555557ee0ed in sglang::scheduler_TP10)
+[1,9]<stderr>:
+[1,9]<stderr>:[rank8]:[W1004 17:12:59.655464755 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=100, addr=[a2ap-dgx012.asp2p.nscc.sg]:56284, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,9]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,9]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,9]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #2: <unknown function> + 0x5d6ab2d (0x7fff311f0b2d in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #3: <unknown function> + 0x5d6b1e9 (0x7fff311f11e9 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<[1,13]<stderr>:scheduler_TP10)
+[1,13]<stderr>:frame #46: PyEval_EvalCode + 0xa1 (0x5555558041a1 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #47: <unknown function> + 0x2ea8ca (0x55555583e8ca in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #48: <unknown function> + 0x2e5585 (0x555555839585 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #49: PyRun_StringFlags + 0x62 (0x555555835aa2 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #50: PyRun_SimpleStringFlags + 0x3c (0x55555583589c in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #51: Py_RunMain + 0x4e4 (0x555555832ff4 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #52: Py_BytesMain + 0x37 (0x5555557ee247 in sglang::scheduler_TP10)
+[1,13]<stderr>:frame #53: <unknown function> + 0x29d90 (0x7ffff7cb4d90 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,13]<stderr>:frame #54: __libc_start_main + 0x80 (0x7ffff7cb4e40 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,13]<stderr>:frame #55: <unknown function> + 0x29a0ed (0x5555557ee0ed in sglang::scheduler_TP10)
+[1,13]<stderr>:
+[1,13]<stderr>:[rank8]:[W1004 17:12:59.655611057 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=100, addr=[a2ap-dgx012.asp2p.nscc.sg]:56266, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,13]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,13]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,13]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #2: <unknown function> + 0x5d6ab2d (0x7fff311f0b2d in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #3: <unknown function> + 0x5d6b1e9 (0x7fff311f11e9 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fff311ec5f6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #5: c10d::TCPStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x206 (0x7fff311ec8c6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #6: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #7: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #8: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_c[1,14]<stderr>:scheduler_TP12)
+[1,14]<stderr>:frame #46: PyEval_EvalCode + 0xa1 (0x5555558041a1 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #47: <unknown function> + 0x2ea8ca (0x55555583e8ca in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #48: <unknown function> + 0x2e5585 (0x555555839585 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #49: PyRun_StringFlags + 0x62 (0x555555835aa2 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #50: PyRun_SimpleStringFlags + 0x3c (0x55555583589c in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #51: Py_RunMain + 0x4e4 (0x555555832ff4 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #52: Py_BytesMain + 0x37 (0x5555557ee247 in sglang::scheduler_TP12)
+[1,14]<stderr>:frame #53: <unknown function> + 0x29d90 (0x7ffff7cb4d90 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,14]<stderr>:frame #54: __libc_start_main + 0x80 (0x7ffff7cb4e40 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,14]<stderr>:frame #55: <unknown function> + 0x29a0ed (0x5555557ee0ed in sglang::scheduler_TP12)
+[1,14]<stderr>:
+[1,14]<stderr>:[rank14]:[W1004 17:12:59.655583370 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=100, addr=[a2ap-dgx012.asp2p.nscc.sg]:56228, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,14]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,14]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,14]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #2: <unknown function> + 0x5d6ab2d (0x7fff311f0b2d in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #3: <unknown function> + 0x5d6b1e9 (0x7fff311f11e9 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fff311ec5f6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #5: c10d::TCPStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x206 (0x7fff311ec8c6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #6: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #7: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #8: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_[1,11]<stderr>:Eval_EvalCode + 0xa1 (0x5555558041a1 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #47: <unknown function> + 0x2ea8ca (0x55555583e8ca in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #48: <unknown function> + 0x2e5585 (0x555555839585 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #49: PyRun_StringFlags + 0x62 (0x555555835aa2 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #50: PyRun_SimpleStringFlags + 0x3c (0x55555583589c in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #51: Py_RunMain + 0x4e4 (0x555555832ff4 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #52: Py_BytesMain + 0x37 (0x5555557ee247 in sglang::scheduler_TP8)
+[1,11]<stderr>:frame #53: <unknown function> + 0x29d90 (0x7ffff7cb4d90 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,11]<stderr>:frame #54: __libc_start_main + 0x80 (0x7ffff7cb4e40 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,11]<stderr>:frame #55: <unknown function> + 0x29a0ed (0x5555557ee0ed in sglang::scheduler_TP8)
+[1,11]<stderr>:
+[1,11]<stderr>:[rank8]:[W1004 17:12:59.669124643 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=101, addr=[a2ap-dgx012.asp2p.nscc.sg]:56230, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,11]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,11]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,11]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #2: <unknown function> + 0x5d6a8cd (0x7fff311f08cd in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #3: <unknown function> + 0x5d6b47a (0x7fff311f147a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7fff311ec19e in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,11]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffef06d1b18 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,11]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff50e0253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,11]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,11]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,11]<stderr>:
+[1,11]<stderr>:[rank8]:[W1004 17:12:59.675625340 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 8] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,11]<stderr>:[2025-10-04 17:12:59 TP8] Scheduler hit an exception: Traceback (most recent call last):
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,11]<stderr>:    scheduler = Scheduler(
+[1,11]<stderr>:                ^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,11]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,11]<stderr>:                     ^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,11]<stderr>:    self.worker = TpModelWorker(
+[1,11]<stderr>:                  ^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,11]<stderr>:    self.model_runner =[1,10]<stderr>:scheduler_TP11)
+[1,10]<stderr>:frame #46: PyEval_EvalCode + 0xa1 (0x5555558041a1 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #47: <unknown function> + 0x2ea8ca (0x55555583e8ca in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #48: <unknown function> + 0x2e5585 (0x555555839585 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #49: PyRun_StringFlags + 0x62 (0x555555835aa2 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #50: PyRun_SimpleStringFlags + 0x3c (0x55555583589c in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #51: Py_RunMain + 0x4e4 (0x555555832ff4 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #52: Py_BytesMain + 0x37 (0x5555557ee247 in sglang::scheduler_TP11)
+[1,10]<stderr>:frame #53: <unknown function> + 0x29d90 (0x7ffff7cb4d90 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,10]<stderr>:frame #54: __libc_start_main + 0x80 (0x7ffff7cb4e40 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,10]<stderr>:frame #55: <unknown function> + 0x29a0ed (0x5555557ee0ed in sglang::scheduler_TP11)
+[1,10]<stderr>:
+[1,10]<stderr>:[rank9]:[W1004 17:12:59.655254357 TCPStore.cpp:138] [c10d] recvValueWithTimeout failed on SocketImpl(fd=101, addr=[a2ap-dgx012.asp2p.nscc.sg]:56246, remote=[a2ap-dgx009.asp2p.nscc.sg]:27808): Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,10]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:682 (most recent call first):
+[1,10]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7fff4d0d9eb0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,10]<stderr>:frame #1: <unknown function> + 0x5d694d1 (0x7fff311ef4d1 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #2: <unknown function> + 0x5d6ab2d (0x7fff311f0b2d in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #3: <unknown function> + 0x5d6b1e9 (0x7fff311f11e9 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #4: c10d::TCPStore::doWait(c10::ArrayRef<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::chrono::duration<long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fff311ec5f6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #5: c10d::TCPStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x206 (0x7fff311ec8c6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #6: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #7: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #8: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_c[1,9]<stderr>:long, std::ratio<1l, 1000l> >) + 0x1c6 (0x7fff311ec5f6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #5: c10d::TCPStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x206 (0x7fff311ec8c6 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #6: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #7: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #8: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #9: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #10: gloo::rendezvous::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x109 (0x7fff3364de39 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #11: gloo::transport::tcp::Context::createAndConnectAllPairs(std::shared_ptr<gloo::IStore>) + 0xa18 (0x7fff3366b338 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #12: gloo::rendezvous::Context::connectFullMesh(std::shared_ptr<gloo::rendezvous::Store>, std::shared_ptr<gloo::transport::Device>&) + 0x5c (0x7fff3364abfc in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #13: c10d::ProcessGroupGloo::ProcessGroupGloo(c10::intrusive_ptr<c10d::Store, c10::detail::intrusive_target_default_null_type<c10d::Store> > const&, int, int, c10::intrusive_ptr<c10d::ProcessGroupGloo::Options, c10::detail::intrusive_target_default_null_type<c10d::ProcessGroupGloo::Options> >) + 0x430 (0x7fff311c52b0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,9]<stderr>:frame #14: <unknown function> + 0xbf197a (0x7fff4052f97a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #15: <unknown function> + 0xc223d7 (0x7fff405603d7 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/[1,13]<stderr>:pu.so)
+[1,13]<stderr>:frame #9: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #10: gloo::rendezvous::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x109 (0x7fff3364de39 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #11: gloo::transport::tcp::Context::createAndConnectAllPairs(std::shared_ptr<gloo::IStore>) + 0xa18 (0x7fff3366b338 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #12: gloo::rendezvous::Context::connectFullMesh(std::shared_ptr<gloo::rendezvous::Store>, std::shared_ptr<gloo::transport::Device>&) + 0x5c (0x7fff3364abfc in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #13: c10d::ProcessGroupGloo::ProcessGroupGloo(c10::intrusive_ptr<c10d::Store, c10::detail::intrusive_target_default_null_type<c10d::Store> > const&, int, int, c10::intrusive_ptr<c10d::ProcessGroupGloo::Options, c10::detail::intrusive_target_default_null_type<c10d::ProcessGroupGloo::Options> >) + 0x430 (0x7fff311c52b0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,13]<stderr>:frame #14: <unknown function> + 0xbf197a (0x7fff4052f97a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,13]<stderr>:frame #15: <unknown function> + 0xc223d7 (0x7fff405603d7 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,13]<stderr>:frame #16: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,13]<stderr>:frame #17: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #18: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #19: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #20: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #21: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #22: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #23: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,13]<stderr>:frame #24: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #27: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP8)
+[1,13]<stderr>:frame #36: _PyObj[1,14]<stderr>:cpu.so)
+[1,14]<stderr>:frame #9: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #10: gloo::rendezvous::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x109 (0x7fff3364de39 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #11: gloo::transport::tcp::Context::createAndConnectAllPairs(std::shared_ptr<gloo::IStore>) + 0xa18 (0x7fff3366b338 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #12: gloo::rendezvous::Context::connectFullMesh(std::shared_ptr<gloo::rendezvous::Store>, std::shared_ptr<gloo::transport::Device>&) + 0x5c (0x7fff3364abfc in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #13: c10d::ProcessGroupGloo::ProcessGroupGloo(c10::intrusive_ptr<c10d::Store, c10::detail::intrusive_target_default_null_type<c10d::Store> > const&, int, int, c10::intrusive_ptr<c10d::ProcessGroupGloo::Options, c10::detail::intrusive_target_default_null_type<c10d::ProcessGroupGloo::Options> >) + 0x430 (0x7fff311c52b0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,14]<stderr>:frame #14: <unknown function> + 0xbf197a (0x7fff4052f97a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,14]<stderr>:frame #15: <unknown function> + 0xc223d7 (0x7fff405603d7 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,14]<stderr>:frame #16: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,14]<stderr>:frame #17: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #18: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #19: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #20: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #21: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #22: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #23: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,14]<stderr>:frame #24: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #27: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP14)
+[1,14]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP14[1,11]<stderr>: ModelRunner(
+[1,11]<stderr>:                        ^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 235, in __init__
+[1,11]<stderr>:    min_per_gpu_memory = self.init_torch_distributed()
+[1,11]<stderr>:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 591, in init_torch_distributed
+[1,11]<stderr>:    init_distributed_environment(
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1280, in init_distributed_environment
+[1,11]<stderr>:    _WORLD = init_world_group(ranks, local_rank, backend)
+[1,11]<stderr>:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 1101, in init_world_group
+[1,11]<stderr>:    return GroupCoordinator(
+[1,11]<stderr>:           ^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/distributed/parallel_state.py", line 242, in __init__
+[1,11]<stderr>:    cpu_group = torch.distributed.new_group(ranks, backend="gloo")
+[1,11]<stderr>:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+[1,11]<stderr>:    func_return = func(*args, **kwargs)
+[1,11]<stderr>:                  ^^^^^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5254, in new_group
+[1,11]<stderr>:    return _new_group_with_tag(
+[1,11]<stderr>:           ^^^^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 5344, in _new_group_with_tag
+[1,11]<stderr>:    pg, pg_store = _new_process_group_helper(
+[1,11]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 1991, in _new_process_group_helper
+[1,11]<stderr>:    backend_class = ProcessGroupGloo(
+[1,11]<stderr>:                    ^^^^^^^^^^^^^^^^^
+[1,11]<stderr>:torch.distributed.DistNetworkError: Failed to recv, got 0 bytes. Connection was likely closed. Did the remote server shutdown or crash?
+[1,11]<stderr>:
+[1,11]<stderr>:[2025-10-04 17:12:59] Received sigquit from a child process. It usually means the child failed.
+[1,10]<stderr>:pu.so)
+[1,10]<stderr>:frame #9: c10d::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x2f (0x7fff3119df0f in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #10: gloo::rendezvous::PrefixStore::wait(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::chrono::duration<long, std::ratio<1l, 1000l> > const&) + 0x109 (0x7fff3364de39 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #11: gloo::transport::tcp::Context::createAndConnectAllPairs(std::shared_ptr<gloo::IStore>) + 0xa18 (0x7fff3366b338 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #12: gloo::rendezvous::Context::connectFullMesh(std::shared_ptr<gloo::rendezvous::Store>, std::shared_ptr<gloo::transport::Device>&) + 0x5c (0x7fff3364abfc in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #13: c10d::ProcessGroupGloo::ProcessGroupGloo(c10::intrusive_ptr<c10d::Store, c10::detail::intrusive_target_default_null_type<c10d::Store> > const&, int, int, c10::intrusive_ptr<c10d::ProcessGroupGloo::Options, c10::detail::intrusive_target_default_null_type<c10d::ProcessGroupGloo::Options> >) + 0x430 (0x7fff311c52b0 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,10]<stderr>:frame #14: <unknown function> + 0xbf197a (0x7fff4052f97a in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,10]<stderr>:frame #15: <unknown function> + 0xc223d7 (0x7fff405603d7 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,10]<stderr>:frame #16: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,10]<stderr>:frame #17: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #18: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #19: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #20: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #21: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #22: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #23: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,10]<stderr>:frame #24: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #27: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP9)
+[1,10]<stderr>:frame #36: _PyObj[1,9]<stderr>:torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #16: <unknown function> + 0x3767d2 (0x7fff3fcb47d2 in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #17: <unknown function> + 0x21bc08 (0x55555576fc08 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #18: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #19: <unknown function> + 0x244d9e (0x555555798d9e in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #20: _PyObject_Call + 0x12b (0x55555578111b in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #21: <unknown function> + 0x22a3ec (0x55555577e3ec in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #22: <unknown function> + 0x1ff4d5 (0x5555557534d5 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #23: <unknown function> + 0x374a2b (0x7fff3fcb2a2b in /home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+[1,9]<stderr>:frame #24: _PyObject_MakeTpCall + 0x2cc (0x55555575317c in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #25: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #26: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #27: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #28: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #29: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #30: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #31: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #32: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #33: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #34: _PyObject_FastCallDictTstate + 0x1ee (0x555555755b6e in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #35: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #36: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #37: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #38: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #39: <unknown function> + 0x22a21c (0x55555577e21c in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #40: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #41: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #42: _PyObject_FastCallDictTstate + 0x292 (0x555555755c12 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #43: <unknown function> + 0x22a2cd (0x55555577e2cd in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #44: _PyObject_MakeTpCall + 0x294 (0x555555753144 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #45: <unknown function> + 0x112b23 (0x555555666b23 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #46: PyEval_EvalCode + 0xa1 (0x5555558041a1 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #47: <unknown function> + 0x2ea8ca (0x55555583e8ca in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #48: <unknown function> + 0x2e5585 (0x555555839585 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #49: PyRun_StringFlags + 0x62 (0x555555835aa2 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #50: PyRun_SimpleStringFlags + 0x3c (0x55555583589c in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #51: Py_RunMain + 0x4e4 (0x555555832ff4 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #52: Py_BytesMain + 0x37 (0x5555557ee247 in sglang::scheduler_TP8)
+[1,9]<stderr>:frame #53: <unknown function> + 0x29d90 (0x7ffff7cb4d90 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,9]<stderr>:frame #54: __libc_start_main + 0x80 (0x7ffff7cb4e40 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,9]<stderr>:frame #55: <unknown function> + 0x29a0ed (0x5555557ee0ed in sglang::scheduler_TP8)
+[1,9]<stderr>:
+[1,9]<stderr>:[2025-10-04 17:12:59 TP8] Scheduler hit an exception: Traceback (most recent call last):
+[1,9]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2555, in run_scheduler_process
+[1,9]<stderr>:    scheduler = Scheduler(
+[1,9]<stderr>:                ^^^^^^^^^^
+[1,9]<stderr>:  File "/home/users/industry/ai-hpc/apacsc34/scratch/tanathep/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 315, in __init__
+[1,9]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,9]<stderr>:                     ^^^^^^^^^^^^^^
+[1,9]<stderr>:  File "/home--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[42605,1],5]
+  Exit code:    137
+--------------------------------------------------------------------------
+
+real	2m7.393s
+user	0m12.688s
+sys	0m9.365s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-04 17:13:30.940763:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 93859.pbs111
+	Project: 50000128
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:39:05
+	Memory: Requested(3760gb), Used(58940268kb)
+	Vmem Used: 11720773836kb
+	Walltime: Requested(00:30:00), Used(00:02:31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx009:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx012:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 2.75mins
+	GPU Power Consumed: 170.41W
+	GPU Max GPU Memory Used: 8.12GB
+	Memory Throughput Rate (Average): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx009:(gpu1:1%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:1%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

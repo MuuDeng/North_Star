@@ -1,0 +1,321 @@
++ module load cuda
++ unset _mlshdbg
++ '[' 0 = 1 ']'
++ unset _mlre _mlIFS
++ '[' -n x ']'
++ _mlIFS=' 	
+'
++ IFS=' '
++ '[' -n '' ']'
+++ /usr/bin/tclsh /cm/local/apps/environment-modules/4.5.3/libexec/modulecmd.tcl bash load cuda
++ eval 'LD_LIBRARY_PATH=/app/apps/cuda/12.6.2/lib64:/app/apps/cuda/12.6.2/nvvm/lib64:/app/apps/cuda/12.6.2/extras/CUPTI/lib64::/app/apps/local/lib64:/app/apps/local/lib;' export 'LD_LIBRARY_PATH;
+LOADEDMODULES=cuda/12.6.2;' export 'LOADEDMODULES;
+_LMFILES_=/app/apps/modulefiles/cuda/12.6.2;' export '_LMFILES_;
+MODULES_LMCONFLICT=cuda/12.6.2\&cuda;' export 'MODULES_LMCONFLICT;
+PKG_CONFIG_PATH=/app/apps/cuda/12.6.2/pkgconfig;' export 'PKG_CONFIG_PATH;
+MODULES_LMCONFLICT_modshare=cuda/12.6.2\&cuda:1;' export 'MODULES_LMCONFLICT_modshare;
+PKG_CONFIG_PATH_modshare=/app/apps/cuda/12.6.2/pkgconfig:1;' export 'PKG_CONFIG_PATH_modshare;
+NSCC_CUDA_DIR=/app/apps/cuda/12.6.2;' export 'NSCC_CUDA_DIR;
+LD_LIBRARY_PATH_modshare=:1:/app/apps/cuda/12.6.2/lib64:1:/app/apps/local/lib64:1:/app/apps/cuda/12.6.2/nvvm/lib64:1:/app/apps/cuda/12.6.2/extras/CUPTI/lib64:1:/app/apps/local/lib:1;' export 'LD_LIBRARY_PATH_modshare;
+LOADEDMODULES_modshare=cuda/12.6.2:1;' export 'LOADEDMODULES_modshare;
+_LMFILES__modshare=/app/apps/modulefiles/cuda/12.6.2:1;' export '_LMFILES__modshare;
+PATH=/app/apps/cuda/12.6.2/bin:/app/apps/cuda/12.6.2/nvvm/bin:/usr/local/cuda/bin:/opt/bin/:/bin:/usr/bin:/snap/bin:/app/apps/local/bin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/4.5.3/bin:/opt/pbs/bin;' export 'PATH;
+CUDA_HOME=/app/apps/cuda/12.6.2;' export 'CUDA_HOME;
+PATH_modshare=/usr/bin:1:/opt/bin/:1:/bin:1:/snap/bin:1:/sbin:1:/app/apps/cuda/12.6.2/nvvm/bin:1:/usr/sbin:1:/cm/local/apps/environment-modules/4.5.3/bin:1:/app/apps/local/bin:1:/app/apps/cuda/12.6.2/bin:1:/opt/pbs/bin:1:/usr/local/cuda/bin:1;' export 'PATH_modshare;
+test' '0;'
+++ LD_LIBRARY_PATH=/app/apps/cuda/12.6.2/lib64:/app/apps/cuda/12.6.2/nvvm/lib64:/app/apps/cuda/12.6.2/extras/CUPTI/lib64::/app/apps/local/lib64:/app/apps/local/lib
+++ export LD_LIBRARY_PATH
+++ LOADEDMODULES=cuda/12.6.2
+++ export LOADEDMODULES
+++ _LMFILES_=/app/apps/modulefiles/cuda/12.6.2
+++ export _LMFILES_
+++ MODULES_LMCONFLICT='cuda/12.6.2&cuda'
+++ export MODULES_LMCONFLICT
+++ PKG_CONFIG_PATH=/app/apps/cuda/12.6.2/pkgconfig
+++ export PKG_CONFIG_PATH
+++ MODULES_LMCONFLICT_modshare='cuda/12.6.2&cuda:1'
+++ export MODULES_LMCONFLICT_modshare
+++ PKG_CONFIG_PATH_modshare=/app/apps/cuda/12.6.2/pkgconfig:1
+++ export PKG_CONFIG_PATH_modshare
+++ NSCC_CUDA_DIR=/app/apps/cuda/12.6.2
+++ export NSCC_CUDA_DIR
+++ LD_LIBRARY_PATH_modshare=:1:/app/apps/cuda/12.6.2/lib64:1:/app/apps/local/lib64:1:/app/apps/cuda/12.6.2/nvvm/lib64:1:/app/apps/cuda/12.6.2/extras/CUPTI/lib64:1:/app/apps/local/lib:1
+++ export LD_LIBRARY_PATH_modshare
+++ LOADEDMODULES_modshare=cuda/12.6.2:1
+++ export LOADEDMODULES_modshare
+++ _LMFILES__modshare=/app/apps/modulefiles/cuda/12.6.2:1
+++ export _LMFILES__modshare
+++ PATH=/app/apps/cuda/12.6.2/bin:/app/apps/cuda/12.6.2/nvvm/bin:/usr/local/cuda/bin:/opt/bin/:/bin:/usr/bin:/snap/bin:/app/apps/local/bin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/4.5.3/bin:/opt/pbs/bin
+++ export PATH
+++ CUDA_HOME=/app/apps/cuda/12.6.2
+++ export CUDA_HOME
+++ PATH_modshare=/usr/bin:1:/opt/bin/:1:/bin:1:/snap/bin:1:/sbin:1:/app/apps/cuda/12.6.2/nvvm/bin:1:/usr/sbin:1:/cm/local/apps/environment-modules/4.5.3/bin:1:/app/apps/local/bin:1:/app/apps/cuda/12.6.2/bin:1:/opt/pbs/bin:1:/usr/local/cuda/bin:1
+++ export PATH_modshare
+++ test 0
++ _mlstatus=0
++ '[' -n x ']'
++ IFS=' 	
+'
++ unset _mlre _mlv _mlrv _mlIFS
++ '[' -n '' ']'
++ unset _mlshdbg
++ return 0
+++ head -n1 /var/spool/pbs/aux/93710.pbs111
++ export MASTER_ADDR=a2ap-dgx009.asp2p.nscc.sg
++ MASTER_ADDR=a2ap-dgx009.asp2p.nscc.sg
++ export MASTER_PORT=5000
++ MASTER_PORT=5000
++ export NCCL_DEBUG=INFO
++ NCCL_DEBUG=INFO
++ /usr/mpi/gcc/openmpi-4.1.7a1/bin/mpirun -hostfile /var/spool/pbs/aux/93710.pbs111 -map-by ppr:1:node -np 2 bash -lc '/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/bin/python3 -m sglang.compile_deep_gemm'
+/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/home/users/industry/ai-hpc/apacsc34/scratch/miniforge/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+All deep_gemm operations loaded successfully!
+W1004 14:06:25.480000 1523169 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+W1004 14:06:25.480000 1523169 /scratch/users/industry/ai-hpc/apacsc34/miniforge/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+usage: compile_deep_gemm.py [-h] --model-path MODEL_PATH
+                            [--remote-instance-weight-loader-seed-instance-ip REMOTE_INSTANCE_WEIGHT_LOADER_SEED_INSTANCE_IP]
+                            [--remote-instance-weight-loader-seed-instance-service-port REMOTE_INSTANCE_WEIGHT_LOADER_SEED_INSTANCE_SERVICE_PORT]
+                            [--remote-instance-weight-loader-send-weights-group-ports REMOTE_INSTANCE_WEIGHT_LOADER_SEND_WEIGHTS_GROUP_PORTS]
+                            [--tokenizer-path TOKENIZER_PATH]
+                            [--tokenizer-mode {auto,slow}]
+                            [--tokenizer-worker-num TOKENIZER_WORKER_NUM]
+                            [--skip-tokenizer-init]
+                            [--load-format {auto,pt,safetensors,npcache,dummy,sharded_state,gguf,bitsandbytes,layered,remote,remote_instance}]
+                            [--model-loader-extra-config MODEL_LOADER_EXTRA_CONFIG]
+                            [--trust-remote-code]
+                            [--context-length CONTEXT_LENGTH] [--is-embedding]
+                            [--enable-multimodal] [--revision REVISION]
+                            [--model-impl MODEL_IMPL] [--host HOST]
+                            [--port PORT] [--skip-server-warmup]
+                            [--warmups WARMUPS] [--nccl-port NCCL_PORT]
+                            [--dtype {auto,half,float16,bfloat16,float,float32}]
+                            [--quantization {awq,fp8,gptq,marlin,gptq_marlin,awq_marlin,bitsandbytes,gguf,modelopt,modelopt_fp4,petit_nvfp4,w8a8_int8,w8a8_fp8,moe_wna16,qoq,w4afp8,mxfp4}]
+                            [--quantization-param-path QUANTIZATION_PARAM_PATH]
+                            [--kv-cache-dtype {auto,fp8_e5m2,fp8_e4m3}]
+                            [--mem-fraction-static MEM_FRACTION_STATIC]
+                            [--max-running-requests MAX_RUNNING_REQUESTS]
+                            [--max-queued-requests MAX_QUEUED_REQUESTS]
+                            [--max-total-tokens MAX_TOTAL_TOKENS]
+                            [--chunked-prefill-size CHUNKED_PREFILL_SIZE]
+                            [--max-prefill-tokens MAX_PREFILL_TOKENS]
+                            [--schedule-policy {lpm,random,fcfs,dfs-weight,lof,priority}]
+                            [--schedule-conservativeness SCHEDULE_CONSERVATIVENESS]
+                            [--page-size PAGE_SIZE]
+                            [--hybrid-kvcache-ratio [HYBRID_KVCACHE_RATIO]]
+                            [--swa-full-tokens-ratio SWA_FULL_TOKENS_RATIO]
+                            [--disable-hybrid-swa-memory] [--device DEVICE]
+                            [--tensor-parallel-size TENSOR_PARALLEL_SIZE]
+                            [--pipeline-parallel-size PIPELINE_PARALLEL_SIZE]
+                            [--max-micro-batch-size MAX_MICRO_BATCH_SIZE]
+                            [--stream-interval STREAM_INTERVAL]
+                            [--stream-output] [--random-seed RANDOM_SEED]
+                            [--constrained-json-whitespace-pattern CONSTRAINED_JSON_WHITESPACE_PATTERN]
+                            [--watchdog-timeout WATCHDOG_TIMEOUT]
+                            [--dist-timeout DIST_TIMEOUT]
+                            [--download-dir DOWNLOAD_DIR]
+                            [--base-gpu-id BASE_GPU_ID]
+                            [--gpu-id-step GPU_ID_STEP] [--sleep-on-idle]
+                            [--log-level LOG_LEVEL]
+                            [--log-level-http LOG_LEVEL_HTTP] [--log-requests]
+                            [--log-requests-level {0,1,2,3}]
+                            [--crash-dump-folder CRASH_DUMP_FOLDER]
+                            [--show-time-cost] [--enable-metrics]
+                            [--enable-metrics-for-all-schedulers]
+                            [--tokenizer-metrics-custom-labels-header TOKENIZER_METRICS_CUSTOM_LABELS_HEADER]
+                            [--tokenizer-metrics-allowed-customer-labels TOKENIZER_METRICS_ALLOWED_CUSTOMER_LABELS [TOKENIZER_METRICS_ALLOWED_CUSTOMER_LABELS ...]]
+                            [--bucket-time-to-first-token BUCKET_TIME_TO_FIRST_TOKEN [BUCKET_TIME_TO_FIRST_TOKEN ...]]
+                            [--bucket-inter-token-latency BUCKET_INTER_TOKEN_LATENCY [BUCKET_INTER_TOKEN_LATENCY ...]]
+                            [--bucket-e2e-request-latency BUCKET_E2E_REQUEST_LATENCY [BUCKET_E2E_REQUEST_LATENCY ...]]
+                            [--collect-tokens-histogram]
+                            [--prompt-tokens-buckets PROMPT_TOKENS_BUCKETS [PROMPT_TOKENS_BUCKETS ...]]
+                            [--generation-tokens-buckets GENERATION_TOKENS_BUCKETS [GENERATION_TOKENS_BUCKETS ...]]
+                            [--gc-warning-threshold-secs GC_WARNING_THRESHOLD_SECS]
+                            [--decode-log-interval DECODE_LOG_INTERVAL]
+                            [--enable-request-time-stats-logging]
+                            [--kv-events-config KV_EVENTS_CONFIG]
+                            [--enable-trace]
+                            [--oltp-traces-endpoint OLTP_TRACES_ENDPOINT]
+                            [--api-key API_KEY]
+                            [--served-model-name SERVED_MODEL_NAME]
+                            [--weight-version WEIGHT_VERSION]
+                            [--chat-template CHAT_TEMPLATE]
+                            [--completion-template COMPLETION_TEMPLATE]
+                            [--file-storage-path FILE_STORAGE_PATH]
+                            [--enable-cache-report]
+                            [--reasoning-parser {deepseek-r1,deepseek-v3,glm45,gpt-oss,kimi,qwen3,qwen3-thinking,step3}]
+                            [--tool-call-parser {llama3,qwen25,mistral,deepseekv3,deepseekv31,pythonic,kimi_k2,qwen3_coder,glm45,step3,gpt-oss}]
+                            [--tool-server TOOL_SERVER]
+                            [--data-parallel-size DATA_PARALLEL_SIZE]
+                            [--load-balance-method {round_robin,shortest_queue,minimum_tokens}]
+                            [--load-watch-interval LOAD_WATCH_INTERVAL]
+                            [--prefill-round-robin-balance]
+                            [--dist-init-addr DIST_INIT_ADDR]
+                            [--nnodes NNODES] [--node-rank NODE_RANK]
+                            [--json-model-override-args JSON_MODEL_OVERRIDE_ARGS]
+                            [--preferred-sampling-params PREFERRED_SAMPLING_PARAMS]
+                            [--enable-lora] [--max-lora-rank MAX_LORA_RANK]
+                            [--lora-target-modules [{q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj,qkv_proj,gate_up_proj,all} ...]]
+                            [--lora-paths [LORA_PATHS ...]]
+                            [--max-loras-per-batch MAX_LORAS_PER_BATCH]
+                            [--max-loaded-loras MAX_LOADED_LORAS]
+                            [--lora-backend LORA_BACKEND]
+                            [--attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,hybrid_linear_attn,aiter,wave,intel_amx,ascend}]
+                            [--prefill-attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,hybrid_linear_attn,aiter,wave,intel_amx,ascend}]
+                            [--decode-attention-backend {triton,torch_native,cutlass_mla,fa3,flashinfer,flashmla,trtllm_mla,trtllm_mha,dual_chunk_flash_attn,hybrid_linear_attn,aiter,wave,intel_amx,ascend}]
+                            [--sampling-backend {flashinfer,pytorch}]
+                            [--grammar-backend {xgrammar,outlines,llguidance,none}]
+                            [--mm-attention-backend {sdpa,fa3,triton_attn}]
+                            [--speculative-algorithm {EAGLE,EAGLE3,NEXTN,STANDALONE}]
+                            [--speculative-draft-model-path SPECULATIVE_DRAFT_MODEL_PATH]
+                            [--speculative-draft-model-revision SPECULATIVE_DRAFT_MODEL_REVISION]
+                            [--speculative-num-steps SPECULATIVE_NUM_STEPS]
+                            [--speculative-eagle-topk SPECULATIVE_EAGLE_TOPK]
+                            [--speculative-num-draft-tokens SPECULATIVE_NUM_DRAFT_TOKENS]
+                            [--speculative-accept-threshold-single SPECULATIVE_ACCEPT_THRESHOLD_SINGLE]
+                            [--speculative-accept-threshold-acc SPECULATIVE_ACCEPT_THRESHOLD_ACC]
+                            [--speculative-token-map SPECULATIVE_TOKEN_MAP]
+                            [--speculative-attention-mode {prefill,decode}]
+                            [--expert-parallel-size EXPERT_PARALLEL_SIZE]
+                            [--moe-a2a-backend {none,deepep}]
+                            [--moe-runner-backend {auto,triton,triton_kernel,flashinfer_trtllm,flashinfer_cutlass,flashinfer_mxfp4,flashinfer_cutedsl}]
+                            [--flashinfer-mxfp4-moe-precision {default,bf16}]
+                            [--enable-flashinfer-allreduce-fusion]
+                            [--deepep-mode {normal,low_latency,auto}]
+                            [--ep-num-redundant-experts EP_NUM_REDUNDANT_EXPERTS]
+                            [--ep-dispatch-algorithm EP_DISPATCH_ALGORITHM]
+                            [--init-expert-location INIT_EXPERT_LOCATION]
+                            [--enable-eplb] [--eplb-algorithm EPLB_ALGORITHM]
+                            [--eplb-rebalance-num-iterations EPLB_REBALANCE_NUM_ITERATIONS]
+                            [--eplb-rebalance-layers-per-chunk EPLB_REBALANCE_LAYERS_PER_CHUNK]
+                            [--eplb-min-rebalancing-utilization-threshold EPLB_MIN_REBALANCING_UTILIZATION_THRESHOLD]
+                            [--expert-distribution-recorder-mode EXPERT_DISTRIBUTION_RECORDER_MODE]
+                            [--expert-distribution-recorder-buffer-size EXPERT_DISTRIBUTION_RECORDER_BUFFER_SIZE]
+                            [--enable-expert-distribution-metrics]
+                            [--deepep-config DEEPEP_CONFIG]
+                            [--moe-dense-tp-size MOE_DENSE_TP_SIZE]
+                            [--max-mamba-cache-size MAX_MAMBA_CACHE_SIZE]
+                            [--mamba-ssm-dtype {float32,bfloat16}]
+                            [--enable-hierarchical-cache]
+                            [--hicache-ratio HICACHE_RATIO]
+                            [--hicache-size HICACHE_SIZE]
+                            [--hicache-write-policy {write_back,write_through,write_through_selective}]
+                            [--hicache-io-backend {direct,kernel}]
+                            [--hicache-mem-layout {layer_first,page_first,page_first_direct}]
+                            [--hicache-storage-backend {file,mooncake,hf3fs,nixl}]
+                            [--hicache-storage-prefetch-policy {best_effort,wait_complete,timeout}]
+                            [--hicache-storage-backend-extra-config HICACHE_STORAGE_BACKEND_EXTRA_CONFIG]
+                            [--enable-lmcache] [--enable-double-sparsity]
+                            [--ds-channel-config-path DS_CHANNEL_CONFIG_PATH]
+                            [--ds-heavy-channel-num DS_HEAVY_CHANNEL_NUM]
+                            [--ds-heavy-token-num DS_HEAVY_TOKEN_NUM]
+                            [--ds-heavy-channel-type DS_HEAVY_CHANNEL_TYPE]
+                            [--ds-sparse-decode-threshold DS_SPARSE_DECODE_THRESHOLD]
+                            [--cpu-offload-gb CPU_OFFLOAD_GB]
+                            [--offload-group-size OFFLOAD_GROUP_SIZE]
+                            [--offload-num-in-group OFFLOAD_NUM_IN_GROUP]
+                            [--offload-prefetch-step OFFLOAD_PREFETCH_STEP]
+                            [--offload-mode OFFLOAD_MODE]
+                            [--disable-radix-cache]
+                            [--cuda-graph-max-bs CUDA_GRAPH_MAX_BS]
+                            [--cuda-graph-bs CUDA_GRAPH_BS [CUDA_GRAPH_BS ...]]
+                            [--disable-cuda-graph]
+                            [--disable-cuda-graph-padding]
+                            [--enable-profile-cuda-graph]
+                            [--enable-cudagraph-gc] [--enable-nccl-nvls]
+                            [--enable-symm-mem]
+                            [--disable-flashinfer-cutlass-moe-fp4-allgather]
+                            [--enable-tokenizer-batch-encode]
+                            [--disable-outlines-disk-cache]
+                            [--disable-custom-all-reduce] [--enable-mscclpp]
+                            [--disable-overlap-schedule]
+                            [--enable-mixed-chunk] [--enable-dp-attention]
+                            [--enable-dp-lm-head] [--enable-two-batch-overlap]
+                            [--tbo-token-distribution-threshold TBO_TOKEN_DISTRIBUTION_THRESHOLD]
+                            [--enable-torch-compile]
+                            [--torch-compile-max-bs TORCH_COMPILE_MAX_BS]
+                            [--torchao-config TORCHAO_CONFIG]
+                            [--enable-nan-detection] [--enable-p2p-check]
+                            [--triton-attention-reduce-in-fp32]
+                            [--triton-attention-num-kv-splits TRITON_ATTENTION_NUM_KV_SPLITS]
+                            [--triton-attention-split-tile-size TRITON_ATTENTION_SPLIT_TILE_SIZE]
+                            [--num-continuous-decode-steps NUM_CONTINUOUS_DECODE_STEPS]
+                            [--delete-ckpt-after-loading]
+                            [--enable-memory-saver] [--allow-auto-truncate]
+                            [--enable-custom-logit-processor]
+                            [--flashinfer-mla-disable-ragged]
+                            [--disable-shared-experts-fusion]
+                            [--disable-chunked-prefix-cache]
+                            [--disable-fast-image-processor]
+                            [--enable-return-hidden-states]
+                            [--scheduler-recv-interval SCHEDULER_RECV_INTERVAL]
+                            [--numa-node NUMA_NODE [NUMA_NODE ...]]
+                            [--debug-tensor-dump-output-folder DEBUG_TENSOR_DUMP_OUTPUT_FOLDER]
+                            [--debug-tensor-dump-input-file DEBUG_TENSOR_DUMP_INPUT_FILE]
+                            [--debug-tensor-dump-inject DEBUG_TENSOR_DUMP_INJECT]
+                            [--debug-tensor-dump-prefill-only]
+                            [--enable-dynamic-batch-tokenizer]
+                            [--dynamic-batch-tokenizer-batch-size DYNAMIC_BATCH_TOKENIZER_BATCH_SIZE]
+                            [--dynamic-batch-tokenizer-batch-timeout DYNAMIC_BATCH_TOKENIZER_BATCH_TIMEOUT]
+                            [--disaggregation-mode {null,prefill,decode}]
+                            [--disaggregation-transfer-backend {mooncake,nixl,ascend,fake}]
+                            [--disaggregation-bootstrap-port DISAGGREGATION_BOOTSTRAP_PORT]
+                            [--disaggregation-decode-tp DISAGGREGATION_DECODE_TP]
+                            [--disaggregation-decode-dp DISAGGREGATION_DECODE_DP]
+                            [--disaggregation-prefill-pp DISAGGREGATION_PREFILL_PP]
+                            [--disaggregation-ib-device DISAGGREGATION_IB_DEVICE]
+                            [--num-reserved-decode-tokens NUM_RESERVED_DECODE_TOKENS]
+                            [--disaggregation-decode-polling-interval DISAGGREGATION_DECODE_POLLING_INTERVAL]
+                            [--custom-weight-loader [CUSTOM_WEIGHT_LOADER ...]]
+                            [--weight-loader-disable-mmap] [--enable-pdmux]
+                            [--sm-group-num SM_GROUP_NUM] [--enable-ep-moe]
+                            [--enable-deepep-moe]
+                            [--enable-flashinfer-cutlass-moe]
+                            [--enable-flashinfer-cutedsl-moe]
+                            [--enable-flashinfer-trtllm-moe]
+                            [--enable-triton-kernel-moe]
+                            [--enable-flashinfer-mxfp4-moe]
+                            [--timeout TIMEOUT]
+compile_deep_gemm.py: error: the following arguments are required: --model-path/--model
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[28198,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-04 14:06:52.143220:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 93710.pbs111
+	Project: 50000128
+	Exit Status: 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:00:20
+	Memory: Requested(3760gb), Used(2134948kb)
+	Vmem Used: 48391980kb
+	Walltime: Requested(00:30:00), Used(00:00:58)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx009:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx012:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 1.13mins
+	GPU Power Consumed: 127.93W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx009:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx012:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

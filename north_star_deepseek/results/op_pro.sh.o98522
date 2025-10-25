@@ -1,0 +1,64 @@
+[a2ap-dgx014:270419] Warning: could not find environment variable "MAX_CONCURRENCY"
+[a2ap-dgx014:270419] Warning: could not find environment variable "MAX_BATCH"
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 8
+slots that were requested by the application:
+
+  bash
+
+Either request fewer slots for your application, or make more slots
+available for use.
+
+A "slot" is the Open MPI term for an allocatable unit where we can
+launch a process.  The number of slots available are defined by the
+environment in which Open MPI processes are run:
+
+  1. Hostfile, via "slots=N" clauses (N defaults to number of
+     processor cores if not provided)
+  2. The --host command line parameter, via a ":N" suffix on the
+     hostname (N defaults to 1 if not provided)
+  3. Resource manager (e.g., SLURM, PBS/Torque, LSF, etc.)
+  4. If none of a hostfile, the --host command line parameter, or an
+     RM is present, Open MPI defaults to the number of processor cores
+
+In all the above cases, if you want Open MPI to default to the number
+of hardware threads instead of the number of processor cores, use the
+--use-hwthread-cpus option.
+
+Alternatively, you can use the --oversubscribe option to ignore the
+number of available slots when deciding the number of processes to
+launch.
+--------------------------------------------------------------------------
+
+real	0m1.085s
+user	0m0.028s
+sys	0m0.147s
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-18 19:15:08.880168:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 98522.pbs111
+	Project: 50000128
+	Exit Status: 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:00:00
+	Memory: Requested(3760gb), Used(9988kb)
+	Vmem Used: 117164kb
+	Walltime: Requested(06:00:00), Used(00:00:07)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx014:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx024:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 18.47secs
+	GPU Power Consumed: 50.28W
+	GPU Max GPU Memory Used: 0.0B
+	Memory Throughput Rate (Average): a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Max): a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	Memory Throughput Rate (Min): a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Max): a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Min): a2ap-dgx014:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx024:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: All GPUs have a percentage of 0 utilisation.
+GPU application profile: Idle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
